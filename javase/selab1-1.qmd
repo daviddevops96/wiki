@@ -227,7 +227,7 @@ Person-->>AccountManager: transferDone(receipt)
   mermaid.initialize({ sequence: { showSequenceNumbers: true } });
 </script>
 
-### Singleton
+### Singleton: approach #1
 
 To use the Singleton design pattern with a Person and Account class, you could create a **singleton** `AccountManager class` that manages the creation and operations of the `Person` and `Account` **objects**.
 
@@ -282,14 +282,146 @@ manager.person = new Person("Carla Jameson", "323 Main St.");
 manager.person = new Person("Rafael Martin", "3 Glorious St.");
 manager.person = new Person("Pau Vila", "63 Sesamo St.");
 ```
+But maybe, this is not the best approach for several reasons ...
+
+### Singleton: approach #2
+
+We may work as follows. In fact, if we want to manage accounts, it could be better that `Account` has Person:
+
+``` java
+public class Account {
+  private Person person;
+  //other fields
+
+  public Account(Person person) {
+    this.person = person;
+  }
+
+  public Person getPerson() {
+    return this.person;
+  }
+
+  public void setPerson(Person person) {
+    this.person = person;
+    
+    //constructor, getters, setters and methods
+  }
+}
+
+```
+
+So, in this case, we could use a `List` to save all the `Account` objects:
+
+``` java
+import java.util.List;
+import java.util.ArrayList;
+
+public class AccountManager {
+  private static AccountManager manager = new AccountManager();
+  private List<Account> accounts;
+
+  private AccountManager() {
+    this.accounts = new ArrayList<>();
+  }
+
+  public static AccountManager getInstance() {
+    return manager;
+  }
+
+  public List<Account> getAccounts() {
+    return this.accounts;
+  }
+
+  public static void deposit(Account account, double amount) {
+    // Code to deposit the specified amount to the account
+  }
+
+  public static void changePin(Account account, int newPin) {
+    // Code to change the PIN of the specified account
+  }
+
+  public static void transfer(Account fromAccount, Account toAccount, double amount) {
+    // Code to transfer the specified amount from the fromAccount to the toAccount
+  }
+  
+  public static void withdrawal(Account account, double amount) {
+    // Code to withdraw the specified amount from the given account
+  }
+}
+```
+
+`AccountManagerTest` would be like this:
+
+``` java
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class AccountManagerTest {
+  @Test
+  public void testDeposit() {
+    Account account = new Account(new Person("John Doe"));
+    double initialBalance = account.getBalance();
+    double depositAmount = 100.00;
+
+    AccountManager.deposit(account, depositAmount);
+    double finalBalance = account.getBalance();
+
+    assertEquals(initialBalance + depositAmount, finalBalance);
+  }
+
+  @Test
+  public void testChangePin() {
+    Account account = new Account(new Person("John Doe"));
+    int initialPin = account.getPin();
+    int newPin = 1234;
+
+    AccountManager.changePin(account, newPin);
+    int finalPin = account.getPin();
+
+    assertEquals(newPin, finalPin);
+  }
+
+  @Test
+  public void testTransfer() {
+    Account fromAccount = new Account(new Person("John Doe"));
+    Account toAccount = new Account(new Person("Jane Doe"));
+    double initialFromAccountBalance = fromAccount.getBalance();
+    double initialToAccountBalance = toAccount.getBalance();
+    double transferAmount = 100.00;
+
+    AccountManager.transfer(fromAccount, toAccount, transferAmount);
+    double finalFromAccountBalance = fromAccount.getBalance();
+    double finalToAccountBalance = toAccount.getBalance();
+
+    assertEquals(initialFromAccountBalance - transferAmount, finalFromAccountBalance);
+    assertEquals(initialToAccountBalance + transferAmount, finalToAccountBalance);
+  }
+  
+  @Test
+  public void testWithdrawal() {
+    Account fromAccount = new Account(new Person("John Doe"));
+    Account toAccount = new Account(new Person("Jane Doe"));
+    double initialFromAccountBalance = fromAccount.getBalance();
+    double withdrawalAmount = 100.00;
+
+    AccountManager.withdrawal(fromAccount, withdrawalAmount);
+    double finalFromAccountBalance = fromAccount.getBalance();
+
+    assertEquals(initialFromAccountBalance - withdrawalAmount, finalFromAccountBalance);
+  }
+}
+
+```
+
+  
 
 ## Step-by-step
 
 1. Create ``Maven`` Project with **JUnit**
 2. Create ``Person`` class
 3. Create ``Account`` class
-4. Test ``Person`` and Account objects
+4. Test ``Person`` and ``Account`` objects
 5. Write operations (``withdrawal``, ``transfer``,`` change pin``) as a ``static`` methods in ``AccountManager``
-6. Test ``Person`` and ``Account`` objects and operations
+6. Test ``Person`` and ``Account`` objects and **features**
 7. Add ``singleton`` pattern to ``AccountManager`` class
 8. Test ``AccountManager`` class
