@@ -8,7 +8,7 @@ website:
     style: headline
     palette: dark
 
-  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-url: https://github.com/Albertprofe/wiki
   repo-actions: [edit, issue]
 
   navbar:
@@ -329,7 +329,8 @@ format:
     
 execute:
   cache: true
-  freeze: auto
+  freeze: true
+
 
 
 

@@ -24,8 +24,8 @@ my-project
 └── src
     ├── main
     │   └── Person.java
-    |       Account.Java
-    |       AccountManager.Java    
+    │       Account.java
+    │    AccountManager.java    
     └── test
         └── AccountManagerTest.java
 ``` 

@@ -310,7 +310,7 @@ public class Account {
 
 ```
 
-So, in this case, we could use a `List` to save all the `Account` objects:
+So, in this case, we could use a `List` object to save all the `Account` objects with the list:
 
 ``` java
 import java.util.List;
