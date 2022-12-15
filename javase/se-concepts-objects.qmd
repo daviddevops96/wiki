@@ -3,15 +3,6 @@ title: "Java SE: Class and Objects"
 ---
 
 ::: {.summary}
-**📘 What is a Java Object**
-
-An object in Java is a **container that holds both data and behavior**. The data is represented by the object's attributes, and the behavior is represented by the methods that operate on those attributes.
-
-When you create an object, you are creating an **instance of a class**, which is a blueprint or template for the object.
-:::
----
-
-::: {.summary}
 **📘 What is a Java Class**
 
 A Java class is a **template for creating objects, defining object data types and methods**. A class is a blueprint for objects, and an object is an instance of a class. 
@@ -20,6 +11,15 @@ In other words, a class defines the properties and behaviors that objects create
 
 <mark>For example, if you have a class called "Dog," objects created from that class might have properties like "breed" and "age," as well as behaviors like "bark" and "fetch."</mark> Classes are an important concept in object-oriented programming, and are a fundamental building block of Java programs
 
+:::
+
+---
+::: {.summary}
+**📘 What is a Java Object**
+
+An object in Java is a **container that holds both data and behavior**. The data is represented by the object's attributes, and the behavior is represented by the methods that operate on those attributes.
+
+When you create an object, you are creating an **instance of a class**, which is a blueprint or template for the object.
 :::
 ---
 
@@ -105,9 +105,9 @@ Person carla = new Person();
 And then you could access the object's attributes and methods like this:
 
 ``` java
-person.name = "Carla Whitesand";
-person.setAddress("123 Main Street");
-int age = person.calculateAge(2022);
+carla.name = "Carla Whitesand";
+carla.setAddress("123 Main Street");
+int age = carla.calculateAge(2022);
 ```
 
 In this example, `name` and `setAddress()` are attributes and methods of the `Person` class, and `person` is an object of that class. You can use this object to store and manipulate data according to the rules defined by the class.
