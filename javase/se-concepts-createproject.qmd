@@ -9,10 +9,10 @@ To create a Maven project with a **standard directory structure using IntelliJ I
 2. Open IntelliJ IDEA and navigate to the `Plugins` settings.
 3. Search for `Maven` and install the plugin.
 4. In IntelliJ IDEA, click `Create New Project`.
-5. In the `New Project` dialog, select `Maven` from the list of project types.
-6. Click `Next` and select the **`maven-archetype-quickstart` archetype**. This archetype creates a <mark>standard Maven project with a directory structure for source code and unit tests.<mark>
-7. Click `Next` and enter the `groupId` and `artifactId` for your project. These are used to identify your project uniquely across all projects.
-8. Click `Finish` to create the project.
+5. In the `New Project` dialog, select `Maven Archetype` from the list of Generators.
+6. Select the **`maven-archetype-quickstart` archetype**. This archetype creates a <mark>standard Maven project with a directory structure for source code and unit tests.<mark>
+7. Click `Advanced Settings` and enter the `GroupId` and `ArtifactId` for your project. These are used to identify your project uniquely across all projects.
+8. Click `Create` to create the project.
 
 
 Your project will be created with the following directory structure:
