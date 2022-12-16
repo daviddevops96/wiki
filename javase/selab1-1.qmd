@@ -276,6 +276,7 @@ To use the `AccountManager` class, other classes would simply need to call the `
 
 ```java
 // Create a new Person and Account
+// be careful: where will these four Person objects go? 
 AccountManager manager = AccountManager.getInstance();
 manager.person = new Person("John Doe", "123 Main St.");
 manager.person = new Person("Carla Jameson", "323 Main St.");

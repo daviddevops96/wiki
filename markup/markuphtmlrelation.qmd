@@ -26,7 +26,7 @@ Instead, it is often better to use one language **exclusively**, and to use the 
 
 ::: {.callout-note icon=false  collapse="false"}
 
-## Lab#01-1: Publishing website by Quarto engine
+## Publishing website by Quarto engine
 
 ::: {.tab-nav}
 [Before](#before){.tab-link}
@@ -156,7 +156,7 @@ Instead, it is often better to use one language **exclusively**, and to use the 
 
 ```md
 ::: {.callout-info icon=false  collapse="false"}
-## Lab 1: Publishing website by Quarto engine
+## Publishing website by Quarto engine
 
 ::: {.tab-nav}
 [Before](#before){.tab-link}
@@ -275,13 +275,13 @@ Instead, it is often better to use one language **exclusively**, and to use the 
 
 ### Approach #2: HTML + CSS
 
-[Lab statement on Lab#MD01-1: Create and publish by Quarto](/markup/mulab1.qmd)
+[Create and publish by Quarto](/markup/mulab1.qmd)
 
 ### Approach #3: HTML + CSS + JS
 
 From ``w3.css``: [W3.CSS Navigation Tabs](https://www.w3schools.com/w3css/w3css_tabulators.asp)
 
-[Lab statement on Lab#SE01-2: Maven/Gradle Person and Account stored in JSON](/javase/selab1-2.qmd)
+[Maven/Gradle Person and Account stored in JSON](/javase/selab1-2.qmd)
 
 ```js
 <script>
