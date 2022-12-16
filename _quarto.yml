@@ -181,6 +181,7 @@ website:
         - section: "Java Design Patterns"
           contents: 
             - javase/se-pattern-intro.qmd
+            - javase/se-pattern-uml.qmd
             - javase/se-pattern-singleton.qmd
             - javase/se-pattern-factory.qmd
             - javase/se-pattern-abstractfactory.qmd
