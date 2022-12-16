@@ -24,8 +24,8 @@ Create a Maven/Gradle Java SE Project with three classes and Junit to test objec
 <div id="Context" class="tabcontentw3">
   <h3>Context</h3><p class="indent">
   In order to complete this project, you will need to have a **basic understanding of the Java programming language**, as well as some familiarity with **Maven or Gradle for managing dependencies** and building the project.</p><p class="indent">
-  Additionally, you will need to have some knowledge of algorithms and data structures to implement the required classes.</p><p class="indent">
-  Overall, this project will provide an opportunity for you **to learn and apply the basics of Java programming**, as well as gain experience with Maven or Gradle, JUnit, and user input via the console.</p><p class="indent">
+  Overall, this project will provide an opportunity for you **to learn and apply the basics of Java programming**, as well as gain experience with Maven or Gradle, JUnit, user input via the console and **some discussion about composition and how classes work**.</p><p class="indent">
+  Additionally, you will need to have in mind that this project **would center around a banking point of view**.</p><p class="indent">
   By completing this project, you will have a starting foundation in these technologies and be able to build more complex and sophisticated Java applications in the future. You may go to Lab 2 (<mark>[go Lab#SE01-2](/javase/selab1-2.qmd)</mark>)</p>
 </div>
 
@@ -34,7 +34,7 @@ Create a Maven/Gradle Java SE Project with three classes and Junit to test objec
   <h3>Goal</h3>
   <p class="indent">The goal of this project is to **create three classes in Java** (`Person`, `Account` and `Manager`) that implement different algorithms or data structures, and to test them using JUnit.
   </br></br>
-  These classes could include, for example, creating new objects, a data structure for storing and manipulating data, or a utility class for performing common operations.
+  These classes could include, for example, creating new objects, a data structure for storing and manipulating data (``List``), or a utility class for performing common operations (``static``).
   </p>
 </div>
 
@@ -44,10 +44,11 @@ Create a Maven/Gradle Java SE Project with three classes and Junit to test objec
   <p class="indent">The tasks involved in this project include:
   </br>
   <ol type="1" class="indent">
+  <li>Decide where your project will weight: ``Person`` or ``Account``.</li>
   <li>Creating a **new Maven or Gradle project** and setting up the project structure.</li>
   <li>Modifying the project's `pom.xml` or `build.gradle` file to import the necessary dependencies, including **JUnit** for testing.</li>
   <li>Implementing the three required classes in Java, using appropriate algorithms and data structures.</li>
-  <li>Implementing as well two basic pattern-designs: **singleton and think about factory**.</li>
+  <li>Implementing as well two basic pattern-designs: **singleton and composition**.</li>
   <li>Writing **JUnit tests** to verify that the classes work as expected.</li>
   </ol>
   <p class="indent">You may attach the **JUnit Test HTML** results to documentation.</p>
@@ -56,9 +57,10 @@ Create a Maven/Gradle Java SE Project with three classes and Junit to test objec
 <!-- Tab content: OPTIONAL -->
 <div id="Optional" class="tabcontentw3">
   <h3>Optional</h3>
-  <p class="indent">As an optional task, you could also consider **allowing the user to input data via the console**, rather than using `hard-coded test data` in your JUnit tests.
+  <p class="indent">1. As an optional task, you could also consider **allowing the user to input data via the console**, rather than using `hard-coded test data` in your JUnit tests.
   </br></br>
   This would allow you to test the classes with a variety of different input data, and to <mark>interact</mark> with the classes in a more dynamic way.</p>
+  <li>After mplementing two basic pattern-designs: **singleton, composition** your may think about factory.</li>
 </div>
 </div>
 
@@ -177,7 +179,6 @@ public class Person {
 }
 
 ```
-#### UML Class Diagram
 
 <div class="mermaidContent">
 
@@ -203,8 +204,6 @@ Person *-- Account
 
 </div>
 
-#### UML Sequence Diagram
-
 <div class="mermaidContent">
 
 ```{mermaid}
@@ -227,7 +226,7 @@ Person-->>AccountManager: transferDone(receipt)
   mermaid.initialize({ sequence: { showSequenceNumbers: true } });
 </script>
 
-### Singleton: approach #1
+### Approach #1: Singleton
 
 To use the Singleton design pattern with a Person and Account class, you could create a **singleton** `AccountManager class` that manages the creation and operations of the `Person` and `Account` **objects**.
 
@@ -285,9 +284,34 @@ manager.person = new Person("Pau Vila", "63 Sesamo St.");
 ```
 But maybe, this is not the best approach for several reasons ...
 
-### Singleton: approach #2
+### Approach #2: all static-methods AccountManager
 
-We may work as follows. In fact, if we want to manage accounts, it could be better that `Account` has Person:
+It may work as follows. In fact, if we want to manage accounts (**as a banking-centered problem, not a person-centered one**), it could be better that `Account` has ``Person``:
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+
+class Person {
+  -name: String
+  -surname: String
+  -age: int
+}
+
+class Account {
+  -accountNumber: String
+  -pin: int
+  -balance: double
+  -person: Person
+}
+
+Account *-- Person
+
+```
+
+</div>
+
 
 ``` java
 public class Account {
@@ -318,20 +342,17 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AccountManager {
-  private static AccountManager manager = new AccountManager();
   private List<Account> accounts;
 
   private AccountManager() {
     this.accounts = new ArrayList<>();
   }
 
-  public static AccountManager getInstance() {
-    return manager;
-  }
-
   public List<Account> getAccounts() {
     return this.accounts;
   }
+
+  // we should manage how to add/remove accounts to/from accounts list
 
   public static void deposit(Account account, double amount) {
     // Code to deposit the specified amount to the account
@@ -351,7 +372,62 @@ public class AccountManager {
 }
 ```
 
-`AccountManagerTest` would be like this:
+### Approach 3: Singleton, any static-method
+
+In this approach:
+
+- ``Account`` has ``Person``
+- `AccountManager` is ``Singleton`` and there is no static-methods anywhere
+- and we create just **one** object form ``AccountManager`` to manage ``accounts``
+
+
+``` java
+import java.util.List;
+import java.util.ArrayList;
+
+public class AccountManager {
+  private static AccountManager manager = new AccountManager();
+  private List<Account> accounts;
+
+  // we should manage how to add/remove accounts to/from accounts list
+
+  private AccountManager() {
+    this.accounts = new ArrayList<>();
+  }
+
+  public static AccountManager getInstance() {
+    return manager;
+  }
+
+  public List<Account> getAccounts() {
+    return this.accounts;
+  }
+
+  public  void deposit(Account account, double amount) {
+    // Code to deposit the specified amount to the account
+  }
+
+  public  void changePin(Account account, int newPin) {
+    // Code to change the PIN of the specified account
+  }
+
+  public  void transfer(Account fromAccount, Account toAccount, double amount) {
+    // Code to transfer the specified amount from the fromAccount to the toAccount
+  }
+  
+  public  void withdrawal(Account account, double amount) {
+    // Code to withdraw the specified amount from the given account
+  }
+}
+```
+
+
+### Test: `AccountManagerTest`
+
+`AccountManagerTest` could be like this:
+
+- with `AccountManager` all static-methods no-singleton
+- ``Account`` has ``Person``
 
 ``` java
 import org.junit.jupiter.api.Test;
