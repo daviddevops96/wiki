@@ -1,3 +1,71 @@
 ---
 title: "Linux Distros: Mint"
 ---
+
+![Linux Mint 21](/images/linux/mint.png){width=30%}
+
+## What is Linux Mint?
+
+[Linux Mint](https://linuxmint.com/) is an operating system for desktop and laptop computers. It is designed to work 'out of the box' and comes fully equipped with the apps most people need.
+
+- [Download ISO Linux Mint 21](https://linuxmint.com/edition.php?id=299)
+- [Linux Mint Installation Guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
+- [Linux Mint Installation Guide: step-by-step](https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html)
+
+
+
+## Keep your Linux updated
+
+Open your terminal and execute:
+
+- ``sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove``
+
+Or you may go through GUI: **Update Manager**:
+
+![Update Manager](/images/linux/linux_updated.png){width=60%}
+
+## Install Developer Tools
+
+### Make a Bash Script Executable
+
+1. Create a **new text file** with all the software you need with a **.sh extension** and code it as ``#!/bin/bash`` (that is, copy that line to the top of it)
+
+[devtools.sh](https://gist.github.com/AlbertProfe/aa473648bf9ecd8fd106be7facfb90a1)
+<script src="https://gist.github.com/AlbertProfe/aa473648bf9ecd8fd106be7facfb90a1.js"></script>
+
+2. **Make the file executable**, open the command line and run: ``chmod u+x devtools.sh``. You are giving permissions to execute this file: **it will grant only the owner of that file execution permissions.**
+
+3. Run it: ``./devtools.sh`` or double-click the icon
+
+
+4. Be careful with certain packages and tools do not work under ``apt get install``, you will need to use ``snap``
+
+``` js
+snap
+sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
+sudo apt update
+sudo apt install snapd
+
+intellij-idea-educational
+visual code educational
+sudo snap install intellij-idea-educational --classic
+
+chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+obsidian
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/obsidian_1.0.3_amd64.snap
+sudo snap install --dangerous obsidian_1.0.3_amd64.snap --classic
+
+visual code educational
+wget https://az764295.vo.msecnd.net/stable/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/code_1.74.1-1671015296_amd64.deb
+sudo apt install ./code_1.74.1-1671015296_amd64.deb
+```
+
+
+## Timeshift
+
+**[Timeshift](https://community.linuxmint.com/software/view/timeshift) is a system restore utility which takes snapshots of the system at regular intervals**. These snapshots can be restored at a later date to undo system changes. Creates incremental snapshots using rsync or BTRFS snapshots using BTRFS tools.
+
+![Timeshift](https://community.linuxmint.com/img/screenshots/timeshift.png){width=60%}

@@ -33,3 +33,14 @@ Here are some basic terminal commands that can be used in Linux Mint:
 These are just a few examples of the many commands that are available in Linux. To learn more about a specific command, you can use the `man` command to view its manual page. 
 
 For example, to learn more about the `ls` command, you could type `man ls` in the terminal.
+
+## Getting software: wget, apt-get, etc
+
+- In Linux, `wget` is a command-line utility that allows you to download files from the internet. It can be used to download files from HTTP, HTTPS, and FTP servers.
+- `apt-get` is a package manager for the Debian and Ubuntu Linux distributions. It allows you to install, update, and remove software packages from your system.
+- `snap` is a package manager developed by Canonical, the company behind the Ubuntu Linux distribution. It allows you to install and manage software packages in a consistent and secure way, and is designed to work across a wide range of Linux distributions.
+- There are other similar package managers in Linux, such as `yum` for Red Hat and CentOS, and `dnf` for Fedora. These package managers allow you to easily install, update, and remove software packages on your system.
+
+## CHMOD
+
+![Linux CHMOD cheat-sheet](/images/linux/chmod-cheatsheet.png){width=90%}
