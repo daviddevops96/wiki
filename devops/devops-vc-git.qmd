@@ -25,3 +25,35 @@ title: "Git"
         4. reference to parent commit
 
 [more info on ](https://sites.google.com/view/devopscifo/git)
+
+## Install git linux
+
+**Debian / Ubuntu / Mint ``apt-get``**
+
+Git packages are available via apt, go to terminal and from your shell, install Git using ``apt-get``:
+
+``` bash
+$ sudo apt-get update
+$ sudo apt-get install git
+
+```
+
+Verify the installation was successful by typing git --version:
+
+``` bash
+$ git --version
+git version 2.9.2
+```
+
+Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
+
+``` bash
+$ git config --global user.name "Emma Paris"
+$ git config --global user.email "eparis@atlassian.com"
+```
+
+---
+
+[Download Git Cheat-sheet Altassian](/images/devops/SWTM-2088_Atlassian-Git-Cheatsheet%20(1).pdf)
+
+![Git Cheat-sheet](/images/devops/git-cheat-sehhet.png)

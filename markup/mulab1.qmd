@@ -82,7 +82,7 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
       2. Install **Quarto Extension** in Visual Code
     2. Sign in GitHub from Visual Code (wizard)
     2. Install **Quarto** in your OS (download from [Quarto site - Get started](https://quarto.org/docs/get-started/))
-2. [Create Quarto Project](/markup/markupquartocreating.qmd)
+2. [Create Quarto Project](/markup/markup-quarto-create.qmd)
 3. GitHub tasks:
     1. *Create repository, commit and push* files to repository with <mark>Sync tool</mark>. To write our repository you need to:
         - Create Token on GitHub.com: [Creating a personal access token](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
@@ -94,8 +94,8 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
           ```
     2. Activate <mark>gh-pages service</mark> 
 4. `quarto render` and `quarto publish gh-pages` / `quarto publish` on Visual Code's terminal
-    1. [Publish Quarto Project](/markup/markupquartopublishing.qmd)
-    2. [Improve your Quarto Project](/markup/markupquarto.qmd)
+    1. [Publish Quarto Project](/markup/markup-quarto-publish.qmd)
+    2. [Improve your Quarto Project](/markup/markup-quarto-basics.qmd)
 5. Go to published web:`user/github.io/repo`
 
 ## Screen-shoots (2022-12-12)

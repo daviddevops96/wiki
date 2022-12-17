@@ -17,14 +17,14 @@ From ``CLI gh``:
 
 From **IntelliJ IDEA**
 
-1. Open your IntelliJ IDEA project.
-2. In the VCS menu, select the option to enable version control integration.
-3. Select Git as the version control system.
-4. Add the files in your new local repository. This stages them for the first commit.
-5. Commit the files that you've staged in your local repository.
-6. In the VCS menu, select the option to create a new repository.
-7. Choose the location for the repository and click the Create button.
-8. In the VCS menu, select the option to push changes.
-9. Enter your GitHub login credentials and click the Push button.
+1. Open your **IntelliJ IDEA** project.
+2. In the ``VCS`` menu, select the option to **enable** version control integration.
+3. Select ``Git`` as the version control system.
+4. **Add** the files in your new local repository. This stages them for the first commit.
+5. **Commit** the files that you've staged in your local repository.
+6. In the `VCS` menu, select the option to create a ``new repository``.
+7. Choose the location for the repository and click the ``Create`` button.
+8. In the ``VCS`` menu, select the option to push changes.
+9. Enter your ``GitHub login credentials`` and click the ``Push`` button.
 
 Now your local project is connected to the repository on GitHub and any changes you make locally will be reflected in the repository on GitHub.
