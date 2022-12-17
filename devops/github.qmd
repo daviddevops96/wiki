@@ -1,7 +1,0 @@
----
-title: "GitHub"
----
-
-About this site: to-do
-
-https://sites.google.com/view/devopscifo/git/github

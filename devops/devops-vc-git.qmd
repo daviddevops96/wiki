@@ -1,0 +1,27 @@
+---
+title: "Git"
+---
+
+![Git logo](/images/devops/gitlogo.png){width=60%}
+
+## What is Git
+
+- **what?** git is a version control system [(The git official repo)](https://git-scm.com/)
+- **what?** git is a version control system [(The git official repo)](https://git-scm.com/)
+- **how?** commits are snapshots, not diffs! [(The Git Object Model)](http://shafiul.github.io/gitbook/1_the_git_object_model.html) and [(Git Internals - Git Objects)](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
+- **where?** git is a key-value store  [(Key Value Store Concept)](https://www.bytefusion.de/2019/07/14/how-git-uses-key-value-store/)
+
+## Key-ideas
+
+- Git [stores](https://batmat.github.io/presentations/git-next-level/prez.html)  unique content and no duplicates
+- Each key-value pair [entry](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/) contains a unique hash as a key: SHA-ID.
+- There are only three types of values:
+    1. blobs for files
+    2. tree for directories
+    3. commit for commit messages
+        1. [ commit message](https://blog.git-init.com/immutable-snapshot-in-git/)
+        2. author, including a timestamp
+        3. committer, including a timestamp
+        4. reference to parent commit
+
+[more info on ](https://sites.google.com/view/devopscifo/git)

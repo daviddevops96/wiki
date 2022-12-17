@@ -1,0 +1,20 @@
+---
+title: "How to document: Quarto and Obsidian"
+---
+
+## Quarto
+
+- [Quarto Intro-Basics](/markup/markup-quarto-basics.qmd)
+- [Quarto Create Project](/markup/markup-quarto-create.qmd)
+- [Quarto Publish](/markup/markup-quarto-publish.qmd)
+- [Quarto Code](/markup/markup-quarto-code.qmd)
+
+[more info on: tip-a-day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
+
+## Obsidian
+
+[Obsidian](https://obsidian.md/)
+
+**Obsidian is both a Markdown editor and a knowledge base app**.
+
+Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.

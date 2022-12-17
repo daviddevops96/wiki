@@ -1,0 +1,61 @@
+---
+title: "GitHub"
+---
+
+![GitHub logo](/images/devops/GitHub-Emblem.png){width=60%}
+
+## Overview
+
+[GitHub](https://github.com/) is a software development platform in the cloud. It's used for storing, tracking, and collaborating on software projects.
+
+GitHub users create accounts, upload files, and create coding projects. But the real work of GitHub happens when users begin to collaborate.
+
+## Install CLI gh
+
+[Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+
+``` bash
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+```
+
+[GitHub CLI manual](https://cli.github.com/manual/)
+
+## Login and logout to GitHub.com from CLI gh on linux
+
+### Global variables
+
+[Creating global credential, if working in a VM](/markup/mulab1.qmd)
+
+GitHub tasks:
+
+**Create repository, commit and push** files to repository with <mark>Sync tool</mark>. To write our repository you need to:
+
+- Create Token on GitHub.com: [Creating a personal access token](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- Use this token on your Visual Code - Git, [link](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git):
+
+    ```bash
+    $git config --global user.name "Mona Lisa
+    $git config --global user.mail "monalisa@davinci.com"
+    $git config --global user.paasword "4WTVEG43_Q34WG435GAWER4_Q4vsrsrggr_3D44"
+
+    ```
+
+### CLI gh
+
+![Log in CLI set-up](/images/devops/gh-linux-to-cloud-1.png){width=60%}
+
+![Redirection to browser and input code](/images/devops/gh-linux-to-cloud-2.png){width=60%}
+
+![Login succesfull](/images/devops/gh-linux-to-cloud-3.png){width=60%}
+
+![Log out](/images/devops/gh-linux-to-cloud-4.png){width=60%}
+
+---
+
+[more info on](https://sites.google.com/view/devopscifo/git/github)
+

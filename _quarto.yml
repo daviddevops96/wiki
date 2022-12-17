@@ -42,40 +42,41 @@ website:
         - text: "---"  
         - section: "What is DevOps"
           contents: 
-            - devops/introductiondevops.qmd
-            - devops/devops.qmd
+            - devops/devops-what-intro.qmd
+            - devops/devops-what-overview.qmd
+            - devops/devops-what-immutable.qmd
         - text: "---"  
         - section: "Documentation"
           contents: 
-            - devops/quarto.qmd
+            - devops/devops-doc-quarto.qmd
         - text: "---"  
         - section: "Version Control"
           contents: 
-            - devops/git.qmd
-            - devops/github.qmd
+            - devops/devops-vc-git.qmd
+            - devops/devops-vc-github.qmd
         - text: "---" 
         - section: "IDEs"
           contents: 
-            - devops/visualcode.qmd
-            - devops/intelljidea.qmd
+            - devops/devops-ide-visualcode.qmd
+            - devops/devops-ide-intelljidea.qmd
         - text: "---"           
         - section: "DevOps tools"
           contents:
-            - devops/aws.qmd 
-            - devops/docker.qmd
-            - devops/jenkins.qmd
-            - devops/k8s.qmd
-            - devops/digitalocean.qmd
-            - devops/installjenkins.qmd
-            - devops/installmaven.qmd
+            - devops/devops-tools-aws.qmd 
+            - devops/devops-tools-docker.qmd
+            - devops/devops-tools-jenkins.qmd
+            - devops/devops-tools-k8s.qmd
+            - devops/devops-tools-digitalocean.qmd
+            - devops/devops-tools-installjenkins.qmd
+            - devops/devops-tools-installmaven.qmd
         - text: "---"      
         - section: "DevOps Laboratories"
           contents: 
-            - devops/chatapp.qmd
-            - devops/springbooksintro.qmd
-            - devops/springbookss3.qmd
-            - devops/springbooksdocker.qmd
-            - devops/k8sdigitalocean.qmd
+            - devops/devops-lab-chatapp.qmd
+            - devops/devops-lab-springbooksintro.qmd
+            - devops/devops-lab-springbookss3.qmd
+            - devops/devops-lab-springbooksdocker.qmd
+            - devops/devops-lab-k8sdigitalocean.qmd
         - text: "---"  
         - section: "DevOps readings"
           contents: 
@@ -104,22 +105,22 @@ website:
         - text: "---"  
         - section: "MarkUp Languages"
           contents: 
-            - markup/markupintro.qmd
-            - markup/markuphtml.qmd
-            - markup/markupdown.qmd
-            - markup/markuphtmlrelation.qmd
+            - markup/markup-lang-intro.qmd
+            - markup/markup-lang-html.qmd
+            - markup/markup-land-md.qmd
+            - markup/markup-lang-htmlmd.qmd
         - text: "---"  
         - section: "Quarto Markdown"
           contents: 
-            - markup/markupquarto.qmd
-            - markup/markupquartocreating.qmd
-            - markup/markupquartopublishing.qmd
-            - markup/markupquartoprogramming.qmd
+            - markup/markup-quarto-basics.qmd
+            - markup/markup-quarto-create.qmd
+            - markup/markup-quarto-publish.qmd
+            - markup/markup-quarto-code.qmd
         - text: "---"  
         - section: "Styling: CSS"
           contents: 
-            - markup/markupcss.qmd
-            - markup/markupw3css.qmd
+            - markup/markup-css-basics.qmd
+            - markup/markup-css-w3css.qmd
         - text: "---"  
         - section: "MarkUp Languages Laboratories"
           contents: 

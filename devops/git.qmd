@@ -1,7 +1,0 @@
----
-title: "Git"
----
-
-About this site: to-do
-
-https://sites.google.com/view/devopscifo/git
