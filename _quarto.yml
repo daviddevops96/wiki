@@ -165,6 +165,7 @@ website:
           contents:
             - javase/se-concepts-maven.qmd
             - javase/se-concepts-createproject.qmd
+            - javase/se-concepts-projectgit.qmd
             - javase/se-concepts-tdd.qmd
             - javase/se-concepts-objects.qmd
             - javase/se-concepts-scope.qmd

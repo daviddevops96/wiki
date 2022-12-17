@@ -1,0 +1,30 @@
+---
+title: "Java SE: Project push GitHub"
+---
+## Maven Project push to GitHub
+
+To connect a local project on **IntelliJ IDEA** to GitHub.com, you will need to create a repository on GitHub and then push your local project to the repository. Here's a step-by-step guide:
+
+From ``CLI gh``:
+
+1. Open your terminal and **install** ``cli gh``: [install CLI gh](/devops/devops-vc-github.qmd#install-cli-gh)
+2. Keep on your terminal and **install** ``git``: [install git](/devops/devops-vc-git.qmd) 
+3. Go to browser and create an **account** on GitHub.com
+4. **Create** repository on GitHub.com: [Create a repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+5. At the top of your GitHub repository's Quick Setup page, click the clipboard icon to copy **clone GitHub CLI**: ``gh repo clone AlbertProfe/wiki``. This will initialize the local directory as a Git repository with a copy of remote repository.
+6. Create Maven Project within that directory/repository local git: [create Maven Project](/javase/se-concepts-createproject.qmd)
+7. **Upload/sync/push**: ``git commit and push`` from CLI or from **IntelliJ IDEA**: [Commit and push changes to Git repository](https://www.jetbrains.com/help/idea/2022.3/commit-and-push-changes.html#commit)
+
+From **IntelliJ IDEA**
+
+1. Open your IntelliJ IDEA project.
+2. In the VCS menu, select the option to enable version control integration.
+3. Select Git as the version control system.
+4. Add the files in your new local repository. This stages them for the first commit.
+5. Commit the files that you've staged in your local repository.
+6. In the VCS menu, select the option to create a new repository.
+7. Choose the location for the repository and click the Create button.
+8. In the VCS menu, select the option to push changes.
+9. Enter your GitHub login credentials and click the Push button.
+
+Now your local project is connected to the repository on GitHub and any changes you make locally will be reflected in the repository on GitHub.
