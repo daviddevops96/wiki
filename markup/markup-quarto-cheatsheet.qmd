@@ -1,0 +1,160 @@
+---
+title: "Quarto Markdown: cheat-sheet"
+---
+
+::: {.summary}
+📘 **Cheat-sheet**
+
+- Summary
+- Links and figures
+- Tabset
+- Callouts
+- Tablas
+- Mermaid
+- Include
+- Others
+
+:::
+
+## Summary
+
+``` bash
+::: {.summary}
+📘 **Design-patterns**
+:::
+
+/* summary card */
+.summary{
+    padding: 16px 16px 16px 16px;
+    background: #a2f868;
+    border: #ffffff6b;
+    color: #117441;
+    border-radius: 10px 10px 10px 10px;
+}
+```
+
+## Links and images
+[figures](https://quarto.org/docs/authoring/figures.html)
+``` bash
+
+![Singleton Pattern](../images/javase/singleton-pattern-edited.png){width=60%}
+{fig-width=10}
+{fig-width=50%}
+{height=2in}
+{height=100px}
+https://quarto.org/docs/reference/formats/pdf.html#figures
+https://pandoc.org/MANUAL.html#extension-link_attributes
+
+```
+
+## Tabset
+
+``` bash
+
+::: {.panel-tabset}
+### Tab A
+Content for `Tab A`
+
+### Tab B
+Content for `Tab B`
+:::
+```
+
+## Callouts
+
+``` bash
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+## Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user.
+You can use `collapse="true"` to collapse it by default or `collapse="false"` to make 
+a collapsible callout that is expanded by default.
+:::
+```
+
+## Callout minimal
+
+Callouts have 3 different looks you can use.
+
+| `tag` | Description |
+| --- |  --- |
+| `default` | The default appearance with colored header and an icon. |
+| `simple` | A lighter weight appearance that doesn't include a colored header background. |
+| `minimal` | A minimal treatment that applies borders to the callout, but doesn't include a header background color or icon |
+
+``` bash
+
+::: {.callout-note appearance="simple" icon=false}
+
+## Pay Attention
+
+Using callouts is an effective way to highlight content that your reader
+ give special consideration or attention.
+
+:::
+
+```
+
+## Tables
+
+- [tables](https://quarto.org/docs/authoring/tables.html)
+- [tablesgenerator](https://tablesgenerator.com/markdown_tables)
+
+``` bash
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+```
+
+## Mermaid
+
+``` bash
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+
+
+{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+
+```
+
+## Include
+
+``` bash
+{{< include _content.qmd >}}
+```
+
+## Others
+
+- [basics](https://quarto.org/docs/authoring/markdown-basics.html)
+- [layout](https://quarto.org/docs/authoring/article-layout.html#margin-captions)
+- [videos](https://quarto.org/docs/authoring/videos.html)
+- [reveal.js](https://quarto.org/docs/presentations/revealjs/#tabsets)
+- [inlcude](https://quarto.org/docs/authoring/includes.html)

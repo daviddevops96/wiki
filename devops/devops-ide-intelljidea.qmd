@@ -64,3 +64,19 @@ link: [Check out the most useful and popular topics to get you started with Inte
 | `Alt+F7` | [Find Usages](https://www.jetbrains.com/help/idea/find-highlight-usages.html#find-usages)Show all places where a code element is used across your project. |
 | `Alt+1` | Focus the Project tool window |
 | `Escape` | Focus the editor |
+
+## Maven Helper
+
+![Maven Helper](/images/devops/mavenhelper.png)
+
+A must have plugin for working with Maven.
+- easy way for **analyzing and excluding conflicting dependencies**
+- actions to run/debug maven goals for a module that contains the current file or on the root module
+- action to open terminal at the current maven module path
+- actions to run/debug the current test file.
+
+[Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper){#Maven-Helper}
+
+## Top 10 Plugins for IntelliJ IDEA You Don’t Want to Miss
+
+[Top 10 Plugins for IntelliJ IDEA You Don’t Want to Miss](https://blog.jetbrains.com/idea/2021/05/top-10-plugins-for-intellij-idea/)

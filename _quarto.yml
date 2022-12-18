@@ -116,6 +116,7 @@ website:
             - markup/markup-quarto-create.qmd
             - markup/markup-quarto-publish.qmd
             - markup/markup-quarto-code.qmd
+            - markup/markup-quarto-cheatsheet.qmd
         - text: "---"  
         - section: "Styling: CSS"
           contents: 
