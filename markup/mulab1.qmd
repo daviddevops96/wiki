@@ -100,7 +100,7 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
 
 ## Screen-shoots (2022-12-12)
 
-[Log in to GitHub and Quarto Creation](https://drive.google.com/drive/folders/1fV85crifRwAvL63ERIRhPmIoTsbsEeTW?usp=share_link)
+[Log in to GitHub and Quarto Creation: Sync GUI](/images/markup/quarto-github/markup-quarto-github.qmd)
 
 ## Screen-shoots (2022-12-08)
 

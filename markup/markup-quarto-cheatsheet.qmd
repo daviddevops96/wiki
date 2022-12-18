@@ -10,6 +10,7 @@ title: "Quarto Markdown: cheat-sheet"
 - Tabset
 - Callouts
 - Tablas
+- Code blocks
 - Mermaid
 - Include
 - Others
@@ -50,7 +51,6 @@ https://pandoc.org/MANUAL.html#extension-link_attributes
 ## Tabset
 
 ``` bash
-
 ::: {.panel-tabset}
 ### Tab A
 Content for `Tab A`
@@ -124,6 +124,21 @@ Using callouts is an effective way to highlight content that your reader
 
 ```
 
+## Code blocks
+
+``` bash
+```{.python filename="matplotlib.py"}
+#| code-fold: true
+#| code-summary: "Show the code"
+#| echo: true
+#| code-overflow: wrap
+import matplotlib.pyplot as plt
+plt.plot([1,23,2,4])
+plt.show()```
+```
+
+[HTML Code Blocks](https://quarto.org/docs/output-formats/html-code.html){.external}
+
 ## Mermaid
 
 ``` bash
@@ -141,7 +156,7 @@ flowchart LR
   A[Hard edge] --> B(Round edge)
   B --> C{Decision}
   C --> D[Result one]
-  C --> E[Result two]
+  C --> E[Result two]```
 
 ```
 
@@ -150,6 +165,7 @@ flowchart LR
 ``` bash
 {{< include _content.qmd >}}
 ```
+- [inlcude](https://quarto.org/docs/authoring/includes.html)
 
 ## Others
 
@@ -157,4 +173,4 @@ flowchart LR
 - [layout](https://quarto.org/docs/authoring/article-layout.html#margin-captions)
 - [videos](https://quarto.org/docs/authoring/videos.html)
 - [reveal.js](https://quarto.org/docs/presentations/revealjs/#tabsets)
-- [inlcude](https://quarto.org/docs/authoring/includes.html)
+

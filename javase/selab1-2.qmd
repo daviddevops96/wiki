@@ -1,5 +1,5 @@
 ---
-title: "Lab#SE01-2:  Maven/Gradle Person and Account stored in JSON "
+title: "Lab#SE01-2: Maven/Gradle Person and Account stored in JSON "
 ---
 
 Create a Maven/Gradle Java SE Project with three classes and Junit to test objects and operations. From here you should add new features: factory pattern, JSON parser and save this JSON on local storage.

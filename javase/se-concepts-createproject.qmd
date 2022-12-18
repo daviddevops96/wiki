@@ -47,6 +47,4 @@ This will use **version 3.6.3 of Maven** for the project.
 
 ## Step-by-step screenshots (2022-12-14)
 
-[Screen-shoots Create Maven Project](https://drive.google.com/drive/folders/1V9tQJT08yUVzBWZJKXP3xzTk6tdBUanh?usp=sharing)
-
 [Slider-presentation Create project Java SE Maven](/images/javase/se-createproject/se-presentation-createproject.qmd)

@@ -1,5 +1,29 @@
 ---
-title: "Lab 3: subject"
+title: "Lab#SE02-1: Movie/Review"
 ---
 
-About this site
+
+::: {.panel-tabset}
+
+## Tab A
+
+Content for `Tab A`
+Content for `Tab A`
+Content for `Tab A`
+Content for `Tab A`
+
+## Tab B
+
+Content for `Tab B`
+Content for `Tab B`
+Content for `Tab B`
+Content for `Tab B`
+
+## Tab C
+
+Content for `Tab C`
+Content for `Tab C`
+Content for `Tab C`
+Content for `Tab C`
+
+:::
