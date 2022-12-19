@@ -30,16 +30,20 @@ IntelliSense is a general term for various code editing features including: code
 ![Alt text](https://code.visualstudio.com/assets/docs/editor/editingevolved/quicknav.png)
 
 :::{.callout-note}
-**Tip:** You can open any file by its name when you type`` Ctrl+P`` (Quick Open).
+**Tip:** You can open any file by its name when you type ``Ctrl+P`` (Quick Open).
 :::
 
 [Quick file navigation](https://code.visualstudio.com/docs/editor/editingevolved#_quick-file-navigation){#visualcode-Quick-file-navigation}
 
 ## Refactoring
 
-![Alt text](https://code.visualstudio.com/assets/docs/editor/refactoring/refactoring-hero.png)
+![refactoring](https://code.visualstudio.com/assets/docs/editor/refactoring/refactoring-hero.png)
 
 [Refactoring](https://code.visualstudio.com/docs/editor/refactoring){#visualcode-Refactoring}
+
+## Using Git source control in VS Code
+
+![Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 ## Keyboard Shortcuts Reference
 
