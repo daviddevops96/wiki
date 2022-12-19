@@ -56,3 +56,5 @@ Here are the steps to create a **Linux Mint virtual machine using VirtualBox**:
     14.2. **Verify** the VM remains closed before the installation of the Extension Pack.
     
     ![](/images/linux/VM-stoped.png)
+
+    14.3. Follow the instruction of this [**Link**](https://www.nakivo.com/blog/how-to-install-virtualbox-extension-pack/)
