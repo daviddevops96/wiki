@@ -4,7 +4,9 @@ title: "Spring MVC"
 
 ## Overview
 
-![Spring MVC](/images/springmvc/mvc.png){.image-preview #spring-mvc-diagram}
+![Spring MVC](/images/springmvc/mvc.png){.image-preview #spring-mvc-diagram width=89%}
+
+![Spring MVC Numbered](/images/springmvc/mvc2.png){.image-preview #spring-mvc2-diagram}
 
 The [Spring Web](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html) model-view-controller (MVC) framework is designed around a DispatcherServlet that dispatches requests to handlers, with configurable handler mappings, view resolution, locale and theme resolution as well as support for uploading files.
 

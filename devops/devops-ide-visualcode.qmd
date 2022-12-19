@@ -43,7 +43,9 @@ IntelliSense is a general term for various code editing features including: code
 
 ## Using Git source control in VS Code
 
-![Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+![Using Git source control in VS Code](/images/devops/git-intro.png)
+
+[Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 ## Keyboard Shortcuts Reference
 
@@ -110,13 +112,11 @@ This extension will display inline in the editor the size of the imported packag
 
 ## ESLint
 
-
 ![ESLint](/images/devops/eslint.gif)
 
 The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn't provide one the extension looks for a global install version. If you haven't installed ESLint either locally or globally do so by running `npm install eslint` in the workspace folder for a local install or `npm install -g eslint` for a global install.
 
 [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint){#ESLint}
-
 
 ## Github Copilot
 
