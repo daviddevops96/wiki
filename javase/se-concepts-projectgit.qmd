@@ -1,7 +1,7 @@
 ---
 title: "Java SE: Project push GitHub"
 ---
-## Maven Project push to GitHub
+## Maven Project push to GitHub: CLI gh
 
 To connect a local project on **IntelliJ IDEA** to GitHub.com, you will need to create a repository on GitHub and then push your local project to the repository. Here's a step-by-step guide:
 
@@ -15,44 +15,45 @@ From ``CLI gh``:
 6. Create Maven Project within that directory/repository local git: [create Maven Project](/javase/se-concepts-createproject.qmd)
 7. **Upload/sync/push**: ``git commit and push`` from CLI or from **IntelliJ IDEA**: [Commit and push changes to Git repository](https://www.jetbrains.com/help/idea/2022.3/commit-and-push-changes.html#commit)
 
-### Screen-shots step-by-step after installing git and github
+### Screen-shoots step-by-step after installing git and github (2022-12-19)
 
-![](/images/javase/se-projectgit/login_cli_gh_createrepo.png)
+First, install ``git`` and ``CLI gh`` and create a GitHub.con account.
 
-![](/images/javase/se-projectgit/newrepo.png)
+![Log in via CLI gh to GitHub.com, in this case using a browser where you are logged in GitHub.com](/images/javase/se-projectgit/login_cli_gh_createrepo.png)
 
-![](/images/javase/se-projectgit/newrepo2.png)
+![Create a repo at GitHub.com: button new](/images/javase/se-projectgit/newrepo.png)
 
-![](/images/javase/se-projectgit/newrepo3.png)
+![Create a repo at GitHub.com: name and configuration](/images/javase/se-projectgit/newrepo2.png)
 
-![](/images/javase/se-projectgit/newrepo4.png)
+![Create a repo at GitHub.com: created](/images/javase/se-projectgit/newrepo3.png)
 
-![](/images/javase/se-projectgit/clone_repo.png)
+![Get the code to clone the repo: copy](/images/javase/se-projectgit/newrepo4.png)
 
-![](/images/javase/se-projectgit/createproject1.png)
+![Create/select a folder where the repo will be created](/images/javase/se-projectgit/createproject1.png)
 
-![](/images/javase/se-projectgit/createproject2.png)
+![Go to the terminal and paste it](/images/javase/se-projectgit/clone_repo.png)
 
-![](/images/javase/se-projectgit/createproject3.png)
+![Create maven project: create](/images/javase/se-projectgit/createproject2.png)
 
-![](/images/javase/se-projectgit/push1.png)
+![Create maven project: created and structure checked](/images/javase/se-projectgit/createproject3.png)
 
-![](/images/javase/se-projectgit/push2.png)
+![Let's add and commit this project](/images/javase/se-projectgit/push1.png)
 
-![](/images/javase/se-projectgit/push3.png)
+![8 added files](/images/javase/se-projectgit/push2.png)
 
-![](/images/javase/se-projectgit/push4.png)
+![Now it is time to commit, first write it](/images/javase/se-projectgit/push3.png)
 
-![](/images/javase/se-projectgit/push5.png)
+![Visual Code and git making the commit](/images/javase/se-projectgit/push4.png)
 
-![](/images/javase/se-projectgit/push6.png)
+![Commit done, now, the push to remote repo](/images/javase/se-projectgit/push5.png)
 
-![](/images/javase/se-projectgit/push7.png)
+![After push button Visual Code demands confirmation](/images/javase/se-projectgit/push6.png)
 
-![](/images/javase/se-projectgit/push8.png)
+![Pushing .... and pushed](/images/javase/se-projectgit/push7.png)
 
+![Check GitHub.com repo has got the project pushed](/images/javase/se-projectgit/push8.png)
 
-From **IntelliJ IDEA**
+## Maven Project push to GitHub: from **IntelliJ IDEA**
 
 1. Open your **IntelliJ IDEA** project.
 2. In the ``VCS`` menu, select the option to **enable** version control integration.
