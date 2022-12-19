@@ -7,13 +7,50 @@ To connect a local project on **IntelliJ IDEA** to GitHub.com, you will need to 
 
 From ``CLI gh``:
 
-1. Open your terminal and **install** ``cli gh``: [install CLI gh](/devops/devops-vc-github.qmd#install-cli-gh)
-2. Keep on your terminal and **install** ``git``: [install git](/devops/devops-vc-git.qmd) 
-3. Go to browser and create an **account** on GitHub.com
+1. Go to browser and create an **account** on GitHub.com
+2. Open on your terminal and **install** ``git``: [install git](/devops/devops-vc-git.qmd) 
+3. Open your terminal and **install** ``cli gh``: [install CLI gh](/devops/devops-vc-github.qmd#install-cli-gh) and **log in to GitHub.com**
 4. **Create** repository on GitHub.com: [Create a repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 5. At the top of your GitHub repository's Quick Setup page, click the clipboard icon to copy **clone GitHub CLI**: ``gh repo clone AlbertProfe/wiki``. This will initialize the local directory as a Git repository with a copy of remote repository.
 6. Create Maven Project within that directory/repository local git: [create Maven Project](/javase/se-concepts-createproject.qmd)
 7. **Upload/sync/push**: ``git commit and push`` from CLI or from **IntelliJ IDEA**: [Commit and push changes to Git repository](https://www.jetbrains.com/help/idea/2022.3/commit-and-push-changes.html#commit)
+
+### Screen-shots step-by-step after installing git and github
+
+![](/images/javase/se-projectgit/login_cli_gh_createrepo.png)
+
+![](/images/javase/se-projectgit/newrepo.png)
+
+![](/images/javase/se-projectgit/newrepo2.png)
+
+![](/images/javase/se-projectgit/newrepo3.png)
+
+![](/images/javase/se-projectgit/newrepo4.png)
+
+![](/images/javase/se-projectgit/clone_repo.png)
+
+![](/images/javase/se-projectgit/createproject1.png)
+
+![](/images/javase/se-projectgit/createproject2.png)
+
+![](/images/javase/se-projectgit/createproject3.png)
+
+![](/images/javase/se-projectgit/push1.png)
+
+![](/images/javase/se-projectgit/push2.png)
+
+![](/images/javase/se-projectgit/push3.png)
+
+![](/images/javase/se-projectgit/push4.png)
+
+![](/images/javase/se-projectgit/push5.png)
+
+![](/images/javase/se-projectgit/push6.png)
+
+![](/images/javase/se-projectgit/push7.png)
+
+![](/images/javase/se-projectgit/push8.png)
+
 
 From **IntelliJ IDEA**
 

@@ -37,8 +37,7 @@ title: "Quarto Markdown: cheat-sheet"
 
 ## Links and images
 
-``` bash
-
+``` {.bash .code-overflow-wrap} 
 ![Singleton Pattern](../images/javase/singleton-pattern-edited.png){width=60%}
 {fig-width=10}
 {fig-width=50%}
@@ -46,7 +45,6 @@ title: "Quarto Markdown: cheat-sheet"
 {height=100px}
 https://quarto.org/docs/reference/formats/pdf.html#figures
 https://pandoc.org/MANUAL.html#extension-link_attributes
-
 ```
 - [basics](https://quarto.org/docs/authoring/markdown-basics.html){.external}
 - [figures](https://quarto.org/docs/authoring/figures.html){.external}
@@ -68,8 +66,7 @@ Content for `Tab B`
 
 ## Callouts
 
-``` bash
-
+``` {.bash .code-overflow-wrap}
 ::: {.callout-note}
 Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
