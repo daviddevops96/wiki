@@ -14,13 +14,20 @@ GitHub users create accounts, upload files, and create coding projects. But the 
 
 [Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
-``` bash
+``` {.bash .code-overflow-wrap} 
 type -p curl >/dev/null || sudo apt install curl -y
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
 && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
 && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 && sudo apt update \
 && sudo apt install gh -y
+```
+
+if for some reasson `gh` does not install, try it another time: 
+
+``` bash
+sudo apt update
+sudo apt install gh
 ```
 
 [GitHub CLI manual](https://cli.github.com/manual/)
@@ -47,13 +54,13 @@ GitHub tasks:
 
 ### CLI gh
 
-![Log in CLI set-up](/images/devops/gh-linux-to-cloud-1.png){width=60%}
+![Log in CLI set-up](/images/devops/gh-linux-to-cloud-1.png){width=100%}
 
-![Redirection to browser and input code](/images/devops/gh-linux-to-cloud-2.png){width=60%}
+![Redirection to browser and input code](/images/devops/gh-linux-to-cloud-2.png){width=100%}
 
-![Login succesfull](/images/devops/gh-linux-to-cloud-3.png){width=60%}
+![Login succesfull](/images/devops/gh-linux-to-cloud-3.png){width=100%}
 
-![Log out](/images/devops/gh-linux-to-cloud-4.png){width=60%}
+![Log out](/images/devops/gh-linux-to-cloud-4.png){width=1000%}
 
 ---
 

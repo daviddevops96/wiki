@@ -78,35 +78,35 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
 
 1. Install some software and Sign in:
     1. Install **Visual Code**
-      1. Install GitHub Extension and Source Control if they don't come with new installation
-      2. Install **Quarto Extension** in Visual Code
+        - Install GitHub Extension and Source Control if they don't come with new installation
+        - Install **Quarto Extension** in Visual Code
     2. Sign in GitHub from Visual Code (wizard)
-    2. Install **Quarto** in your OS (download from [Quarto site - Get started](https://quarto.org/docs/get-started/))
+    3. Install **Quarto** in your OS (download from [Quarto site - Get started](https://quarto.org/docs/get-started/))
 2. [Create Quarto Project](/markup/markup-quarto-create.qmd)
 3. GitHub tasks:
     1. *Create repository, commit and push* files to repository with <mark>Sync tool</mark>. To write our repository you need to:
         - Create Token on GitHub.com: [Creating a personal access token](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
         - Use this token on your Visual Code - Git, [link](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git):
+
           ``` bash
           $git config --global user.name "Mona Lisa"
           $git config --global user.mail "monalisa@davinci.com"
           $git config --global user.paasword "4WTVEG43_Q34WG435GAWER4_Q4vsrsrggr_3D44"
           ```
-    2. Activate <mark>gh-pages service</mark> 
+
+    2. Activate <mark>gh-pages service</mark>
 4. `quarto render` and `quarto publish gh-pages` / `quarto publish` on Visual Code's terminal
     1. [Publish Quarto Project](/markup/markup-quarto-publish.qmd)
     2. [Improve your Quarto Project](/markup/markup-quarto-basics.qmd)
 5. Go to published web:`user/github.io/repo`
 
-## Screen-shoots (2022-12-12)
+## Screen-shoots (2022-12-12): installing Quarto and cloning project from GitHub.com
 
 Step-by-step Quarto Creation project (install Quarto) in Visual Code (and Quarto Extension) and publishing to gh-pages (log in to GitHub, Sync tool)
 
 [Log in to GitHub and Quarto Creation: Sync GUI](/images/markup/quarto-github/markup-quarto-github.qmd)
 
-{{< include /images/markup/quarto-github/markup-quarto-github.qmd >}}
-
-## Screen-shoots (2022-12-08)
+## Screen-shoots (2022-12-08): pushing Quarto project to GitHub and publishing on gh-pages
 
 :::{.callout-note  collapse="false" }
 
@@ -129,26 +129,31 @@ Step-by-step Quarto Creation project (install Quarto) in Visual Code (and Quarto
 ![fig 3](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(3).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## let s do a commit but .. first
 
 ![fig 4](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(4).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## we need to publish branch
 
 ![fig 5](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(5).png)
 :::
 :::{.callout-note  collapse="false" }
-## Permission
+
+## Permission 1/2
 
 ![fig 6](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(6).png)
 :::
 :::{.callout-note  collapse="false" }
-## Permission
+
+## Permission 2/2
 
 ![fig 7](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(7).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## publish in public repository: name
 
 ![fig 8](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(8).png)
@@ -166,61 +171,73 @@ Step-by-step Quarto Creation project (install Quarto) in Visual Code (and Quarto
 ![fig 10](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(10).png)
 :::
 :::{.callout-note  collapse="false" }
-## this tree folder is publising
+
+## this tree folder is publised
 
 ![fig 11](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(11).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## tree folder in github
 
 ![fig 12](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(12).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## gh-pages activation
 
 ![fig 13](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(13).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## at first gh-pages branck doesn't exist: don't worry, quarto will create later
 
 ![fig 14](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(14).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## master is our branch: root
 
 ![fig 15](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(15).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## there is just one brach: master (brach gh-pages NOT YET)
 
 ![fig 16](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(16).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## render
 
 ![fig 17](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(17).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## quarto publish
 
 ![fig 18](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(18).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## yes
 
 ![fig 19](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(19).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## now: brach created
 
 ![fig 20](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(20).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## and ... gh pages now has got the gh-pages branch selected
 
 ![fig 21](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(21).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## we may check all is right: commit
 
 ![fig 22](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(22).png)
@@ -235,16 +252,18 @@ Step-by-step Quarto Creation project (install Quarto) in Visual Code (and Quarto
 
 ## we may check all is right: actions
 
-
 ![fig 24](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(24).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## web deployed: live
 
 ![fig 25](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(25).png)
 :::
 :::{.callout-note  collapse="false" }
+
 ## log publising terminal 1/4
+
 
 ![fig 26](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(26).png)
 :::
@@ -266,4 +285,3 @@ Step-by-step Quarto Creation project (install Quarto) in Visual Code (and Quarto
 
 ![fig 29](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(29).png)
 :::
-

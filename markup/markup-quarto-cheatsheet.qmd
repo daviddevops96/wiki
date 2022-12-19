@@ -37,8 +37,7 @@ title: "Quarto Markdown: cheat-sheet"
 
 ## Links and images
 
-``` bash
-
+``` {.bash .code-overflow-wrap} 
 ![Singleton Pattern](../images/javase/singleton-pattern-edited.png){width=60%}
 {fig-width=10}
 {fig-width=50%}
@@ -46,8 +45,11 @@ title: "Quarto Markdown: cheat-sheet"
 {height=100px}
 https://quarto.org/docs/reference/formats/pdf.html#figures
 https://pandoc.org/MANUAL.html#extension-link_attributes
+{.external}
+{#tagthis .preview-image}
 
 ```
+
 - [basics](https://quarto.org/docs/authoring/markdown-basics.html){.external}
 - [figures](https://quarto.org/docs/authoring/figures.html){.external}
 - [videos](https://quarto.org/docs/authoring/videos.html){.external}
@@ -63,13 +65,12 @@ Content for `Tab A`
 Content for `Tab B`
 :::
 ```
-- [reveal.js tabset](https://quarto.org/docs/presentations/revealjs/#tabsets){.external}
 
+- [reveal.js tabset](https://quarto.org/docs/presentations/revealjs/#tabsets){.external}
 
 ## Callouts
 
-``` bash
-
+``` {.bash .code-overflow-wrap}
 ::: {.callout-note}
 Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
@@ -92,18 +93,9 @@ a collapsible callout that is expanded by default.
 
 [callouts](https://quarto.org/docs/authoring/callouts.html){.external}
 
-## Callout minimal
+## Minimal callout
 
-Callouts have 3 different looks you can use.
-
-| `tag` | Description |
-| --- |  --- |
-| `default` | with colored header and an icon. |
-| `simple` | that doesn't include a colored header background. |
-| `minimal` | borders to the callout, but doesn't include a header background color or icon |
-: Callouts looks {tbl-colwidths="[20,85]"}
 ``` bash
-
 ::: {.callout-note appearance="simple" icon=false}
 
 ## Pay Attention
@@ -114,6 +106,17 @@ Using callouts is an effective way to highlight content that your reader
 :::
 
 ```
+
+Callouts have 3 different looks you can use.
+
+| `tag` | Description |
+| --- |  --- |
+| `default` | with colored header and an icon. |
+| `simple` | that doesn't include a colored header background. |
+| `minimal` | borders to the callout, but doesn't include a header background color or icon |
+: Callouts looks {tbl-colwidths="[20,85]"}
+
+
 
 ## Tables
 
@@ -129,6 +132,7 @@ Using callouts is an effective way to highlight content that your reader
 | 1       | 1    |     1 |   1    |
 
 : Demonstration of pipe table syntax
+: Callouts looks {tbl-colwidths="[20,85]"}
 
 ```
 
@@ -167,6 +171,7 @@ flowchart LR
   C --> E[Result two]```
 
 ```
+
 ## Presentations
 
 ```  {.bash .code-overflow-wrap .code-fold-true}
@@ -186,12 +191,12 @@ format: revealjs
 
 - [Revealjs Quarto Presentations](https://quarto.org/docs/presentations/revealjs/){.external}
 
-
 ## Include
 
 ``` bash
 {{< include _content.qmd >}}
 ```
+
 - [inlcude](https://quarto.org/docs/authoring/includes.html){.external}
 
 ## HTML
@@ -220,8 +225,10 @@ public class Account {
 }
 
 <details>
+
 ```
-Example: 
+
+Example:
 
 <details>
 <summary>Java Person Class</summary>
@@ -244,15 +251,12 @@ Example:
           //constructor, getters, setters and methods
         }
       }
-  
 ```
-```
-</details>
 
+```
+
+</details>
 
 ## Others
 
-
 - [layout](https://quarto.org/docs/authoring/article-layout.html#margin-captions){.external}
-
-

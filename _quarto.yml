@@ -3,10 +3,10 @@ project:
 
 website:
   title: albertprofe wiki
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
+  #cookie-consent:
+  #  type: express
+  #  style: headline
+  #  palette: dark
 
   repo-url: https://github.com/Albertprofe/wiki
   repo-actions: [edit, issue]
