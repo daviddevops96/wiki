@@ -13,6 +13,7 @@ title: "Quarto Markdown: cheat-sheet"
 - Code blocks
 - Mermaid
 - Include
+- Presentations
 - Others
 
 :::
@@ -35,7 +36,7 @@ title: "Quarto Markdown: cheat-sheet"
 ```
 
 ## Links and images
-[figures](https://quarto.org/docs/authoring/figures.html)
+
 ``` bash
 
 ![Singleton Pattern](../images/javase/singleton-pattern-edited.png){width=60%}
@@ -47,6 +48,9 @@ https://quarto.org/docs/reference/formats/pdf.html#figures
 https://pandoc.org/MANUAL.html#extension-link_attributes
 
 ```
+- [basics](https://quarto.org/docs/authoring/markdown-basics.html){.external}
+- [figures](https://quarto.org/docs/authoring/figures.html){.external}
+- [videos](https://quarto.org/docs/authoring/videos.html){.external}
 
 ## Tabset
 
@@ -59,6 +63,8 @@ Content for `Tab A`
 Content for `Tab B`
 :::
 ```
+- [reveal.js tabset](https://quarto.org/docs/presentations/revealjs/#tabsets){.external}
+
 
 ## Callouts
 
@@ -84,16 +90,18 @@ a collapsible callout that is expanded by default.
 :::
 ```
 
+[callouts](https://quarto.org/docs/authoring/callouts.html){.external}
+
 ## Callout minimal
 
 Callouts have 3 different looks you can use.
 
 | `tag` | Description |
 | --- |  --- |
-| `default` | The default appearance with colored header and an icon. |
-| `simple` | A lighter weight appearance that doesn't include a colored header background. |
-| `minimal` | A minimal treatment that applies borders to the callout, but doesn't include a header background color or icon |
-
+| `default` | with colored header and an icon. |
+| `simple` | that doesn't include a colored header background. |
+| `minimal` | borders to the callout, but doesn't include a header background color or icon |
+: Callouts looks {tbl-colwidths="[20,85]"}
 ``` bash
 
 ::: {.callout-note appearance="simple" icon=false}
@@ -109,11 +117,11 @@ Using callouts is an effective way to highlight content that your reader
 
 ## Tables
 
-- [tables](https://quarto.org/docs/authoring/tables.html)
-- [tablesgenerator](https://tablesgenerator.com/markdown_tables)
+- [tables](https://quarto.org/docs/authoring/tables.html){.external}
+- [tablesgenerator](https://tablesgenerator.com/markdown_tables){.external}
 
 ``` bash
-
+#| tables
 | Default | Left | Right | Center |
 |---------|:-----|------:|:------:|
 | 12      | 12   |    12 |   12   |
@@ -159,18 +167,92 @@ flowchart LR
   C --> E[Result two]```
 
 ```
+## Presentations
+
+```  {.bash .code-overflow-wrap .code-fold-true}
+#| link to presentation, link to .qmd
+[Log in to GitHub and Quarto Creation: Sync GUI](/images/markup/quarto-github/markup-quarto-github.qmd)
+```
+
+``` {.bash .code-overflow-wrap}
+#| presentation
+title: "Create Project"
+author: "Maven IntellJ Idea"
+format: revealjs
+
+## {background-color="grey"}
+![](createprojectMavenIntellJI_0.png)
+```
+
+- [Revealjs Quarto Presentations](https://quarto.org/docs/presentations/revealjs/){.external}
+
 
 ## Include
 
 ``` bash
 {{< include _content.qmd >}}
 ```
-- [inlcude](https://quarto.org/docs/authoring/includes.html)
+- [inlcude](https://quarto.org/docs/authoring/includes.html){.external}
+
+## HTML
+
+``` {.html}
+<details>
+<summary>Code</summary>
+{.java}
+public class Account {
+  private Person person;
+  //other fields
+
+  public Account(Person person) {
+    this.person = person;
+  }
+
+  public Person getPerson() {
+    return this.person;
+  }
+
+  public void setPerson(Person person) {
+    this.person = person;
+    
+    //constructor, getters, setters and methods
+  }
+}
+
+<details>
+```
+Example: 
+
+<details>
+<summary>Java Person Class</summary>
+  ```{.java filename="person"}
+      public class Account {
+        private Person person;
+        //other fields
+
+        public Account(Person person) {
+          this.person = person;
+        }
+
+        public Person getPerson() {
+          return this.person;
+        }
+
+        public void setPerson(Person person) {
+          this.person = person;
+          
+          //constructor, getters, setters and methods
+        }
+      }
+  
+```
+```
+</details>
+
 
 ## Others
 
-- [basics](https://quarto.org/docs/authoring/markdown-basics.html)
-- [layout](https://quarto.org/docs/authoring/article-layout.html#margin-captions)
-- [videos](https://quarto.org/docs/authoring/videos.html)
-- [reveal.js](https://quarto.org/docs/presentations/revealjs/#tabsets)
+
+- [layout](https://quarto.org/docs/authoring/article-layout.html#margin-captions){.external}
+
 

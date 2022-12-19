@@ -58,7 +58,7 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
     </ol>
   <p class="indent">Using **callouts, links, tabs and CSS** can help to improve the readability and organization of a markdown document, making it easier for readers to understand and navigate the content. </br> </br>
   To take their project to the next level, students may also choose to connect to an **API** (Application Programming Interface) to **retrieve data and render charts using JavaScript**. This will require an understanding of how to make HTTP requests and how to manipulate data in JavaScript.</p>
-  <p class="indent"><mark>[Quarto data sources](/markup/markupquartoprogramming.qmd)</mark></p>
+  <p class="indent"><mark>[Quarto data sources](/markup/markup-quarto-code.qmd)</mark></p>
   </div>
 
  <!--tab: after -->
@@ -100,7 +100,11 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
 
 ## Screen-shoots (2022-12-12)
 
+Step-by-step Quarto Creation project (install Quarto) in Visual Code (and Quarto Extension) and publishing to gh-pages (log in to GitHub, Sync tool)
+
 [Log in to GitHub and Quarto Creation: Sync GUI](/images/markup/quarto-github/markup-quarto-github.qmd)
+
+{{< include /images/markup/quarto-github/markup-quarto-github.qmd >}}
 
 ## Screen-shoots (2022-12-08)
 
@@ -109,6 +113,7 @@ Create and publish a website on GitHub pages (Git on cloud and deploy pipeline) 
 ## Basic Quarto Project
 
 ![fig 1](../images/markup/publish_quarto_gh-pages/publish_quarto_website_gh-pages%20(1).png)
+
 :::
 
 :::{.callout-note  collapse="false" }
