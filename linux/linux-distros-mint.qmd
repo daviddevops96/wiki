@@ -5,7 +5,7 @@ title: "Linux Distros: Mint"
 ![Linux Mint 21](/images/linux/mint.png){width=30%}
 
 ## What is Linux Mint?
-jajaja
+
 [Linux Mint](https://linuxmint.com/) is an operating system for desktop and laptop computers. It is designed to work 'out of the box' and comes fully equipped with the apps most people need.
 
 - [Download ISO Linux Mint 21](https://linuxmint.com/edition.php?id=299)
