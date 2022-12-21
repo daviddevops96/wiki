@@ -1,0 +1,68 @@
+---
+title: "Linux: pipes"
+---
+
+::: {.summary}
+
+📘 **Linux**
+
+A **pipe** is a command that allows you to **redirect the output of one command as the input to another command**. 
+
+It is represented by the vertical bar symbol ``|``.
+
+:::
+
+---
+
+## Introduction
+
+For example, you can use the **pipe command to list all the files in a directory**, and then use the ``grep`` command to search for a **specific string in those files**:
+
+``` bash
+ls | grep "devtools"
+```
+
+This will list all the files in the current directory and then search for the string **"devtools"** in the output of the `ls` command.
+
+You can also use multiple pipes to chain together multiple commands. For example:
+
+``` bash
+ls | grep "devtools" | sort
+```
+
+This will list **all the files in the current directory, search for the string "devtools"** in the output of the `ls` command, and then **sort the output alphabetically**.
+
+
+![pipe linux ls-grep-sort](/images/linux/linux-mint-pipe-01.png)
+
+## ``grep``
+
+ ``grep`` searches for patterns in text. It stands for **global regular expression print**, and it allows you to **search for specific patterns of characters in one or more files.**
+
+You can use `grep` to search for a specific word or phrase in a file, or you can use it to search for more complex patterns using **regular expressions.**
+
+Here are a few examples of how `grep` can be used:
+
+To search for a **specific word in a file**:
+
+``` bash
+grep "word" file.txt
+```
+
+To search for a **specific word in multiple files**:
+
+``` bash
+grep "word" file1.txt file2.txt file3.txt
+```
+
+To search for a **word that starts with a specific letter**:
+
+``` bash
+grep "^w" file.txt
+```
+
+To search for a **word that ends with a specific letter**:
+
+``` bash
+grep "w$" file.txt
+```

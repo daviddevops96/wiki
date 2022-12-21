@@ -90,6 +90,8 @@ website:
         - section: "Linux: concepts"
           contents: 
             - linux/linux-what-basics.qmd
+            - linux/linux-what-sudo.qmd
+            - linux/linux-what-pipes.qmd
             - linux/linux-what-vm.qmd
         - text: "---"  
         - section: "Linux: distros"
@@ -97,7 +99,11 @@ website:
             - linux/linux-distros-mint.qmd
             - linux/linux-distros-debian.qmd
             - linux/linux-distros-opensuse.qmd
-            
+        - text: "---"  
+        - section: "Linux: laboratories"
+          contents: 
+            - linux/lilab01.qmd
+     
     - id: "markup"
       title: "MarkUp"
       contents: 

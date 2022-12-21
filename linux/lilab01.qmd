@@ -1,0 +1,47 @@
+---
+title: "Linux Lab#LI01-1: pipes"
+---
+
+Export the environment of a **user account** into the root account on ``OpenSUSE``.
+
+## CLI tools
+
+To run a **single command as the root user**:
+``` bash
+su - root -c 'command'
+su - root -c 'apt update && apt upgrade -y'
+su - root -c 'bash /path/to/script.sh'
+su - root -c 'bash /usr/local/bin/install-web-server.sh'
+```
+
+The `>>` operator is used to **redirect the output of a command to a file**, and **append the output** to the end of the file.
+
+``` bash
+command >> file
+ls >> alex.txt
+```
+
+## Solving discussion
+
+We could do this:
+
+``` bash
+su - root -c 'env | grep -v "^USER_VARIABLE=" >> /etc/environment'
+```
+
+This will run a **subshell** as the **root user**, source the current user's `.bashrc` file to set up the environment, and then export the environment variables to `/etc/environment`.
+
+```  {.bash .code-overflow-wrap}
+su - root -c 'bash -c "set -a; source ~/.bashrc; set +a; env | grep -v \"^USER:VARIABLE=\" >> /etc/environment"'
+```
+
+- ``su -``: This will allow you to run a command as the root user while preserving the environment of the current user.
+- **You will pipe the output** to `grep` to filter out the `USER_VARIABLE` variable. The resulting output is then **redirected** to `/etc/environment` using `>>`.
+- This will add **all of the environment variables** from the current user's environment to the `/etc/environment` file, <mark>which is used to set the environment for all users on the system.<mark>
+
+
+If you want to **preserve the entire environment**, including aliases, functions, and shell options, you can use the `bash -c` command instead:
+
+```  {.bash .code-overflow-wrap}
+su - root -c 'bash -c "set -a; source ~/.bashrc; set +a; env | grep -v \"^LS_COLORS=\" >> /etc/environment"'
+```
