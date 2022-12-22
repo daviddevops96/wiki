@@ -217,7 +217,7 @@ public class Point {
 This class contains a single **constructor**. You can recognize a **constructor** because its declaration uses the s*ame name as the class and it has no return type*.
 
 The **constructor** in the ``Point`` class takes two integer arguments, as declared by the code ``(int a, int b)``. The following statement provides ``23`` and ``94`` as values for those arguments:
-
+Linux Lab#LI01-1: Export env user with grep and pipe
 ``` java
 Point originOne = new Point(23, 94);
 ```
@@ -231,7 +231,7 @@ Point originOne = new Point(23, 94);
 
 There are several ways to **create** objects in Java:
 
-1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by the class name and constructor arguments. For example:
+1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by theLinux Lab#LI01-1: Export env user with grep and pipe class name and constructor arguments. For example:
 
 ```java
 Person carla = new Person("Carla", 30, "123 Main St.");

@@ -10,7 +10,21 @@ Linux is a **free and open-source operating system**. It is a **Unix-like operat
 :::
 
 ---
+## Bash
 
+**Bash (short for "Bourne again shell")** is a Unix shell and command language which was the default shell on Unix systems at the time. <mark>Bash is a command-line interface (CLI) that allows users to enter commands and execute programs, as well as perform various other tasks such as managing files, manipulating text, and interacting with other programs.</mark> 
+
+Bash is **the default shell on many Linux systems**, as well as on **macOS** and other **Unix-like** operating systems.
+
+![bash](/images/linux/bash.png){width=100%}
+
+::: {.callout-note collapse="true"}
+## More on bash
+
+Bash is a powerful and flexible tool that is widely used by developers, system administrators, and other users to automate tasks, write scripts, and perform other types of command-line operations. It is particularly useful for managing and interacting with large numbers of files and directories, as well as for automating repetitive tasks. Bash scripts can be used to automate a wide variety of tasks, such as setting up and configuring systems, performing backups, and managing network resources. Bash is also widely used as a programming language, with a syntax and structure that is similar to other programming languages.
+
+In addition to its many features and capabilities, Bash is also highly customizable, with a variety of options and settings that allow users to customize its behavior and appearance. Users can customize their Bash environment by modifying the Bash configuration file, known as the "bashrc" file, which contains a set of commands and settings that are executed every time Bash is launched.
+:::
 
 ## Basic commands
 

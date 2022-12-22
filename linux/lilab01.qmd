@@ -1,12 +1,16 @@
 ---
-title: "Linux Lab#LI01-1: pipes"
+title: "Linux Lab#LI01-1: Export env user with grep and pipe"
 ---
 
-Export the environment of a **user account** into the root account on ``OpenSUSE``.
+::: {.labs}
+📘 **Linux Lab#LI01-1: Export env user with grep and pipe**
+
+Export the environment of a **user linux account** from user's account with root privileges on ``OpenSUSE`` bash (or Linux Mint).
+:::
 
 ## CLI tools
 
-#### `su - root -c`
+#### sudo: `su - root -c`
 
 To run a **single command as the root user**. The `-c` option is used with the su command to specify a command that should be **run as the target user**.
 
@@ -17,7 +21,13 @@ su - root -c 'bash /path/to/script.sh'
 su - root -c 'bash /usr/local/bin/install-web-server.sh'
 ```
 
-#### `>>` 
+#### redirect: `>>` 
+
+The `>` symbol is used for output **redirection**. Here the output of command ls -al is re-directed to file `listings` instead of your screen.
+
+``` bash
+ls -al > listings
+```
 
 The `>>` operator is used to **redirect the output of a command to a file**, and **append the output** to the end of the file.
 
@@ -25,7 +35,16 @@ The `>>` operator is used to **redirect the output of a command to a file**, and
 command >> file
 ls >> alex.txt
 ```
-#### `grep -v` 
+
+`iconfig /all > networksettings.txt`
+![iconfig /all > networksettings.txt](/images/linux/redirect.png)
+
+`ping 8.8.8.8 > 'C:\Users\devops\Desktop\PingResults.txt'`
+!["ping 8.8.8.8 > 'C:\Users\devops\Desktop\PingResults.txt'"](/images/linux/redirect2.png)
+
+
+
+#### grep: `grep -v` 
 
 The `-v` option is used with the `grep` command to **invert the sense of matching**. When used, grep will display lines that do not match the given pattern.
 
@@ -33,17 +52,22 @@ The `-v` option is used with the `grep` command to **invert the sense of matchin
 grep -v pipe_jenkins devops.txt
 ```
 
-### `env`
+### environment: `env`
 
 The `env` command is a **built-in command in Linux and Unix-like operating systems** that is used to **display or set environment variables**.
 
 Environment variables are **named values that can be used to store information about the system or the user**. They are used to configure the shell and to set options that affect the behavior of the system and programs.
 
-
 ``` bash
 envexport VARIABLE_NAME=value
 ```
-### `set +a`
+
+`env`
+![env](/images/linux/env.png)
+
+
+
+### set: `set +a`
 
 The `set` builtin command is used to **set options and/or positional parameters**. The -a option is used to enable the `export` attribute for each name, which means that the corresponding variable will be exported with the export command to the environment of subsequently executed commands.
 
