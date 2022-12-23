@@ -2,6 +2,17 @@
 title: "Resources"
 ---
 
-About this site: to-do
+
 
 https://sites.google.com/view/devopscifo/read-docs/sources
+
+https://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+https://developers.redhat.com/e-books/getting-gitops-practical-platform-openshift-argo-cd-and-tekton
+
+
+[Git-cheat-sheet-Red-Hat-Developer](/images/devops/SGit-cheat-sheet-Red-Hat-Developer.pdf)
+
+
+
+
