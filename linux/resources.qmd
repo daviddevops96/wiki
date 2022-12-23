@@ -5,4 +5,3 @@ title: "Linux Readings"
 https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet
 
 https://developers.redhat.com/cheat-sheets/advanced-linux-commands
-

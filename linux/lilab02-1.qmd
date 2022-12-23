@@ -1,9 +1,9 @@
 ---
-title: "Linux Lab#LI01-1: Export env user with grep and pipe"
+title: "Linux Lab#LI02-1: Export env user with grep and pipe"
 ---
 
 ::: {.labs}
-📘 **Linux Lab#LI01-1: Export env user with grep and pipe**
+📘 **Linux Lab#LI02-1: Export env user with grep and pipe**
 
 Export the environment of a **user linux account** from user's account with root privileges on ``OpenSUSE`` bash (or Linux Mint).
 :::

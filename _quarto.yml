@@ -102,10 +102,18 @@ website:
             - linux/linux-distros-debian.qmd
             - linux/linux-distros-opensuse.qmd
             - linux/linux-distros-manjaro.qmd
+            - linux/linux-distros-redhat.qmd
         - text: "---"  
         - section: "Linux: laboratories"
           contents: 
-            - linux/lilab01.qmd
+            - linux/lilab01-1.qmd
+            - linux/lilab01-2.qmd
+            - linux/lilab01-3.qmd
+            - linux/lilab02-1.qmd
+            - linux/lilab03-1.qmd
+            - linux/lilab03-2.qmd
+            - linux/lilab03-3.qmd
+            - linux/lilab03-4.qmd
         - section: "Linux readings"
           contents: 
             - linux/resources.qmd
