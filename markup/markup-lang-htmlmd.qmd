@@ -334,7 +334,61 @@ console.log('Code Tab B');
 This could work but it has been NOT tested:
 
 - You could convert Readme Markdown to Quarto Markdown, using a tool like Markdown Converter (<https://markdown.pioul.fr/>), which supports both flavors of Markdown.
-- Or Markdowon Parser form  **Flexmark** Java library
+- Or ``Markdowon Parser`` form  **Flexmark** Java library
 
 In any case, they are not **Extensions** within Quarto ... so, for now, there is NOT an easy and direct solution to do this conversion.
 :::
+
+### Approach #5: using Revealjs Quarto
+
+[Tabsets Revealjs Quarto](https://quarto.org/docs/presentations/revealjs/#tabsets){.external}
+
+Create a tabset via a markdown div with the class name panel-tabset (e.g. ``::: {.panel-tabset}``).
+
+```js
+::: {.panel-tabset group="language"}
+## R
+
+Tab content for R language code and stuff
+
+## Python
+
+Tab content for Python language code and stuff
+:::
+```
+
+Each top-level heading within the div creates a new tab. For example, here is the markdown used to implement the first two tabs displayed above:
+
+::: {.panel-tabset}
+## R
+
+``` {.r}
+fizz_buzz <- function(fbnums = 1:50) {
+  output <- dplyr::case_when(
+    fbnums %% 15 == 0 ~ "FizzBuzz",
+    fbnums %% 3 == 0 ~ "Fizz",
+    fbnums %% 5 == 0 ~ "Buzz",
+    TRUE ~ as.character(fbnums)
+  )
+  print(output)
+}
+```
+
+## Python
+
+``` {.python}
+def fizz_buzz(num):
+  if num % 15 == 0:
+    print("FizzBuzz")
+  elif num % 5 == 0:
+    print("Buzz")
+  elif num % 3 == 0:
+    print("Fizz")
+  else:
+    print(num)
+```
+
+:::
+
+<br>
+it seems *the render does not work properly,* it does not show content .. :-(

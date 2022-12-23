@@ -2,4 +2,6 @@
 title: "MarkUp Languages Resources"
 ---
 
-About this site: to-do
+https://laderast.github.io/qmd_rmd/#/quarto
+
+https://www.bigbookofr.com/r-markdown.html

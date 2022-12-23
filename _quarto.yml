@@ -114,6 +114,7 @@ website:
             - linux/lilab03-2.qmd
             - linux/lilab03-3.qmd
             - linux/lilab03-4.qmd
+        - text: "---"  
         - section: "Linux readings"
           contents: 
             - linux/resources.qmd

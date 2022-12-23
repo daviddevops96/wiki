@@ -1,5 +1,7 @@
 ---
 title: "Quarto Markdown: cheat-sheet"
+execute:
+  freeze: auto
 ---
 
 ::: {.summary}
@@ -134,6 +136,22 @@ Callouts have 3 different looks you can use.
 : Demonstration of pipe table syntax
 : Callouts looks {tbl-colwidths="[20,85]"}
 
+```
+### Two columns
+
+``` bash
+:::: {.columns}
+
+::: {.column width="50%"}
+- Highly customizable
+- Less work than using `<div>` tags
+:::
+
+::: {.column width="50%"}
+- Customizable in terms of layouts
+
+:::
+::::
 ```
 
 ## Code blocks
