@@ -328,7 +328,8 @@ website:
             - about/aboutthissite.qmd
             - about/aboutlearning.qmd
             - about/aboutimagescredit.qmd 
-            - about/aboutquestions.qmd                   
+            - about/aboutquestions.qmd
+            - about/aboutlisting.qmd                 
   
   
   page-footer: 

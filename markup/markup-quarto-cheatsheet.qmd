@@ -12,6 +12,7 @@ execute:
 - Tabset
 - Callouts
 - Tablas
+- Two columns
 - Code blocks
 - Mermaid
 - Include
@@ -19,6 +20,10 @@ execute:
 - Others
 
 :::
+
+---
+
+[Markup and Quarto Resources](/markup/resources.qmd)
 
 ## Summary
 

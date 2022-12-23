@@ -1,0 +1,19 @@
+---
+title: "Articles Listing"
+listing:
+    contents:
+        - "../*.qmd"
+        - "../javase/*.qmd"
+        -  "../linux/*.qmd"
+        - "../markup/*.qmd"
+        - "../vocabulary/*.qmd"
+        - "../scrum/*.qmd"
+        - "../spring/*.qmd"
+        - "../springboot*.qmd" 
+    sort:
+        - "file-modified desc"
+    type: table
+    fields: [image, title, reading-time, filename, file-modified]
+    table-hover: true
+    date-format: full
+---

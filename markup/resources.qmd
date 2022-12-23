@@ -2,6 +2,22 @@
 title: "MarkUp Languages Resources"
 ---
 
-https://laderast.github.io/qmd_rmd/#/quarto
+## {{< fa solid glasses >}} Webs
 
-https://www.bigbookofr.com/r-markdown.html
+* [Quarto vs R](https://www.bigbookofr.com/index.html){.external}
+* [Big Book of R](https://laderast.github.io/qmd_rmd/#/title-slide){.external}
+* [Quarto Gallery](https://quarto.org/docs/gallery/){.external}
+* [A Quarto tip of the day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/){.external}
+* [Font Awesome](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/18-font-awesome/){.external}
+* [6 Productivity Hacks for Quarto](https://www.rstudio.com/blog/6-productivity-hacks-for-quarto/){.external}
+* [Github Actions for Quarto](https://github.com/quarto-dev/quarto-actions){.external}
+* [HTML blocks](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/){.external}
+* [Listing contents](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){.external}
+* [Quarto Glob Syntax](https://quarto.org/docs/reference/globs.html){.external}
+* [Quarto Dates and Date Formatting](https://quarto.org/docs/reference/dates.html)){.external}
+
+
+## Cheat-sheet
+
+[Quarto cheat sheet](/markup/markup-quarto-cheatsheet.qmd)
+  
