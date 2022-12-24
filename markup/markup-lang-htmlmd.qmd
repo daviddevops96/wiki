@@ -386,8 +386,7 @@ def fizz_buzz(num):
     print("Fizz")
   else:
     print(num)
-```
-
+``
 :::
 
 <br>

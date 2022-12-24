@@ -1,5 +1,5 @@
 ---
-title: "Articles Listing Table"
+title: "Articles Listing Card"
 listing:
     id: articles
     contents:
@@ -14,10 +14,10 @@ listing:
     sort:
         - "file-modified desc"
         - "categories"
-    type: table
+    type: default
     image-align: left
     image-placeholder: "/images/home/frontimagealbertprofeweb.png"
-    fields: [image, categories, title, reading-time, file-modified]
+    fields: [image, categories, title, description, reading-time, date, author, file-modified]
     table-hover: true
     date-format: full
     categories: true

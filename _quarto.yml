@@ -90,6 +90,7 @@ website:
         - section: "Linux: concepts"
           contents: 
             - linux/linux-what-basics.qmd
+            - linux/linux-what-bash.qmd
             - linux/linux-what-sudo.qmd
             - linux/linux-what-pipes.qmd
             - linux/linux-what-filesys.qmd
@@ -328,8 +329,12 @@ website:
             - about/aboutthissite.qmd
             - about/aboutlearning.qmd
             - about/aboutimagescredit.qmd 
-            - about/aboutquestions.qmd
-            - about/aboutlisting.qmd                 
+            - about/aboutquestions.qmd    
+        - text: "---"  
+        - section: "Listings"
+          contents: 
+            - about/aboutlisting.qmd
+            - about/aboutlisting-card.qmd
   
   
   page-footer: 

@@ -14,8 +14,7 @@ title: "MarkUp Languages Resources"
 * [HTML blocks](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/){.external}
 * [Listing contents](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){.external}
 * [Quarto Glob Syntax](https://quarto.org/docs/reference/globs.html){.external}
-* [Quarto Dates and Date Formatting](https://quarto.org/docs/reference/dates.html)){.external}
-
+* [Quarto Dates and Date Formatting](https://quarto.org/docs/reference/dates.html){.external}
 
 ## Cheat-sheet
 

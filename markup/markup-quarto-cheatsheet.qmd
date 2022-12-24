@@ -247,7 +247,7 @@ public class Account {
   }
 }
 
-<details>
+</details>
 
 ```
 
@@ -275,9 +275,6 @@ Example:
         }
       }
 ```
-
-```
-
 </details>
 
 ## Others
