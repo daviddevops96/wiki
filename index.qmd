@@ -1,5 +1,8 @@
 ---
 title: "Home"
+filters:
+   - lightbox
+lightbox: auto
 ---
 ![Technologies programmed in this site](images/home/frontimagealbertprofeweb.png){.preview-image}
 
@@ -77,4 +80,21 @@ Reading books can help improve your skills as a programmer in several ways. Some
 
 Overall, reading books can be a valuable way to improve your skills as a programmer. By reading books written by experienced programmers, you can learn new techniques and strategies, expand your knowledge, and stay up-to-date with the latest developments in the field.
 
-{{< elevator >}}
+<br>
+<br>
+
+:::: {.columns}
+
+::: {.column width="45%"}
+[{{< fa solid arrow-left >}} back](#top)
+:::
+
+::: {.column width="40%"}
+[{{< fa solid arrow-up >}} top](#top)
+:::
+
+::: {.column width="15%"}
+[next {{< fa solid arrow-right >}}](#top)
+:::
+
+::::

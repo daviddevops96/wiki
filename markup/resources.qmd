@@ -4,19 +4,35 @@ title: "MarkUp Languages Resources"
 
 ## {{< fa solid glasses >}} Webs
 
+### Quarto general
+
 * [Quarto vs R](https://www.bigbookofr.com/index.html){.external}
 * [Big Book of R](https://laderast.github.io/qmd_rmd/#/title-slide){.external}
 * [Quarto Gallery](https://quarto.org/docs/gallery/){.external}
 * [A Quarto tip of the day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/){.external}
-* [Font Awesome](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/18-font-awesome/){.external}
 * [6 Productivity Hacks for Quarto](https://www.rstudio.com/blog/6-productivity-hacks-for-quarto/){.external}
-* [Github Actions for Quarto](https://github.com/quarto-dev/quarto-actions){.external}
-* [HTML blocks](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/){.external}
-* [Listing contents](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){.external}
+
+### Quarto extensions and features
+
+
+| Link | Description |
+|---------|:-----|
+| [Shinylive Quarto extension](https://github.com/quarto-ext/shinylive){.external} | This extension lets you embed Shinylive applications in a Quarto document. These are Shiny for Python applications which run completely in the browser, using Pyodide (Python compiled to WebAssembly). |
+| [Font Awesome](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/18-font-awesome/){.external} | Including Font Awesome icons in Quarto documents is now easy peasy lemon squeezy {{< fa lemon >}}  with the Font Awesome extension. Just surround the Font Awesome icon name in ``{{< and >}}``. |
+| [Font Awesome Search](https://fontawesome.com/search){.external} | The easiest way to get icons on your website is with a Kit. It's your very own custom version of Font Awesome, all bundled up with only the icons, tools, and settings you need.  |
+| [Github Actions for Quarto](https://github.com/quarto-dev/quarto-actions){.external} |  This repository stores Github Actions useful for building and publishing Quarto documents. |
+| [HTML blocks and embed iframe](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/){.external} |  Want to embed an iframe on a webpage or a slide deck? Plop the sharing code in a raw html block! |
+| [Listing contents](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){.external} | Listings enable you to automatically generate the contents of a page (or region of a page) from a list of Quarto documents or other custom data.  |
+| [Lightbox](https://github.com/quarto-ext/lightbox){.external} | An extension that uses the GLightbox javascript library to add lightbox styling and behavior to images in your HTML documents.  |
+
+:  Quarto extensions and features {tbl-colwidths="[40,60]"}
+
+### Quarto formatting
+
 * [Quarto Glob Syntax](https://quarto.org/docs/reference/globs.html){.external}
 * [Quarto Dates and Date Formatting](https://quarto.org/docs/reference/dates.html){.external}
 
-## Cheat-sheet
+### Cheat-sheet
 
 [Quarto cheat sheet](/markup/markup-quarto-cheatsheet.qmd)
   

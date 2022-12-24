@@ -1,5 +1,5 @@
 ---
-title: "Articles Listing Table"
+title: "Articles Table-Listing"
 listing:
     id: articles
     contents:
@@ -24,4 +24,4 @@ listing:
     
 ---
 
-You can review the following documents for additional information:
+You can look up the following documents for additional information:

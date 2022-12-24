@@ -137,3 +137,7 @@ ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruc
 
 
 [ChatGPT](https://chat.openai.com/chat)
+
+---
+
+[{{< fa solid arrow-up >}} top](#top)

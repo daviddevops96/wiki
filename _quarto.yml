@@ -327,8 +327,11 @@ website:
           contents: 
             - about/aboutme.qmd
             - about/aboutthissite.qmd
-            - about/aboutlearning.qmd
             - about/aboutimagescredit.qmd 
+        - text: "---"  
+        - section: "Learning"
+          contents: 
+            - about/aboutlearning.qmd
             - about/aboutquestions.qmd    
         - text: "---"  
         - section: "Listings"
@@ -357,11 +360,14 @@ format:
     toc: true
     toc-depth: 5
     email-obfuscation: javascript
+    smooth-scroll: true
     
 execute:
   cache: true
   freeze: true
 
-
+filters:
+   - lightbox
+lightbox: auto
 
 

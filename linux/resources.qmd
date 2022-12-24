@@ -2,6 +2,14 @@
 title: "Linux Readings"
 ---
 
-https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet
 
-https://developers.redhat.com/cheat-sheets/advanced-linux-commands
+### Linux webs
+
+
+| Link | Description |
+|---------|:-----|
+| [ Advanced Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet){.external} |This cheat sheet presents a collection of Linux commands and executables for developers who are using the Linux operating system in advanced programming scenarios. Commands are organized by category and each one is presented with syntax, an explanation of what it is used for, and an example. |
+| [Bash scripting cheatsheet](https://devhints.io/bash){.external} | Bash scripting cheatsheet |
+| [Learn X in Y minutes Where X=bash](https://learnxinyminutes.com/docs/bash/){.external} | Bash is a name of the unix shell, which was also distributed as the shell for the GNU operating system and as the default shell on most Linux distros. Nearly all examples below can be a part of a shell script or executed directly in the shell. |
+
+: Linux and bash resources  {tbl-colwidths="[40,60]"}

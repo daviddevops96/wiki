@@ -25,7 +25,7 @@ Bash is **the default shell on many Linux systems**, as well as on **macOS** and
 
 ## Introduction
 
-![Screenshot of Bourne Again SHell (BASH)](/images/linux/bash.png){width=70% .preview-image}
+![Screenshot of Bourne Again SHell (BASH)](/images/linux/bash.png){width=40% .preview-image}
 
 ::: {.callout-note collapse="true"}
 
@@ -42,26 +42,11 @@ In addition to its many features and capabilities, Bash is also highly customiza
 
 ![Screenshot of Bourne Again SHell (BASH) by Wikimedia [Foundation](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia) ](/images/linux/bash2.png){width=90%}
 
-<details>
-<summary>Code</summary>
-``` {.java filename="person"}
-public class Account {
-  private Person person;
-  //other fields
+## Cheat-sheet
 
-  public Account(Person person) {
-    this.person = person;
-  }
+- [Bash scripting cheatsheet](https://devhints.io/bash){.external}
+- [Learn X in Y minutes Where X=bash](https://learnxinyminutes.com/docs/bash/){.external}
 
-  public Person getPerson() {
-    return this.person;
-  }
-
-  public void setPerson(Person person) {
-    this.person = person;
-    
-    //constructor, getters, setters and methods
-  }
-}
+```{=html}
+<iframe width="780" height="500" src="https://devhints.io/bash" title="Bash scripting cheatsheet"></iframe>
 ```
-</details>
