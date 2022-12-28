@@ -102,4 +102,26 @@ public class Cat extends Animal {
 
 ```
 
-The `Cat` class also has its own `age` field, which is not defined in the `Animal` class. It also provides its own implementation of the `makeNoise()` method, which overrides the implementation in the `Animal` class. This allows the `Cat` class to define its own behavior for the `makeNoise()` method, based on its specific characteristics.
+The `Cat` class also has its own `age` field, which is not defined in the `Animal` class. It also provides its own implementation of the `makeNoise()` method, which overrides the implementation in the `Animal` class. This allows the `Cat` class to define its own behavior for the `makeNoise()` method, based on its specific characteristics.<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Abstraction](/javase/se-principles-abstraction.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Polymorphism  {{< fa solid arrow-right >}}](/javase/se-principles-polymorphism.qmd)
+<br>
+</div>
+<br>
+</div>

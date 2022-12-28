@@ -2,4 +2,26 @@
 title: "DevOps Vocabulary"
 ---
 
-about vocabulary
+about vocabulary<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} SCRUM Vocabulay](/vocabulary/vocabscrum.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE Vocabulay  {{< fa solid arrow-right >}}](/vocabulary/vocabjava.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -89,3 +89,26 @@ $ git config --global user.email "eparis@atlassian.com"
 [Download Git Cheat-sheet Altassian](/images/devops/SWTM-2088_Atlassian-Git-Cheatsheet%20(1).pdf)
 
 ![Git Cheat-sheet](/images/devops/git-cheat-sehhet.png)
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} How to document: Quarto and Obsidian](/devops/devops-doc-quarto.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[GitHub  {{< fa solid arrow-right >}}](/devops/devops-vc-github.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -27,4 +27,26 @@ The course is split up into two individual courses:
 - Java Programming I
 - and Java Programming II
 
-Each course consists of seven parts, each with its own exercise set. Completing a single part takes approximately 5-20 hours, and we recommend reserving at least 10 hours per part, depending on prior skills with computers.
+Each course consists of seven parts, each with its own exercise set. Completing a single part takes approximately 5-20 hours, and we recommend reserving at least 10 hours per part, depending on prior skills with computers.<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java Standard Edition: Principles](/javase/se-what-principles.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Maven  {{< fa solid arrow-right >}}](/javase/se-concepts-maven.qmd)
+<br>
+</div>
+<br>
+</div>

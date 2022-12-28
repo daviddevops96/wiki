@@ -4,4 +4,26 @@ title: "Week 2: User stories, tasks and habits"
 
 About this site
 
-https://sites.google.com/view/gestioprojectes/llegir/setmana2
+https://sites.google.com/view/gestioprojectes/llegir/setmana2<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Week 1: Meetings and impediments](/scrum/week1.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Week 3: Communication and value  {{< fa solid arrow-right >}}](/scrum/week3.qmd)
+<br>
+</div>
+<br>
+</div>

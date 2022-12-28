@@ -67,4 +67,26 @@ The **groupId** is a unique identifier for a project, and is typically used to g
 
 The **artifactId** is the unique identifier for a specific project, and is used to identify the project within the group.
 
-Together, the groupId and artifactId help to uniquely identify a project within the Maven ecosystem.
+Together, the groupId and artifactId help to uniquely identify a project within the Maven ecosystem.<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java MOOC Helsinki](/javase/se-what-moochelsinki.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Create Maven Project  {{< fa solid arrow-right >}}](/javase/se-concepts-createproject.qmd)
+<br>
+</div>
+<br>
+</div>

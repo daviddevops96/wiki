@@ -12,4 +12,26 @@ Scrum is a framework for project management that is based on teamwork, accountab
 The framework begins with a simple premise: **start with what can be seen or known**. After that, track the progress and **adapt**, whenever it is necessary.
 
 At the end of each iteration, the team holds two meetings: one **review* to show the work done for clients and to get feedback, and one **retrospective** to enable the team to reflect and improve.
-:::
+:::<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} MarkUp Languages Resources](/markup/resources.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Agile Manifesto  {{< fa solid arrow-right >}}](/scrum/agilemanifesto.qmd)
+<br>
+</div>
+<br>
+</div>

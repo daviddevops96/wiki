@@ -54,3 +54,26 @@ title: "About learning"
 - When I teach something, I get to learn it twice.
 - People often say that those who can’t do teach. But I never saw that as a negative. I always thought, wow, if I can’t do something, I can teach it, and then I can do it.
 
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+<br>
+</div>
+<br>
+</div>

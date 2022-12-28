@@ -17,4 +17,26 @@ title: "Linux Readings"
     
 ```{=html}
 <iframe width="780" height="500" src="https://devhints.io/bash" title="Bash scripting cheatsheet"></iframe>
-```
+```<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Linux Lab#LI04-3: Distribute the terminal app](/linux/lilab04-3.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Introduction Markup  {{< fa solid arrow-right >}}](/markup/markup-lang-intro.qmd)
+<br>
+</div>
+<br>
+</div>

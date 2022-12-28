@@ -23,4 +23,26 @@ Hi, this is **alberprofe** speaking! My fields of expertise are ... let's OpenAI
 
 #### Linkedin
   
-[https://www.linkedin.com/in/albert-yarza-demur/](https://www.linkedin.com/in/albert-yarza-demur/) 
+[https://www.linkedin.com/in/albert-yarza-demur/](https://www.linkedin.com/in/albert-yarza-demur/) <!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Web Vocabulary](/vocabulary/vocabweb.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About this site  {{< fa solid arrow-right >}}](/about/about-this-site.qmd)
+<br>
+</div>
+<br>
+</div>

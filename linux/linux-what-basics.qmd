@@ -70,3 +70,26 @@ The ``$`` symbol that proceeds commands in the examples represents the **command
 [Linux-Commands-cheat-sheet-Red-Hat-Developer](/images/linux/Bash-commands-cheat-sheet-Red-Hat-Developer.pdf){.external}
 
 
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Resources](/devops/resources.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Linux: Bash  {{< fa solid arrow-right >}}](/linux/linux-what-bash.qmd)
+<br>
+</div>
+<br>
+</div>

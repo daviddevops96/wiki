@@ -4,4 +4,26 @@ title: "Lab 2: Spring Boot Intro"
 
 About this site: do-do
 
-https://sites.google.com/view/devopscifo/labs/2-springb-books-intro
+https://sites.google.com/view/devopscifo/labs/2-springb-books-intro<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab 1: chat App](/devops/devops-lab-chatapp.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 3: Spring Boot and AWS S3  {{< fa solid arrow-right >}}](/devops/devops-lab-springbookss3.qmd)
+<br>
+</div>
+<br>
+</div>

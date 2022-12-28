@@ -183,3 +183,26 @@ public class Account {
 }
 
 ```
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Scope](/javase/se-concepts-scope.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Coupling/Cohesion  {{< fa solid arrow-right >}}](/javase/se-concepts-coupling.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -115,4 +115,26 @@ In this example, the `useState` Hook is used to add state to the `ExampleCompone
 
 The current state is stored in the `count` variable, and the function to update the state is stored in the `setCount` variable.
 
-These variables are used in the JSX code of the component to render the current state and to update the state in response to user actions. This allows the different types of code to be combined into a single, cohesive unit using **Hooks**.
+These variables are used in the JSX code of the component to render the current state and to update the state in response to user actions. This allows the different types of code to be combined into a single, cohesive unit using **Hooks**.<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[React JS  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+<br>
+</div>
+<br>
+</div>

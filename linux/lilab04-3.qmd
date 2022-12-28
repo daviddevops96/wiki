@@ -23,6 +23,28 @@ There are several ways to distribute a Linux bash script, including using apt-ge
 3.  **Zip file**: You can zip your bash script and distribute it as a zip file. This is a simple option that is suitable for distributing your script to a small number of users.
 4.  **Github**: You can host your bash script on Github and share the link with your users. This option is suitable if you want to allow your users to easily download and update your script.
 5.  **Website**: You can host your bash script on a website and provide a link for users to download it. This option is suitable if you want to make your script easily accessible to a large number of users.
-6.  **Visual Code Extension**: you can [create an extension for Visual Code](https://code.visualstudio.com/api/get-started/your-first-extension) from your Linux bash script and upload to the marketplace. once your extension is published, users can install it by searching for it in the Visual Studio Code Extension Marketplace or by using the code --install-extension ext-name command in the terminal.
+6.  **Visual Code Extension**: you can [create an extension for Visual Code](https://code.visualstudio.com/api/get-started/your-first-extension) from your Linux bash script and upload to the marketplace. once your extension is [published](https://code.visualstudio.com/api/working-with-extensions/publishing-extension), users can install it by searching for it in the Visual Studio Code Extension Marketplace or by using the code --install-extension ext-name command in the terminal.
 
-![from gitHub actions we may publish](/images/linux/qtool-000010.png)
+![from gitHub actions we may publish](/images/linux/qtool-000010.png)<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Linux Lab#LI04-2: Bash scripts as terminal tool](/linux/lilab04-2.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Linux Readings  {{< fa solid arrow-right >}}](/linux/resources.qmd)
+<br>
+</div>
+<br>
+</div>

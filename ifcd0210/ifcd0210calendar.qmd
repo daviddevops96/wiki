@@ -8,3 +8,26 @@ title: "IFCD0210 Calendar"
 ## Forecast semester
 
 [IFCD0210 Cifo Web 2022-2023](https://docs.google.com/spreadsheets/d/e/2PACX-1vSLNGWBsUyn-IldZ3NV9KbNVfKO45nKV3wIbQk_46V1XZWjJ898RbiSU77kXjSUYbUmEl3glIw19GO6/pubhtml)
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} IFCD0210 Official Docs](/ifcd0210/ifcd0210.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[IFCD Init Mail  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210initemail.qmd)
+<br>
+</div>
+<br>
+</div>

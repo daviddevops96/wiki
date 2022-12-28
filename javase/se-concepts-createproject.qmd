@@ -48,3 +48,26 @@ This will use **version 3.6.3 of Maven** for the project.
 ## Step-by-step screenshots (2022-12-14)
 
 [Slider-presentation Create project Java SE Maven](/images/javase/se-createproject/se-presentation-createproject.qmd)
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Maven](/javase/se-concepts-maven.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Project push GitHub  {{< fa solid arrow-right >}}](/javase/se-concepts-projectgit.qmd)
+<br>
+</div>
+<br>
+</div>

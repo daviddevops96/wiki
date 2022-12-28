@@ -43,3 +43,26 @@ The new website project will be created and opened within <mark>VS Code</mark>. 
 :::
 
 
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Quarto Markdown: basics ](/markup/markup-quarto-basics.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Quarto Markdown: publishing  {{< fa solid arrow-right >}}](/markup/markup-quarto-publish.qmd)
+<br>
+</div>
+<br>
+</div>

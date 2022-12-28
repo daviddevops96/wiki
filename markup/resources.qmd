@@ -2,7 +2,9 @@
 title: "MarkUp Languages Resources"
 ---
 
-## {{< fa solid glasses >}} Webs
+# {{< fa solid glasses >}} Webs
+
+## Quarto
 
 ### Quarto general
 
@@ -35,4 +37,31 @@ title: "MarkUp Languages Resources"
 ### Cheat-sheet
 
 [Quarto cheat sheet](/markup/markup-quarto-cheatsheet.qmd)
-  
+
+
+
+## CSS
+
+Whatever you do on CSS, you have to understand the roots and focus on the basic knowledge: [CSS Deep](https://dev.to/fullstackhacker/css-deep-428c)<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab#MD01-1: Create and publish by Quarto](/markup/mulab1.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[SCRUM  {{< fa solid arrow-right >}}](/scrum/scrum.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -30,4 +30,26 @@ In UML, there are several types of **relationships** that can be used to model t
 
 ## Example: class and object diagram
 
-![Example of UML class and object](/images/javase/UML_ClassInstance.png){.preview-image #class-object width=80%}
+![Example of UML class and object](/images/javase/UML_ClassInstance.png){.preview-image #class-object width=80%}<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE Design-Patterns](/javase/se-pattern-intro.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java Patterns: Singleton  {{< fa solid arrow-right >}}](/javase/se-pattern-singleton.qmd)
+<br>
+</div>
+<br>
+</div>

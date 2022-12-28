@@ -2,4 +2,26 @@
 title: "Aamanzon Web Sevices AWS"
 ---
 
-About this site: to-do
+About this site: to-do<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} IDE: IntellJIdea](/devops/devops-ide-intelljidea.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Docker  {{< fa solid arrow-right >}}](/devops/devops-tools-docker.qmd)
+<br>
+</div>
+<br>
+</div>

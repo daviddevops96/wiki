@@ -4,4 +4,26 @@ title: "Howto install Maven"
 
 About this site: to-do
 
-https://sites.google.com/view/devopscifo/devops-tools/install-maven
+https://sites.google.com/view/devopscifo/devops-tools/install-maven<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Howto install Jenkins](/devops/devops-tools-installjenkins.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: chat App  {{< fa solid arrow-right >}}](/devops/devops-lab-chatapp.qmd)
+<br>
+</div>
+<br>
+</div>

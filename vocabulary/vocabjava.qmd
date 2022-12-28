@@ -15,3 +15,26 @@ title: "Java SE Vocabulay"
 
 **Case Sensitivity**: Java is case sensitive - a ROSE is NOT a Rose, and is NOT a rose. The filename, which is the same as the class name, is also case-sensitive.
 
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} DevOps Vocabulary](/vocabulary/vocabdevops.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Spring Boot Vocabulay  {{< fa solid arrow-right >}}](/vocabulary/vocabspringboot.qmd)
+<br>
+</div>
+<br>
+</div>

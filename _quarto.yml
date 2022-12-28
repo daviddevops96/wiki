@@ -62,7 +62,7 @@ website:
         - text: "---"           
         - section: "DevOps tools"
           contents:
-            - devops/devops-tools-aws.qmd 
+            - devops/devops-tools-aws.qmd
             - devops/devops-tools-docker.qmd
             - devops/devops-tools-jenkins.qmd
             - devops/devops-tools-k8s.qmd
@@ -93,7 +93,7 @@ website:
             - linux/linux-what-bash.qmd
             - linux/linux-what-sudo.qmd
             - linux/linux-what-pipes.qmd
-            - linux/linux-what-file-sys.qmd
+            - linux/linux-what-fsys.qmd
             - linux/linux-what-vm.qmd
         - text: "---"  
         - section: "Linux: distros"
@@ -204,7 +204,7 @@ website:
             - javase/se-principles-encapsulation.qmd
             - javase/se-principles-abstraction.qmd
             - javase/se-principles-inheritance.qmd
-            - javase/se-principles-polymorphism.qmd    
+            - javase/se-principles-polymorphism.qmd
         - text: "---"  
         - section: "Java Design Patterns"
           contents: 
@@ -295,9 +295,9 @@ website:
         - section: "Web App IFCD0210"
           contents: 
             - ifcd0210/ifcd0210.qmd
-            - ifcd0210/ifcd0210calendar.qmd  
-            - ifcd0210/ifcd0210initemail.qmd  
-            - ifcd0210/ifcd0210deliveries.qmd  
+            - ifcd0210/ifcd0210calendar.qmd
+            - ifcd0210/ifcd0210initemail.qmd
+            - ifcd0210/ifcd0210deliveries.qmd
         
     - id: "vocabulary"
       title: "Vocabulary"
@@ -318,8 +318,8 @@ website:
         - text: "---"  
         - section: "Front-end Vocabulary"
           contents: 
-            - vocabulary/vocabreactjs.qmd 
-            - vocabulary/vocabweb.qmd          
+            - vocabulary/vocabreactjs.qmd
+            - vocabulary/vocabweb.qmd
 
     - id: "about"
       title: "About"
@@ -330,13 +330,13 @@ website:
           contents: 
             - about/about-this-me.qmd
             - about/about-this-site.qmd
-            - about/about-this-images-credit.qmd 
-        - text: "---"  
+            - about/about-this-images-credit.qmd
+        - text: "---"
         - section: "Learning"
           contents: 
             - about/about-learning-intro.qmd
-            - about/about-learning-questions.qmd    
-        - text: "---"  
+            - about/about-learning-questions.qmd
+        - text: "---"
         - section: "Listings"
           contents: 
             - about/about-listing-table.qmd

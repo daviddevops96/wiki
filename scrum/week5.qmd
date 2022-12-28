@@ -4,4 +4,26 @@ title: "Week 5: Mindset, the key to everythng"
 
 About this site
 
-https://sites.google.com/view/gestioprojectes/llegir/setmana5
+https://sites.google.com/view/gestioprojectes/llegir/setmana5<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Week 4: ScrumMaster, how it works](/scrum/week4.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java Standard Edition: Basics  {{< fa solid arrow-right >}}](/javase/se-what-basics.qmd)
+<br>
+</div>
+<br>
+</div>

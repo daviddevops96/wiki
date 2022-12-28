@@ -28,4 +28,26 @@ flowchart TD
   F--> |The most second most importat step\n after the why, the how\n a bad how may destroy your why| G(How: \nlearning techniques)
 ```
 
+</div><!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About learning](/about/about-learning-intro.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Articles Table-Listing  {{< fa solid arrow-right >}}](/about/about-listing-table.qmd)
+<br>
+</div>
+<br>
 </div>

@@ -62,4 +62,26 @@ From your perspective, the process will vary somewhat depending on the applicati
 - [GitHub Flavored Markdown](<https://github.github.com/gfm/>): An extension of Markdown with additional features and syntax, used by GitHub for rendering Markdown in its platform.
 - [GitLab Flavored Markdown](<https://docs.gitlab.com/ee/user/markdown.html>): An extension of Markdown with additional features and syntax, used by GitLab for rendering Markdown in its platform.
 - [Readme](https://docs.readme.com/rdmd/docs): A Markdown-based documentation format with support for features such as table of contents and automatic linking, used by many open-source projects.
-- [Obsidian](<https://www.markdownguide.org/tools/obsidian/>): A Markdown-based note-taking and organizing tool, with support for linking and organizing notes using graphs and diagrams.
+- [Obsidian](<https://www.markdownguide.org/tools/obsidian/>): A Markdown-based note-taking and organizing tool, with support for linking and organizing notes using graphs and diagrams.<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} HTML Markup](/markup/markup-lang-html.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Markdown and HTML working together, good idea?  {{< fa solid arrow-right >}}](/markup/markup-lang-html-md.qmd)
+<br>
+</div>
+<br>
+</div>
