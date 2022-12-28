@@ -480,56 +480,8 @@ Here is a list of bash commands and operations mentioned in this chat:
 - `find . -type f -name "*.qmd"`: find .qmd files in the current directory
 - `find . -type d -name "*images*" -prune -o -type d -name "*_navTree*" -prune -o -type d -name ".*" -prune -o -type f -name "*.qmd" -print`: find .qmd files in the current directory
 
-<br><br>
-:::: {.columns}
-::: {.column .previous width=40%} [{{< fa solid arrow-left >}} Linux Lab#LI03-4: Manage hardware](linux/lilab03-4.qmd):::
-:::{.column .center width=20%} [{{< fa solid arrow-up >}} top](#top) :::
-::: {.column .next width=40%} [Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](linux/lilab04-2.qmd):::
-::::
-<br><br>
-:::: {.columns}
-<br>
-::: {.column .previous width=40%}
-<br>
-[{{< fa solid arrow-left >}} Linux Lab#LI03-4: Manage hardware](/linux/lilab03-4.qmd)
-<br>
-:::
-<br>
-::: {.column .center width=20%}
-<br>
-[{{< fa solid arrow-up >}} top](#top)
-<br>
-:::
-<br>
-::: {.column .next width=40%}
-<br>
-[Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](/linux/lilab04-2.qmd)
-<br>
-:::
-<br>
-::::
-<br><br>
-<div class=row>
-<br>
-<div class=column left previous>
-<br>
-[{{< fa solid arrow-left >}} Linux Lab#LI03-4: Manage hardware](/linux/lilab03-4.qmd)
-<br>
-</div>
-<br>
-<div class=column center>
-<br>
-[{{< fa solid arrow-up >}} top](#top)
-<br>
-</div>
-<br>
-<div class=column right next>
-<br>
-[Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](/linux/lilab04-2.qmd)
-<br>
-</div>
-<br>
-</div>
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
