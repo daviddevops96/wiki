@@ -37,7 +37,7 @@ This wiki is focused in Web App development and the skills set needed. Nowadays 
   - [Git](https://git-scm.com/) / [GitHub](https://github.com/) / GitLab
   - Subversion
 - **DevOps**, from Test to Deploy, through Documentation
-  - [about this site](about/aboutthissite.qmd), for documentation example.
+  - [about this site](about/about-this-site.qmd), for documentation example.
   - [JUnit for Spring Boot](https://junit.org/junit5/)
   - [Jest for JS React](https://jestjs.io/)
   - Deploy on Heroku, Netlify, AWS Amplify

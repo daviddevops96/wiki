@@ -114,7 +114,7 @@ Instead, it is often better to use one language **exclusively**, and to use the 
 >
 >To take their project to the next level, students may also choose to connect to an **API** (Application Programming Interface) to **retrieve data and render charts using JavaScript**. This will require an understanding of how to make HTTP requests and how to manipulate data in JavaScript.
 >
-> - [Quarto data sources](/markup/markup-lang-htmlmd.qmd)
+> - [Quarto data sources](/markup/markup-lang-html-md.qmd)
 
 ::: {.tab-nav}
 [Before](#before){.tab-link}
