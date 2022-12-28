@@ -68,3 +68,5 @@ This cheat sheet presents a list of **command-line executables that are frequent
 The ``$`` symbol that proceeds commands in the examples represents the **command line prompt**
 
 [Linux-Commands-cheat-sheet-Red-Hat-Developer](/images/linux/Bash-commands-cheat-sheet-Red-Hat-Developer.pdf){.external}
+
+

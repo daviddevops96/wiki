@@ -41,5 +41,3 @@ Here are the steps to create a **Linux Mint virtual machine using VirtualBox**:
     13.1. [How to Install VirtualBox Guest Additions in Linux Mint 19.1](https://www.youtube.com/watch?v=hbG5mU1Hb9s) by [Linux Distro Installation Guide](https://www.youtube.com/playlist?list=PLc0sbYjRrifp-iOoQ1VhAbvQmFfrv1QLa)
 
     {{< video https://youtu.be/hbG5mU1Hb9s >}}
-    
-

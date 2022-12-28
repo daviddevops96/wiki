@@ -142,6 +142,7 @@ Callouts have 3 different looks you can use.
 : Callouts looks {tbl-colwidths="[20,85]"}
 
 ```
+
 ### Two columns
 
 ``` bash
@@ -157,6 +158,14 @@ Callouts have 3 different looks you can use.
 
 :::
 ::::
+```
+
+## Column Margin
+
+``` bash
+::: {.column-margin}
+[{{< fa solid arrow-up >}} top](#top)
+:::
 ```
 
 ## Code blocks

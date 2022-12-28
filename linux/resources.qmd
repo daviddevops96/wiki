@@ -3,8 +3,7 @@ title: "Linux Readings"
 ---
 
 
-### Linux webs
-
+## Linux webs
 
 | Link | Description |
 |---------|:-----|
@@ -13,3 +12,9 @@ title: "Linux Readings"
 | [Learn X in Y minutes Where X=bash](https://learnxinyminutes.com/docs/bash/){.external} | Bash is a name of the unix shell, which was also distributed as the shell for the GNU operating system and as the default shell on most Linux distros. Nearly all examples below can be a part of a shell script or executed directly in the shell. |
 
 : Linux and bash resources  {tbl-colwidths="[40,60]"}
+
+## Bash scripting cheatsheet
+    
+```{=html}
+<iframe width="780" height="500" src="https://devhints.io/bash" title="Bash scripting cheatsheet"></iframe>
+```

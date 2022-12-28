@@ -93,7 +93,7 @@ website:
             - linux/linux-what-bash.qmd
             - linux/linux-what-sudo.qmd
             - linux/linux-what-pipes.qmd
-            - linux/linux-what-filesys.qmd
+            - linux/linux-what-file-sys.qmd
             - linux/linux-what-vm.qmd
         - text: "---"  
         - section: "Linux: distros"
@@ -115,6 +115,9 @@ website:
             - linux/lilab03-2.qmd
             - linux/lilab03-3.qmd
             - linux/lilab03-4.qmd
+            - linux/lilab04-1.qmd
+            - linux/lilab04-2.qmd
+            - linux/lilab04-3.qmd
         - text: "---"  
         - section: "Linux readings"
           contents: 
@@ -129,8 +132,8 @@ website:
           contents: 
             - markup/markup-lang-intro.qmd
             - markup/markup-lang-html.qmd
-            - markup/markup-land-md.qmd
-            - markup/markup-lang-htmlmd.qmd
+            - markup/markup-lang-md.qmd
+            - markup/markup-lang-html-md.qmd
         - text: "---"  
         - section: "Quarto Markdown"
           contents: 
@@ -323,21 +326,21 @@ website:
       contents: 
         - text: "About"
         - text: "---"  
-        - section: "About"
+        - section: "About me and this site"
           contents: 
-            - about/aboutme.qmd
-            - about/aboutthissite.qmd
-            - about/aboutimagescredit.qmd 
+            - about/about-this-me.qmd
+            - about/about-this-site.qmd
+            - about/about-this-images-credit.qmd 
         - text: "---"  
         - section: "Learning"
           contents: 
-            - about/aboutlearning.qmd
-            - about/aboutquestions.qmd    
+            - about/about-learning-intro.qmd
+            - about/about-learning-questions.qmd    
         - text: "---"  
         - section: "Listings"
           contents: 
-            - about/aboutlisting.qmd
-            - about/aboutlisting-card.qmd
+            - about/about-listing-table.qmd
+            - about/about-listing-card.qmd
   
   
   page-footer: 

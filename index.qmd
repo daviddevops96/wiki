@@ -6,8 +6,6 @@ lightbox: auto
 ---
 ![Technologies programmed in this site](images/home/frontimagealbertprofeweb.png){.preview-image}
 
-
-
 ## Skills needed as a developer (2022)
 
 ::: {.summary}
@@ -25,27 +23,28 @@ lightbox: auto
 This wiki is focused in Web App development and the skills set needed. Nowadays a developer (not a coder) must have this skills set:
 
 - **Algorithmic**, (let's say micro-development vs. architecture and macro-development skills). That is, for example the current most used and modern paradigms:
-    - Scripting: BASH
-    - Structured and Procedural: C
-    - POO: [Java SE](https://java-programming.mooc.fi/)
-    - POC: [React JS](https://reactjs.org/) and [React TS](https://www.typescriptlang.org/docs/handbook/react.html)
+  - Scripting: BASH
+  - Structured and Procedural: C
+  - POO: [Java SE](https://java-programming.mooc.fi/)
+  - POC: [React JS](https://reactjs.org/) and [React TS](https://www.typescriptlang.org/docs/handbook/react.html)
 - **Architecture in mind**: that it, System Design and Design-Patterns
-    - DDD: [design a DDD-oriented microservice](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf) (Domain-driven design)
-    - [Spring Boot](https://spring.io/)
-    - Cloud: [AWS](https://aws.amazon.com/)
+  - DDD: [design a DDD-oriented microservice](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf) (Domain-driven design)
+  - [Spring Boot](https://spring.io/)
+  - Cloud: [AWS](https://aws.amazon.com/)
 - Project Management and Team Work:
-    - **SCRUM** and beyond SCRUM
+  - **SCRUM** and beyond SCRUM
 - **Control Version Systems**:
-    - [Git](https://git-scm.com/) / [GitHub](https://github.com/) / GitLab
-    - Subversion
+  - [Git](https://git-scm.com/) / [GitHub](https://github.com/) / GitLab
+  - Subversion
 - **DevOps**, from Test to Deploy, through Documentation
-    - [about this site](about/aboutthissite.qmd), for documentation example.
-    - [JUnit for Spring Boot](https://junit.org/junit5/)
-    - [Jest for JS React](https://jestjs.io/)
-    - Deploy on Heroku, Netlify, AWS Amplify
-    - [Jenkins](https://www.jenkins.io/), [Docker](https://www.docker.com/) and [k8s](https://kubernetes.io/)
+  - [about this site](about/aboutthissite.qmd), for documentation example.
+  - [JUnit for Spring Boot](https://junit.org/junit5/)
+  - [Jest for JS React](https://jestjs.io/)
+  - Deploy on Heroku, Netlify, AWS Amplify
+  - [Jenkins](https://www.jenkins.io/), [Docker](https://www.docker.com/) and [k8s](https://kubernetes.io/)
 
 ## What is a programmer (2022 OpenAI)
+
 A programmer, also known as a software developer, needs a wide range of skills in order to be successful in their role. Some of the most important skills for a programmer include:
 
 - **Strong problem-solving skills**: A programmer needs to be able to analyze complex problems and develop effective solutions using code.
@@ -58,6 +57,7 @@ Logical thinking: Programming involves creating logical structures and processes
 In addition to these core skills, a programmer may also benefit from having knowledge of software development methodologies, such as Agile or Waterfall, as well as experience with version control systems and other tools commonly used in software development.
 
 ## How can we get it?
+
 To be a good programmer, you need to have a strong foundation in computer science and software development principles, as well as the ability to learn and adapt to new technologies and languages. Some specific ways that you can improve your skills as a programmer include:
 
 - **Practice regularly**: The best way to improve your programming skills is to write code regularly and work on a variety of projects. This will help you develop your problem-solving skills and build your knowledge of different languages and technologies.
@@ -80,21 +80,4 @@ Reading books can help improve your skills as a programmer in several ways. Some
 
 Overall, reading books can be a valuable way to improve your skills as a programmer. By reading books written by experienced programmers, you can learn new techniques and strategies, expand your knowledge, and stay up-to-date with the latest developments in the field.
 
-<br>
-<br>
 
-:::: {.columns}
-
-::: {.column width="45%"}
-[{{< fa solid arrow-left >}} back](#top)
-:::
-
-::: {.column width="40%"}
-[{{< fa solid arrow-up >}} top](#top)
-:::
-
-::: {.column width="15%"}
-[next {{< fa solid arrow-right >}}](#top)
-:::
-
-::::
