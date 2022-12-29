@@ -20,9 +20,8 @@ listing:
     image-align: left
     image-placeholder: "/images/home/frontimagealbertprofeweb.png"
     fields: [image, categories, title, description, reading-time, date, author, file-modified]
-    table-hover: true
     date-format: full
-    categories: true
+    categories: cloud
     
 ---
 

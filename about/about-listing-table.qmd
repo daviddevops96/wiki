@@ -22,7 +22,7 @@ listing:
     fields: [image, categories, title, reading-time, file-modified]
     table-hover: true
     date-format: full
-    categories: true
+    categories: cloud
     image-height: 30px
     
 ---
