@@ -1,5 +1,17 @@
 ---
 title: "Linux Lab#LI01-1: Choose Linux"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: lab
+categories: [linux, lab, distro]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ::: {.labs}

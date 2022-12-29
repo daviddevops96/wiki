@@ -1,5 +1,17 @@
 ---
 title: "Linux: File System"
+subtitle: Linux File System
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: The file system is organized into a hierarchical structure, starting with the root directory
+categories: [linux, file-system]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ::: {.summary}
@@ -17,7 +29,9 @@ Other directories, such as `/dev`, `/proc`, and `/sys`, contain special files th
 
 ![Linux File System](/images/linux/filesys.png){width=90%}
 
-![Linux File System, image from [Introduction to Linux, A Hands on Guide, Machtelt Garrels](https://tldp.org/LDP/intro-linux/html/index.html) and [Original webpage by Petersen Gross, modified by William Albritton](https://www2.hawaii.edu/~walbritt/ics240/materials/)](/images/linux/filesys-2.jpg){width=100%}<!--- navLinks -->
+![Linux File System, image from [Introduction to Linux, A Hands on Guide, Machtelt Garrels](https://tldp.org/LDP/intro-linux/html/index.html) and [Original webpage by Petersen Gross, modified by William Albritton](https://www2.hawaii.edu/~walbritt/ics240/materials/)](/images/linux/filesys-2.jpg){width=100%}
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

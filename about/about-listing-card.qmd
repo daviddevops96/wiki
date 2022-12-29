@@ -1,7 +1,7 @@
 ---
 title: "Articles Card-Listing"
 listing:
-    id: articles
+    id: articles-card-listing
     contents:
         - "../*.qmd"
         - "../javase/*.qmd"
@@ -10,7 +10,9 @@ listing:
         - "../vocabulary/*.qmd"
         - "../scrum/*.qmd"
         - "../spring/*.qmd"
-        - "../springboot*.qmd" 
+        - "../springboot*.qmd"
+        - "../devops/*.qmd"
+        - "../reactjs/*.qmd"
     sort:
         - "file-modified desc"
         - "categories"
@@ -24,7 +26,12 @@ listing:
     
 ---
 
-You can look up the following documents for additional information:<!--- navLinks -->
+You can look up the following card listing for additional information:
+
+::: {#articles-card-listing}
+:::
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
@@ -37,6 +44,12 @@ You can look up the following documents for additional information:<!--- navLink
 <div class='column center'>
 <br>
 [{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Home  {{< fa solid arrow-right >}}](/index.qmd)
 <br>
 </div>
 <br>

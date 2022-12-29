@@ -1,5 +1,17 @@
 ---
 title: "Linux: Virtual Machines"
+subtitle: Virtual Machines
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: A virtual machine is a software program that emulates the functionality of a physical computer
+categories: [linux, virtual-machines, mvware, virtualbox]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ## What is a virtual machine

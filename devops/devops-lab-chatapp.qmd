@@ -1,5 +1,17 @@
 ---
 title: "Lab 1: chat App"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Lab
+categories: [devops, lab]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do

@@ -122,7 +122,7 @@ website:
         - section: "Linux readings"
           contents: 
             - linux/resources.qmd
-     
+      
     - id: "markup"
       title: "MarkUp"
       contents: 
@@ -134,7 +134,7 @@ website:
             - markup/markup-lang-html.qmd
             - markup/markup-lang-md.qmd
             - markup/markup-lang-html-md.qmd
-        - text: "---"  
+        - text: "---"
         - section: "Quarto Markdown"
           contents: 
             - markup/markup-quarto-basics.qmd
@@ -142,40 +142,20 @@ website:
             - markup/markup-quarto-publish.qmd
             - markup/markup-quarto-code.qmd
             - markup/markup-quarto-cheatsheet.qmd
-        - text: "---"  
+        - text: "---"
         - section: "Styling: CSS"
-          contents: 
+          contents:
             - markup/markup-css-basics.qmd
             - markup/markup-css-w3css.qmd
-        - text: "---"  
+        - text: "---"
         - section: "MarkUp Languages Laboratories"
-          contents: 
+          contents:
             - markup/mulab1.qmd
-        - text: "---" 
+        - text: "---"
         - section: "MarkUp Languages readings"
-          contents: 
+          contents:
             - markup/resources.qmd
             
-    - id: "scrum"
-      title: "SCRUM"
-      contents: 
-        - text: "SCRUM"
-        - text: "---"  
-        - section: "What is SCRUM"
-          contents: 
-            - scrum/scrum.qmd
-            - scrum/agilemanifesto.qmd
-            - scrum/scrumguide.qmd
-            - scrum/digitaltoolsscrum.qmd
-        - text: "---"  
-        - section: "Weeks"
-          contents: 
-            - scrum/week1.qmd
-            - scrum/week2.qmd
-            - scrum/week3.qmd
-            - scrum/week4.qmd
-            - scrum/week5.qmd
- 
     - id: "javase"
       title: "Java SE"
       contents: 
@@ -286,19 +266,26 @@ website:
           contents: 
             - reactjs/resources.qmd
 
-    
-    - id: "ifcd"
-      title: "IFCD0210"
+    - id: "scrum"
+      title: "SCRUM"
       contents: 
-        - text: "IFCD0210"
+        - text: "SCRUM"
         - text: "---"  
-        - section: "Web App IFCD0210"
+        - section: "What is SCRUM"
           contents: 
-            - ifcd0210/ifcd0210.qmd
-            - ifcd0210/ifcd0210calendar.qmd
-            - ifcd0210/ifcd0210initemail.qmd
-            - ifcd0210/ifcd0210deliveries.qmd
-        
+            - scrum/scrum.qmd
+            - scrum/agilemanifesto.qmd
+            - scrum/scrumguide.qmd
+            - scrum/digitaltoolsscrum.qmd
+        - text: "---"  
+        - section: "Weeks"
+          contents: 
+            - scrum/week1.qmd
+            - scrum/week2.qmd
+            - scrum/week3.qmd
+            - scrum/week4.qmd
+            - scrum/week5.qmd
+
     - id: "vocabulary"
       title: "Vocabulary"
       contents: 
@@ -320,6 +307,18 @@ website:
           contents: 
             - vocabulary/vocabreactjs.qmd
             - vocabulary/vocabweb.qmd
+            
+    - id: "ifcd"
+      title: "IFCD0210"
+      contents: 
+        - text: "IFCD0210"
+        - text: "---"  
+        - section: "Web App IFCD0210"
+          contents: 
+            - ifcd0210/ifcd0210.qmd
+            - ifcd0210/ifcd0210calendar.qmd
+            - ifcd0210/ifcd0210initemail.qmd
+            - ifcd0210/ifcd0210deliveries.qmd
 
     - id: "about"
       title: "About"
@@ -341,8 +340,7 @@ website:
           contents: 
             - about/about-listing-table.qmd
             - about/about-listing-card.qmd
-  
-  
+
   page-footer: 
     background: dark
     left: "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)" 
@@ -364,13 +362,13 @@ format:
     toc-depth: 5
     email-obfuscation: javascript
     smooth-scroll: true
-    
+  
 execute:
   cache: true
   freeze: true
 
 filters:
-   - lightbox
+  - lightbox
 lightbox: auto
 
 

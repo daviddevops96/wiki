@@ -1,10 +1,12 @@
 ---
 title: "Linux: basic concepts"
+subtitle: Linux
 author: albertprofe
 date: "06/01/2021"
+date-modified: last-modified
 date-format: full
 description: What is Linux, free and  Unix-like open-source operating system based on the Linux kernel
-categories: [linux]
+categories: [linux, concepts]
 toc: true
 number-sections: true
 highlight-style: pygments

@@ -1,5 +1,17 @@
 ---
 title: "Linux: pipes"
+subtitle: Programming pipes
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: A pipe is a command that allows you to redirect the output of one command as the input to another command
+categories: [linux, bash, pipe]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ::: {.summary}
@@ -65,7 +77,10 @@ To search for a **word that ends with a specific letter**:
 
 ``` bash
 grep "w$" file.txt
-```<!--- navLinks -->
+```
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

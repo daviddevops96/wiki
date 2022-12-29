@@ -89,7 +89,7 @@ To create a terminal app using bash scripts, you will need to:
 <details>
 <summary>Code: `writenavigation.sh`</summary>
 
-- [code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/c2b0a47c6724750fc4e836d4661b199eb006e49e/_qtool/writenavigation.sh)
+- [updated code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/writenavigation.sh)
 
 ``` {.bash .code-overflow-wrap filename="writenavigation.sh"  }
 #!/bin/bash
@@ -192,7 +192,7 @@ exec 3>&-
 <details>
 <summary>Code: `debug.sh`</summary>
 
-- [code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/debug.sh)
+- [updated code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/debug.sh)
 
 ``` {.bash .code-overflow-wrap filename="debug.sh"  }
 #!/bin/bash
@@ -300,7 +300,7 @@ exec 3>&-
 <details>
 <summary>Code: `dirtable.sh`</summary>
 
-- [code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/dirtable.sh)
+- [updated code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/dirtable.sh)
 
 ``` {.bash .code-overflow-wrap filename="dirtable.sh"  }
 #!/bin/bash
@@ -369,7 +369,7 @@ exec 4>&-
 <details>
 <summary>Code: `yamltable.sh`</summary>
 
-- [code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/yamltable.sh)
+- [updated code on GitHub.com](https://github.com/AlbertProfe/qtool/blob/main/_qtool/yamltable.sh)
 
 ``` {.bash .code-overflow-wrap filename="yamltable.sh"  }
 #!/bin/bash

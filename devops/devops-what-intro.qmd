@@ -1,5 +1,17 @@
 ---
 title: "DevOps: Introduction"
+subtitle: DevOps what it is
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: DevOps is a cross-disciplinary community of practice dedicated to the study of building, evolving and operating rapidly-changing resilient systems at scale.
+categories: [devops, introduction]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ## Overview

@@ -1,5 +1,17 @@
 ---
 title: "Linux Distros: Mint"
+subtitle: Mint
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Mint
+categories: [linux, mint, distro]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ![Linux Mint 21](/images/linux/mint.png){width=30%}

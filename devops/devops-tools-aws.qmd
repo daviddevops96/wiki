@@ -1,5 +1,17 @@
 ---
 title: "Aamanzon Web Sevices AWS"
+subtitle: AWS
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: AWS
+categories: [devops, aws]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do<!--- navLinks -->

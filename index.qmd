@@ -85,6 +85,12 @@ Overall, reading books can be a valuable way to improve your skills as a program
 <br><br>
 <div class=row>
 <br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Articles Card-Listing](/about/about-listing-card.qmd)
+<br>
+</div>
+<br>
 <div class='column center'>
 <br>
 [{{< fa solid arrow-up >}} top](#top)

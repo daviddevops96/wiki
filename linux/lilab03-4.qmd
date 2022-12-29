@@ -1,5 +1,17 @@
 ---
 title: "Linux Lab#LI03-4: Manage hardware"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: lab
+categories: [linux, lab, hardware]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ::: {.labs}

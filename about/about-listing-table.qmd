@@ -1,7 +1,7 @@
 ---
 title: "Articles Table-Listing"
 listing:
-    id: articles
+    id: articles-table-listing
     contents:
         - "../*.qmd"
         - "../javase/*.qmd"
@@ -10,7 +10,9 @@ listing:
         - "../vocabulary/*.qmd"
         - "../scrum/*.qmd"
         - "../spring/*.qmd"
-        - "../springboot*.qmd" 
+        - "../springboot*.qmd"
+        - "../devops/*.qmd"
+        - "../reactjs/*.qmd"
     sort:
         - "file-modified desc"
         - "categories"
@@ -21,10 +23,17 @@ listing:
     table-hover: true
     date-format: full
     categories: true
+    image-height: 30px
     
 ---
 
-You can look up the following documents for additional information:<!--- navLinks -->
+You can look up the following table listing for additional information:
+
+::: {#articles-table-listing}
+:::
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

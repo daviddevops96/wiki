@@ -1,5 +1,17 @@
 ---
 title: "Jenkins pipelines"
+subtitle: pipelines
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: k8s
+categories: [devops, pipelines]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do

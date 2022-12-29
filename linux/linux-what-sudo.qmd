@@ -1,5 +1,17 @@
 ---
 title: "Linux: su and sudo"
+subtitle: Bash su and sudo
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: su and sudo are two different commands in Linux that are used to execute commands with the privileges of another user
+categories: [linux, bash, su, sudo]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ::: {.summary}

@@ -1,5 +1,17 @@
 ---
-title: "Visual Code"
+title: "IDE: Visual Code"
+subtitle: "Visual Code IDE"
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  "Visual Code IDE"
+categories: [devops,visual-code,ide]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ![Visual Code User Interface](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)

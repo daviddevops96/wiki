@@ -1,8 +1,10 @@
 ---
 title: "Linux: Bash"
+subtitle: Bash
 author: albertprofe
 date: "06/01/2021"
 date-format: full
+date-modified: last-modified
 description: Bash Linux is a Unix shell and command language CLI (Command Language Interface)
 categories: [linux, bash]
 toc: true

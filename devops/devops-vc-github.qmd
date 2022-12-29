@@ -1,5 +1,17 @@
 ---
 title: "GitHub"
+subtitle: Software code version control
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: GitHub is a software development platform in the cloud. It's used for storing, tracking, and collaborating on software projects.
+categories: [devops, github]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ![GitHub logo](/images/devops/GitHub-Emblem.png){width=60%}

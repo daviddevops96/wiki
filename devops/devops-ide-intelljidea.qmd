@@ -1,5 +1,17 @@
 ---
 title: "IDE: IntellJIdea"
+subtitle: IntellJIdea
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Visual Code IDE
+categories: [devops, IntellJIdea, ide]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 link: [Check out the most useful and popular topics to get you started with IntelliJ IDEA.](https://www.jetbrains.com/help/idea/getting-started.html)
