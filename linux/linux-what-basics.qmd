@@ -9,7 +9,6 @@ description: What is Linux, free and  Unix-like open-source operating system bas
 categories: [linux, concepts]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---

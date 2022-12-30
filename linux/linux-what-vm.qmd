@@ -9,7 +9,6 @@ description: A virtual machine is a software program that emulates the functiona
 categories: [linux, virtual-machines, mvware, virtualbox]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---
@@ -34,7 +33,7 @@ VirtualBox allows users to **create and manage** virtual machines, each of which
 
 
 ## Step-by-step: Linux Mint
-Here are the steps to create a **Linux Mint virtual machine using VirtualBox**:
+Here are the steps to create a **Linux Mint virtual machine using VirtualBox** on <mark>Windows</mark>:
 
 1. Download and **install** VirtualBox on your computer.
 2. Start VirtualBox and click the `New` button to create a new virtual machine.

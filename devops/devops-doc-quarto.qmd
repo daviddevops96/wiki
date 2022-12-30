@@ -9,7 +9,6 @@ description: Obsidian is both a Markdown editor and a knowledge base app
 categories: [devops, obsidian, quarto, document]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---

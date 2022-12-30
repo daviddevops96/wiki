@@ -1,6 +1,6 @@
 ---
 title: "IFCD0210 Official Docs"
-categories: [ifcd0210] 
+categories: [ifcd0210, training] 
 ---
 
 ## Identificació del Certificat de Professionalitat

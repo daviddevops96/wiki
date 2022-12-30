@@ -9,7 +9,6 @@ description: su and sudo are two different commands in Linux that are used to ex
 categories: [linux, bash, su, sudo]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---

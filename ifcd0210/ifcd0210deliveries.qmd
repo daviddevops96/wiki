@@ -1,6 +1,6 @@
 ---
 title: "IFCD Deliveries"
-categories: [ifcd0210]
+categories: [ifcd0210, training]
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "IFCD Init Mail"
-categories: [ifcd0210]
+categories: [ifcd0210, training]
 ---
 
 ## Content

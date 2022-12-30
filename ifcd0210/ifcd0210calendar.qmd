@@ -1,6 +1,6 @@
 ---
 title: "IFCD0210 Calendar"
-categories: [ifcd0210]
+categories: [ifcd0210, training]
 ---
 
 ## Calendar

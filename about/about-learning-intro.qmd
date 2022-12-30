@@ -1,9 +1,18 @@
 ---
 title: "About learning"
+subtitle: Basics on how to learn
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Basics on how to learn, four basic rules
 categories: [about, learning]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
-![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
+![About learning: learn to learn](/images/home/learntolearn.png){width=50%}
 
 ## Four strategies to effective and permanent learning
 
@@ -57,6 +66,15 @@ categories: [about, learning]
 - When I teach something, I get to learn it twice.
 - People often say that those who can’t do teach. But I never saw that as a negative. I always thought, wow, if I can’t do something, I can teach it, and then I can do it.
 
+### References: Learning How to Learn
+
+> This course gives you easy access to the invaluable learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines.
+
+> We’ll learn about how the brain uses <mark>two very different learning modes and how it encapsulates **chunks** information.</mark>
+
+> We’ll also cover illusions of learning, memory techniques, dealing with procrastination, and best practices shown by research to be most effective in helping you master tough subjects.  
+
+- **Learning How to Learn**: Powerful mental tools to help you master tough subjects: [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) 
 <!--- navLinks -->
 <br><br>
 <div class=row>

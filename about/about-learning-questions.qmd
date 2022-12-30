@@ -1,9 +1,18 @@
 ---
 title: "About the Useful Questions"
+subtitle: About fundamental questions
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Must questions
 categories: [about, questions]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
-![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
+![About images credit](/images/home/decisionmaking.png){width=50%}
 
 ## Answering the useful (right?) questions
 Questions that begin with the words **why, who, what, and how** are necessary and paramount because they help to **clarify information, to seek additional details, and to better understand a situation**. Besides, they play a crucial role in **facilitating communication** and understanding.
