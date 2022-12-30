@@ -13,7 +13,8 @@ categories: [about, images-credit]
 - Get Java for desktop applications: [Java](https://www.java.com/en/) / [Download Java](https://www.java.com/en/download/) / [What is Java technology and why do I need it?](https://www.java.com/en/download/help/whatis_java.html){.external}[^3]
 - Driving Augmented Intelligence [Test Driven Development (TDD) Tools and Agile Process](https://www.xenonstack.com/blog/test-driven-development-java){.external}[^3]
 - Bash Logo Media Assets: [Bash logo](https://bashlogo.com/){.external}[^1]
-- One of the most important reasons for holding a meeting is to make decisions. [How to Prevent the Opinion Wars That Derail Decision Making](https://blog.lucidmeetings.com/blog/how-to-prevent-the-opinion-wars-that-derail-decision-making){.external}[^3]
+- One of the most important reasons for holding a meeting is to make decisions. [How to Prevent the Opinion Wars That Derail Decision Making](https://blog.lucidmeetings.com/blog/how-to-prevent-the-opinion-wars-that-derail-decision-making){.external}[^1]
+- resellerclub [What is server virtualization?](https://blog.resellerclub.com/what-is-a-hypervisor-and-how-does-it-work/){.external}[^1]
 
 [^1]: random web, *just crediting the image*
 [^2]: very useful and **recommended resource**

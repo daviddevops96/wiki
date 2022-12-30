@@ -17,9 +17,52 @@ format:
 
 There are a wide variety of way to make data available to OJS:
 
-- Read CSV, JSON, SQLite, and more using the FileAttachments API.
-- Use the ojs_define() function to make data processed in Python or R available to {ojs} cells.
-- Make calls to Web APIs for online services and data stores.
+- **Read CSV, JSON, SQLite**, and more using the FileAttachments API.
+- Use the **ojs_define()** function to make data processed in Python or R available to {ojs} cells.
+- **Make calls to Web APIs** for online services and data stores.
+
+## Example
+
+``Code blocks`` that use braces around the language name **(e.g. ```{python})** are executable, and [will be run by Quarto during render](https://quarto.org/docs/computations/python.html). Here is a simple example:
+
+``` {.python filename="example-python-code"}
+---
+title: "matplotlib demo"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+```
+
+
+``` {.python filename="example-python-code"}
+
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+> You’ll note that there are some special comments at the top of the code block. These are cell level options that make the figure [cross-referenceable](https://quarto.org/docs/authoring/cross-references.html).
+
+This document would result in the following rendered output:
+
+![python quarto  following rendered output](/images/markup/quartopython.png)
 
 We’ll explore all of these *techniques* below.
 
