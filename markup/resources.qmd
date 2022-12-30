@@ -1,5 +1,16 @@
 ---
 title: "MarkUp Languages Resources"
+subtitle: Readings
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Markup Resources and Readings
+categories: [markup, resources, readings]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 # {{< fa solid glasses >}} Webs
@@ -42,7 +53,10 @@ title: "MarkUp Languages Resources"
 
 ## CSS
 
-Whatever you do on CSS, you have to understand the roots and focus on the basic knowledge: [CSS Deep](https://dev.to/fullstackhacker/css-deep-428c)<!--- navLinks -->
+Whatever you do on CSS, you have to understand the roots and focus on the basic knowledge: [CSS Deep](https://dev.to/fullstackhacker/css-deep-428c)
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

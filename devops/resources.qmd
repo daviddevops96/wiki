@@ -1,12 +1,12 @@
 ---
-title: "Resources"
+title: "DevOps Resources"
 subtitle: Readings
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: DevOps Resources and readings
-categories: [devops, resources]
+description: DevOps Resources and Readings
+categories: [devops, resources, readings]
 toc: true
 number-sections: true
 highlight-style: pygments

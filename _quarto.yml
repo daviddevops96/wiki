@@ -31,12 +31,53 @@ website:
       - sidebar:about
 
   sidebar:
-    - id: "devops"
-      title: "DevOps"
+    - id: "linux"
+      title: "Linux OS" 
       border: true
       collapse-level: 1
       background: none
       style: "floating"
+      contents: 
+        - text: "Linux OS"
+        - text: "---"  
+        - section: "Linux: concepts"
+          contents: 
+            - linux/linux-what-basics.qmd
+            - linux/linux-what-bash.qmd
+            - linux/linux-what-sudo.qmd
+            - linux/linux-what-pipes.qmd
+            - linux/linux-what-fsys.qmd
+            - linux/linux-what-vm.qmd
+        - text: "---"  
+        - section: "Linux: distros"
+          contents: 
+            - linux/linux-distros-ubuntu.qmd
+            - linux/linux-distros-mint.qmd
+            - linux/linux-distros-debian.qmd
+            - linux/linux-distros-opensuse.qmd
+            - linux/linux-distros-manjaro.qmd
+            - linux/linux-distros-redhat.qmd
+        - text: "---"  
+        - section: "Linux: laboratories"
+          contents: 
+            - linux/lilab01-1.qmd
+            - linux/lilab01-2.qmd
+            - linux/lilab01-3.qmd
+            - linux/lilab02-1.qmd
+            - linux/lilab03-1.qmd
+            - linux/lilab03-2.qmd
+            - linux/lilab03-3.qmd
+            - linux/lilab03-4.qmd
+            - linux/lilab04-1.qmd
+            - linux/lilab04-2.qmd
+            - linux/lilab04-3.qmd
+        - text: "---"  
+        - section: "Linux readings"
+          contents: 
+            - linux/resources.qmd
+
+    - id: "devops"
+      title: "DevOps" 
       contents:
         - text: "DevOps"
         - text: "---"  
@@ -82,47 +123,6 @@ website:
           contents: 
             - devops/resources.qmd
 
-    - id: "linux"
-      title: "Linux OS"
-      contents: 
-        - text: "Linux OS"
-        - text: "---"  
-        - section: "Linux: concepts"
-          contents: 
-            - linux/linux-what-basics.qmd
-            - linux/linux-what-bash.qmd
-            - linux/linux-what-sudo.qmd
-            - linux/linux-what-pipes.qmd
-            - linux/linux-what-fsys.qmd
-            - linux/linux-what-vm.qmd
-        - text: "---"  
-        - section: "Linux: distros"
-          contents: 
-            - linux/linux-distros-ubuntu.qmd
-            - linux/linux-distros-mint.qmd
-            - linux/linux-distros-debian.qmd
-            - linux/linux-distros-opensuse.qmd
-            - linux/linux-distros-manjaro.qmd
-            - linux/linux-distros-redhat.qmd
-        - text: "---"  
-        - section: "Linux: laboratories"
-          contents: 
-            - linux/lilab01-1.qmd
-            - linux/lilab01-2.qmd
-            - linux/lilab01-3.qmd
-            - linux/lilab02-1.qmd
-            - linux/lilab03-1.qmd
-            - linux/lilab03-2.qmd
-            - linux/lilab03-3.qmd
-            - linux/lilab03-4.qmd
-            - linux/lilab04-1.qmd
-            - linux/lilab04-2.qmd
-            - linux/lilab04-3.qmd
-        - text: "---"  
-        - section: "Linux readings"
-          contents: 
-            - linux/resources.qmd
-      
     - id: "markup"
       title: "MarkUp"
       contents: 

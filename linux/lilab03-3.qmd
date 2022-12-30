@@ -6,7 +6,7 @@ date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: lab
-categories: [linux, lab, sofeware]
+categories: [linux, lab, software]
 toc: true
 number-sections: true
 highlight-style: pygments

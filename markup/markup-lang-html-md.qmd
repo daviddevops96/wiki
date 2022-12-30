@@ -1,5 +1,16 @@
 ---
 title: "Markdown and HTML working together, good idea?"
+subtitle: HTML and qmd
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: HTML and qmd discussion
+categories: [HTML, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Introduction
@@ -388,9 +399,13 @@ def fizz_buzz(num):
     print(num)
 ``
 :::
+```
 
 <br>
 it seems *the render does not work properly,* it does not show content .. :-(
+
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

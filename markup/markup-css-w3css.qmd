@@ -1,5 +1,16 @@
 ---
 title: "CSS: W3.css"
+subtitle: W3.css
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Introduction to W3.css
+categories: [w3css, introduction]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## W3.css
@@ -24,7 +35,7 @@ W3.CSS is lightweight, easy to use, and supports all modern web browsers.
 
 ## Example
 
-``` html
+``` {.html filename="example.css"}
 <!DOCTYPE html>
 <html>
 <title>W3.CSS</title>
@@ -49,7 +60,9 @@ W3.CSS is lightweight, easy to use, and supports all modern web browsers.
 </body>
 </html> 
 
-```<!--- navLinks -->
+```
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

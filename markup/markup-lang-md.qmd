@@ -1,6 +1,18 @@
 ---
 title: "Markdown Markup"
+subtitle: Markdown
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Introduction to MD
+categories: [markup, md, introduction]
+toc: true
+number-sections: true
+format:
+  html
 ---
+
 
 ## What is Markdown?
 
@@ -62,7 +74,10 @@ From your perspective, the process will vary somewhat depending on the applicati
 - [GitHub Flavored Markdown](<https://github.github.com/gfm/>): An extension of Markdown with additional features and syntax, used by GitHub for rendering Markdown in its platform.
 - [GitLab Flavored Markdown](<https://docs.gitlab.com/ee/user/markdown.html>): An extension of Markdown with additional features and syntax, used by GitLab for rendering Markdown in its platform.
 - [Readme](https://docs.readme.com/rdmd/docs): A Markdown-based documentation format with support for features such as table of contents and automatic linking, used by many open-source projects.
-- [Obsidian](<https://www.markdownguide.org/tools/obsidian/>): A Markdown-based note-taking and organizing tool, with support for linking and organizing notes using graphs and diagrams.<!--- navLinks -->
+- [Obsidian](<https://www.markdownguide.org/tools/obsidian/>): A Markdown-based note-taking and organizing tool, with support for linking and organizing notes using graphs and diagrams.
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

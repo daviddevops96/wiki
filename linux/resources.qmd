@@ -1,11 +1,11 @@
 ---
-title: "Linux Readings"
-subtitle: Resources
+title: "Linux Resources"
+subtitle: Readings
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: resources
+description: Linux Resources and Readings
 categories: [linux, resources, readings]
 toc: true
 number-sections: true
@@ -25,11 +25,25 @@ format:
 
 : Linux and bash resources  {tbl-colwidths="[40,60]"}
 
+
+## Bash
+
+## Bash scripting 
+- The Bash Guide, A quality-driven guide through the shell's many features. [The Bash Guide](https://guide.bash.academy/)
+- Greg's Wiki: [Bash Guide](https://mywiki.wooledge.org/BashGuide)
+- Bash Guide for Beginners, Machtelt Garrels: [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
+- GNU Bash Reference Manual: [Bash Features](https://www.gnu.org/software/bash/manual/bash.html)
+
+
 ## Bash scripting cheatsheet
     
 ```{=html}
 <iframe width="780" height="500" src="https://devhints.io/bash" title="Bash scripting cheatsheet"></iframe>
-```<!--- navLinks -->
+```
+
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
