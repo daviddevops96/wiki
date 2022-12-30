@@ -1,6 +1,9 @@
 ---
 title: "About images credit"
+categories: [about, images-credit]
 ---
+
+![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
 
 ### Images list
 

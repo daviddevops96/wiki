@@ -1,5 +1,6 @@
 ---
 title: "IFCD0210 Calendar"
+categories: [ifcd0210]
 ---
 
 ## Calendar
@@ -8,6 +9,7 @@ title: "IFCD0210 Calendar"
 ## Forecast semester
 
 [IFCD0210 Cifo Web 2022-2023](https://docs.google.com/spreadsheets/d/e/2PACX-1vSLNGWBsUyn-IldZ3NV9KbNVfKO45nKV3wIbQk_46V1XZWjJ898RbiSU77kXjSUYbUmEl3glIw19GO6/pubhtml)
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

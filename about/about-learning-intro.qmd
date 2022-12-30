@@ -1,6 +1,9 @@
 ---
 title: "About learning"
+categories: [about, learning]
 ---
+
+![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
 
 ## Four strategies to effective and permanent learning
 

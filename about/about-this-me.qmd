@@ -1,6 +1,9 @@
 ---
 title: "About me"
+categories: [about]
 ---
+
+![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
 
 ## Introduction
 Hi, this is **alberprofe** speaking! My fields of expertise are ... let's OpenAI introduce them:

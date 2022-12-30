@@ -13,6 +13,8 @@ format:
   html
 ---
 
+![MarkUp Resources](/images/home/frontimagealbertprofeweb-readings.png){width=50%}
+
 # {{< fa solid glasses >}} Webs
 
 ## Quarto

@@ -1,6 +1,20 @@
 ---
 title: "Java SE Resources"
+subtitle: Readings
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Java SE Resources and Readings
+categories: [javase, resources, readings]
+toc: true
+number-sections: true
+format:
+  html
 ---
+
+![Java SE Resources](/images/home/frontimagealbertprofeweb-readings.png){width=50%}
+
 ## Object-Oriented Programming with Java, part I
 
 ::: {.callout}

@@ -1,5 +1,6 @@
 ---
 title: "IFCD Init Mail"
+categories: [ifcd0210]
 ---
 
 ## Content
@@ -27,7 +28,10 @@ title: "IFCD Init Mail"
     - `https://neverinstall.com/` (i feu-vos un compte)
 7. per qui no pugui vindre dilluns vinent, URL del jit si meet:
     - `https://meet.jit.si/cifoweb`
-    - `https://meet.jit.si/cifowebboard`<!--- navLinks -->
+    - `https://meet.jit.si/cifowebboard`
+    
+    
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

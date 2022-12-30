@@ -1,6 +1,9 @@
 ---
 title: "About the Useful Questions"
+categories: [about, questions]
 ---
+
+![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
 
 ## Answering the useful (right?) questions
 Questions that begin with the words **why, who, what, and how** are necessary and paramount because they help to **clarify information, to seek additional details, and to better understand a situation**. Besides, they play a crucial role in **facilitating communication** and understanding.

@@ -1,6 +1,9 @@
 ---
 title: "About this site"
+categories: [about]
 ---
+
+![About](/images/home/frontimagealbertprofeweb-about.png){width=50%}
 
 ## Introduction
 This site has been done and been mantaining with four tools and several content sources: 

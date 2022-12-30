@@ -1,5 +1,6 @@
 ---
 title: "Articles Card-Listing"
+categories: [listing, card]
 listing:
     id: articles-card-listing
     contents:
@@ -13,6 +14,8 @@ listing:
         - "../springboot*.qmd"
         - "../devops/*.qmd"
         - "../reactjs/*.qmd"
+        - "../about/*.qmd"
+        - "../ifcd0210/*qmd"
     sort:
         - "file-modified desc"
         - "categories"
@@ -21,8 +24,7 @@ listing:
     image-placeholder: "/images/home/frontimagealbertprofeweb.png"
     fields: [image, categories, title, description, reading-time, date, author, file-modified]
     date-format: full
-    categories: cloud
-    
+    categories: cloud  
 ---
 
 You can look up the following card listing for additional information:
