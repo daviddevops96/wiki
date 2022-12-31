@@ -29,6 +29,8 @@ In other words, it is the ability of a single object **to behave differently in 
 
 ``Polymorphism`` is an important concept in object-oriented programming because it allows developers to write code that is more flexible and reusable. By using ``polymorphism``, developers can write code that can operate on objects of different types, without knowing the specific type of the object in advance.
 
+![Java SE Basic Principles OOP Polymorphishm](/images/javase/oop-pol.png){width="50%"}
+
 In Java, ``polymorphism`` is achieved through the use of ``inheritance`` and ``interfaces``. A subclass can implement multiple ``interfaces``, and an ``interface`` can be implemented by multiple classes. This allows objects of different types to share a common set of methods, which can be called on the objects without knowing their specific type.
 
 Here is an example of polymorphism in Java using the `Animal`, `Dog`, and `Cat` classes from the previous examples:

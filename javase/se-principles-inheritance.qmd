@@ -30,6 +30,8 @@ In Java, inheritance is achieved through the use of the `extends` keyword. A cla
 
 The subclass inherits all of the methods and fields of the superclass, and can also define its own methods and fields.
 
+![Java SE Basic Principles OOP Inherence](/images/javase/oop-in.png){width="50%"}
+
 Here is an example of inheritance in Java:
 
 ``` java

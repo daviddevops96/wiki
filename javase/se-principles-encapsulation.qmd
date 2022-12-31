@@ -27,6 +27,13 @@ In Java, **encapsulation** is achieved through the use of access modifiers like 
 
 ---
 
+**Encapsulation** is the **process of grouping functions and data into a single entity**. To access these data members, the member function’s scope must be set to ``public``, while the data members’ scope must be set to ``private``.
+
+According to this theory, an item contains all important information; only a small subset is made available to the outside world. Each object has a ``private class`` that contains its ``implementation and state``.
+
+
+![Java SE Basic Principles OOP Encapsulation](/images/javase/oop-enc.png){width="50%"}
+
 Here is an example of encapsulation in Java:
 
 ``` java

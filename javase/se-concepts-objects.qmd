@@ -6,7 +6,7 @@ date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: What is a Class and a Object in Java
-categories: [javase, class, objects, concepts]
+categories: [javase, class, objects, concepts, oop, paradigm]
 toc: true
 number-sections: true
 format:
@@ -108,6 +108,8 @@ public class Person {
 <mark>Each object has its own unique identity, and it maintains its own state by storing the values of its attributes. The object's behavior is defined by the methods that operate on its attributes, and these methods can be invoked by other code to ask the object to perform a specific action<mark>.
 
 Objects are an essential concept in object-oriented programming, and they are used to model real-world entities in a program. For example, you could create an object to represent a particular person, with attributes such as name, age, and address, and methods that operate on these attributes, such as a method to calculate their age in a particular year.
+
+![Java SE Basic Principles OOP Class and Object](/images/javase/oop-classobject.png){width="50%"}
 
 In Java, you can create objects by using the `new` keyword and the class constructor to allocate memory for the object, and then you can access the object's attributes and methods by using the `.` (dot) operator. For example, if you have a class called `Person`, you could create an object of that class like this:
 
