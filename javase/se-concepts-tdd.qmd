@@ -1,5 +1,16 @@
 ---
 title: "Java SE: JUnit and TDD"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the TDD and JUnit in Java
+categories: [javase, TDD, JUnit]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.summary}
@@ -29,6 +40,8 @@ TDD is often used in **agile software development**, as it allows for the rapid 
 Link: [Junit](https://junit.org/junit5/) and [User guide](https://junit.org/junit5/docs/current/user-guide/)
 
 Unit tests are the smallest elements in the test automation process. With the help of unit tests, the developer can check the business logic of any class. So JUnit plays a vital role in the development of a test-driven development framework.
+
+![JUnit 5](/images/javase/junit5.jpeg){width=30%}
 
 The following example provides a glimpse at the minimum requirements for writing a test in JUnit Jupiter. Subsequent sections of this chapter will provide further details on all available features.
 

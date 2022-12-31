@@ -9,7 +9,6 @@ description: Mint
 categories: [linux, mint, distro]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---

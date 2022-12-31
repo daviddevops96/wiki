@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Class and Objects"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is a Class and a Object in Java
+categories: [javase, class, objects, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.summary}

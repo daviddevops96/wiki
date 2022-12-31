@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Encapsulation"
+subtitle: Java Fundamentals and Principles
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Java encapsulation OOP paradigm
+categories: [javase, encapsulation , oop, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview

@@ -1,8 +1,21 @@
 ---
 title: "Lab 4: subject"
+subtitle: Java SE Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Java SE Lab 02
+categories: [javase, lab]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
-About this site<!--- navLinks -->
+About this site
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

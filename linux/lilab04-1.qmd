@@ -1,5 +1,16 @@
 ---
 title: "Linux Lab#LI04-1: Bash scripting, qtool"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: lab
+categories: [linux, lab, qtool, bash]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.labs}

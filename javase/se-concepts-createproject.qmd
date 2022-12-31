@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Create Maven Project"
+subtitle: Maven and Java
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: How to create a Maven Project
+categories: [javase, maven, code, project]
+toc: true
+number-sections: true
+format:
+  html
 ---
 ## Create Maven Project
 
@@ -32,6 +43,8 @@ my-project
 
 The `src/main/java` directory is where you should put your Java source code, and the `src/test/java` directory is where you should put your **unit tests**.
 
+![Maven project folder-tree](/images/javase/se-createproject/createprojectMavenIntellJI_3.png)
+
 To specify the version of Maven to use, you can edit the pom.xml file and add a <version> element to the <project> element. For example:
 
 ``` xml
@@ -48,6 +61,8 @@ This will use **version 3.6.3 of Maven** for the project.
 ## Step-by-step screenshots (2022-12-14)
 
 [Slider-presentation Create project Java SE Maven](/images/javase/se-createproject/se-presentation-createproject.qmd)
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

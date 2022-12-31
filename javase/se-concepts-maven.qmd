@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Maven"
+subtitle: Maven and Java
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is Maven and how it works
+categories: [javase, maven, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.summary}
@@ -38,6 +49,8 @@ All the layout and structure of the underlying repositories of maven of any type
 
 Maven is a **build automation tool for Java projects**. It is used to manage the build, reporting, and documentation of a project. Maven has a defined lifecycle that outlines the steps required to build and distribute a project.
 
+![Maven lifecycle](/images/javase/maven-lifecycle.png)
+
 The **Maven lifecycle** has three main phases:
 
 - `clean`: This phase is used to clean up any previous build artifacts.
@@ -67,7 +80,9 @@ The **groupId** is a unique identifier for a project, and is typically used to g
 
 The **artifactId** is the unique identifier for a specific project, and is used to identify the project within the group.
 
-Together, the groupId and artifactId help to uniquely identify a project within the Maven ecosystem.<!--- navLinks -->
+Together, the groupId and artifactId help to uniquely identify a project within the Maven ecosystem.
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

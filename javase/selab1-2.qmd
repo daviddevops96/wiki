@@ -1,5 +1,16 @@
 ---
-title: "Lab#SE01-2: Maven/Gradle Person and Account stored in JSON "
+title: "Lab#SE01-2: Maven/Gradle Person and Account stored in JSON"
+subtitle: Java SE Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Java SE Lab 01
+categories: [javase, lab , class, object, composition, factory, JSON]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 Create a Maven/Gradle Java SE Project with three classes and Junit to test objects and operations. From here you should add new features: factory pattern, JSON parser and save this JSON on local storage.
@@ -244,7 +255,9 @@ public class AccountManager {
 3. Create ``AccountManger``
 4. Check factory
 5. **Parse** ``Account`` objects to *String-JSON*
-6. Save ``String`` on **local .json file** <!--- navLinks -->
+6. Save ``String`` on **local .json file**
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

@@ -6,7 +6,7 @@ date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: Code on your Quarto web
-categories: [markup, qmd, quarto]
+categories: [markup, qmd, quarto, python]
 toc: true
 number-sections: true
 format:

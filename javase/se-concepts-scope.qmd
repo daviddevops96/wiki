@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Scope"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the scope in Java
+categories: [javase,scope]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview
@@ -95,6 +106,8 @@ As this example illustrates, <mark>the position of a variable's declaration with
 ## Conclusion
 
 By understanding how scope works in Java, **you can effectively manage the visibility and accessibility of your variables, and avoid common pitfalls** such as variable shadowing and scope-related errors.
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

@@ -9,7 +9,6 @@ description: Red Hat Enterprise Linux
 categories: [linux, red-hat-enterprise-linux, distro, rhel]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---

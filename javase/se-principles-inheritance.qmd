@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Inherence"
+subtitle: Java Fundamentals and Principles
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Java inherence OOP paradigm
+categories: [javase, inherence , oop, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview

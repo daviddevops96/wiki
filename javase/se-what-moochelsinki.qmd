@@ -1,5 +1,16 @@
 ---
 title: "Java MOOC Helsinki"
+subtitle: Java Training
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Java SE training by MOOC Helsinki Programming Java
+categories: [javase, training, helsinki, mooc]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## About the course

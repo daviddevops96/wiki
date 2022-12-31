@@ -1,5 +1,16 @@
 ---
 title: "Java Standard Edition: Principles"
+subtitle: Java Principles
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Java SE Principles
+categories: [javase, concepts, oop, paradigm]
+toc: true
+number-sections: true
+format:
+  html
 ---
 ## Java OOP
 

@@ -1,5 +1,16 @@
 ---
 title: "Java Standard Edition: Basics"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Java Polymorphism OOP paradigm
+categories: [javase, basics, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Introduction

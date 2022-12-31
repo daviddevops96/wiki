@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Project push GitHub"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Sync maven project to github cloud
+categories: [javase, git, github, project, cloud]
+toc: true
+number-sections: true
+format:
+  html
 ---
 ## Maven Project push to GitHub: CLI gh
 
@@ -66,6 +77,8 @@ First, install ``git`` and ``CLI gh`` and create a GitHub.con account.
 9. Enter your ``GitHub login credentials`` and click the ``Push`` button.
 
 Now your local project is connected to the repository on GitHub and any changes you make locally will be reflected in the repository on GitHub.
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

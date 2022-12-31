@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Coupling/Cohesion"
+subtitle: Coupling in modern java and microservices
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: How important coupling is in modern java and microservices
+categories: [javase, microservices, coupling]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.summary}
@@ -58,6 +69,7 @@ Additionally, by decoupling the `CarFactory` class from the code that uses the c
 ## Conclusion
 
 Overall, decoupling is an important concept in Java programming, and can help to improve the modularity, flexibility, and maintainability of a system. By reducing the dependencies between classes or modules, you can make the system more modular and easier to modify and maintain, and you can improve the reusability of individual classes or modules.
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

@@ -1,5 +1,16 @@
 ---
 title: "Java Patterns: Observer"
+subtitle: Java Fundamentals and Patterns
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Abstract Facotory
+categories: [javase, observer , design-patterns, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 About this site<!--- navLinks -->

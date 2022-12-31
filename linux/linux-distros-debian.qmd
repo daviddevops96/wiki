@@ -9,7 +9,6 @@ description: Debian
 categories: [linux, debian, distro]
 toc: true
 number-sections: true
-highlight-style: pygments
 format:
   html
 ---
