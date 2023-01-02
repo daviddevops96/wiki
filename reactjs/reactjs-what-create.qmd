@@ -1,31 +1,32 @@
 ---
-title: "React JS: Lab#RE02-1"
-subtitle: ReactJS labs
+title: "React JS: Create a React project"
+subtitle: ReactJS Project
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: labs
-categories: [reactjs, lab, Lab#RE02]
+description: description
+categories: [reactjs, project]
 toc: true
 number-sections: true
 format:
   html
 ---
 
-::: {.lab}
+::: {.summary}
 
-📘 **lab**
-
+📘 **React JS create project**
 
 
 :::
 
 ---
 
+# ReactJS Starting
 
-About this site
+## React Directly in HTML
 
+## `create-react-app`
 
 
 
@@ -35,7 +36,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS](/reactjs/rjslab1.qmd)
+[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
 <br>
 </div>
 <br>
@@ -47,7 +48,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[React JS  {{< fa solid arrow-right >}}](/reactjs/rjslab3.qmd)
+[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
 <br>
 </div>
 <br>

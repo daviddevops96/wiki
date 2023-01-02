@@ -1,21 +1,21 @@
 ---
-title: "React JS: Lab#RE05-1"
-subtitle: ReactJS labs
+title: "ReactJS: custom hooks"
+subtitle: ReactJS hooks
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: labs
-categories: [reactjs, lab, Lab#RE05]
+description: description
+categories: [reactjs, hooks, custom]
 toc: true
 number-sections: true
 format:
   html
 ---
 
-::: {.lab}
+::: {.summary}
 
-📘 **lab**
+📘 **Custom Hooks**
 
 
 
@@ -23,16 +23,16 @@ format:
 
 ---
 
+## Introuduction
 
-About this site
 
-About this site<!--- navLinks -->
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS](/reactjs/rjslab4.qmd)
+[{{< fa solid arrow-left >}} React JS: useEffect](/reactjs/hookeffect.qmd)
 <br>
 </div>
 <br>
@@ -44,7 +44,7 @@ About this site<!--- navLinks -->
 <br>
 <div class='column right next'>
 <br>
-[React JS  {{< fa solid arrow-right >}}](/reactjs/resources.qmd)
+[React JS: useContext  {{< fa solid arrow-right >}}](/reactjs/reactjscontext.qmd)
 <br>
 </div>
 <br>

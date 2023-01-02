@@ -235,26 +235,43 @@ website:
             - springboot/resources.qmd
         
     - id: "reactjs"
-      title: "React JS"
+      title: "ReactJS"
       contents: 
-        - text: "React JS"
+        - text: "ReactJS"
         - text: "---"  
-        - section: "React JS Principles"
+        - section: "ReactJS: Principles"
           contents: 
-            - reactjs/reactjs.qmd
-        - section: "React JS Hooks"
-          contents: 
-            - reactjs/hookstate.qmd
-            - reactjs/hookreducer.qmd
-            - reactjs/hookref.qmd
-            - reactjs/hookeffect.qmd
-            - reactjs/hookcustom.qmd
+            - reactjs/reactjs-what-principles.qmd
+            - reactjs/reactjs-what-render-dom.qmd
+            - reactjs/reactjs-what-create.qmd
+            - reactjs/reactjs-what-jsx.qmd
+            - reactjs/reactjs-what-components.qmd
+            - reactjs/reactjs-what-props.qmd
         - text: "---"  
-        - section: "Context and Provider"
+        - section: "ES6: ECMAScript 6"
           contents: 
-            - reactjs/reactjscontext.qmd
+            - reactjs/reactjs-es6-arrow.qmd
+            - reactjs/reactjs-es6-import.qmd
+            - reactjs/reactjs-es6-destructuring.qmd
+            - reactjs/reactjs-es6-spread.qmd
         - text: "---"  
-        - section: "React JS Laboratories"
+        - section: "ReacJS 18: Hooks"
+          contents: 
+            - reactjs/reactjs-hook-state.qmd
+            - reactjs/reactjs-hook-reducer.qmd
+            - reactjs/reactjs-hook-ref.qmd
+            - reactjs/reactjs-hook-effect.qmd
+            - reactjs/reactjs-hook-custom.qmd
+            - reactjs/reactjs-hook-context.qmd
+        - text: "---"  
+        - section: "ReactJS: Designing an App"
+          contents: 
+            - reactjs/reactjs-app-async.qmd
+            - reactjs/reactjs-app-router.qmd
+            - reactjs/reactjs-app-conditional-render.qmd
+            - reactjs/reactjs-app-styling.qmd
+        - text: "---"  
+        - section: "React JS: Laboratories"
           contents: 
             - reactjs/rjslab1.qmd
             - reactjs/rjslab2.qmd
@@ -372,3 +389,4 @@ filters:
 lightbox: auto
 
 
+highlight-style: breeze

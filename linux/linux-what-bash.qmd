@@ -47,7 +47,7 @@ In addition to its many features and capabilities, Bash is also highly customiza
 
 <details>
 <summary>Code Bash</summary>
-```bash
+```{.bash .code-overflow-wrap filename="introduction.sh"}
 #!/usr/bin/env bash
 # First line of the script is the shebang which tells the system how to execute
 # the script: https://en.wikipedia.org/wiki/Shebang_(Unix)

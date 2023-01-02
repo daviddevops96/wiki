@@ -84,6 +84,47 @@ Content for `Tab B`
 
 - [reveal.js tabset](https://quarto.org/docs/presentations/revealjs/#tabsets){.external}
 
+## Code blocks
+
+``` bash
+```{.python filename="matplotlib.py"}
+#| code-fold: true
+#| code-summary: "Show the code"
+#| echo: true
+#| code-overflow: wrap
+import matplotlib.pyplot as plt
+plt.plot([1,23,2,4])
+plt.show()```
+```
+
+[HTML Code Blocks](https://quarto.org/docs/output-formats/html-code.html){.external}
+
+## Code wrap and filename
+
+``` bash
+```{.js .code-overflow-wrap filename="profile.jsx"}
+export default function Profile() {
+  return (
+    <Avatar
+      person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+      size={100}
+    />
+  );
+}```
+```
+
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+export default function Profile() {
+  return (
+    <Avatar
+      person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+      size={100}
+    />
+  );
+}
+```
+
 ## Callouts
 
 ``` {.bash .code-overflow-wrap}
@@ -176,21 +217,6 @@ Callouts have 3 different looks you can use.
 [{{< fa solid arrow-up >}} top](#top)
 :::
 ```
-
-## Code blocks
-
-``` bash
-```{.python filename="matplotlib.py"}
-#| code-fold: true
-#| code-summary: "Show the code"
-#| echo: true
-#| code-overflow: wrap
-import matplotlib.pyplot as plt
-plt.plot([1,23,2,4])
-plt.show()```
-```
-
-[HTML Code Blocks](https://quarto.org/docs/output-formats/html-code.html){.external}
 
 ## iframe
 

@@ -1,22 +1,23 @@
 ---
-title: "React JS: Lab#RE05-1"
-subtitle: ReactJS labs
+title: "React JS: Components"
+subtitle: ReactJS Components
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: labs
-categories: [reactjs, lab, Lab#RE05]
+description: description
+categories: [reactjs, components]
 toc: true
 number-sections: true
 format:
   html
 ---
 
-::: {.lab}
+## Overview
 
-📘 **lab**
+::: {.summary}
 
+📘 **Components**
 
 
 :::
@@ -24,15 +25,13 @@ format:
 ---
 
 
-About this site
-
-About this site<!--- navLinks -->
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS](/reactjs/rjslab4.qmd)
+[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
 <br>
 </div>
 <br>
@@ -44,7 +43,7 @@ About this site<!--- navLinks -->
 <br>
 <div class='column right next'>
 <br>
-[React JS  {{< fa solid arrow-right >}}](/reactjs/resources.qmd)
+[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
 <br>
 </div>
 <br>

@@ -1,8 +1,27 @@
 ---
-title: "React JS"
+title: "ReactJS Resources"
+subtitle: Readings
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: ReactJs Resources and Readings
+categories: [reactjs, resources, readings]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
-About this site<!--- navLinks -->
+## Webs
+
+
+- [Awesome React](https://github.com/enaqx/awesome-react){.external}
+- [React From The Inside Out](https://developmentarc.gitbooks.io/react-indepth/content/react_basics/introduction.html){.external}
+- [React Docs BETA Official](https://beta.reactjs.org/){.external}
+- [React Tutorial w3 schools](https://www.w3schools.com/react/default.asp){.external}
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
@@ -20,7 +39,7 @@ About this site<!--- navLinks -->
 <br>
 <div class='column right next'>
 <br>
-[IFCD0210 Official Docs  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210.qmd)
+[Introduction  {{< fa solid arrow-right >}}](/scrum/scrum.qmd)
 <br>
 </div>
 <br>

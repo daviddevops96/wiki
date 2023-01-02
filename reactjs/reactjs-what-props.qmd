@@ -1,0 +1,119 @@
+---
+title: "React JS: props and state"
+subtitle: Passing Props to a Component
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [reactjs, props]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+# Passing Props to a Component
+
+## Overview
+
+::: {.summary}
+
+📘 **Props**
+
+**React components** use **props** (``props`` stands for **properties**) to communicate with each other.
+
+Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+
+:::
+
+---
+
+![Props are properties passed to a child component that can hold many data types (e.g. array, object, number, function, others).](/images/reactjs/react_props.png){width="70%"}
+
+In ``React JS``, data flows in one direction, **from Parent to Child**. This helps components to be **simple and predictable**.
+
+> “Simplicity is the ultimate sophistication.” -Leonardo da Vinci
+
+Use the same syntax as HTML attributes to send props into a component:
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+function Avatar({ person, size }) {
+  // person and size are available here
+}
+```
+
+```{.js .code-overflow-wrap filename="lin.jsx"}
+export default function Lin() {
+  return (
+    <Avatar
+      person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+      size={100}
+    />
+  );
+}
+```
+
+```{.js .code-overflow-wrap filename="carla.jsx"}
+export default function Carla() {
+  return (
+    <Avatar
+      person={{ name: 'Carla Lan', imageId: 'KIU3QH1' }}
+      size={60}
+    />
+  );
+}
+```
+
+## Stateful and Sateless
+
+### Sateful Components
+
+Functions that internally modify the underlying data (props).
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+const Hello = ({name}) => <h1>Hello {name + ' - ' + (new Date()).toLocaleString()}!!!</h1>;
+
+ReactDOM.render(
+  <Hello name="World" />,
+  document.getElementById('container')
+);
+```
+
+### Sateless Components
+
+Pure components that respond to the underlying data received (props), without modifying it. A pure function is a function where the return value is only determined by its input values, without observable side effects.
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+const Hello = ({name}) => <h1>Hello {name}!!!</h1>;
+
+ReactDOM.render(
+  <Hello name="World" />,
+  document.getElementById('container')
+);
+```
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+<br>
+</div>
+<br>
+</div>
