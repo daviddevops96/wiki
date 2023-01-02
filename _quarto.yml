@@ -1,6 +1,28 @@
 project:
   type: website
 
+format:
+  html:
+    fontsize:  "1.0em"
+    theme:
+      light: default
+      dark: superhero
+    css: styles.css
+    toc: true
+    toc-depth: 5
+    email-obfuscation: javascript
+    smooth-scroll: true
+  
+execute:
+  cache: true
+  freeze: true
+
+filters:
+  - lightbox
+lightbox: auto
+
+highlight-style: atom-one
+
 website:
   title: albertprofe wiki
   #cookie-consent:
@@ -367,26 +389,3 @@ website:
         href: https://github.com/AlbertProfe/
       - icon: twitter 
         href: https://twitter.com/ 
-
-format:
-  html:
-    fontsize:  "1.0em"
-    theme:
-      light: default
-      dark: superhero
-    css: styles.css
-    toc: true
-    toc-depth: 5
-    email-obfuscation: javascript
-    smooth-scroll: true
-  
-execute:
-  cache: true
-  freeze: true
-
-filters:
-  - lightbox
-lightbox: auto
-
-
-highlight-style: breeze

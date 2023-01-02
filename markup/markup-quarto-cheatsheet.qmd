@@ -22,10 +22,13 @@ format:
 - Callouts
 - Tablas
 - Two columns
+- Wrap code
 - Code blocks
 - Mermaid
 - Include
 - Presentations
+- Accordion
+- Icons
 - Others
 
 :::
@@ -278,12 +281,25 @@ format: revealjs
 
 - [inlcude](https://quarto.org/docs/authoring/includes.html){.external}
 
-## HTML
+## Accordion
 
-``` {.html}
+``` bash
+
 <details>
 <summary>Code</summary>
-{.java}
+```{.js .code-overflow-wrap filename="profile.jsx"}
+    ```
+</details>
+
+```
+
+---
+
+``` bash
+<details>
+<summary>Code</summary>
+
+``` {.java}
 public class Account {
   private Person person;
   //other fields
@@ -301,7 +317,7 @@ public class Account {
     
     //constructor, getters, setters and methods
   }
-}
+}```
 
 </details>
 
@@ -311,8 +327,8 @@ Example:
 
 <details>
 <summary>Java Person Class</summary>
-  ```{.java filename="person"}
-      public class Account {
+``` {.java filename="person"}
+public class Account {
         private Person person;
         //other fields
 
@@ -329,8 +345,9 @@ Example:
           
           //constructor, getters, setters and methods
         }
-      }
+}
 ```
+
 </details>
 
 ## Top, next and back

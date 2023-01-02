@@ -4,7 +4,7 @@ filters:
    - lightbox
 lightbox: auto
 ---
-![Technologies programmed in this site](images/home/frontimagealbertprofeweb.png){.preview-image}
+![Technologies programmed and studied in this site](images/home/frontimagealbertprofeweb.png){.preview-image}
 
 ## Skills needed as a developer (2022)
 
