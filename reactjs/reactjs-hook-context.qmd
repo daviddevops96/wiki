@@ -33,7 +33,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: Custom hooks](/reactjs/hookcustom.qmd)
+[{{< fa solid arrow-left >}} ReactJS: custom hooks](/reactjs/reactjs-hook-custom.qmd)
 <br>
 </div>
 <br>
@@ -45,7 +45,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[React JS: Lab#RE01-1 {{< fa solid arrow-right >}}](/reactjs/rjslab1.qmd)
+[React JS App: async  {{< fa solid arrow-right >}}](/reactjs/reactjs-app-async.qmd)
 <br>
 </div>
 <br>

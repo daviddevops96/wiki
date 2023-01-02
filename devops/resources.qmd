@@ -46,7 +46,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[Linux: basic concepts  {{< fa solid arrow-right >}}](/linux/linux-what-basics.qmd)
+[Introduction Markup  {{< fa solid arrow-right >}}](/markup/markup-lang-intro.qmd)
 <br>
 </div>
 <br>

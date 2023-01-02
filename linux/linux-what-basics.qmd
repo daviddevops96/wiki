@@ -71,13 +71,14 @@ The ``$`` symbol that proceeds commands in the examples represents the **command
 [Linux-Commands-cheat-sheet-Red-Hat-Developer](/images/linux/Bash-commands-cheat-sheet-Red-Hat-Developer.pdf){.external}
 
 
+
 <!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Resources](/devops/resources.qmd)
+[{{< fa solid arrow-left >}} Home](/index.qmd)
 <br>
 </div>
 <br>

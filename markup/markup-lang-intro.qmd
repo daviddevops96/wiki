@@ -71,7 +71,7 @@ The idea for Markdown is to make it easy to read, write, and edit prose. <mark>H
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Linux Readings](/linux/resources.qmd)
+[{{< fa solid arrow-left >}} DevOps Resources](/devops/resources.qmd)
 <br>
 </div>
 <br>

@@ -31,7 +31,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
+[{{< fa solid arrow-left >}} React JS: JSX](/reactjs/reactjs-what-jsx.qmd)
 <br>
 </div>
 <br>
@@ -43,7 +43,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+[React JS: props and state  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-props.qmd)
 <br>
 </div>
 <br>

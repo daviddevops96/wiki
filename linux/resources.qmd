@@ -61,7 +61,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[Introduction Markup  {{< fa solid arrow-right >}}](/markup/markup-lang-intro.qmd)
+[DevOps: Introduction  {{< fa solid arrow-right >}}](/devops/devops-what-intro.qmd)
 <br>
 </div>
 <br>

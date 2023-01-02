@@ -31,7 +31,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
+[{{< fa solid arrow-left >}} React JS ES6: arrow functions](/reactjs/reactjs-es6-arrow.qmd)
 <br>
 </div>
 <br>
@@ -43,7 +43,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+[React JS ES6: destructuring  {{< fa solid arrow-right >}}](/reactjs/reactjs-es6-destructuring.qmd)
 <br>
 </div>
 <br>

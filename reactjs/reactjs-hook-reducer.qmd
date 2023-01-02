@@ -34,7 +34,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: hookState](/reactjs/hookstate.qmd)
+[{{< fa solid arrow-left >}} ReactJS: hookState](/reactjs/reactjs-hook-state.qmd)
 <br>
 </div>
 <br>
@@ -46,7 +46,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[React JS: hookRef  {{< fa solid arrow-right >}}](/reactjs/hookref.qmd)
+[React JS: hookRef  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-ref.qmd)
 <br>
 </div>
 <br>

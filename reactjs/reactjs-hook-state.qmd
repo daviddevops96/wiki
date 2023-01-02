@@ -35,7 +35,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: Introduction](/reactjs/reactjs.qmd)
+[{{< fa solid arrow-left >}} React JS ES6: spread operator](/reactjs/reactjs-es6-spread.qmd)
 <br>
 </div>
 <br>
@@ -47,7 +47,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[React JS: useReducer  {{< fa solid arrow-right >}}](/reactjs/hookreducer.qmd)
+[React JS: hookReducer  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
 <br>
 </div>
 <br>

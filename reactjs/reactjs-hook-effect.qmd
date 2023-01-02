@@ -33,7 +33,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: hookRef](/reactjs/hookref.qmd)
+[{{< fa solid arrow-left >}} React JS: hookRef](/reactjs/reactjs-hook-ref.qmd)
 <br>
 </div>
 <br>
@@ -45,7 +45,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[React JS: Custom hook  {{< fa solid arrow-right >}}](/reactjs/hookcustom.qmd)
+[ReactJS: custom hooks  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-custom.qmd)
 <br>
 </div>
 <br>

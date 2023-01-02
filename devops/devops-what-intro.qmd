@@ -46,13 +46,15 @@ DevOps is a new term emerging from the collision of two major related trends. Th
 
 > One definition Jez Humble proposed to me is that DevOps is “a cross-disciplinary community of practice dedicated to the study of building, evolving and operating rapidly-changing resilient systems at scale.”
 
-[What Is DevOps by the agile admin](https://theagileadmin.com/what-is-devops/)<!--- navLinks -->
+[What Is DevOps by the agile admin](https://theagileadmin.com/what-is-devops/)
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Home](/index.qmd)
+[{{< fa solid arrow-left >}} Linux Resources](/linux/resources.qmd)
 <br>
 </div>
 <br>

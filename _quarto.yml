@@ -20,12 +20,12 @@ website:
       - text: Home
         file: index.qmd
       - sidebar:linux
+      - sidebar:devops
       - sidebar:markup
       - sidebar:javase
       - sidebar:spring   
       - sidebar:reactjs
       - sidebar:scrum
-      - sidebar:devops
       - sidebar:vocabulary
       - sidebar:ifcd
       - sidebar:about

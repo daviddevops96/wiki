@@ -27,7 +27,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS](/reactjs/rjslab5.qmd)
+[{{< fa solid arrow-left >}} React JS: Lab#RE05-1](/reactjs/rjslab5.qmd)
 <br>
 </div>
 <br>
@@ -39,7 +39,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[Introduction  {{< fa solid arrow-right >}}](/scrum/scrum.qmd)
+[SCRUM  {{< fa solid arrow-right >}}](/scrum/scrum.qmd)
 <br>
 </div>
 <br>

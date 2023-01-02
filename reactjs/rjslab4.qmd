@@ -34,7 +34,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS](/reactjs/rjslab3.qmd)
+[{{< fa solid arrow-left >}} React JS: Lab#RE03-1](/reactjs/rjslab3.qmd)
 <br>
 </div>
 <br>
@@ -46,7 +46,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[React JS  {{< fa solid arrow-right >}}](/reactjs/rjslab5.qmd)
+[React JS: Lab#RE05-1  {{< fa solid arrow-right >}}](/reactjs/rjslab5.qmd)
 <br>
 </div>
 <br>

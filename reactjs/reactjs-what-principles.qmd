@@ -197,7 +197,7 @@ These variables are used in the JSX code of the component to render the current 
 <br>
 <div class='column right next'>
 <br>
-[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+[React JS: render virtual DOM  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-render-dom.qmd)
 <br>
 </div>
 <br>

@@ -32,7 +32,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: useEffect](/reactjs/hookeffect.qmd)
+[{{< fa solid arrow-left >}} React JS: useEfect](/reactjs/reactjs-hook-effect.qmd)
 <br>
 </div>
 <br>
@@ -44,7 +44,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[React JS: useContext  {{< fa solid arrow-right >}}](/reactjs/reactjscontext.qmd)
+[React JS: useContext  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-context.qmd)
 <br>
 </div>
 <br>

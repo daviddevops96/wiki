@@ -30,7 +30,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
+[{{< fa solid arrow-left >}} React JS App: conditional render](/reactjs/reactjs-app-conditional-render.qmd)
 <br>
 </div>
 <br>
@@ -42,7 +42,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+[React JS: Lab#RE01-1  {{< fa solid arrow-right >}}](/reactjs/rjslab1.qmd)
 <br>
 </div>
 <br>

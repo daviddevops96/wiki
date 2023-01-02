@@ -100,7 +100,7 @@ ReactDOM.render(
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring Boot Resources](/springboot/resources.qmd)
+[{{< fa solid arrow-left >}} React JS: Components](/reactjs/reactjs-what-components.qmd)
 <br>
 </div>
 <br>
@@ -112,7 +112,7 @@ ReactDOM.render(
 <br>
 <div class='column right next'>
 <br>
-[ReactJS: hookstate  {{< fa solid arrow-right >}}](/reactjs/hookstate.qmd)
+[React JS ES6: arrow functions  {{< fa solid arrow-right >}}](/reactjs/reactjs-es6-arrow.qmd)
 <br>
 </div>
 <br>
