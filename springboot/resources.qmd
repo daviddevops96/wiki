@@ -22,7 +22,7 @@ About this site: to-do
 <br>
 <div class='column right next'>
 <br>
-[React JS: Introduction  {{< fa solid arrow-right >}}](/reactjs/reactjs.qmd)
+[React JS: Introduction  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-principles.qmd)
 <br>
 </div>
 <br>

@@ -31,13 +31,25 @@ It aims to provide a more **efficient and elegant way to manipulate the user int
 
 > “Life is really simple, but we insist on making it complicated.” -Confucius
 
-[Why did we build React?](https://reactjs.org/blog/2013/06/05/why-react.html){.external}? We built React <mark>to solve one problem: building large applications with data that changes over time.<mark>
+::: {.summary}
 
-[Simple](https://beta.reactjs.org/learn#components){.external} and [fast](https://programmingwithmosh.com/react/react-virtual-dom-explained/){.external}, [very fast](https://codepen.io/embengineering/full/yOvmoW){.external}. *That it is.*
+[Why did we build React?](https://reactjs.org/blog/2013/06/05/why-react.html){.external}?  
+We built React <mark>to solve one problem: building large applications with data that changes over time.<mark>
+
+[Simple](https://beta.reactjs.org/learn#components){.external} and [fast](https://programmingwithmosh.com/react/react-virtual-dom-explained/){.external}, [very fast](https://codepen.io/embengineering/full/yOvmoW){.external}.  
+*That it is.*
+
+And [it](https://medium.com/@yej.arin.choi/this-is-a-post-that-summarizes-my-dive-into-immutability-in-programming-what-it-is-why-its-34cbba44f889){.external} [is](https://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/){.external} inmutable
+
+:::
+
+---
 
 <details>
 <summary>React Code is simple</summary>
+
 ```{.js .code-overflow-wrap filename="MyApp.jsx"}
+
 function MyButton() {
   return (
     <button>
@@ -53,7 +65,9 @@ export default function MyApp() {
       <MyButton />
     </div>
   );
-}```
+}
+
+```
 </details>
 
 **React** is not considered a framework, **but a JavaScript library for building User Interfaces**. It’s considered the ``view`` in the ``MVC`` pattern.
@@ -87,6 +101,7 @@ In React, <mark>Hooks are a new feature introduced in React 16.8 that allows dev
 📘 **Clear lifecycle**
 
 Hooks allow developers to use state and other React features by writing **functions**, rather than creating class-based components. This makes it possible to use state and other React features without the **overhead of managing a class and its lifecycle**.
+
 :::
 
 For example, instead of using a class to define a component, you can use the useState Hook to add state to a function component:
@@ -119,7 +134,7 @@ Hooks are a powerful and flexible tool that can help simplify and improve the wa
 
 📘 **No need of classes**
 
-**Hooks** are a new feature that allows developers to use state and other React features **without writing a class**.
+**Hooks** are a new feature ([and addition in React 16.8](https://reactjs.org/docs/hooks-intro.html){.external}) that allows developers to use state and other React features **without writing a class**.
 :::
 
 ::: {.summary}
