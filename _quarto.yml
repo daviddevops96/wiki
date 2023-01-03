@@ -338,20 +338,20 @@ website:
         - text: "---"  
         - section: "General Vocabulary"
           contents: 
-            - vocabulary/vocabgeneral.qmd
-            - vocabulary/vocabscrum.qmd
-            - vocabulary/vocabdevops.qmd
+            - vocabulary/vocab-general.qmd
+            - vocabulary/vocab-scrum.qmd
+            - vocabulary/vocab-devops.qmd
         - text: "---"  
         - section: "Back-end Vocabulary"
           contents: 
-            - vocabulary/vocabjava.qmd
-            - vocabulary/vocabspringboot.qmd
-            - vocabulary/vocabdatabase.qmd
+            - vocabulary/vocab-java-se.qmd
+            - vocabulary/vocab-spring-boot.qmd
+            - vocabulary/vocab-data-base.qmd
         - text: "---"  
         - section: "Front-end Vocabulary"
           contents: 
-            - vocabulary/vocabreactjs.qmd
-            - vocabulary/vocabweb.qmd
+            - vocabulary/vocab-reactjs.qmd
+            - vocabulary/vocab-web.qmd
             
     - id: "ifcd"
       title: "IFCD0210"

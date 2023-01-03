@@ -1,0 +1,57 @@
+---
+title: "DevOps Vocabulary"
+subtitle: Technical terms and definitions
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [vocabulary, devops]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+## Vocabulary 
+
+| Term | Definition |
+|:---|:---|
+| cd/ci | description |
+| pipeline | description |
+| docker image | description |
+| docker container | description |
+| script/declarative | description |
+| configuration file  | description |
+| jenkins | description |
+| k8s | description |
+| deploy | description |
+| devops life cycle | description |
+
+: DevOps vocabulary {tbl-colwidths="[20,80]"}
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} SCRUM Vocabulary](/vocabulary/vocab-scrum.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-java-se.qmd)
+<br>
+</div>
+<br>
+</div>

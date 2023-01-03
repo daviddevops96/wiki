@@ -32,7 +32,7 @@ Hi, this is **alberprofe** speaking! My fields of expertise are ... let's OpenAI
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Web Vocabulary](/vocabulary/vocabweb.qmd)
+[{{< fa solid arrow-left >}} Web Vocabulary](/vocabulary/vocab-web.qmd)
 <br>
 </div>
 <br>

@@ -1,0 +1,57 @@
+---
+title: "General Vocabulary"
+subtitle: Technical terms and definitions
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [vocabulary]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+## Vocabulary 
+
+| Term | Definition |
+|:---|:---|
+| devops | description |
+| scrum | description |
+| framework | description |
+| immuateble code | description |
+| github | description |
+| serverless | description |
+| container | description |
+| webhook | description |
+| polling | description |
+| parse | description |
+| throttle | description |
+| ddd | description |
+
+: General vocabulary {tbl-colwidths="[20,80]"}
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} SCRUM Resources](/scrum/resources.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[SCRUM Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-scrum.qmd)
+<br>
+</div>
+<br>
+</div>

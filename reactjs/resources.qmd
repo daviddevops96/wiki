@@ -39,7 +39,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[General Vocabulary {{< fa solid arrow-right >}}](/scrum/scrum-what-concepts.qmd)
+[SCRUM Agile Methodology {{< fa solid arrow-right >}}](/scrum/scrum-what-concepts.qmd)
 <br>
 </div>
 <br>

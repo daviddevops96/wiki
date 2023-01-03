@@ -43,7 +43,7 @@ Deliveries via github:
 <br>
 <div class='column right next'>
 <br>
-[General Vocabulary  {{< fa solid arrow-right >}}](/vocabulary/vocabgeneral.qmd)
+[About me {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
 <br>
 </div>
 <br>
