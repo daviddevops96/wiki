@@ -1,0 +1,43 @@
+---
+title: "Week 5: Mindset, the key to everythng"
+subtitle: SCRUM Week 5
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [scrum, scrum-week5, mindset]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+# Mindset, the key to everythng
+
+- [Week 5: Mindset, the key to everythng](https://sites.google.com/view/gestioprojectes/llegir/setmana5){.external}
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Week 4: ScrumMaster, how it works](/scrum/scrum-week4.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Week 6: Product Owner {{< fa solid arrow-right >}}](/scrum/scrum-week6.qmd)
+<br>
+</div>
+<br>
+</div>

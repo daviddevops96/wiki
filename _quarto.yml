@@ -312,18 +312,24 @@ website:
         - text: "---"  
         - section: "What is SCRUM"
           contents: 
-            - scrum/scrum.qmd
-            - scrum/agilemanifesto.qmd
-            - scrum/scrumguide.qmd
-            - scrum/digitaltoolsscrum.qmd
+            - scrum/scrum-what-concepts.qmd
+            - scrum/scrum-what-agile-manifesto.qmd
+            - scrum/scrum-what-guide.qmd
         - text: "---"  
         - section: "Weeks"
-          contents: 
-            - scrum/week1.qmd
-            - scrum/week2.qmd
-            - scrum/week3.qmd
-            - scrum/week4.qmd
-            - scrum/week5.qmd
+          contents:
+            - scrum/scrum-week1.qmd
+            - scrum/scrum-week2.qmd
+            - scrum/scrum-week3.qmd
+            - scrum/scrum-week4.qmd
+            - scrum/scrum-week5.qmd
+            - scrum/scrum-week6.qmd
+            - scrum/scrum-week7.qmd
+            - scrum/scrum-week8.qmd
+        - text: "---"  
+        - section: "Resources"
+          contents:
+             - scrum/resources.qmd
 
     - id: "vocabulary"
       title: "Vocabulary"

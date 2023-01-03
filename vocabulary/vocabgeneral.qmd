@@ -10,7 +10,7 @@ devops - framework - api - immuateble code - git - github - serverless - cd/ci -
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} IFCD Deliveries](/ifcd0210/ifcd0210deliveries.qmd)
+[{{< fa solid arrow-left >}} SCRUM Resources](/scrum/resources.qmd)
 <br>
 </div>
 <br>

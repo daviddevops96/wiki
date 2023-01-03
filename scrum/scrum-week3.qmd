@@ -1,0 +1,43 @@
+---
+title: "Week 3: Communication and value"
+subtitle: SCRUM Week 3
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [scrum, scrum-wewek3, communication]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+# Communication and value
+
+- [Week 3: Communication and value](https://sites.google.com/view/gestioprojectes/llegir/setmana3){.external}
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Week 2: User stories, tasks and habits](/scrum/scrum-week2.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Week 4: ScrumMaster, how it works  {{< fa solid arrow-right >}}](/scrum/scrum-week4.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -25,7 +25,8 @@ format:
 
 ## Introuduction
 
-
+https://reactjs.org/docs/context.html
+https://www.javascriptstuff.com/component-communication/#7-global-variables
 
 <!--- navLinks -->
 <br><br>
