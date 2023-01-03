@@ -40,7 +40,7 @@ This Guide contains the definition of Scrum. This definition consists of Scrumâ€
 
 Scrum is: Lightweight, Simple to understand and Difficult to master
 
-![Is [SpaceX](https://www.quora.com/Is-SpaceX-using-Scrum){.external} using Scrum?](/images/scrum/spacex.jfif)
+![Is [SpaceX](https://www.quora.com/Is-SpaceX-using-Scrum){.external} using Scrum?](/images/scrum/spacex.png){width=70%}
 
 At the very beginning, when they were just a startup, they used all Lean Startup tips to achieve the success. They did unscalable things, bought some spares for rockets in usual computer shops, made some spares by themselves, etc. 
 
@@ -78,7 +78,7 @@ The Product Owner is the Team member who knows what the customer wants and the r
 
 The Product Owner must know the business case for the product and what features the customers wants. He must be available to consult with the team to make sure they are correctly implementing the product vision. Most importantly, he must have the authority to make all decisions necessary to complete the project.
 
-## Agile Manifesto Four Fundations
+## Agile Manifesto Four Foundations
 
 Through this work we have come to value:
 

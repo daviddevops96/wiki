@@ -41,7 +41,7 @@ This HTML version of the Scrum Guide is a direct port of the November 2020 versi
 
 ## Manifesto for Agile Software Development
 
-![Agile Software Development](/images/scrum/SCRUM-1.jpg)
+![Agile Software Development](/images/scrum/SCRUM-1.jpg){width=80%}
 
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
 
@@ -56,22 +56,38 @@ That is, while there is value in the items on the right, we value the items on t
 
 ## Backlog
 
-**Sprint Velocity** - Number of Story Points completed per Sprint
+::: {.callout-important}
+## Sprint Velocity
+Number of Story Points completed per Sprint
+:::
 
-![All actors in SCRUM](/images/scrum/SCRUM-2.jpg)
+![All actors in SCRUM](/images/scrum/SCRUM-2.jpg){width=60%}
 
-**Product Backlog** – is an always changing, dynamically prioritized list of requirements ordered by Business Value. Requirements are broken down into User Stories by the Product Owner. Definition of Done (DoD) at the Backlog level.
+::: {.callout-important}
+## Product Backlog
+is an always changing, dynamically prioritized list of requirements ordered by Business Value. Requirements are broken down into User Stories by the Product Owner. Definition of Done (DoD) at the Backlog level.
+:::
 
-**Sprint Backlog** - contains all committed User Stories for the current Sprint broken down into Tasks by the Team. All items on the Sprint Backlog should be developed, tested, documented and integrated to fulfill the Team commitment.
+::: {.callout-important}
+## Sprint Backlog
+contains all committed User Stories for the current Sprint broken down into Tasks by the Team. All items on the Sprint Backlog should be developed, tested, documented and integrated to fulfill the Team commitment.
+:::
 
 ![Burndown Chart](/images/scrum/SCRUM-3.jpg)
 
-**Burndown Chart** - shows the amount of work remaining per Sprint. It shows the correlation between work remaining at any point in time and the progress of the Team.
-
+::: {.callout-important}
+## Burndown Chart
+shows the amount of work remaining per Sprint. It shows the correlation between work remaining at any point in time and the progress of the Team.
+:::
 
 ## Core concpets: invest - user story - done - poker
 
-The acronym INVEST helps to remember a widely accepted set of criteria, or checklist, to assess the quality of a user story. If the story fails to meet one of these criteria, the team may want to reword it, or even consider a rewrite (which often translates into physically tearing up the old story card and writing a new one).
+> The acronym INVEST helps to remember a widely accepted set of criteria, or checklist, to assess the quality of a user story. If the story fails to meet one of these criteria, the team may want to reword it, or even consider a rewrite (which often translates into physically tearing up the old story card and writing a new one).
+
+::: {.callout-tip}
+## INVEST
+helps to remember a widely accepted set of criteria, or checklist, to assess the quality of a user story.
+:::
 
 A good user story should be:
 
@@ -84,20 +100,33 @@ A good user story should be:
 
 For a user story, the next template should be used: 
 
+``` js
 As a <type of user>, I want <some goal> so that <some reason>.
+```
+
+::: {.callout-tip}
+## Epic 
+a user story that covers large amounts of functionality. Because an epic is generally too large for an Agile team to complete in one iteration, it is split into multiple smaller user stories before it is worked on
+:::
+
+::: {.callout-tip}
+## User Story
+is a short, simple description of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.
+:::
 
 
-**Epic** – a user story that covers large amounts of functionality. Because an epic is generally too large for an Agile team to complete in one iteration, it is split into multiple smaller user stories before it is worked on
-
-**User Story** - is a short, simple description of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.
-
-**Acceptance Criteria** - list of activities that must be fulfilled in order to consider US done
-
-**INVEST** - helps to remember a widely accepted set of criteria, or checklist, to assess the quality of a user story.
+::: {.callout-tip}
+## Acceptance Criteria
+list of activities that must be fulfilled in order to consider US done
+:::
 
 ![Plannig poker](/images/scrum/poker.png)
 
-**Planning poker** -  also called Scrum poker, is a consensus-based, gamified technique for estimating by playing numbered cards face-down to the table, instead of speaking them aloud. 
+::: {.callout-tip}
+## Planning poker
+also called Scrum poker, is a consensus-based, gamified technique for estimating by playing numbered cards face-down to the table, instead of speaking them aloud. 
+:::
+
 
 <!--- navLinks -->
 <br><br>

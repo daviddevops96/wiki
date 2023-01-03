@@ -13,22 +13,67 @@ format:
   html
 ---
 
-::: {.summary}
-
-📘 **React JS create project**
-
-
-:::
-
----
-
 # ReactJS Starting
 
 ## React Directly in HTML
 
+Start by including three scripts, the first two let us write React code in our JavaScripts, and the third, Babel, allows us to write JSX syntax and ES6 in older browsers.
+
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin>
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      function Hello() {
+        return <h1>Hello World!</h1>;
+      }
+
+      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+    </script>
+
+  </body>
+</html>
+
+```
+
+## Install Nodejs and npm
+
+To create a new ``React app``, you will need to have the following software installed on your computer:
+
+1. ``Node.js``: This is a JavaScript runtime that is used to execute JavaScript code outside of a web browser. You can download the latest version of ``Node.js`` from the official website (https://nodejs.org/) or through a package manager like Homebrew (Mac) or Chocolatey (Windows).
+2. ``npm``: This is the package manager for ``Node.js``, which is used to manage the libraries and dependencies that your app uses. npm is included with ``Node.js``, so you don't need to install it separately.
+
+::: {.callout-tip}
+``npx`` is a tool that is included with npm, the package manager for ``Node.js``. It allows you to execute packages that are installed locally or globally in your project's node_modules directory.
+:::
+
 ## `create-react-app`
 
+Whether you’re using React or another library, [Create React App](https://create-react-app.dev/){.external} lets you focus on code, not build tools.
 
+To create a project called my-app, run this command:
+
+``` bash
+npx create-react-app my-app
+```
+![Create project](/images/reactjs/createproject.svg)
+
+## Install `create-react-app`
+
+Updating your build tooling is typically a daunting and time-consuming task. When new versions of Create React App are released, you can upgrade using a single command:
+
+``` bash
+npm install react-scripts@latest
+```
 
 <!--- navLinks -->
 <br><br>

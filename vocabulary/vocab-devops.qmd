@@ -13,6 +13,7 @@ format:
   html
 ---
 
+![Technical terms and definitions](/images/home/frontimagealbertprofeweb-vocabulary.png){width=60%}
 
 ## Vocabulary 
 
