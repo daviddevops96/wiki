@@ -12,6 +12,7 @@ number-sections: true
 format:
   html
 ---
+
 ## Maven Project push to GitHub: CLI gh
 
 To connect a local project on **IntelliJ IDEA** to GitHub.com, you will need to create a repository on GitHub and then push your local project to the repository. Here's a step-by-step guide:

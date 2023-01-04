@@ -38,7 +38,7 @@ When you create an object, you are creating an **instance of a class**, which is
 
 ::: {.callout-note collapse="true"}
 ## Person class
-``` java
+``` {.java .code-overflow-wrap filename="Person.java"}
 public class Person {
   //fields  
   private int age;
@@ -107,9 +107,12 @@ public class Person {
 
 <mark>Each object has its own unique identity, and it maintains its own state by storing the values of its attributes. The object's behavior is defined by the methods that operate on its attributes, and these methods can be invoked by other code to ask the object to perform a specific action<mark>.
 
-Objects are an essential concept in object-oriented programming, and they are used to model real-world entities in a program. For example, you could create an object to represent a particular person, with attributes such as name, age, and address, and methods that operate on these attributes, such as a method to calculate their age in a particular year.
 
 ![Java SE Basic Principles OOP Class and Object](/images/javase/oop-classobject.png){width="50%"}
+
+::: {.column-margin}
+Objects are an essential concept in object-oriented programming, and they are used to model real-world entities in a program. For example, you could create an object to represent a particular person, with attributes such as name, age, and address, and methods that operate on these attributes, such as a method to calculate their age in a particular year.
+:::
 
 In Java, you can create objects by using the `new` keyword and the class constructor to allocate memory for the object, and then you can access the object's attributes and methods by using the `.` (dot) operator. For example, if you have a class called `Person`, you could create an object of that class like this:
 
@@ -124,8 +127,9 @@ carla.name = "Carla Whitesand";
 carla.setAddress("123 Main Street");
 int age = carla.calc>ulateAge(2022);
 ```
-
+::: {.column-margin}
 In this example, `name` and `setAddress()` are attributes and methods of the `Person` class, and `person` is an object of that class. You can use this object to store and manipulate data according to the rules defined by the class.
+:::
 
 ## Creating Objects
 

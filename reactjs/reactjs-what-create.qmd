@@ -93,7 +93,7 @@ npm install react-scripts@latest
 <br>
 <div class='column right next'>
 <br>
-[React JS: JSX  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-jsx.qmd)
+[React JS: Components  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-components.qmd)
 <br>
 </div>
 <br>

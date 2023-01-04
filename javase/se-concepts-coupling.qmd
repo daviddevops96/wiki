@@ -24,9 +24,13 @@ format:
 :::
 
 ---
-Coupling and decoupling are fundamental in modern Java applied to **microservices**.
 
 **Coupling** refers to the degree of dependence, **decoupling**, on the other hand, refers to the process of <mark>reducing the degree of coupling between different classes or modules in a system</mark>. By decoupling classes or modules, you can make the system **more modular, scalable, flexible, and maintainable**.
+
+::: {.column-margin}
+Coupling and decoupling are fundamental in modern Java applied to **microservices**.
+:::
+
 
 ## Key-concept
 
@@ -40,7 +44,7 @@ Additionally, decoupling can help to improve the reusability of classes or modul
 
 Here is an example of decoupling in Java, using a `CarFactory` class to create different types of cars:
 
-```java
+``` {.java .code-overflow-wrap filename="CarFactory.java"}
 public class CarFactory {
     // Private constructor to prevent instantiation
     private CarFactory() { }
@@ -60,7 +64,9 @@ public class CarFactory {
     }
 }
 ```
+::: {.column-margin}
 In this example, the `CarFactory` class defines a `createCar()` method, which is marked as `public` and `static`. This method is the factory method, which is responsible for creating objects of the `Car` type. The `createCar()` method takes a `type` parameter, which specifies the type of car to create, and returns an instance of the appropriate concrete class.
+:::
 
 By decoupling the `CarFactory` class from the code that uses the cars, you can make the code that uses the cars more flexible and reusable. For example, you could define a `CarDriver` class that takes a `Car` object as a parameter, and uses the `Car` object to drive the car. Because the `CarDriver` class doesn't depend on the `CarFactory` class, you can use the `CarDriver` class to drive any type of car, regardless of how the car was created.
 

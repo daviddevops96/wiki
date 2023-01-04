@@ -37,15 +37,16 @@ TDD is often used in **agile software development**, as it allows for the rapid 
 
 ## JUnit: unit test
 
-Link: [Junit](https://junit.org/junit5/) and [User guide](https://junit.org/junit5/docs/current/user-guide/)
-
-Unit tests are the smallest elements in the test automation process. With the help of unit tests, the developer can check the business logic of any class. So JUnit plays a vital role in the development of a test-driven development framework.
 
 ![JUnit 5](/images/javase/junit5.jpeg){width=30%}
 
-The following example provides a glimpse at the minimum requirements for writing a test in JUnit Jupiter. Subsequent sections of this chapter will provide further details on all available features.
+Unit tests are the smallest elements in the test automation process. With the help of unit tests, the developer can check the business logic of any class. So JUnit plays a vital role in the development of a test-driven development framework.
 
-``` java
+::: {.column-margin}
+Link: [Junit](https://junit.org/junit5/) and [User guide](https://junit.org/junit5/docs/current/user-guide/)
+:::
+
+``` {.java .code-overflow-wrap filename="MyFirstJUnitJupiterTests.java"}
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import example.util.Calculator;
 import org.junit.jupiter.api.Test;
@@ -60,7 +61,11 @@ class MyFirstJUnitJupiterTests {
     }
 
 }
+
 ```
+::: {.column-margin}
+The following example provides a glimpse at the minimum requirements for writing a test in JUnit Jupiter. Subsequent sections of this chapter will provide further details on all available features.
+:::
 
 ## TDD
 
@@ -76,11 +81,9 @@ Steps for the same are given below:
 
 ## Example
 
-Here is an example of how TDD could be applied in a Java project using JUnit. Let's say we are building a class that represents a simple calculator. We want the calculator to have methods for adding, subtracting, multiplying, and dividing two numbers.
-
 First, we would write a test for the add method, which should take two numbers as arguments and return their sum. Here is an example of how this test might look using JUnit:
 
-``` java
+``` {.java .code-overflow-wrap filename="MyFirstJUnitJupiterTests.java"}
 public class CalculatorTest {
 
   @Test
@@ -91,13 +94,17 @@ public class CalculatorTest {
   }
 
 }
+
 ```
+::: {.column-margin}
+Here is an example of how TDD could be applied in a Java project using JUnit. Let's say we are building a class that represents a simple calculator. We want the calculator to have methods for adding, subtracting, multiplying, and dividing two numbers.
+:::
 
 Next, we would run the test to see if it fails. Since we have not yet implemented the add method, the test should fail with a message indicating that the add method is not yet implemented.
 
 Next, we would write the code for the add method. Here is an example of how this method might look:
 
-``` java
+``` {.java .code-overflow-wrap filename="MyFirstJUnitJupiterTests.java"}
 public class Calculator {
 
   public double add(double a, double b) {
@@ -105,6 +112,7 @@ public class Calculator {
   }
 
 }
+
 ```
 
 Finally, we would run the test again to ensure that it passes. If the test passes, we know that the add method is working correctly and we can move on to the next feature. We would repeat this process for each of the calculator's methods, writing a test for each one, implementing the code, and then running the test to ensure it passes.

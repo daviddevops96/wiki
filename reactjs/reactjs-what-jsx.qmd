@@ -152,7 +152,7 @@ export default function TodoList() {
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: Create a React project](/reactjs/reactjs-what-create.qmd)
+[{{< fa solid arrow-left >}} React JS: Components](/reactjs/reactjs-what-components.qmd)
 <br>
 </div>
 <br>
@@ -164,7 +164,7 @@ export default function TodoList() {
 <br>
 <div class='column right next'>
 <br>
-[React JS: Components  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-components.qmd)
+[React JS: props and state  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-props.qmd)
 <br>
 </div>
 <br>

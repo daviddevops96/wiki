@@ -14,9 +14,11 @@ format:
 ---
 ## Java OOP
 
-![Java SE Basic Principles OOP](/images/javase/javaseprinciples.png){.preview-image #java-oop}
-
 **Object-oriented programming (OOP)** is a programming paradigm that is based on the concepts of `objects` and `classes`, which can contain data and code that manipulates that data. OOP is based on several key principles, including the following:
+
+::: {.column-margin}
+![Java SE Basic Principles OOP](/images/javase/javaseprinciples.png){.preview-image #java-oop}
+:::
 
 - **Encapsulation**: [Encapsulation](/javase/se-principles-encapsulation.qmd) refers to the idea of combining data and the code that manipulates that data into a single unit, or object. This allows for better organization and modularity of code, and helps to hide the internal details of an object from other parts of the program.
 
@@ -34,7 +36,7 @@ Objects can <mark>interact</mark> with each other by sending and receiving messa
 
 <mark>Objects are created from classes</mark>, which are **templates** that define the structure and behavior of objects.
 
-![Example object in Java](/images/javase/OOP_Circle.png){.image-preview #java-class}
+![Example object in Java](/images/javase/OOP_Circle.png){.image-preview width="50%"}
 
 ::: {.summary}
 

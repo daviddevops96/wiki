@@ -33,7 +33,9 @@ Every parent component can pass some information to its child components by givi
 
 In ``React JS``, data flows in one direction, **from Parent to Child**. This helps components to be **simple and predictable**.
 
+::: {.column-margin}
 > “Simplicity is the ultimate sophistication.” -Leonardo da Vinci
+:::
 
 Use the same syntax as HTML attributes to send props into a component:
 
@@ -100,7 +102,7 @@ ReactDOM.render(
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: Components](/reactjs/reactjs-what-components.qmd)
+[{{< fa solid arrow-left >}} React JS: JSX](/reactjs/reactjs-what-jsx.qmd)
 <br>
 </div>
 <br>

@@ -75,6 +75,10 @@ export default function MyApp() {
 
 It helps create modular web components that look just like ``HTML``, thanks to ``JSX``. ``JSX`` is a ``JavaScript`` syntax extension built by ``Facebook`` **to define a concise and familiar syntax for creating tree structures with attributes**.
 
+::: {.column-margin}
+> “As in a Russian doll, however, the outer layers always contain an inner core.” -Frans de Waal
+:::
+
 ## Overview
 
 Some of the main features of React.js include:
@@ -105,7 +109,6 @@ Hooks allow developers to use state and other React features by writing **functi
 
 :::
 
-For example, instead of using a class to define a component, you can use the useState Hook to add state to a function component:
 
 ```js
 import React, { useState } from 'react';
@@ -124,6 +127,10 @@ function Example() {
   );
 }
 ```
+
+::: {.column-margin}
+For example, instead of using a class to define a component, you can use the useState Hook to add state to a function component:
+:::
 
 In this example, the useState Hook is used to add state to the Example component. The `useState` function returns a pair of values: the current state, and a function that can be used to update the state. The current state is stored in the `count` variable, and the function to update the state is stored in the `setCount` variable.
 
@@ -175,7 +182,9 @@ function ExampleComponent(props) {
 export default ExampleComponent;
 ```
 
+::: {.column-margin}
 In this example, the `useState` Hook is used to add state to the `ExampleComponent` function. The `useState` function returns a pair of values: the current state, and a function that can be used to update the state.
+:::
 
 The current state is stored in the `count` variable, and the function to update the state is stored in the `setCount` variable.
 

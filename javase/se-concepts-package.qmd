@@ -25,19 +25,27 @@ Packages allow you to group similar classes and interfaces together, and to prov
 
 ---
 
-When you create a new class or interface in Java, you can place it in a package by using the `package` keyword at the top of the file, followed by the name of the package. For example, the following code shows how to create a new class called `Example` and place it in the `com.example` package:
+When you create a new class or interface in Java, you can place it in a package by using the `package` keyword at the top of the file, followed by the name of the package.
 
-``` java
+
+``` {.java .code-overflow-wrap filename="Example.java"}
 package com.example;
 
 public class Example {
     // Class code goes here...
 }
+
 ```
+::: {.column-margin}
+For example, the following code shows how to create a new class called `Example` and place it in the `com.example` package
 
-By placing the `Example` class in the `com.example` package, you can access the class from other parts of your program by using the fully-qualified class name, which includes the package name as well as the class name. For example, the following code shows how to use the `Example` class from within another class called `Main`:
+:::
 
-``` java
+By placing the `Example` class in the `com.example` package, you can access the class from other parts of your program by using the fully-qualified class name, which includes the package name as well as the class name.
+
+For example, the following code shows how to use the `Example` class from within another class called `Main`:
+
+``` {.java .code-overflow-wrap filename="Main.java"}
 public class Main {
     public static void main(String[] args) {
         // Use fully-qualified class name to access Example class
@@ -46,9 +54,9 @@ public class Main {
 }
 
 ```
-
+::: {.column-margin}
 In this example, the `Main` class uses the `com.example.Example` class by specifying the fully-qualified class name, which includes the package name as well as the class name. This allows the `Main` class to access the `Example` class from within the `com.example` package.
-
+:::
 
 ## Package in Java SE or Java EE is not similiar
 

@@ -29,11 +29,9 @@ There are *three main types of scope* in Java:
 
 In Java, **there is no concept of global scope in the traditional sense**. In other programming languages, global variables are variables that are declared outside of any function or class, and are accessible and usable by any part of the program. In Java, however, there is no way to declare a variable outside of a class or method, **so there are no global variables in the strict sense of the term**.
 
-Instead, in Java, the closest equivalent to global scope is class scope. In Java, a variable that is declared within a class, but outside of any method, has class scope, which means that it can be accessed and used by any method within the class.
-
 Here is an example of class scope in Java:
 
-``` java
+``` {.java .code-overflow-wrap filename="Example.java"}
 public class Example {
     // Class variable
     static int classVariable = 1;
@@ -53,6 +51,9 @@ public class Example {
 }
 
 ```
+::: {.column-margin}
+Instead, in Java, the closest equivalent to global scope is class scope. In Java, a variable that is declared within a class, but outside of any method, has class scope, which means that it can be accessed and used by any method within the class.
+:::
 
 In this example, the `classVariable` variable is declared within the `Example` class, but outside of any method, so it has class scope. This means that the `classVariable` variable can be accessed and used by any method within the `Example` class, including the `main` method and the `someMethod` method.
 
@@ -75,7 +76,7 @@ In Java, the scope of a variable is determined by the **position of the variable
 Here is an example of how scope works in Java based on the position of the variable's declaration within curly braces:
 
 
-``` java
+``` {.java .code-overflow-wrap filename="Example.java"}
 public class Example {
     // Global or class scope
     static int globalOrClassVariable = 1;

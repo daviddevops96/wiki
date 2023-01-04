@@ -35,7 +35,7 @@ The `static` modifier has several different uses in Java, depending on where it 
 
 For example:
 
-``` java
+``` {.java .code-overflow-wrap filename="Counter.java"}
 public class Counter {
     // Static field
     private static int count = 0;
@@ -52,12 +52,13 @@ public class Counter {
 }
 
 ```
-
+::: {.column-margin}
 In this example, the `count` field is marked as `static`, which means that all instances of the `Counter` class share the same value for the `count` field. When a new instance of the `Counter` class is created, the `count` field is incremented, and the new value is shared by all instances of the class.
+:::
 
 Another example:
 
-``` java
+``` {.java .code-overflow-wrap filename="Account.java"}
 public class Account {
     // Static field
     private static int nextAccountNumber = 1;
@@ -100,8 +101,9 @@ public class Account {
     }
 }
 ```
-
+::: {.column-margin}
 In this example, the `Account` class defines a `nextAccountNumber` field that is marked as `static`. This means that the `nextAccountNumber` field belongs to the `Account` class itself, rather than to an instance of the `Account` class. This means that all instances of the `Account` class share the same value for the `nextAccountNumber` field.
+:::
 
 When a new instance of the `Account` class is created, the `nextAccountNumber` field is incremented, and the new value is shared by all instances of the class. This allows each instance of the `Account` class to have a unique `accountNumber` field, which is generated automatically using the `nextAccountNumber` field.
 
@@ -111,7 +113,7 @@ When a new instance of the `Account` class is created, the `nextAccountNumber` f
 
 For example:
 
-``` java
+``` {.java .code-overflow-wrap filename="MathUtils.java"}
 public class MathUtils {
     // Static method
     public static double squareRoot(double number) {
@@ -119,17 +121,16 @@ public class MathUtils {
     }
 }
 ```
-
+::: {.column-margin}
 In this example, the `squareRoot()` method is marked as `static`, which means that it can be called on the `MathUtils` class itself, rather than on an instance of the `MathUtils` class. This allows the `squareRoot()` method to be called without creating an instance of the `MathUtils` class, which can be useful in some situations.
+:::
 
 ## ``static`` class
 
 
 **When applied to a class**, the `static` modifier indicates that the class is a **nested class**. In other words, the `static` class is defined inside another class, and is associated with the outer class.
 
-Here is an example of how the static modifier can be used when applied to a class in Java, using an Account class and a nested Transaction class as examples:
-
-``` java
+``` {.java .code-overflow-wrap filename="Account.java"}
 public class Account {
     // Static field
     private static int nextAccountNumber = 1;
@@ -194,6 +195,11 @@ public class Account {
 }
 
 ```
+
+::: {.column-margin}
+Here is an example of how the ``static`` modifier can be used when applied to a ``class`` in ``Java``, using an ``Account`` class and a nested ``Transaction`` class as examples:
+:::
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

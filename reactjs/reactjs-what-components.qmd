@@ -19,11 +19,80 @@ format:
 
 📘 **Components**
 
-
+Components are one of the **core concepts of React**. They are the foundation upon which you build user interfaces ``UI``. 
 :::
 
 ---
 
+## COP: Components-Oriented Paradigm
+
+``COP``, or ``Components-Oriented Paradigm``, is a software design approach that emphasizes **the use of reusable, modular components to build complex applications**. In this paradigm, an application is typically divided into smaller, independent components that can be easily composed and reused.
+
+::: {.column-margin}
+The components-oriented paradigm is often associated with modern front-end JavaScript frameworks, such as React, Angular, and Vue.js, which provide tools and libraries for building applications using a component-based approach. However, the principles of COP can be applied to other programming languages and paradigms as well.
+:::
+
+One of the main benefits of the components-oriented paradigm is that it helps to improve the maintainability and scalability of an application. By encapsulating functionality into discrete, reusable components, it becomes easier to modify and extend the application over time.
+
+Additionally, the use of standardized, modular components can make it easier to build larger applications by allowing developers to reuse and compose components rather than building everything from scratch.
+
+## Defining a component
+
+<mark>React puts interactivity first while still using the same technology: a React component is a JavaScript function that you can sprinkle with markup.</mark>
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+export default function Profile() {
+  return (
+    <img
+      src="https://i.imgur.com/MK3eW3Am.jpg"
+      alt="Katherine Johnson"
+    />
+  )
+}
+```
+::: {.column-margin}
+![Execution React component wiht markup image](/images/reactjs/ex4.png){width=80%}
+:::
+
+
+1. Export the component: the ``export default`` prefix is a standard JavaScript syntax (not specific to React). It lets you **mark the main function in a file so that you can later import it from other files**.
+2. Define the function: with function ``Profile() { }`` you define a JavaScript function with the name ``Profile``.
+3. Add markup: the component returns an ``<img />`` tag with src and alt attributes. ``<img />`` is written like ``HTML``, but it is actually JavaScript under the hood! 
+
+## Using a component
+
+For example, you can export a ``Gallery`` component that uses multiple ``Profile`` components:
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+function Profile() {
+  return (
+    <img
+      src="https://i.imgur.com/MK3eW3As.jpg"
+      alt="Katherine Johnson"
+    />
+  );
+}
+
+export default function Gallery() {
+  return (
+    <section>
+      <h1>Amazing scientists</h1>
+      <Profile />
+      <Profile />
+      <Profile />
+      <p>Working hard for sciende always pay back!</p>
+      <p>By the way, how are you, Ruben?</p>
+    </section>
+  );
+}
+```
+
+::: {.column-margin}
+![Using React component wiht markup image and some text](/images/reactjs/ex5.png){width=80%}
+:::
+
+
+![Using React component wiht markup image and some text](/images/reactjs/component-using.png){width=80%}
 
 <!--- navLinks -->
 <br><br>
@@ -31,7 +100,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: JSX](/reactjs/reactjs-what-jsx.qmd)
+[{{< fa solid arrow-left >}} React JS: Create a React project](/reactjs/reactjs-what-create.qmd)
 <br>
 </div>
 <br>
@@ -43,7 +112,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[React JS: props and state  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-props.qmd)
+[React JS: JSX  {{< fa solid arrow-right >}}](/reactjs/reactjs-what-jsx.qmd)
 <br>
 </div>
 <br>

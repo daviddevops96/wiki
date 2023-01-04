@@ -23,21 +23,26 @@ Java is a high-level, class-based, object-oriented and  general-purpose programm
 It is [widely used](https://www.tiobe.com/tiobe-index/) for developing applications for web, mobile, and desktop environments. Java is known for its reliability and security, making it a perfect choice for developing enterprise-level applications, that is JEE (Java Enterprise Edition).
 :::
 
-
 ## Java SE
-![Java SE and Java EE - <a href="https://commons.wikimedia.org/wiki/File:Java_Platforms.PNG">Sergelucas</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/e/e1/Java_Platforms.PNG){.preview-image #javaEE-architecture}
 
 **Java SE (Java Platform, Standard Edition) is a set of libraries, tools, and technologies** that [provide](https://www.oracle.com/java/technologies/downloads/) a complete environment for developing and deploying Java-based applications. Java SE includes the:
 
 - **Java Development Kit (JDK)**, which contains the tools and libraries necessary <mark>for developing and running Java programs</mark>,
 - as well as the **Java Runtime Environment (JRE)**, which is used <mark>to run Java programs</mark> on a computer.
 
-Java SE also includes a set of standard libraries, which provide a wide range of functionality, including basic input/output, networking, security, and graphical user interface (GUI) components. 
+::: {.column-margin}
+![Java SE and Java EE - <a href="https://commons.wikimedia.org/wiki/File:Java_Platforms.PNG">Sergelucas</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/e/e1/Java_Platforms.PNG){width="80%"}
+:::
 
-ava SE is <mark>the core platform for Java-based software development</mark>, and is used by millions of developers around the world to create a wide variety of applications, from desktop and mobile applications to enterprise-level systems.
+
+Java SE is <mark>the core platform for Java-based software development</mark>, and is used by millions of developers around the world to create a wide variety of applications, from desktop and mobile applications to enterprise-level systems.
+
+::: {.column-margin}
+Java SE also includes a set of standard libraries, which provide a wide range of functionality, including basic input/output, networking, security, and graphical user interface (GUI) components. 
+:::
 
 ## Programming steps
-![Java Programming Steps](/images/javase/ProgrammingSteps.png){#programming-steps}
+![Java Programming Steps](/images/javase/ProgrammingSteps.png){width="60%"}
 
 he steps in writing a Java program is illustrated as above:
 
@@ -61,7 +66,7 @@ EE provides a set of APIs and tools for developing distributed, transactional, a
 
 JEE is often used for **building large-scale, complex, and mission-critical applications** in industries such as finance, healthcare, and e-commerce.
 
-[Java Vocabulary](/vocabulary/vocabjava.qmd)
+[Java Vocabulary](/vocabulary/vocab-java-se.qmd)
 
 <!--- navLinks -->
 <br><br>
@@ -69,7 +74,7 @@ JEE is often used for **building large-scale, complex, and mission-critical appl
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Week 5: Mindset, the key to everythng](/scrum/week5.qmd)
+[{{< fa solid arrow-left >}} Week 5: Mindset, the key to everythng](/scrum/scrum-week5.qmd)
 <br>
 </div>
 <br>
