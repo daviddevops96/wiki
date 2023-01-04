@@ -30,66 +30,86 @@ At the end of each iteration, the team holds two meetings: **one review** to sho
 
 ## Introduction
 
-Scrum is a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
+``Scrum`` is a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
 
-Scrum itself is a simple framework for effective team collaboration on complex products.
+``Scrum`` itself is a simple framework **for effective team collaboration on complex products.**
 
-Scrum co-creators Ken Schwaber and Jeff Sutherland have written The Scrum Guide to explain Scrum clearly and succinctly.
+::: {.column-margin}
+Scrum co-creators **Ken Schwaber** and **Jeff Sutherland** have written **The ``Scrum`` Guide** to explain ``Scrum`` clearly and succinctly.
+:::
 
-This Guide contains the definition of Scrum. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together.
+This section contains the definition of ``Scrum``. This definition consists of:
 
-Scrum is: Lightweight, Simple to understand and Difficult to master
+-  ``Scrum``’s roles,
+- events,
+- artifacts,
+- and the rules that bind them together.
 
-![Is [SpaceX](https://www.quora.com/Is-SpaceX-using-Scrum){.external} using Scrum?](/images/scrum/spacex.png){width=70%}
+> Scrum is: Lightweight, Simple to understand and Difficult to master.
 
-At the very beginning, when they were just a startup, they used all Lean Startup tips to achieve the success. They did unscalable things, bought some spares for rockets in usual computer shops, made some spares by themselves, etc. 
-
-All of these were a total craziness for classical aerospace companies. But it was the key benefit how they competed mastodons, like Lockheed and Boeing. 
-
-Testing of hypotheses, tight budgets, and continuous innovations made the appreciable contribution to company success. 
-
-> All Elon’s companies use Silicon Valley startup approach to achieve success. And this is what distinguishes them among all other classical companies from the industry
-
-Perhaps, it’s not a classical Scrum approach like software companies use, but it’s from the field of Kaizen and The Toyota Way. This is how startups should behave.
-
-
-## SCRUM members
-
+## ``SCRUM`` roles
 
 ### The Scrum Team
 
-The Scrum Team is made up of the people who actually work on Product Backlog Items during a Sprint. In a software context, this group is most often called the Development Team. In other contexts, the simple term Team is often used. The Scrum Master and the Product Owner, while part of the overall Scrum Team, may or may not be members of the Team working on PBIs. There is no Project Manager or Team Lead in Scrum. Everyone is simply an equal member of the Team. 
+The ``Scrum`` Team is made up of the people who actually work on Product Backlog Items during a Sprint. In a software context, this group is most often called the Development Team. In other contexts, the simple term Team is often used. The ``Scrum`` Master and the Product Owner, while part of the overall ``Scrum`` Team, may or may not be members of the Team working on PBIs. There is no Project Manager or Team Lead in ``Scrum``. Everyone is simply an equal member of the Team. 
 
-The Scrum team is:
+The ``Scrum`` team is:
 
 1. Transcendent 
 2. Autonomous 
 3. Cross-Functional
 
-### Scrum Master
+### ``Scrum`` Master
 
-The Scrum Master is tasked with making Scrum work. They work intimately with the Team, sometimes as a member. Their primary task is to remove Impediments and guide the team in Scrum practices. The Scrum Master does whatever it takes to help the team succeed.
+The ``Scrum`` Master is tasked with making ``Scrum`` work. They work intimately with the Team, sometimes as a member. Their primary task is to remove Impediments and guide the team in ``Scrum`` practices.
 
-Scrum Masters are servant-leaders, not managers. They play the pivotal role of making sure Scrum is practiced well. The Scrum Master is accountable for the Velocity and the Continuous Improvement of the Team.
+::: {.column-margin}
+The **``Scrum`` Master** does whatever it takes to help the team succeed.
+:::
+
+**``Scrum`` Masters** are servant-leaders, not managers. They play the pivotal role of making sure ``Scrum`` is practiced well. The **``Scrum`` Master** is accountable for the Velocity and the Continuous Improvement of the Team.
 
 ### Product Owner
 
-The Product Owner is the Team member who knows what the customer wants and the relative business value of those wants. He or she can then translate the customer's wants and values back to the Scrum team.
+The **Product Owner** is the Team member who knows what the customer wants and the relative business value of those wants. He or she can then translate the customer's wants and values back to the ``Scrum`` team.
 
-The Product Owner must know the business case for the product and what features the customers wants. He must be available to consult with the team to make sure they are correctly implementing the product vision. Most importantly, he must have the authority to make all decisions necessary to complete the project.
+::: {.column-margin}
+The **Product Owner** must know the business case for the product and what features the customers wants. 
+:::
+
+He must be available to consult with the team to make sure they are correctly implementing the product vision. Most importantly, he must have the authority to make all decisions necessary to complete the project.
 
 ## Agile Manifesto Four Foundations
 
 Through this work we have come to value:
 
-1. Individuals and interactions over processes and tools
-2. Working software over comprehensive documentation
-3. Customer collaboration over contract negotiation
-4. Responding to change over following a plan
+1. 
+> **Individuals and interactions** over processes and tools
+2. 
+> **Working software** over comprehensive documentation
+3. 
+> **Customer collaboration** over contract negotiation
+4. 
+> **Responding to change** over following a plan
 
-That is, while there is value in the items on the right, we value the items on the left more. 
+That is, while there is value in the items on the right, **we value the items on the left more.**
 
 
+## [Is SpaceX using Scrum?](https://www.quora.com/Is-SpaceX-using-Scrum){.external}
+
+![SpaceX is currently using a methodologies pool](/images/scrum/spacex.png){width=70%}
+
+At the very beginning, when they were just a startup, they used all Lean Startup tips to achieve the success. They did unscalable things, bought some spares for rockets in usual computer shops, made some spares by themselves, etc. 
+
+::: {.column-margin}
+All of these were a total craziness for classical aerospace companies. But it was the key benefit how they competed mastodons, like **Lockheed** and **Boeing**. 
+:::
+
+Testing of hypotheses, tight budgets, and continuous innovations made the appreciable contribution to company success. 
+
+> All Elon’s companies use Silicon Valley startup approach to achieve success. And this is what distinguishes them among all other classical companies from the industry
+
+Perhaps, it’s not a classical ``Scrum`` approach like software companies use, but it’s from the field of Kaizen and The Toyota Way. This is how startups should behave.
 
 <!--- navLinks -->
 <br><br>

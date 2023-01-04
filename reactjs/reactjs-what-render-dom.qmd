@@ -35,7 +35,9 @@ This abstracts out the attribute manipulation, event handling, and manual DOM up
 
 ## How Virtual-DOM and diffing works in React
 
-![The virtual DOM ``VDOM`` is a lightweight in-memory representation of the actual DOM: [How Virtual-DOM and diffing works in React ](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)](/images/reactjs/virtual-dom.png){width=70%}
+![The virtual DOM ``VDOM`` is a lightweight in-memory representation of the actual DOM](/images/reactjs/virtual-dom.png){width=70%}
+
+ [How Virtual-DOM and diffing works in React ](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e){.external}
 
 :::{.column-margin}
 When the state of a React component changes, the component re-renders and creates a new ``VDOM`` tree. React then compares this new tree to the previous ``VDOM`` tree, using a process called "diffing."

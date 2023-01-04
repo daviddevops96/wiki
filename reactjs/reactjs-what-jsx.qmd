@@ -26,11 +26,15 @@ JSX is a syntax extension for JavaScript that lets you write HTML-like markup in
 
 ## The problem
 
-![[JSX: Putting markup into JavaScript](https://beta.reactjs.org/learn/writing-markup-with-jsx#jsx-putting-markup-into-javascript)](/images/reactjs/html-js-react.png){width=60%}
+[JSX: Putting markup into JavaScript](https://beta.reactjs.org/learn/writing-markup-with-jsx#jsx-putting-markup-into-javascript){.external}
 
-The Web has been built on ``HTML``, ``CSS``, and ``JavaScript``. For many years, web developers kept content in ``HTML``, design in ``CSS``, and logic in ``JavaScript``—often in separate files! Content was marked up inside HTML while the page’s logic lived separately in JavaScript.
+The Web has been built on ``HTML``, ``CSS``, and ``JavaScript``. For many years, web developers kept content in ``HTML``, design in ``CSS``, and logic in ``JavaScript``—often in separate files! 
 
-## The solution: JSX
+Content was marked up inside HTML while the page’s logic lived separately in JavaScript.
+
+> So, we need a way to put things together.
+
+## The solution: React JSX
 
 ``` {.jsx .code-overflow-wrap filename="todolist.jsx"}
 export default function TodoList() {
@@ -44,6 +48,19 @@ export default function TodoList() {
   )
 }
 ```
+::: {.column-margin}
+![JSX: Putting markup into JavaScript](/images/reactjs/html-js-react.png){width=60%}
+:::
+
+## React JSX is a optimal solution but
+
+![React is a optimal solution but there is a lot of work to do yet](/images/reactjs/Things_React_Does.png){width=40%}
+
+from [David Ceddia](https://daveceddia.com/what-react-does/){.external}
+
+> **React cares exactly zero about styling.** Think of it as generating the barebones HTML. React will put elements on the page, but everything after that is the job of CSS: how they appear, what they look like, how they’re positioned, and how centered or uncentered they are.
+>
+> **“How to center a div in React” is… not a React problem.** It’s a CSS problem. You don’t need “react” in your Google query. Once you figure it out, use React to apply the right CSS class name to your components.
 
 ## The Rules of JSX
 
