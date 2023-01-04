@@ -274,6 +274,7 @@ website:
           contents: 
             - reactjs/reactjs-es6-arrow.qmd
             - reactjs/reactjs-es6-import.qmd
+            - reactjs/reactjs-es6-data.qmd
             - reactjs/reactjs-es6-destructuring.qmd
             - reactjs/reactjs-es6-spread.qmd
         - text: "---"  

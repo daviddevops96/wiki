@@ -19,10 +19,42 @@ format:
 
 📘 **spread operator**
 
+The ``JavaScript spread operator`` ``...`` allows us to quickly copy all or part of an existing array or object into another array or object.
 
 :::
 
 ---
+
+The spread operator is a useful tool for working with arrays and can make your code more concise and easier to read.
+
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+const numbersOne = [1, 2, 3];
+const numbersTwo = [4, 5, 6];
+const numbersCombined = [...numbersOne, ...numbersTwo];
+```
+
+The spread operator is often used in combination with destructuring.
+
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const [one, two, ...rest] = numbers;
+```
+
+The spread operator can also be used to spread the elements of an array into the arguments of a function:
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+function add(a, b, c) {
+  return a + b + c;
+}
+
+const arr = [1, 2, 3];
+console.log(add(...arr)); // 6
+```
+
+
 
 
 <!--- navLinks -->
