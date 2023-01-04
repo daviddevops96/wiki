@@ -19,7 +19,7 @@ categories: [about, images-credit]
 - Chiradeep BasuMallick Technical Writer, from spiceworks [What Is OOP (Object Oriented Programming)? Meaning, Concepts, and Benefits](https://www.spiceworks.com/tech/devops/articles/object-oriented-programming/){.external}[^3]
 - Emmanuel Morales, Medium [React flow data to components child by props](https://medium.embengineering.com/in-react-js-data-flows-in-one-direction-from-parent-to-child-841103ed3aed){.external}[^3]
 - Gethyl George Kurian, [How Virtual-DOM and diffing works in React](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e){.external}[^2]
-
+- Futures and Promises, BY KISALAYA PRASAD, AVANTI PATIL, AND HEATHER MILLER [Futures and Promises](https://web.archive.org/web/20201117004053/https://dist-prog-book.com/chapter/2/futures.html){.external}[^3]
 
 
 [^1]: random web, *just crediting the image*
