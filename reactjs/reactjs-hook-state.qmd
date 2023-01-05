@@ -1,12 +1,12 @@
 ---
-title: "ReactJS: hookState"
+title: "ReactJS: useState"
 subtitle: ReactJS hooks
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: description
-categories: [reactjs, hooks, hookState]
+categories: [reactjs, hooks, useState]
 toc: true
 number-sections: true
 format:
@@ -17,17 +17,77 @@ format:
 
 📘 **hookState**
 
+``useState`` is a React Hook that lets you add a state variable to your component.
 
+``const [state, setState] = useState(initialState)``
 
+The ``useState`` hook takes a single argument, which is the initial state for the state variable. In the example above, the initial state is ``initialState``. The hook returns an array with two elements: the current state value and a function that can be used to update the state value.
 :::
 
 ---
 
-## Introuduction
 
-About this site
+## Introduction
+
+``const [state, setState] = useState(initialState)``
+
+::: {.column-margin}
+![``useState`` hook provides you with functionality to set state for a variable and automatically update the DOM with the new state](/images/reactjs/usestate.jpeg){width=100%}
+:::
+
+- ``initialState``: The value you want the state to be initially. It can be a value of any type, but there is a special behavior for functions. This argument is ignored after the initial render.
+- ``useState`` returns an array with exactly two values:
+  1. ``state``: The current ``state``. During the first render, it will match the ``initialState`` you have passed.
+  2. ``setState``: The set function that lets you update the state to a different value and trigger a re-render.
 
 
+## Why hooks are so important
+
+![If you used classes in React before, this code should look familiar](/images/reactjs/usestate-class.png){width="80%"}
+
+``useState`` is a hook in React that allows you to add state to **functional components**. Prior to the introduction of hooks, the only way to add state to a React component was to use a **``class`` component**, [which required](https://reactjs.org/docs/hooks-state.html){.external} you **to write more code and follow a different syntax.**
+
+![Hooks allow you to use state: modular, reusable and easy to mantain](/images/reactjs/usestate-function.png){width="80%"}
+
+> Hooks allow you to use state and other features in functional components, which can make your code more concise and easier to read. They also allow you to reuse stateful logic across your components, which can make your code more modular and easier to maintain.
+
+
+## Example 1
+
+[In this example, rahter than changing a value directly,](https://freecontent.manning.com/managing-component-state-with-the-usestate-hook/){.external} we call a updater function. Calling ``useState`` returns a value and a updater function.
+
+![The updater function changes the value and React updates the display with the recalculated UI from the component](/images/reactjs/managing-component-state_03.png){width="80%"}
+
+![The useState function returns an array with two elements: a value and an updater function](/images/reactjs/managing-component-state_04.png){width="80%"}
+
+## Example 2
+
+[In this example](https://beta.reactjs.org/reference/react/useState#examples-basic){.external}, the ``count`` state variable holds a number. Clicking the ``button`` increments it.
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+import { useState } from 'react';
+
+export default function Counter() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return (
+    <button onClick={handleClick}>
+      You pressed me {count} times
+    </button>
+  );
+}
+```
+
+::: {.column-margin}
+![Executing App.js, calling component Gallery, importing it and using it](/images/reactjs/ex16.png){width=100%}
+:::
+::: {.column-margin}
+![Executing App.js, calling component Gallery, importing it and using it](/images/reactjs/ex17.png){width=100%}
+:::
 
 <!--- navLinks -->
 <br><br>
@@ -47,7 +107,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[React JS: hookReducer  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
+[React JS: useeducer  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
 <br>
 </div>
 <br>

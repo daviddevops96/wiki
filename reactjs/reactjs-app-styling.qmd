@@ -1,6 +1,6 @@
 ---
 title: "React JS App: styling"
-subtitle: ReactJS styling
+subtitle: ReactJS styling SCSS
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
@@ -18,10 +18,65 @@ format:
 ::: {.summary}
 
 📘 **styling**
-
+``Sass`` is a CSS pre-processor. ``Sass`` files are executed on the server and **sends CSS to the browser**.
 :::
 
 ---
+
+[SCSS (Sassy CSS) is a CSS preprocessor](https://www.w3schools.com/sass/default.php){.external}, which means that it adds additional features to CSS that allow you to write more powerful and efficient stylesheets. SCSS is an extension of the CSS syntax, and uses the same structure and principles as regular CSS, with a few additional features.
+
+One of the main advantages of SCSS is that it allows you to use variables in your stylesheets. This means that you can define a value once and use it multiple times throughout your stylesheet, which can make it easier to maintain and update your styles.
+
+
+## Install
+
+``` {.bash .code-overflow-wrap filename="reactSass.sh"}
+npm i sass
+```
+
+## Create a ``sass`` file
+
+Create a ``Sass`` file the same way as you create ``CSS`` files, but ``Sass`` files have the file extension ``.scss``
+
+In ``Sass`` files you can use variables and other ``Sass`` functions:
+
+
+``` {.scss .code-overflow-wrap filename="mycss.scss"}
+$myColor: red;
+
+h1 {
+  color: $myColor;
+}
+```
+
+::: {.column-margin}
+``SCSS`` also supports other features, such as mixins, nested rules, and functions, which can make it easier to write and maintain complex **stylesheets**.
+:::
+
+Import the Sass file the same way as you imported a CSS file:
+
+``` {.jsx .code-overflow-wrap filename="index.js"}
+index.js:
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './my-sass.scss';
+
+const Header = () => {
+  return (
+    <>
+      <h1>Hello Car!</h1>
+      <p>Add a little style!.</p>
+    </>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Header />);
+```
+
+::: {.column-margin}
+![Executing ``index.js``, ``<Header />`` component and importing ``mycss.scss``](/images/reactjs/ex12.png){width=100%}
+:::
 
 
 <!--- navLinks -->

@@ -290,6 +290,7 @@ website:
         - section: "ReactJS: Designing an App"
           contents: 
             - reactjs/reactjs-app-async.qmd
+            - reactjs/reactjs-app-events.qmd
             - reactjs/reactjs-app-router.qmd
             - reactjs/reactjs-app-conditional-render.qmd
             - reactjs/reactjs-app-styling.qmd

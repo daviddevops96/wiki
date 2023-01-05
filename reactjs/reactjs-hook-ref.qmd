@@ -1,12 +1,12 @@
 ---
-title: "React JS: hookRef"
+title: "React JS: useRef"
 subtitle: ReactJS hooks
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: description
-categories: [reactjs, hooks, hookRef]
+categories: [reactjs, hooks, useRef]
 toc: true
 number-sections: true
 format:
@@ -33,7 +33,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: hookReducer](/reactjs/reactjs-hook-reducer.qmd)
+[{{< fa solid arrow-left >}} React JS: iseReducer](/reactjs/reactjs-hook-reducer.qmd)
 <br>
 </div>
 <br>

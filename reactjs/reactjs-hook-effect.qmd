@@ -33,7 +33,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS: hookRef](/reactjs/reactjs-hook-ref.qmd)
+[{{< fa solid arrow-left >}} React JS: useRef](/reactjs/reactjs-hook-ref.qmd)
 <br>
 </div>
 <br>

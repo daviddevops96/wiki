@@ -75,7 +75,7 @@ console.log(add(...arr)); // 6
 <br>
 <div class='column right next'>
 <br>
-[ReactJS: hookState  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-state.qmd)
+[ReactJS: useState  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-state.qmd)
 <br>
 </div>
 <br>

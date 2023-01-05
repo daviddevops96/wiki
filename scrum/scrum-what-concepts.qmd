@@ -51,7 +51,15 @@ This section contains the definition of ``Scrum``. This definition consists of:
 
 ### The Scrum Team
 
-The ``Scrum`` Team is made up of the people who actually work on Product Backlog Items during a Sprint. In a software context, this group is most often called the Development Team. In other contexts, the simple term Team is often used. The ``Scrum`` Master and the Product Owner, while part of the overall ``Scrum`` Team, may or may not be members of the Team working on PBIs. There is no Project Manager or Team Lead in ``Scrum``. Everyone is simply an equal member of the Team. 
+The ``Scrum`` Team is made up of the people who actually work on Product Backlog Items during a Sprint. In a software context, this group is most often called the Development Team. 
+
+::: {.column-margin}
+In other contexts, the **simple term Team** is often used.
+:::
+
+The ``Scrum`` Master and the Product Owner, while part of the overall ``Scrum`` Team, may or may not be members of the Team working on PBIs. There is **no Project Manager or Team Lead** in ``Scrum``.
+
+> Everyone is simply an equal member of the Team. 
 
 The ``Scrum`` team is:
 
