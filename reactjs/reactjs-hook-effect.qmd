@@ -25,7 +25,7 @@ format:
 
 ---
 
-## Introuduction
+## Introduction
 
 ``useEffect`` accepts two arguments. The second argument is optional.
 
