@@ -71,7 +71,9 @@ It takes the result so far and the current item, then it returns the next result
 :::
 
 
-## ``useReducer(reducer, initialArg, init?)``
+## ``useReducer(init)``
+
+> ``useReducer(reducer, initialArg, init?)``
 
 Call ``useReducer`` at the top level of your component to manage its state with a [reducer](https://beta.reactjs.org/learn/extracting-state-logic-into-a-reducer){.external}.
 
@@ -159,7 +161,7 @@ export default function Counter() {
 ```
 
 ::: {.column-margin}
-![``useReducer``inital render](/images/reactjs/ex18.png){width=100%}
+![``useReducer`` inital render](/images/reactjs/ex18.png){width=100%}
 :::
 
 ::: {.column-margin}

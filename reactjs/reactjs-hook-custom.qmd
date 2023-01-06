@@ -44,7 +44,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[React JS: useContext  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-context.qmd)
+[React JS: useContext {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-context.qmd)
 <br>
 </div>
 <br>

@@ -3,7 +3,7 @@ title: "About images credit"
 categories: [about, images-credit]
 ---
 
-![Decison making is far to be a easy task, on the contrary, it is a complex one ...](/images/home/frontimagealbertprofeweb-about.png){width=50%}
+![About images credit](/images/home/frontimagealbertprofeweb-about.png){width=50%}
 
 ### Images list
 

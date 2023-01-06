@@ -107,7 +107,7 @@ export default function Counter() {
 <br>
 <div class='column right next'>
 <br>
-[React JS: useeducer  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
+[React JS: useReducer {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
 <br>
 </div>
 <br>

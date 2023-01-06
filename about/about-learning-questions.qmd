@@ -12,7 +12,7 @@ format:
   html
 ---
 
-![About images credit](/images/home/decisionmaking.png){width=50%}
+![Decison making is far to be a easy task, on the contrary, it is a complex one ...](/images/home/decisionmaking.png){width=50%}
 
 ## Answering the useful (right?) questions
 Questions that begin with the words **why, who, what, and how** are necessary and paramount because they help to **clarify information, to seek additional details, and to better understand a situation**. Besides, they play a crucial role in **facilitating communication** and understanding.
