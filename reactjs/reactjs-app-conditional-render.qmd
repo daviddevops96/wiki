@@ -133,6 +133,98 @@ export default function PackingList() {
 ![Executing App.js, with conditional rendering](/images/reactjs/ex9.png){width=100%}
 :::
 
+## Example 1: 
+
+In this [example](https://beta.reactjs.org/learn/state-as-a-snapshot#setting-state-triggers-renders){.external}, when you press **send**, ``setIsSent(true)`` tells React to re-render the UI:
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+import { useState } from 'react';
+
+export default function Form() {
+  const [isSent, setIsSent] = useState(false);
+  const [message, setMessage] = useState('Hi!');
+  if (isSent) {
+    return <h1>Your message is on its way!</h1>
+  }
+  return (
+    <form onSubmit={(e) => {
+      e.preventDefault();
+      setIsSent(true);
+      sendMessage(message);
+    }}>
+      <textarea
+        placeholder="Message"
+        value={message}
+        onChange={e => setMessage(e.target.value)}
+      />
+      <button type="submit">Send</button>
+    </form>
+  );
+}
+
+function sendMessage(message) {
+  // ...
+}
+```
+
+::: {.column-margin}
+![Executing App.js, inital render](/images/reactjs/ex33.png){width=100%}
+:::
+
+::: {.column-margin}
+![Executing App.js, just filling ``textarea``](/images/reactjs/ex34.png){width=100%}
+:::
+
+::: {.column-margin}
+![Executing App.js, re-render, ``isSent`` is ``true``, so the first ``return`` is executed](/images/reactjs/ex35.png){width=100%}
+:::
+
+Here’s what happens when you click the button ``Send``:
+
+1. The ``onSubmit`` event handler executes.
+2. ``setIsSent(true)`` sets ``isSent`` to ``true`` and queues a new render.
+3. React re-renders the component according to the new ``isSent`` value.
+4. The new rendering with ``isSent`` to ``true`` prints the first return **(#7)**
+
+## Example 2: crosswalk
+
+Here is a crosswalk light component that toggles on when the ``button`` is pressed:
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+import { useState } from 'react';
+
+export default function TrafficLight() {
+  const [walk, setWalk] = useState(true);
+
+  function handleClick() {
+    setWalk(!walk);
+    alert(walk ? 'Stop is next' : 'Walk is next');
+  }
+
+  return (
+    <>
+      <button onClick={handleClick}>
+        Change to {walk ? 'Stop' : 'Walk'}
+      </button>
+      <h1 style={{
+        color: walk ? 'darkgreen' : 'darkred'
+      }}>
+        {walk ? 'Walk' : 'Stop'}
+      </h1>
+    </>
+  );
+}
+
+```
+
+::: {.column-margin}
+![Executing App.js, inital render](/images/reactjs/ex45.png){width=100%}
+:::
+
+::: {.column-margin}
+![Next Render](/images/reactjs/ex46.png){width=100%}
+:::
+
 
 <!--- navLinks -->
 <br><br>

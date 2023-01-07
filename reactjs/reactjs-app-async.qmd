@@ -119,6 +119,62 @@ asyncCall();
 ```
 
 
+## Example 1:marketplace 
+
+[You’re working on an art marketplace app](https://beta.reactjs.org/learn/queueing-a-series-of-state-updates#challenges){.external} that lets the user submit multiple orders for an art item at the same time.
+
+Each time the user presses the “Buy” button, the “Pending” counter should increase by one. After three seconds, the “Pending” counter should decrease, and the “Completed” counter should increase.
+
+``` {.jsx .code-overflow-wrap filename="App.js"}
+import { useState } from 'react';
+
+export default function RequestTracker() {
+  const [pending, setPending] = useState(0);
+  const [completed, setCompleted] = useState(0);
+
+  async function handleClick() {
+    setPending(p => p + 1);
+    await delay(3000);
+    setPending(p => p - 1);
+    setCompleted(c => c + 1);
+  }
+
+  return (
+    <>
+      <h3>
+        Pending: {pending}
+      </h3>
+      <h3>
+        Completed: {completed}
+      </h3>
+      <button onClick={handleClick}>
+        Buy     
+      </button>
+    </>
+  );
+}
+
+function delay(ms) {
+  return new Promise(resolve => {
+    setTimeout(resolve, ms);
+  });
+}
+```
+
+::: {.column-margin}
+![Initial render](/images/reactjs/ex42.png){width=100%}
+:::
+
+::: {.column-margin}
+![Next render and async working with ``timeout``](/images/reactjs/ex43.png){width=100%}
+:::
+
+::: {.column-margin}
+![3 Next render, ``timeout`` finished](/images/reactjs/ex44.png){width=100%}
+:::
+
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

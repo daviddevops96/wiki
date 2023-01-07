@@ -5,14 +5,19 @@ format:
   html:
     fontsize:  "1.0em"
     theme:
-      light: default
-      dark: superhero
+      light: cosmo
+      dark: slate
     css: styles.css
     toc: true
     toc-depth: 5
     email-obfuscation: javascript
     smooth-scroll: true
-  
+    #backgroundcolor: black
+    code-link: true
+    #code-block-bg: "#29465B"
+    code-line-numbers: "true"
+    code-overflow: "wrap" 
+
 execute:
   cache: true
   freeze: true
@@ -21,7 +26,7 @@ filters:
   - lightbox
 lightbox: auto
 
-highlight-style: atom-one
+highlight-style: breezedark
 
 website:
   title: albertprofe wiki
@@ -34,7 +39,7 @@ website:
   repo-actions: [edit, issue]
 
   navbar:
-    background: dark
+    background: secondary
     style: "floating"
     search: true
     
