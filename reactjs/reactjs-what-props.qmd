@@ -117,7 +117,59 @@ export default function Hello() {
 
 > **However, state behaves more like a snapshot**.
 
-Setting it **does not change** the state variable you already have, [but instead triggers a re-render](https://beta.reactjs.org/learn/render-and-commit#step-1-trigger-a-render){.external}.
+Setting it **does not change** the state variable you already have, [but instead triggers a re-render](https://beta.reactjs.org/learn/render-and-commit#step-1-trigger-a-render){.external} that will print a state variable copy with the new value.
+
+::: {.callout-important}
+State can hold any kind of JavaScript value, including objects.
+
+But you shouldn’t change objects that you hold in the React state directly.
+
+Instead, when you want to update an object, you need to create a new one (or make a copy of an existing one), and then set the state to use that copy.
+:::
+
+[How it works in combination with spread opearator](/reactjs/reactjs-es6-spread.qmd#copying-objects-with-the-spread-syntax)
+
+> **Treat state as read-only**: in other words, you should treat any JavaScript object that you put into state as read-only.
+
+## So, Is React immutable?
+
+The term **immutable** refers **to the idea that the state of a component should not be changed directly.** Instead, when the state of a component needs to be updated, a new copy of the state should be created with the desired changes applied.
+
+This approach to state management can help <mark>to ensure that the state of a React application is predictable and easy to understand, as it makes it clear how the state is changing over time.</mark>
+
+It can also make it easier to debug issues in your application, as you can more easily trace the history of the state and see how it has changed.
+
+## And then, what is a mutation?
+
+You can store any kind of JavaScript value in state.
+
+```{.jsx .code-overflow-wrap filename="Hello.jsx"}
+const [x, setX] = useState(0);
+```
+
+So far you’ve been working with numbers, strings, and booleans. These kinds of JavaScript values are “immutable”, meaning unchangeable or “read-only”. You can trigger a re-render to replace a value:
+
+```{.jsx .code-overflow-wrap filename="Hello.jsx"}
+setX(5);
+```
+
+The x state changed from 0 to 5, but the number 0 itself did not change. It’s not possible to make any changes to the built-in primitive values like numbers, strings, and booleans in JavaScript.
+
+Now consider an object in state:
+
+```{.jsx .code-overflow-wrap filename="Hello.jsx"}
+const [position, setPosition] = useState({ x: 0, y: 0 });
+```
+
+Technically, it is possible to change the contents of the object itself. This is called a mutation:
+
+```{.jsx .code-overflow-wrap filename="Hello.jsx"}
+position.x = 5;
+```
+
+However, although objects in React state are technically mutable, you should treat them as if they were immutable—like numbers, booleans, and strings. Instead of mutating them, you should always replace them.
+
+## Examples
 
 ### Example 1: setting state only changes it for the next render
 
@@ -210,7 +262,7 @@ Setting ``number`` state to 5, but first React will execute line #11, alert, and
 
 ### Example 3: email
 
-Here is an example of** how that makes your event handlers less prone to timing mistakes**. Below is a form that sends a message with a **five-second delay**. Imagine this scenario:
+Here is an example of **how that makes your event handlers less prone to timing mistakes**. Below is a form that sends a message with a **five-second delay**. Imagine this scenario:
 
 1. You press the ``Send`` button, sending *Hello* to **Alice**.
 2. Before the **five-second delay ends**, you change the value of the ``To`` field to **Bob**.
@@ -297,7 +349,8 @@ export default function Counter() {
 :::
 
 
-## Children
+
+
 
 <!--- navLinks -->
 <br><br>

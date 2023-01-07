@@ -6,7 +6,7 @@ date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: description
-categories: [reactjs, project]
+categories: [reactjs, project, devtools]
 toc: true
 number-sections: true
 format:
@@ -73,6 +73,26 @@ Updating your build tooling is typically a daunting and time-consuming task. Whe
 
 ``` bash
 npm install react-scripts@latest
+```
+
+## React Developer Tools
+
+![The easiest way to debug websites built with React is to install the React Developer Tools browser extension.](/images/reactjs/react-devtools-extension.png){width="80%"}
+
+Use React Developer Tools to inspect React components, edit props and state, and identify performance problems.
+
+- [Install for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en){.external}
+- [Install for Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/){.external}
+- [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil){.external}
+
+For other browsers (for example, Safari), install the react-devtools npm package:
+
+``` bash
+# Yarn
+yarn global add react-devtools
+
+# Npm
+npm install -g react-devtools
 ```
 
 <!--- navLinks -->

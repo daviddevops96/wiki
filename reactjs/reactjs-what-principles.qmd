@@ -204,6 +204,13 @@ These variables are used in the JSX code of the component to render the current 
 - If you’re building a component library or integrating with an existing codebase, try [More Flexible Toolchains](https://reactjs.org/docs/create-a-new-react-app.html#more-flexible-toolchains){.external}.
 
 
+## Quick Start
+
+> Overview - Creating and nesting components - Writing markup with JSX - Adding styles - Displaying data - Conditional rendering
+> Rendering lists - Responding to events - Updating the screen - Using Hooks - Sharing data between components - Next Steps
+
+[This page](https://beta.reactjs.org/learn){.external} will give you an introduction to the 80% of React concepts that you will use on a daily basis.
+
 <!--- navLinks -->
 <br><br>
 <div class=row>
