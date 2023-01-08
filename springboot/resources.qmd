@@ -2,6 +2,8 @@
 title: "Spring Boot Resources"
 ---
 
+![MarkUp Resources](/images/home/frontimagealbertprofeweb-readings.png){width=50%}
+
 About this site: to-do
 
 <!--- navLinks -->

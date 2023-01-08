@@ -13,8 +13,9 @@ format:
   html
 ---
 
-## Webs
+![MarkUp Resources](/images/home/frontimagealbertprofeweb-readings.png){width=50%}
 
+## Webs
 
 - [Awesome React](https://github.com/enaqx/awesome-react){.external}
 - [React From The Inside Out](https://developmentarc.gitbooks.io/react-indepth/content/react_basics/introduction.html){.external}

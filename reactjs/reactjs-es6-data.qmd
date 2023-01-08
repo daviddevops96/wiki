@@ -145,7 +145,7 @@ const listItems = chemists.map(person => {
 
 [More on keys](https://beta.reactjs.org/learn/rendering-lists#where-to-get-your-key){.external}
 
-
+[More on arrays](https://beta.reactjs.org/learn/updating-arrays-in-state){.external}
 
 <!--- navLinks -->
 <br><br>
