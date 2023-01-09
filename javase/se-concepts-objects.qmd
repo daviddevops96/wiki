@@ -248,7 +248,7 @@ Point originOne = new Point(23, 94);
 
 There are several ways to **create** objects in Java:
 
-1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by theLinux Lab#LI01-1: Export env user with grep and pipe class name and constructor arguments. For example:
+1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by the class name and constructor arguments. For example:
 
 ```java
 Person carla = new Person("Carla", 30, "123 Main St.");
