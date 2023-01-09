@@ -49,13 +49,15 @@ by **Victor C.**
 
 - Tutorials de git y github: [Git and GitHub](https://www.youtube.com/playlist?list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU)
 - Tutorials java desde 0: [Java tutorials](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab 5: subject](/javase/selab5.qmd)
+[{{< fa solid arrow-left >}} Lab#SE02-3: Movie/Review, factory](/javase/selab3-1.qmd)
 <br>
 </div>
 <br>

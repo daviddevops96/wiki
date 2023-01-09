@@ -38,7 +38,11 @@ format:
     -   Designate two sections of 50MB each of your remaining empty hard disk drive space to be physical volumes (PVs) used by LVM.
     -   Combine those to PVs into a single volume group, and then configure a single logical volume (LV) that is 100MB.
     -   Create a directory to serve as a mount point for this LV and add an entry to the `/etc/fstab` so that it is mounted during the system bootup.
-:::<!--- navLinks -->
+:::
+
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

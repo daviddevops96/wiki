@@ -36,7 +36,12 @@ There are several ways to distribute a Linux bash script, including using apt-ge
 5.  **Website**: You can host your bash script on a website and provide a link for users to download it. This option is suitable if you want to make your script easily accessible to a large number of users.
 6.  **Visual Code Extension**: you can [create an extension for Visual Code](https://code.visualstudio.com/api/get-started/your-first-extension) from your Linux bash script and upload to the marketplace. once your extension is [published](https://code.visualstudio.com/api/working-with-extensions/publishing-extension), users can install it by searching for it in the Visual Studio Code Extension Marketplace or by using the code --install-extension ext-name command in the terminal.
 
-![from gitHub actions we may publish](/images/linux/qtool-000010.png)<!--- navLinks -->
+![from gitHub actions we may publish](/images/linux/qtool-000010.png)
+
+
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>

@@ -118,7 +118,11 @@ If you want to **preserve the entire environment**, including aliases, functions
 
 ```  {.bash .code-overflow-wrap}
 su - root -c 'bash -c "set -a; source ~/.bashrc; set +a; env | grep -v \"^LS_COLORS=\" >> /etc/environment"'
-```<!--- navLinks -->
+```
+
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
