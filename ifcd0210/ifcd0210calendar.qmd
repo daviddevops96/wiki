@@ -4,7 +4,11 @@ categories: [ifcd0210, training]
 ---
 
 ## Calendar
-![Calendar 2023](/images/ifcd0210/calendar_2023.png){.preview-image}
+![Calendar 2023](/images/ifcd0210/calendar_2023.png){width="80%"}
+
+## Timetable
+
+![Timetable class](/images/ifcd0210/ifcd_0210_timetable.png){width="60%"}
 
 ## Forecast semester
 
