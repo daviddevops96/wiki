@@ -59,7 +59,9 @@ Java SE Classes:
 You could then use these classes as follows:
 
 ``` {.java .code-overflow-wrap filename="moviemodel.java"}
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
@@ -106,7 +108,7 @@ class Review {
 
 Use ``Lombok``, [link](https://projectlombok.org/){.external}:
 
-- The **@Data** annotation is a ``Lombok`` annotation that generates getters and setters for the fields of a class, as well as equimport lombok.Data;als, hashCode, and toString methods based on the fields.
+- The **@Data** annotation is a ``Lombok`` annotation that generates getters and setters for the fields of a class, as well as equals, hashCode, and toString methods based on the fields.
 
 - The **@AllArgsConstructor** annotation is a ``Lombok`` annotation that generates a constructor with all of the class's fields as arguments.
 
@@ -127,7 +129,7 @@ Adding lombok to your pom file: to include lombok as a provided dependency, add 
 
 Use [Java Faker](https://github.com/DiUS/java-faker){.external}:
 
-In `pom.xml`, add the following xml stanza between <dependencies> ... </dependencies>
+In `pom.xml`, add the following xml **dependency** between <dependencies> ... </dependencies>
 
 ```{.java .code-overflow-wrap filename="pom.xml"}
 <dependencies>
@@ -139,10 +141,24 @@ In `pom.xml`, add the following xml stanza between <dependencies> ... </dependen
 </dependencies>
 ```
 
+To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the[ JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
+
+```{.java .code-overflow-wrap filename="pom.xml"}
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.9.1</version>
+      <scope>test</scope>
+    </dependency>
+```
+
+
 In your Java code:
 
 ``` {.java .code-overflow-wrap filename="testfaker.java"}
-import lombok.Data;
+import com.github.javafaker.Faker;
+import org.junit.jupiter.api.Test;
 
 Faker faker = new Faker();
 
@@ -224,7 +240,11 @@ classDiagram
 ### Basic tests
 
 ```{.java .code-overflow-wrap filename="generaltest.java"}
-import lombok.Data;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import com.github.javafaker.Faker;
+import org.junit.jupiter.api.Test;
 
 @Test
 public void testCreateMovie() {
@@ -237,7 +257,7 @@ public void testCreateMovie() {
   assertTrue(movie.getReviews().isEmpty());
 }
 
-@Testimport lombok.Data;
+@Test
 public void testCreateCritic() {
   // create a critic
   Critic critic = new Critic("Roger Ebert");
@@ -265,7 +285,9 @@ The ``Critic``, ``Filmmaker``, and ``Actor`` classes **all extend** the ``Person
 - The ``Actor`` class has a movies field, a **Set** of Movie objects representing the movies in which the actor has appeared.
 
 ```{.java .code-overflow-wrap filename="personmodel.java"}
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
@@ -353,6 +375,7 @@ classDiagram
 
 ```
 </div>
+
 
 <!--- navLinks -->
 <br><br>

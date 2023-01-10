@@ -79,11 +79,34 @@ Steps for the same are given below:
 4. Rerun the test and if they fail, then refactor again and repeat.
 
 
-## Example
+## Example: ``@Test``
 
-First, we would write a test for the add method, which should take two numbers as arguments and return their sum. Here is an example of how this test might look using JUnit:
+First, to configure support for **JUnit Jupiter based tests**, configure test scoped ``dependencies`` on the[ JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
+
+```{.java .code-overflow-wrap filename="pom.xml"}
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.9.1</version>
+      <scope>test</scope>
+    </dependency>
+```
+::: {.column-margin}
+Unlike previous versions of JUnit, JUnit 5 is composed of several different modules from three different sub-projects.
+
+**JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage**
+:::
+
+::: {.column-margin}
+JUnit 5 requires **Java 8 (or higher) at runtime**. However, you can still test code that has been compiled with previous versions of the JDK.
+:::
+
+
+Second, we would write a test for the add method, which should take two numbers as arguments and return their sum. Here is an example of how this test might look using JUnit:
 
 ``` {.java .code-overflow-wrap filename="MyFirstJUnitJupiterTests.java"}
+import org.junit.jupiter.api.Test;
 public class CalculatorTest {
 
   @Test
@@ -97,8 +120,10 @@ public class CalculatorTest {
 
 ```
 ::: {.column-margin}
-Here is an example of how TDD could be applied in a Java project using JUnit. Let's say we are building a class that represents a simple calculator. We want the calculator to have methods for adding, subtracting, multiplying, and dividing two numbers.
+Here is an example of how **TDD could be applied in a Java project using JUnit**. Let's say we are building a class that represents a simple calculator.
 :::
+
+
 
 Next, we would run the test to see if it fails. Since we have not yet implemented the add method, the test should fail with a message indicating that the add method is not yet implemented.
 
@@ -114,6 +139,10 @@ public class Calculator {
 }
 
 ```
+
+::: {.column-margin}
+We want the calculator to have methods for adding, subtracting, multiplying, and dividing two numbers.
+:::
 
 Finally, we would run the test again to ensure that it passes. If the test passes, we know that the add method is working correctly and we can move on to the next feature. We would repeat this process for each of the calculator's methods, writing a test for each one, implementing the code, and then running the test to ensure it passes.
 
