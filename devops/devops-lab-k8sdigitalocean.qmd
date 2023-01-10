@@ -16,7 +16,10 @@ format:
 
 About this site: to-do
 
-https://sites.google.com/view/devopscifo/labs/5-k8s-docean<!--- navLinks -->
+https://sites.google.com/view/devopscifo/labs/5-k8s-docean
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
