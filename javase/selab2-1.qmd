@@ -13,57 +13,61 @@ format:
   html
 ---
 
-
 ::: {.labs}
 📘 **Linux Lab#SE02-1: Movie Review and Rating**
 
+1. Create a Maven/Gradle `Java SE Project`.
+2. Add the needed dependencies:
 
-Create a Maven/Gradle Java SE Project with three classes and Junit to test objects and operations.
+    - Lombok
+    - Junit
+    - Java Faker
 
-Add the needed dependencies:
-
-- Lombok
-- Junit
-- Java Faker
-
+3. Create three `Java` classes to define the **Model**.
 Java SE Classes:
 
-- ``Movie``: The ``Movie`` class represents a movie that is being reviewed. It has the following attributes:
+    - ``Movie``: The ``Movie`` class represents a movie that is being reviewed. It has the following attributes:
 
-  - ``title``: a **String** representing the title of the movie
-  - ``reviews``: a **Set** of ``Review`` **objects** representing the reviews that have been written for this movie
-  - ``Critic``: The ``Critic`` **class** represents a critic who writes reviews. It has the following attributes:
+      - ``title``: a **String** representing the title of the movie
+      - ``reviews``: a **Set** of ``Review`` **objects** representing the reviews that have been written for this movie
+      - ``Critic``: The ``Critic`` **class** represents a critic who writes reviews. 
 
-    - ``name``: a **String** representing the name of the critic
-    - ``Review``: The ``Review`` **class** represents a review of a movie written by a critic. It has the following attributes:
+    - The ``Critic`` **class** has the following attributes:
+
+      - ``name``: a **String** representing the name of the critic
+      - ``Review``: The ``Review`` **class** represents a review of a movie written by a critic.
+
+    - The ``Review`` **class** has the following attributes:
 
       - ``movie``: a ``Movie`` **object** representing the movie being reviewed
       - ``critic``: a ``Critic`` **object** representing the critic who wrote the review
       - ``rating``: an **int** representing the ``rating`` given by the critic (on a scale of 1 to 5)
       - ``comment``: a **String** representing the ``comment`` written by the critic about the movie
 
- From here you should add new features **once all the test are passed.**
+4. With `Junit` dependency create **unitary test** to test objects and operations.
+5. From here you should add new features **once all the test are passed.**
 
- - operations
- - new fields/attributes and new classes
- - new compositions and inherence
- - factory to create new objects
-
+    - Operations, you could think in a Manager Class o similar
+    - New fields/attributes and new classes
+    - New compositions and inherence: expand your model
+    - Use Factory design pattern to create new objects
 
 :::
 
 ---
 
-You can then use these classes as follows:
+You could then use these classes as follows:
 
-``` java
+``` {.java .code-overflow-wrap filename="moviemodel.java"}
+import lombok.Data;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 class Movie {
   private String title;
   private int year;
-  private Filmmaker filmaker;
+  private Filmmaker filmmaker;
   private Set<Actor> crew;
   private Set<Review> reviews;
 }
@@ -100,13 +104,54 @@ class Review {
 
 ```
 
-Use ``Lombok``:
+Use ``Lombok``, [link](https://projectlombok.org/){.external}:
 
-The **@Data** annotation is a ``Lombok`` annotation that generates getters and setters for the fields of a class, as well as equals, hashCode, and toString methods based on the fields.
+- The **@Data** annotation is a ``Lombok`` annotation that generates getters and setters for the fields of a class, as well as equimport lombok.Data;als, hashCode, and toString methods based on the fields.
 
-The **@AllArgsConstructor** annotation is a ``Lombok`` annotation that generates a constructor with all of the class's fields as arguments.
+- The **@AllArgsConstructor** annotation is a ``Lombok`` annotation that generates a constructor with all of the class's fields as arguments.
 
-The **@NoArgsConstructor** annotation is a ``Lombok`` annotation that generates a no-argument constructor for a class.
+- The **@NoArgsConstructor** annotation is a ``Lombok`` annotation that generates a no-argument constructor for a class.
+
+Adding lombok to your pom file: to include lombok as a provided dependency, add it to your <dependencies> block like so:
+
+``` {.java .code-overflow-wrap filename="pom.xml"}
+<dependencies>
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.24</version>
+		<scope>provided</scope>
+	</dependency>
+</dependencies>
+```
+
+Use [Java Faker](https://github.com/DiUS/java-faker){.external}:
+
+In `pom.xml`, add the following xml stanza between <dependencies> ... </dependencies>
+
+```{.java .code-overflow-wrap filename="pom.xml"}
+<dependencies>
+  <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>1.0.2</version>
+  </dependency>
+</dependencies>
+```
+
+In your Java code:
+
+``` {.java .code-overflow-wrap filename="testfaker.java"}
+import lombok.Data;
+
+Faker faker = new Faker();
+
+String name = faker.name().fullName(); // Miss Samanta Schmidt
+String firstName = faker.name().firstName(); // Emory
+String lastName = faker.name().lastName(); // Barton
+
+String streetAddress = faker.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
+```
 
 ---
 
@@ -119,7 +164,8 @@ This first UML diagram for the ``Movie`` class represents a design <mark>where a
 This is reflected in the multiplicity of the associations between the classes: the Movie class has a ``many`` multiplicity with the ``Critic`` class, indicating that a movie can have zero or more critics, and the ``Critic`` class has a ``many`` multiplicity with the ``Review`` class, **indicating that a critic can have zero or more reviews.**
 
 <div class="mermaidContent">
-```{mermaid .mermaidContent}
+
+``` {mermaid}
 classDiagram
   class Movie {
     -title: String
@@ -139,6 +185,7 @@ classDiagram
   Critic *-- Review
   Review o-- Movie
 ```
+
 </div>
 
 ---
@@ -149,7 +196,8 @@ This is reflected in the multiplicity of the associations between the classes: t
 
 <div class="mermaidContent">
 
-```{mermaid .mermaidContent}
+```{mermaid}
+
 classDiagram
   class Movie {
     -title: String
@@ -175,7 +223,9 @@ classDiagram
 
 ### Basic tests
 
-``` java
+```{.java .code-overflow-wrap filename="generaltest.java"}
+import lombok.Data;
+
 @Test
 public void testCreateMovie() {
   // create a movie
@@ -187,18 +237,11 @@ public void testCreateMovie() {
   assertTrue(movie.getReviews().isEmpty());
 }
 
-@Test
+@Testimport lombok.Data;
 public void testCreateCritic() {
   // create a critic
   Critic critic = new Critic("Roger Ebert");
-  
-  // check that the critic was created correctly
-  assertEquals("Roger Ebert", critic.getName());
-}
-
-@Test
-public void testCreateReview() {
-  // create a movie and a critic
+  pom.xmlte a movie and a critic
   Movie movie = new Movie("The Shawshank Redemption");
   Critic critic = new Critic("Roger Ebert");
   
@@ -221,7 +264,9 @@ The ``Critic``, ``Filmmaker``, and ``Actor`` classes **all extend** the ``Person
 - The ``Filmmaker`` class has a movies field, a **Set** of Movie objects representing the movies made by the filmmaker.
 - The ``Actor`` class has a movies field, a **Set** of Movie objects representing the movies in which the actor has appeared.
 
-``` java
+```{.java .code-overflow-wrap filename="personmodel.java"}
+import lombok.Data;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -255,8 +300,10 @@ class Actor extends Person {
 ```
 <div class="mermaidContent">
 
-```{mermaid .mermaidContent}
+```{mermaid}
+
 classDiagram
+
   class Person {
     -name: String
     -birthDate: Date
@@ -269,7 +316,8 @@ classDiagram
 
 <div class="mermaidContent">
 
-```{mermaid .mermaidContent}
+```{mermaid}
+
 classDiagram
   class Critic extends Person {
     -reviews: Set<Review>
@@ -291,8 +339,9 @@ classDiagram
 
 <div class="mermaidContent">
 
-```{mermaid .mermaidContent}
+```{mermaid}
 classDiagram
+
   class Person {
     -name: String
     -birthDate: Date

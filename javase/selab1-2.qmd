@@ -261,7 +261,7 @@ public class AccountManager {
 <br><br>
 <div class=row>
 <br>
-<div class='column left previous'>
+<div class='column left previous'>import lombok.Data;
 <br>
 [{{< fa solid arrow-left >}} Lab#SE01-1: Maven/Gradle Person and Account](/javase/selab1-1.qmd)
 <br>
