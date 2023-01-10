@@ -29,6 +29,10 @@ format:
 -   Try configuring the installations for a specific time zone by using the `tzselect` command.
 -   Select one installation as your primary lab computer. Designate it as the "server" and select a second installation as a "client." You will use these two systems in the remaining activities.This lab may serve many purposes, and you need some idea of **what you want to use your lab to achieve**.
 :::
+
+
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

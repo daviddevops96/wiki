@@ -1,11 +1,11 @@
 ---
-title: "Lab 4: subject"
+title: "Lab#SE02-3: Movie/Review, factory "
 subtitle: Java SE Lab
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description:  Java SE Lab 02
+description:  Java SE Lab 02 part 3
 categories: [javase, lab]
 toc: true
 number-sections: true
@@ -13,7 +13,13 @@ format:
   html
 ---
 
-About this site
+::: {.labs}
+📘 **Linux Lab#LI02-3:**
+
+
+
+
+:::
 
 <!--- navLinks -->
 <br><br>
@@ -21,7 +27,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE02-1: Movie/Review](/javase/selab3.qmd)
+[{{< fa solid arrow-left >}} Lab#SE02-2: Movie/Review, operations](/javase/selab2-2.qmd)
 <br>
 </div>
 <br>
@@ -33,7 +39,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[Lab 5: subject  {{< fa solid arrow-right >}}](/javase/selab5.qmd)
+[Java SE Resources  {{< fa solid arrow-right >}}](/javase/resources.qmd)
 <br>
 </div>
 <br>

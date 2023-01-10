@@ -1,0 +1,330 @@
+---
+title: "Lab#SE02-1: Movie/Review, model"
+subtitle: Java SE Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Java SE Lab 02, part 1
+categories: [javase, lab]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+::: {.labs}
+📘 **Linux Lab#SE02-1: Movie Review and Rating**
+
+
+Create a Maven/Gradle Java SE Project with three classes and Junit to test objects and operations.
+
+Add the needed dependencies:
+
+- Lombok
+- Junit
+- Java Faker
+
+Java SE Classes:
+
+- ``Movie``: The ``Movie`` class represents a movie that is being reviewed. It has the following attributes:
+
+  - ``title``: a **String** representing the title of the movie
+  - ``reviews``: a **Set** of ``Review`` **objects** representing the reviews that have been written for this movie
+  - ``Critic``: The ``Critic`` **class** represents a critic who writes reviews. It has the following attributes:
+
+    - ``name``: a **String** representing the name of the critic
+    - ``Review``: The ``Review`` **class** represents a review of a movie written by a critic. It has the following attributes:
+
+      - ``movie``: a ``Movie`` **object** representing the movie being reviewed
+      - ``critic``: a ``Critic`` **object** representing the critic who wrote the review
+      - ``rating``: an **int** representing the ``rating`` given by the critic (on a scale of 1 to 5)
+      - ``comment``: a **String** representing the ``comment`` written by the critic about the movie
+
+ From here you should add new features **once all the test are passed.**
+
+ - operations
+ - new fields/attributes and new classes
+ - new compositions and inherence
+ - factory to create new objects
+
+
+:::
+
+---
+
+You can then use these classes as follows:
+
+``` java
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Movie {
+  private String title;
+  private int year;
+  private Filmmaker filmaker;
+  private Set<Actor> crew;
+  private Set<Review> reviews;
+}
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Critic {
+  private String name;
+}
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Actor {
+  private String name;
+}
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Filmmaker {
+  private String name;
+}
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Review {
+  private Movie movie;
+  private Critic critic;
+  private int rating;
+  private String comment;
+}
+
+```
+
+Use ``Lombok``:
+
+The **@Data** annotation is a ``Lombok`` annotation that generates getters and setters for the fields of a class, as well as equals, hashCode, and toString methods based on the fields.
+
+The **@AllArgsConstructor** annotation is a ``Lombok`` annotation that generates a constructor with all of the class's fields as arguments.
+
+The **@NoArgsConstructor** annotation is a ``Lombok`` annotation that generates a no-argument constructor for a class.
+
+---
+
+## Solving discussion
+
+### UMLs
+
+This first UML diagram for the ``Movie`` class represents a design <mark>where a movie has many critics, and a critic has many reviews of movies.</mark>
+
+This is reflected in the multiplicity of the associations between the classes: the Movie class has a ``many`` multiplicity with the ``Critic`` class, indicating that a movie can have zero or more critics, and the ``Critic`` class has a ``many`` multiplicity with the ``Review`` class, **indicating that a critic can have zero or more reviews.**
+
+<div class="mermaidContent">
+```{mermaid .mermaidContent}
+classDiagram
+  class Movie {
+    -title: String
+    -critics: Set<Critic>
+  }
+  class Critic {
+    -name: String
+    -reviews: Set<Review>
+  }
+  class Review {
+    -movie: Movie
+    -critic: Critic
+    -rating: int
+    -comment: String
+  }
+  Movie *-- Critic
+  Critic *-- Review
+  Review o-- Movie
+```
+</div>
+
+---
+
+This second UML diagram for the ``Movie`` class represents a design <mark>where a movie has ``many`` reviews, and each review is written by a critic.</mark>
+
+This is reflected in the multiplicity of the associations between the classes: the ``Movie`` class has a ``many`` multiplicity with the ``Review`` class, indicating that a movie can have zero or more reviews, and the ``Review`` class has a **1 multiplicity** with the ``Critic`` class, indicating that a review is written **by exactly one critic.**
+
+<div class="mermaidContent">
+
+```{mermaid .mermaidContent}
+classDiagram
+  class Movie {
+    -title: String
+    -reviews: Set<Review>
+  }
+  class Critic {
+    -name: String
+  }
+  class Review {
+    -movie: Movie
+    -critic: Critic
+    -rating: int
+    -comment: String
+  }
+  Movie *-- Review
+  Review o-- Critic
+
+```
+
+</div>
+
+---
+
+### Basic tests
+
+``` java
+@Test
+public void testCreateMovie() {
+  // create a movie
+  Movie movie = new Movie("The Shawshank Redemption");
+  
+  // check that the movie was created correctly
+  assertEquals("The Shawshank Redemption", movie.getTitle());
+  assertNotNull(movie.getReviews());
+  assertTrue(movie.getReviews().isEmpty());
+}
+
+@Test
+public void testCreateCritic() {
+  // create a critic
+  Critic critic = new Critic("Roger Ebert");
+  
+  // check that the critic was created correctly
+  assertEquals("Roger Ebert", critic.getName());
+}
+
+@Test
+public void testCreateReview() {
+  // create a movie and a critic
+  Movie movie = new Movie("The Shawshank Redemption");
+  Critic critic = new Critic("Roger Ebert");
+  
+  // create a review
+  Review review = new Review(movie, critic, 5, "One of the greatest films ever made");
+  
+  // check that the review was created correctly
+  assertEquals(movie, review.getMovie());
+  assertEquals(critic, review.getCritic());
+  assertEquals(5, review.getRating());
+  assertEquals("One of the greatest films ever made", review.getComment());
+}
+
+```
+### Create a superclass Person
+
+The ``Critic``, ``Filmmaker``, and ``Actor`` classes **all extend** the ``Person`` class, meaning **they inherit its fields and methods.** In addition, they each have their own field:
+
+- The ``Critic`` class has a reviews field, a **Set** of Review objects representing the reviews written by the critic.
+- The ``Filmmaker`` class has a movies field, a **Set** of Movie objects representing the movies made by the filmmaker.
+- The ``Actor`` class has a movies field, a **Set** of Movie objects representing the movies in which the actor has appeared.
+
+``` java
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Person {
+  private String name;
+  private Date birthDate;
+}
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Critic extends Person {
+  private Set<Review> reviews;
+}
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Filmmaker extends Person {
+  private Set<Movie> movies;
+}
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Actor extends Person {
+  private Set<Movie> movies;
+}
+
+
+```
+<div class="mermaidContent">
+
+```{mermaid .mermaidContent}
+classDiagram
+  class Person {
+    -name: String
+    -birthDate: Date
+  }
+```
+
+</div>
+
+---
+
+<div class="mermaidContent">
+
+```{mermaid .mermaidContent}
+classDiagram
+  class Critic extends Person {
+    -reviews: Set<Review>
+  }
+
+  class Filmmaker extends Person {
+    -movies: Set<Movie>
+  }
+
+  class Actor extends Person {
+    -movies: Set<Movie>
+  }
+
+```
+
+</div>
+
+---
+
+<div class="mermaidContent">
+
+```{mermaid .mermaidContent}
+classDiagram
+  class Person {
+    -name: String
+    -birthDate: Date
+  }
+
+  Person <|-- Critic
+  Person <|-- Filmmaker
+  Person <|-- Actor
+
+```
+</div>
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab#SE01-2: Maven/Gradle Person and Account stored in JSON ](/javase/selab1-2.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab#SE02-2: Movie/Review. operations  {{< fa solid arrow-right >}}](/javase/selab2-2.qmd)
+<br>
+</div>
+<br>
+</div>

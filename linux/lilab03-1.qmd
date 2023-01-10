@@ -24,6 +24,9 @@ format:
 - Delegate the ability to reboot the system to only one user by using `sudo`.
 
 :::
+
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>
