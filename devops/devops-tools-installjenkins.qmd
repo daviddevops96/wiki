@@ -1,7 +1,41 @@
 ---
 title: "Howto install Jenkins"
+subtitle: Jenkins
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Maven
+categories: [devops, Jenkins, install]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do
 
-https://sites.google.com/view/devopscifo/devops-tools/install-jenkins
+https://sites.google.com/view/devopscifo/devops-tools/install-jenkins<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Digital Ocean](/devops/devops-tools-digitalocean.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Howto install Maven  {{< fa solid arrow-right >}}](/devops/devops-tools-installmaven.qmd)
+<br>
+</div>
+<br>
+</div>

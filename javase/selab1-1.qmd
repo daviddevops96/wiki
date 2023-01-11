@@ -1,5 +1,16 @@
 ---
 title: "Lab#SE01-1: Maven/Gradle Person and Account"
+subtitle: Java SE Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Java SE Lab 01
+categories: [javase, lab , class, object, composition, singleton]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview
@@ -502,3 +513,29 @@ public class AccountManagerTest {
 6. Test ``Person`` and ``Account`` objects and **features**
 7. Add ``singleton`` pattern to ``AccountManager`` class
 8. Test ``AccountManager`` class
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java Patterns: Builder](/javase/se-pattern-builder.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>java
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab#SE01-2: Maven/Gradle Person and Account stored in JSON  {{< fa solid arrow-right >}}](/javase/selab1-2.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -1,6 +1,18 @@
 ---
 title: "Java SE: Project push GitHub"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Sync maven project to github cloud
+categories: [javase, git, github, project, cloud]
+toc: true
+number-sections: true
+format:
+  html
 ---
+
 ## Maven Project push to GitHub: CLI gh
 
 To connect a local project on **IntelliJ IDEA** to GitHub.com, you will need to create a repository on GitHub and then push your local project to the repository. Here's a step-by-step guide:
@@ -66,3 +78,28 @@ First, install ``git`` and ``CLI gh`` and create a GitHub.con account.
 9. Enter your ``GitHub login credentials`` and click the ``Push`` button.
 
 Now your local project is connected to the repository on GitHub and any changes you make locally will be reflected in the repository on GitHub.
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Create Maven Project](/javase/se-concepts-createproject.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: JUnit and TDD  {{< fa solid arrow-right >}}](/javase/se-concepts-tdd.qmd)
+<br>
+</div>
+<br>
+</div>

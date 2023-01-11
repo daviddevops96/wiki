@@ -1,6 +1,18 @@
 ---
 title: "HTML Markup"
+subtitle: HTML
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Introduction to HTML
+categories: [markup, HTML, introduction]
+toc: true
+number-sections: true
+format:
+  html
 ---
+
 ## HTML: HyperText Markup Language
 :::{.summary}
 **HTML (HyperText Markup Language)** is the [most basic building block of the Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation ([CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)) or functionality/behavior ([JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)).
@@ -37,4 +49,29 @@ Individual HTML elements aren't very useful on their own. Next, let's examine ho
 </html>
 ```
 
-[Anatomy of an HTML document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomy_of_an_html_document)
+- [Anatomy of an HTML document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomy_of_an_html_document)
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Introduction Markup](/markup/markup-lang-intro.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Markdown Markup  {{< fa solid arrow-right >}}](/markup/markup-lang-md.qmd)
+<br>
+</div>
+<br>
+</div>

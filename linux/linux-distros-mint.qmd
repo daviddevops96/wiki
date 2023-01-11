@@ -1,5 +1,16 @@
 ---
 title: "Linux Distros: Mint"
+subtitle: Mint
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Mint
+categories: [linux, mint, distro]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ![Linux Mint 21](/images/linux/mint.png){width=30%}
@@ -69,3 +80,26 @@ sudo apt install ./code_1.74.1-1671015296_amd64.deb
 **[Timeshift](https://community.linuxmint.com/software/view/timeshift) is a system restore utility which takes snapshots of the system at regular intervals**. These snapshots can be restored at a later date to undo system changes. Creates incremental snapshots using rsync or BTRFS snapshots using BTRFS tools.
 
 ![Timeshift](https://community.linuxmint.com/img/screenshots/timeshift.png){width=60%}
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Linux Distros: Ubuntu](/linux/linux-distros-ubuntu.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Linux Distros: Debian  {{< fa solid arrow-right >}}](/linux/linux-distros-debian.qmd)
+<br>
+</div>
+<br>
+</div>

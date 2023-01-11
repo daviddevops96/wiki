@@ -1,6 +1,33 @@
 project:
   type: website
 
+format:
+  html:
+    fontsize:  "1.0em"
+    theme:
+      light: cosmo
+      dark: slate
+    css: styles.css
+    toc: true
+    toc-depth: 5
+    email-obfuscation: javascript
+    smooth-scroll: true
+    #backgroundcolor: black
+    code-link: true
+    #code-block-bg: "#29465B"
+    code-line-numbers: "true"
+    code-overflow: "wrap" 
+
+execute:
+  cache: true
+  freeze: true
+
+filters:
+  - lightbox
+lightbox: auto
+
+highlight-style: breezedark
+
 website:
   title: albertprofe wiki
   #cookie-consent:
@@ -12,7 +39,7 @@ website:
   repo-actions: [edit, issue]
 
   navbar:
-    background: dark
+    background: secondary
     style: "floating"
     search: true
     
@@ -20,23 +47,64 @@ website:
       - text: Home
         file: index.qmd
       - sidebar:linux
+      - sidebar:devops
       - sidebar:markup
       - sidebar:javase
       - sidebar:spring   
       - sidebar:reactjs
       - sidebar:scrum
-      - sidebar:devops
       - sidebar:vocabulary
       - sidebar:ifcd
       - sidebar:about
 
   sidebar:
-    - id: "devops"
-      title: "DevOps"
+    - id: "linux"
+      title: "Linux OS" 
       border: true
       collapse-level: 1
       background: none
       style: "floating"
+      contents: 
+        - text: "Linux OS"
+        - text: "---"  
+        - section: "Linux: concepts"
+          contents: 
+            - linux/linux-what-basics.qmd
+            - linux/linux-what-bash.qmd
+            - linux/linux-what-sudo.qmd
+            - linux/linux-what-pipes.qmd
+            - linux/linux-what-fsys.qmd
+            - linux/linux-what-vm.qmd
+        - text: "---"  
+        - section: "Linux: distros"
+          contents: 
+            - linux/linux-distros-ubuntu.qmd
+            - linux/linux-distros-mint.qmd
+            - linux/linux-distros-debian.qmd
+            - linux/linux-distros-opensuse.qmd
+            - linux/linux-distros-manjaro.qmd
+            - linux/linux-distros-redhat.qmd
+        - text: "---"  
+        - section: "Linux: laboratories"
+          contents: 
+            - linux/lilab01-1.qmd
+            - linux/lilab01-2.qmd
+            - linux/lilab01-3.qmd
+            - linux/lilab02-1.qmd
+            - linux/lilab03-1.qmd
+            - linux/lilab03-2.qmd
+            - linux/lilab03-3.qmd
+            - linux/lilab03-4.qmd
+            - linux/lilab04-1.qmd
+            - linux/lilab04-2.qmd
+            - linux/lilab04-3.qmd
+        - text: "---"  
+        - section: "Linux readings"
+          contents: 
+            - linux/resources.qmd
+
+    - id: "devops"
+      title: "DevOps" 
       contents:
         - text: "DevOps"
         - text: "---"  
@@ -62,7 +130,7 @@ website:
         - text: "---"           
         - section: "DevOps tools"
           contents:
-            - devops/devops-tools-aws.qmd 
+            - devops/devops-tools-aws.qmd
             - devops/devops-tools-docker.qmd
             - devops/devops-tools-jenkins.qmd
             - devops/devops-tools-k8s.qmd
@@ -82,22 +150,6 @@ website:
           contents: 
             - devops/resources.qmd
 
-    - id: "linux"
-      title: "Linux OS"
-      contents: 
-        - text: "Linux OS"
-        - text: "---"  
-        - section: "Linux: concepts"
-          contents: 
-            - linux/linux-what-basics.qmd
-            - linux/linux-what-vm.qmd
-        - text: "---"  
-        - section: "Linux: distros"
-          contents: 
-            - linux/linux-distros-mint.qmd
-            - linux/linux-distros-debian.qmd
-            - linux/linux-distros-opensuse.qmd
-            
     - id: "markup"
       title: "MarkUp"
       contents: 
@@ -107,9 +159,9 @@ website:
           contents: 
             - markup/markup-lang-intro.qmd
             - markup/markup-lang-html.qmd
-            - markup/markup-land-md.qmd
-            - markup/markup-lang-htmlmd.qmd
-        - text: "---"  
+            - markup/markup-lang-md.qmd
+            - markup/markup-lang-html-md.qmd
+        - text: "---"
         - section: "Quarto Markdown"
           contents: 
             - markup/markup-quarto-basics.qmd
@@ -117,40 +169,20 @@ website:
             - markup/markup-quarto-publish.qmd
             - markup/markup-quarto-code.qmd
             - markup/markup-quarto-cheatsheet.qmd
-        - text: "---"  
+        - text: "---"
         - section: "Styling: CSS"
-          contents: 
+          contents:
             - markup/markup-css-basics.qmd
             - markup/markup-css-w3css.qmd
-        - text: "---"  
+        - text: "---"
         - section: "MarkUp Languages Laboratories"
-          contents: 
+          contents:
             - markup/mulab1.qmd
-        - text: "---" 
+        - text: "---"
         - section: "MarkUp Languages readings"
-          contents: 
+          contents:
             - markup/resources.qmd
             
-    - id: "scrum"
-      title: "SCRUM"
-      contents: 
-        - text: "SCRUM"
-        - text: "---"  
-        - section: "What is SCRUM"
-          contents: 
-            - scrum/scrum.qmd
-            - scrum/agilemanifesto.qmd
-            - scrum/scrumguide.qmd
-            - scrum/digitaltoolsscrum.qmd
-        - text: "---"  
-        - section: "Weeks"
-          contents: 
-            - scrum/week1.qmd
-            - scrum/week2.qmd
-            - scrum/week3.qmd
-            - scrum/week4.qmd
-            - scrum/week5.qmd
- 
     - id: "javase"
       title: "Java SE"
       contents: 
@@ -179,7 +211,7 @@ website:
             - javase/se-principles-encapsulation.qmd
             - javase/se-principles-abstraction.qmd
             - javase/se-principles-inheritance.qmd
-            - javase/se-principles-polymorphism.qmd    
+            - javase/se-principles-polymorphism.qmd
         - text: "---"  
         - section: "Java Design Patterns"
           contents: 
@@ -195,9 +227,10 @@ website:
           contents: 
             - javase/selab1-1.qmd
             - javase/selab1-2.qmd
-            - javase/selab3.qmd
-            - javase/selab4.qmd
-            - javase/selab5.qmd
+            - javase/selab2-1.qmd
+            - javase/selab2-2.qmd
+            - javase/selab2-3.qmd
+            - javase/selab2-4.qmd
         - text: "---" 
         - section: "Java SE readings"
           contents: 
@@ -230,26 +263,45 @@ website:
             - springboot/resources.qmd
         
     - id: "reactjs"
-      title: "React JS"
+      title: "ReactJS"
       contents: 
-        - text: "React JS"
+        - text: "ReactJS"
         - text: "---"  
-        - section: "React JS Principles"
+        - section: "ReactJS: Principles"
           contents: 
-            - reactjs/reactjs.qmd
-        - section: "React JS Hooks"
-          contents: 
-            - reactjs/hookstate.qmd
-            - reactjs/hookreducer.qmd
-            - reactjs/hookref.qmd
-            - reactjs/hookeffect.qmd
-            - reactjs/hookcustom.qmd
+            - reactjs/reactjs-what-principles.qmd
+            - reactjs/reactjs-what-render-dom.qmd
+            - reactjs/reactjs-what-create.qmd
+            - reactjs/reactjs-what-components.qmd
+            - reactjs/reactjs-what-jsx.qmd
+            - reactjs/reactjs-what-props.qmd
         - text: "---"  
-        - section: "Context and Provider"
+        - section: "ES6: ECMAScript 6"
           contents: 
-            - reactjs/reactjscontext.qmd
+            - reactjs/reactjs-es6-arrow.qmd
+            - reactjs/reactjs-es6-import.qmd
+            - reactjs/reactjs-es6-data.qmd
+            - reactjs/reactjs-es6-destructuring.qmd
+            - reactjs/reactjs-es6-spread.qmd
         - text: "---"  
-        - section: "React JS Laboratories"
+        - section: "ReacJS 18: Hooks"
+          contents: 
+            - reactjs/reactjs-hook-state.qmd
+            - reactjs/reactjs-hook-reducer.qmd
+            - reactjs/reactjs-hook-ref.qmd
+            - reactjs/reactjs-hook-effect.qmd
+            - reactjs/reactjs-hook-custom.qmd
+            - reactjs/reactjs-hook-context.qmd
+        - text: "---"  
+        - section: "ReactJS: Designing an App"
+          contents: 
+            - reactjs/reactjs-app-async.qmd
+            - reactjs/reactjs-app-events.qmd
+            - reactjs/reactjs-app-router.qmd
+            - reactjs/reactjs-app-conditional-render.qmd
+            - reactjs/reactjs-app-styling.qmd
+        - text: "---"  
+        - section: "React JS: Laboratories"
           contents: 
             - reactjs/rjslab1.qmd
             - reactjs/rjslab2.qmd
@@ -261,7 +313,54 @@ website:
           contents: 
             - reactjs/resources.qmd
 
-    
+    - id: "scrum"
+      title: "SCRUM"
+      contents: 
+        - text: "SCRUM"
+        - text: "---"  
+        - section: "What is SCRUM"
+          contents: 
+            - scrum/scrum-what-concepts.qmd
+            - scrum/scrum-what-agile-manifesto.qmd
+            - scrum/scrum-what-guide.qmd
+        - text: "---"  
+        - section: "Weeks"
+          contents:
+            - scrum/scrum-week1.qmd
+            - scrum/scrum-week2.qmd
+            - scrum/scrum-week3.qmd
+            - scrum/scrum-week4.qmd
+            - scrum/scrum-week5.qmd
+            - scrum/scrum-week6.qmd
+            - scrum/scrum-week7.qmd
+            - scrum/scrum-week8.qmd
+        - text: "---"  
+        - section: "Resources"
+          contents:
+             - scrum/resources.qmd
+
+    - id: "vocabulary"
+      title: "Vocabulary"
+      contents: 
+        - text: "Vocabulary"
+        - text: "---"  
+        - section: "General Vocabulary"
+          contents: 
+            - vocabulary/vocab-general.qmd
+            - vocabulary/vocab-scrum.qmd
+            - vocabulary/vocab-devops.qmd
+        - text: "---"  
+        - section: "Back-end Vocabulary"
+          contents: 
+            - vocabulary/vocab-java-se.qmd
+            - vocabulary/vocab-spring-boot.qmd
+            - vocabulary/vocab-data-base.qmd
+        - text: "---"  
+        - section: "Front-end Vocabulary"
+          contents: 
+            - vocabulary/vocab-reactjs.qmd
+            - vocabulary/vocab-web.qmd
+            
     - id: "ifcd"
       title: "IFCD0210"
       contents: 
@@ -270,46 +369,31 @@ website:
         - section: "Web App IFCD0210"
           contents: 
             - ifcd0210/ifcd0210.qmd
-            - ifcd0210/ifcd0210calendar.qmd  
-            - ifcd0210/ifcd0210initemail.qmd  
-            - ifcd0210/ifcd0210deliveries.qmd  
-        
-    - id: "vocabulary"
-      title: "Vocabulary"
-      contents: 
-        - text: "Vocabulary"
-        - text: "---"  
-        - section: "General Vocabulary"
-          contents: 
-            - vocabulary/vocabgeneral.qmd
-            - vocabulary/vocabscrum.qmd
-            - vocabulary/vocabdevops.qmd
-        - text: "---"  
-        - section: "Back-end Vocabulary"
-          contents: 
-            - vocabulary/vocabjava.qmd
-            - vocabulary/vocabspringboot.qmd
-            - vocabulary/vocabdatabase.qmd
-        - text: "---"  
-        - section: "Front-end Vocabulary"
-          contents: 
-            - vocabulary/vocabreactjs.qmd 
-            - vocabulary/vocabweb.qmd          
+            - ifcd0210/ifcd0210calendar.qmd
+            - ifcd0210/ifcd0210initemail.qmd
+            - ifcd0210/ifcd0210deliveries.qmd
 
     - id: "about"
       title: "About"
       contents: 
         - text: "About"
         - text: "---"  
-        - section: "About"
+        - section: "About me and this site"
           contents: 
-            - about/aboutme.qmd
-            - about/aboutthissite.qmd
-            - about/aboutlearning.qmd
-            - about/aboutimagescredit.qmd 
-            - about/aboutquestions.qmd                   
-  
-  
+            - about/about-this-me.qmd
+            - about/about-this-site.qmd
+            - about/about-this-images-credit.qmd
+        - text: "---"
+        - section: "Learning"
+          contents: 
+            - about/about-learning-intro.qmd
+            - about/about-learning-questions.qmd
+        - text: "---"
+        - section: "Listings"
+          contents: 
+            - about/about-listing-table.qmd
+            - about/about-listing-card.qmd
+
   page-footer: 
     background: dark
     left: "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)" 
@@ -319,22 +403,3 @@ website:
         href: https://github.com/AlbertProfe/
       - icon: twitter 
         href: https://twitter.com/ 
-
-format:
-  html:
-    fontsize:  "1.0em"
-    theme:
-      light: default
-      dark: superhero
-    css: styles.css
-    toc: true
-    toc-depth: 5
-    email-obfuscation: javascript
-    
-execute:
-  cache: true
-  freeze: true
-
-
-
-

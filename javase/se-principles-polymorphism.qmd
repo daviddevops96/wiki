@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Polymorphism"
+subtitle: Java Fundamentals and Principles
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Java Polymorphism OOP paradigm
+categories: [javase, polymorphism , oop, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview
@@ -17,6 +28,8 @@ In other words, it is the ability of a single object **to behave differently in 
 ---
 
 ``Polymorphism`` is an important concept in object-oriented programming because it allows developers to write code that is more flexible and reusable. By using ``polymorphism``, developers can write code that can operate on objects of different types, without knowing the specific type of the object in advance.
+
+![Java SE Basic Principles OOP Polymorphishm](/images/javase/oop-pol.png){width="50%"}
 
 In Java, ``polymorphism`` is achieved through the use of ``inheritance`` and ``interfaces``. A subclass can implement multiple ``interfaces``, and an ``interface`` can be implemented by multiple classes. This allows objects of different types to share a common set of methods, which can be called on the objects without knowing their specific type.
 
@@ -47,4 +60,26 @@ When the `makeNoise()` method is called on the `dog` object, it executes the imp
 
 ## Conclusion
 
-Overall, this example shows how polymorphism allows objects of different types to share a common set of methods, and to execute different implementations of those methods based on their specific type. This allows the code to be more flexible and reusable, because it can operate on objects of different types without knowing their specific type in advance.
+Overall, this example shows how polymorphism allows objects of different types to share a common set of methods, and to execute different implementations of those methods based on their specific type. This allows the code to be more flexible and reusable, because it can operate on objects of different types without knowing their specific type in advance.<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Inherence](/javase/se-principles-inheritance.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE Design-Patterns  {{< fa solid arrow-right >}}](/javase/se-pattern-intro.qmd)
+<br>
+</div>
+<br>
+</div>

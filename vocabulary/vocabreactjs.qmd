@@ -1,5 +1,0 @@
----
-title: "ReactJS Vocabulary"
----
-
-about vocabulary

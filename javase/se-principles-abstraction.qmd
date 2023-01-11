@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Abstraction"
+subtitle: Java Fundamentals and Principles
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Java abstraction OOP paradigm
+categories: [javase, abstraction , oop,  concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview
@@ -10,12 +21,17 @@ title: "Java SE: Abstraction"
 
 **Abstraction** is the process of focusing on the essential characteristics of an object, while ignoring the non-essential details.
 
-
 :::
 
 ---
 
-In other words, abstraction means <mark>representing the essential features of an object without including the non-essential details</mark>. In Java, abstraction is achieved through the use of abstract classes and interfaces.
+**One of the OOP concepts in Java is abstraction**, which is the **act of representing key features without including supporting information**.
+
+It is a method for developing a brand-new data type appropriate for a particular application.
+
+It avoids providing extraneous or pointless facts and only displays the precise portion the user has requested. It is crucial since it **prevents you from performing the same task more than once.**
+
+![Java SE Basic Principles OOP Abstraction](/images/javase/oop-abs.png){width="50%"}
 
 Here is an example of abstraction in Java:
 
@@ -43,6 +59,8 @@ In this example, the `Account` class is an abstract class because it contains an
 **Abstraction** is an important concept in object-oriented programming because it allows developers to *create complex systems by building upon simpler components*. 
 
 This makes it possible to manage large and complex code bases **without becoming overwhelmed by the details**.
+
+In other words, **abstraction** means <mark>representing the essential features of an object without including the non-essential details</mark>. In Java, **abstraction** is achieved through <mark>the use of abstract classes and interfaces</mark>.
 
 ::: {.callout-note}
 
@@ -140,3 +158,26 @@ Overall, this example shows how to implement an interface in Java. By implementi
 
 Overall, ``abstraction`` is a powerful concept that allows developers to create complex systems by building upon simpler components. It helps to manage the complexity of large code bases by focusing on the essential features of objects, while ignoring the non-essential details.
 
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Encapsulation](/javase/se-principles-encapsulation.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Inherence  {{< fa solid arrow-right >}}](/javase/se-principles-inheritance.qmd)
+<br>
+</div>
+<br>
+</div>

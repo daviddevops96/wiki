@@ -1,0 +1,48 @@
+---
+title: "Linux Lab#LI03-4: Manage hardware"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: lab
+categories: [linux, lab, hardware]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+::: {.labs}
+📘 **Linux Lab#LI03-4: Manage hardware**
+
+- Use the following commands to document hardware information for your lab computers: `df`, `du`, `cat /proc/cpuinfo`, `cat /proc/meminfo`.
+- Devices: `devices`, `partitions`. `cat /etc/fstab`,
+- Networking and users: `ifconfig`, `ip addr`, `uname --a`.
+- [Direct the output](https://www.redhat.com/sysadmin/redirect-operators-bash) from these commands into text files (make as many text files as you wish to organize this documentation reasonably). Use both `>` and `>>` to organize the data.
+- Redirect the `dmesg` output to a text file, and then use the `grep` utility to display any reference to "memory" or "CPU" in the file. What else does this file tell you?
+  
+:::
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Linux Lab#LI03-3: Manage software](/linux/lilab03-3.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Linux Lab#LI04-1: Bash scripting, qtool  {{< fa solid arrow-right >}}](/linux/lilab04-1.qmd)
+<br>
+</div>
+<br>
+</div>

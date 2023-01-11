@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Class and Objects"
+subtitle: Java Fundamentals
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is a Class and a Object in Java
+categories: [javase, class, objects, concepts, oop, paradigm]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.summary}
@@ -27,7 +38,7 @@ When you create an object, you are creating an **instance of a class**, which is
 
 ::: {.callout-note collapse="true"}
 ## Person class
-``` java
+``` {.java .code-overflow-wrap filename="Person.java"}
 public class Person {
   //fields  
   private int age;
@@ -96,7 +107,12 @@ public class Person {
 
 <mark>Each object has its own unique identity, and it maintains its own state by storing the values of its attributes. The object's behavior is defined by the methods that operate on its attributes, and these methods can be invoked by other code to ask the object to perform a specific action<mark>.
 
+
+![Java SE Basic Principles OOP Class and Object](/images/javase/oop-classobject.png){width="50%"}
+
+::: {.column-margin}
 Objects are an essential concept in object-oriented programming, and they are used to model real-world entities in a program. For example, you could create an object to represent a particular person, with attributes such as name, age, and address, and methods that operate on these attributes, such as a method to calculate their age in a particular year.
+:::
 
 In Java, you can create objects by using the `new` keyword and the class constructor to allocate memory for the object, and then you can access the object's attributes and methods by using the `.` (dot) operator. For example, if you have a class called `Person`, you could create an object of that class like this:
 
@@ -111,8 +127,9 @@ carla.name = "Carla Whitesand";
 carla.setAddress("123 Main Street");
 int age = carla.calc>ulateAge(2022);
 ```
-
+::: {.column-margin}
 In this example, `name` and `setAddress()` are attributes and methods of the `Person` class, and `person` is an object of that class. You can use this object to store and manipulate data according to the rules defined by the class.
+:::
 
 ## Creating Objects
 
@@ -217,7 +234,7 @@ public class Point {
 This class contains a single **constructor**. You can recognize a **constructor** because its declaration uses the s*ame name as the class and it has no return type*.
 
 The **constructor** in the ``Point`` class takes two integer arguments, as declared by the code ``(int a, int b)``. The following statement provides ``23`` and ``94`` as values for those arguments:
-
+Linux Lab#LI01-1: Export env user with grep and pipe
 ``` java
 Point originOne = new Point(23, 94);
 ```
@@ -225,3 +242,57 @@ Point originOne = new Point(23, 94);
 ## Example UML: class and object
 
 ![The class body may contain member variables, constructors, public methods, private helper methods and others.](/images/javase/UML_ClassInstance.png)
+
+## Ways to create an object
+
+
+There are several ways to **create** objects in Java:
+
+1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by theLinux Lab#LI01-1: Export env user with grep and pipe class name and constructor arguments. For example:
+
+```java
+Person carla = new Person("Carla", 30, "123 Main St.");
+```
+2. Using the `clone()` method: if you want to create a copy of an existing object, you can use the clone() method.
+
+::: {.callout-note collapse="true"}
+This method is defined in the `java.lang.Object class`, which is the superclass of all Java classes. To use the `clone()` method, you'll need to implement the Cloneable interface in your class and override the `clone()` method.
+:::
+
+3. Using `factory` methods: A factory method is a `static` method that returns an instance of a class. **Factory methods are often used to create objects** when you need more flexibility or control over the object creation process.
+
+4. Using `reflection`: Reflection is a feature of the Java language that allows you to **inspect and manipulate the structure of a class at runtime**. 
+
+::: {.callout-note collapse="true"}
+You can use reflection to create objects by invoking the `newInstance()` method on the Constructor object for a particular class.
+:::
+
+5. Using object `deserialization`: You can use object deserialization to create an object from its serialized form, which is a stream of bytes that represents the object's state. 
+
+::: {.callout-note collapse="true"}
+To do this, you'll need to implement the `Serializable interface` in your class and use the `ObjectInputStream` and `ObjectOutputStream` classes to serialize and deserialize the object.
+:::
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: JUnit and TDD](/javase/se-concepts-tdd.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Scope  {{< fa solid arrow-right >}}](/javase/se-concepts-scope.qmd)
+<br>
+</div>
+<br>
+</div>

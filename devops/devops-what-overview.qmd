@@ -1,5 +1,17 @@
 ---
 title: "DevOps: agile and microservices "
+subtitle: DevOps within the organization
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: reliable development, better integration between devs and ops, and faster release of new or revised software features or products to customers.
+categories: [devops, agile, microservices]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ## Overview
@@ -47,4 +59,26 @@ Microservices nicely complement cloud-based application architectures by allowin
 
 An increasingly common practice is to use container clusters to implement microservices. Containers allow for the isolation, packaging, and deployment of microservices, while orchestration scales out a group of containers into an application.
 
-[more info on](https://sites.google.com/view/devopscifo/home)
+[more info on](https://sites.google.com/view/devopscifo/home)<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} DevOps: Introduction](/devops/devops-what-intro.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Immutable Infrastructure  {{< fa solid arrow-right >}}](/devops/devops-what-immutable.qmd)
+<br>
+</div>
+<br>
+</div>

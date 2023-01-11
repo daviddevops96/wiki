@@ -1,7 +1,41 @@
 ---
 title: "Digital Ocean"
+subtitle: Digital Ocean
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Digital Ocean
+categories: [devops, digital-ocean]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do
 
-https://sites.google.com/view/devopscifo/devops-tools/digital-ocean
+https://sites.google.com/view/devopscifo/devops-tools/digital-ocean<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Kubernetes k8s](/devops/devops-tools-k8s.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Howto install Jenkins  {{< fa solid arrow-right >}}](/devops/devops-tools-installjenkins.qmd)
+<br>
+</div>
+<br>
+</div>

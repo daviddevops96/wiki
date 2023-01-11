@@ -1,0 +1,57 @@
+---
+title: "ReactJS Vocabulary"
+subtitle: Technical terms and definitions
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [vocabulary, reactjs]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+![Technical terms and definitions](/images/home/frontimagealbertprofeweb-vocabulary.png){width=60%}
+
+## Vocabulary 
+
+| Term | Definition |
+|:---|:---|
+| cop | description |
+| jsx | description |
+| props and states | description |
+| hooks | description |
+| spa | description |
+| virtual dom | description |
+| arrow function | description |
+| spread operator | description |
+| destructuring | description |
+| lodash | [Lodash](https://lodash.com/){.external}, A modern JavaScript utility library delivering modularity, performance & extras. |
+
+: React JS vocabulary {tbl-colwidths="[20,80]"}
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} DataBase Vocabulary](/vocabulary/vocab-data-base.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Web Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-web.qmd)
+<br>
+</div>
+<br>
+</div>

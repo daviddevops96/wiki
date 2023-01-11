@@ -1,5 +1,16 @@
 ---
 title: "Cascade Style Sheet"
+subtitle: CSS
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Introduction to CSS
+categories: [CSS, introduction]
+toc: true
+number-sections: true
+format:
+  html
 ---
 ## CSS: Cascading Style Sheets
 **Cascading Style Sheets** (**CSS**) is a [stylesheet](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet) language used to describe the presentation of a document written in [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) or [XML](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction) (including XML dialects such as [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [MathML](https://developer.mozilla.org/en-US/docs/Web/MathML) or [XHTML](https://developer.mozilla.org/en-US/docs/Glossary/XHTML)). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
@@ -76,3 +87,27 @@ li {
   color: green;
 }
 ```
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Quarto Markdown: cheat-sheet](/markup/markup-quarto-cheatsheet.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[CSS: W3.css  {{< fa solid arrow-right >}}](/markup/markup-css-w3css.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -1,6 +1,20 @@
 ---
 title: "Java SE Resources"
+subtitle: Readings
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Java SE Resources and Readings
+categories: [javase, resources, readings]
+toc: true
+number-sections: true
+format:
+  html
 ---
+
+![Java SE Resources](/images/home/frontimagealbertprofeweb-readings.png){width=50%}
+
 ## Object-Oriented Programming with Java, part I
 
 ::: {.callout}
@@ -35,3 +49,28 @@ by **Victor C.**
 
 - Tutorials de git y github: [Git and GitHub](https://www.youtube.com/playlist?list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU)
 - Tutorials java desde 0: [Java tutorials](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab#SE02-3: Movie/Review, factory](/javase/selab3-1.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Spring  {{< fa solid arrow-right >}}](/spring/spring.qmd)
+<br>
+</div>
+<br>
+</div>

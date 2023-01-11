@@ -1,5 +1,16 @@
 ---
 title: "Quarto Markdown: cheat-sheet"
+subtitle: Code (5/5)
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Cheat-sheet Quarto web
+categories: [markup, qmd, quarto, cheat-sheet]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ::: {.summary}
@@ -10,13 +21,21 @@ title: "Quarto Markdown: cheat-sheet"
 - Tabset
 - Callouts
 - Tablas
+- Two columns
+- Wrap code
 - Code blocks
 - Mermaid
 - Include
 - Presentations
+- Accordion
+- Icons
 - Others
 
 :::
+
+---
+
+[Markup and Quarto Resources](/markup/resources.qmd)
 
 ## Summary
 
@@ -67,6 +86,56 @@ Content for `Tab B`
 ```
 
 - [reveal.js tabset](https://quarto.org/docs/presentations/revealjs/#tabsets){.external}
+
+## Code blocks
+
+``` bash
+```{.python filename="matplotlib.py"}
+#| code-fold: true
+#| code-summary: "Show the code"
+#| echo: true
+#| code-overflow: wrap
+import matplotlib.pyplot as plt
+plt.plot([1,23,2,4])
+plt.show()```
+```
+
+[HTML Code Blocks](https://quarto.org/docs/output-formats/html-code.html){.external}
+
+## Code wrap and filename
+
+``` bash
+```{.js .code-overflow-wrap filename="profile.jsx"}
+export default function Profile() {
+  return (
+    <Avatar
+      person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+      size={100}
+    />
+  );
+}```
+```
+
+
+```{.js .code-overflow-wrap filename="profile.jsx"}
+export default function Profile() {
+  return (
+    <Avatar
+      person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+      size={100}
+    />
+  );
+}
+```
+
+
+``` bash
+::: {.column-margin}
+![Using React component wiht markup image and some text](/images/reactjs/ex5.png){widht=80%}
+:::
+
+```
+
 
 ## Callouts
 
@@ -136,20 +205,42 @@ Callouts have 3 different looks you can use.
 
 ```
 
-## Code blocks
+### Two columns
 
 ``` bash
-```{.python filename="matplotlib.py"}
-#| code-fold: true
-#| code-summary: "Show the code"
-#| echo: true
-#| code-overflow: wrap
-import matplotlib.pyplot as plt
-plt.plot([1,23,2,4])
-plt.show()```
+:::: {.columns}
+
+::: {.column width="50%"}
+- Highly customizable
+- Less work than using `<div>` tags
+:::
+
+::: {.column width="50%"}
+- Customizable in terms of layouts
+
+:::
+::::
 ```
 
-[HTML Code Blocks](https://quarto.org/docs/output-formats/html-code.html){.external}
+## Column Margin
+
+``` bash
+::: {.column-margin}
+[{{< fa solid arrow-up >}} top](#top)
+:::
+```
+
+## iframe
+
+``` html
+{=html}
+<iframe 
+  width="780"
+  height="500" 
+  src="https://devhints.io/bash"
+  title="Bash scripting cheatsheet">
+</iframe>
+```
 
 ## Mermaid
 
@@ -199,12 +290,25 @@ format: revealjs
 
 - [inlcude](https://quarto.org/docs/authoring/includes.html){.external}
 
-## HTML
+## Accordion
 
-``` {.html}
+``` bash
+
 <details>
 <summary>Code</summary>
-{.java}
+```{.js .code-overflow-wrap filename="profile.jsx"}
+    ```
+</details>
+
+```
+
+---
+
+``` bash
+<details>
+<summary>Code</summary>
+
+``` {.java}
 public class Account {
   private Person person;
   //other fields
@@ -222,9 +326,9 @@ public class Account {
     
     //constructor, getters, setters and methods
   }
-}
+}```
 
-<details>
+</details>
 
 ```
 
@@ -232,8 +336,8 @@ Example:
 
 <details>
 <summary>Java Person Class</summary>
-  ```{.java filename="person"}
-      public class Account {
+``` {.java filename="person"}
+public class Account {
         private Person person;
         //other fields
 
@@ -250,13 +354,68 @@ Example:
           
           //constructor, getters, setters and methods
         }
-      }
-```
-
+}
 ```
 
 </details>
 
+## Top, next and back
+
+``` bash
+:::: {.columns}
+
+::: {.column width="45%"}
+[{{< fa solid arrow-left >}} back](#top)
+:::
+
+::: {.column width="40%"}
+[{{< fa solid arrow-up >}} top](#top)
+:::
+
+::: {.column width="15%"}
+[next {{< fa solid arrow-right >}}](#top)
+:::
+
+::::
+```
+
+## Icons
+
+![Icons](/images/markup/icons.png)
+
+* glasses: {{< fa solid glasses >}}
+* arrow-up: {{< fa solid arrow-up >}}
+* arrow-right: {{< fa solid arrow-right >}}
+* solid book: {{< fa solid book >}}
+* java: {{< fa brands java >}}
+
+
+- [Font Awesome Search](https://fontawesome.com/search){.external}
+
 ## Others
 
 - [layout](https://quarto.org/docs/authoring/article-layout.html#margin-captions){.external}
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Quarto Markdown: data sources](/markup/markup-quarto-code.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Cascade Style Sheet  {{< fa solid arrow-right >}}](/markup/markup-css-basics.qmd)
+<br>
+</div>
+<br>
+</div>

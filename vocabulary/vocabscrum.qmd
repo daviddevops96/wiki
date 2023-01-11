@@ -1,6 +1,0 @@
----
-title: "SCRUM Vocabulay"
----
-
-to-do
-

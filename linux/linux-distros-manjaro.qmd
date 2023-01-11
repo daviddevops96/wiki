@@ -1,0 +1,38 @@
+---
+title: "Linux Distros: Manjaro"
+subtitle: Manjaro
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Manjaro
+categories: [linux, manjaro, distro]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Linux Distros: openSuse](/linux/linux-distros-opensuse.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Linux Distros: Red Hat Enterprise Linux  {{< fa solid arrow-right >}}](/linux/linux-distros-redhat.qmd)
+<br>
+</div>
+<br>
+</div>

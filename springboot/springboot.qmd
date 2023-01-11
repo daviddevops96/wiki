@@ -4,7 +4,7 @@ title: "Spring Boot"
 
 ## Overview
 
-![Spring Boot](/images/springboot/springboot.png){.image-preview #spring-boot}
+![Spring Boot](/images/springboot/springboot.png){.image-preview width="50%"}
 
 [Spring Boot](https://spring.io/) makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 
@@ -24,3 +24,26 @@ public String hello() {
 }
 
 ```
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

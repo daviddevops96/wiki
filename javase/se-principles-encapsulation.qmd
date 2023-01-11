@@ -1,5 +1,16 @@
 ---
 title: "Java SE: Encapsulation"
+subtitle: Java Fundamentals and Principles
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Java encapsulation OOP paradigm
+categories: [javase, encapsulation , oop, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview
@@ -15,6 +26,13 @@ In Java, **encapsulation** is achieved through the use of access modifiers like 
 :::
 
 ---
+
+**Encapsulation** is the **process of grouping functions and data into a single entity**. To access these data members, the member function’s scope must be set to ``public``, while the data members’ scope must be set to ``private``.
+
+According to this theory, an item contains all important information; only a small subset is made available to the outside world. Each object has a ``private class`` that contains its ``implementation and state``.
+
+
+![Java SE Basic Principles OOP Encapsulation](/images/javase/oop-enc.png){width="50%"}
 
 Here is an example of encapsulation in Java:
 
@@ -44,3 +62,26 @@ public class Account {
 ```
 
 In this example, the `Account` class has private instance variables and public methods. The `balance` variable is private, which means that it can only be accessed within the `Account` class. The `deposit()`, `withdraw()`, and `checkBalance()` methods are public, which means that they can be called from outside the `Account` class. This ensures that the implementation details of the `Account` class are hidden from the outside world.
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java SE: Packages](/javase/se-concepts-package.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE: Abstraction  {{< fa solid arrow-right >}}](/javase/se-principles-abstraction.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -1,5 +1,17 @@
 ---
 title: "IDE: IntellJIdea"
+subtitle: IntellJIdea
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Visual Code IDE
+categories: [devops, IntellJIdea, ide]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 link: [Check out the most useful and popular topics to get you started with IntelliJ IDEA.](https://www.jetbrains.com/help/idea/getting-started.html)
@@ -80,3 +92,26 @@ A must have plugin for working with Maven.
 ## Top 10 Plugins for IntelliJ IDEA You Don’t Want to Miss
 
 [Top 10 Plugins for IntelliJ IDEA You Don’t Want to Miss](https://blog.jetbrains.com/idea/2021/05/top-10-plugins-for-intellij-idea/)
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Visual Code](/devops/devops-ide-visualcode.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Aamanzon Web Sevices AWS  {{< fa solid arrow-right >}}](/devops/devops-tools-aws.qmd)
+<br>
+</div>
+<br>
+</div>

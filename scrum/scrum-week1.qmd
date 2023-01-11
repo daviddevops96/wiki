@@ -1,0 +1,43 @@
+---
+title: "Week 1: Meetings and impediments"
+subtitle: SCRUM Week 1
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [scrum, scrum-week1, meetings, impediments]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+# Meetings and impediments
+
+- [Week 1: Meetings and impediments](https://sites.google.com/view/gestioprojectes/llegir/setmana1){.external}
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} SCRUM Guide](/scrum/scrum-what-guide.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Week 2: User stories, tasks and habits  {{< fa solid arrow-right >}}](/scrum/scrum-week2.qmd)
+<br>
+</div>
+<br>
+</div>

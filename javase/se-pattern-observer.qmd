@@ -1,5 +1,38 @@
 ---
 title: "Java Patterns: Observer"
+subtitle: Java Fundamentals and Patterns
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: What is the Abstract Facotory
+categories: [javase, observer , design-patterns, concepts]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
-About this site
+About this site<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Java Patterns: Abstract Factory](/javase/se-pattern-abstractfactory.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java Patterns: Builder  {{< fa solid arrow-right >}}](/javase/se-pattern-builder.qmd)
+<br>
+</div>
+<br>
+</div>

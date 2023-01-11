@@ -1,5 +1,6 @@
 ---
 title: "IFCD Deliveries"
+categories: [ifcd0210, training]
 ---
 
 
@@ -23,3 +24,27 @@ Deliveries via github:
 | **MF03-0493**  | **10/05/2022**  | **Project** |
 | UF01 | 08/06/2023  | Crear app web CRUD amb db en servidor remot Spring Boot i gestió de dades amb API fetch (opcional altres tech) JS React |
 | MF03-0493 | 10/05/2023  | Prova objectiva i prova pràctica |
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} IFCD Init Mail](/ifcd0210/ifcd0210initemail.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About me {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
+<br>
+</div>
+<br>
+</div>

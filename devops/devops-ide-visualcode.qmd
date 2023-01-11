@@ -1,5 +1,17 @@
 ---
-title: "Visual Code"
+title: "IDE: Visual Code"
+subtitle: "Visual Code IDE"
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  "Visual Code IDE"
+categories: [devops,visual-code,ide]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 ![Visual Code User Interface](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
@@ -151,4 +163,26 @@ Visual Studio Live Share enables you to collaboratively edit and debug with othe
 
 ![Quokka](https://quokkajs.com/assets/img/main-video.gif)
 
-[Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode){#Quokka}
+[Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode){#Quokka}<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} GitHub](/devops/devops-vc-github.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[IDE: IntellJIdea  {{< fa solid arrow-right >}}](/devops/devops-ide-intelljidea.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -1,5 +1,16 @@
 ---
-title: "Quarto Markdown: basics "
+title: "Quarto Markdown: basics"
+subtitle: Introudction (1/5)
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Introduction to Quarto web
+categories: [markup, qmd, quarto, introduction]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview
@@ -139,3 +150,27 @@ Incremental Lists
 Multiple Columns
 Learning More
 :::
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Markdown and HTML working together, good idea?](/markup/markup-lang-html-md.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Quarto Markdown: creating  {{< fa solid arrow-right >}}](/markup/markup-quarto-create.qmd)
+<br>
+</div>
+<br>
+</div>

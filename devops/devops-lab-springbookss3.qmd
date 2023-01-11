@@ -1,7 +1,41 @@
 ---
 title: "Lab 3: Spring Boot and AWS S3"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Lab
+categories: [devops, lab]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do
 
-https://sites.google.com/view/devopscifo/labs/3-springb-books-s3
+https://sites.google.com/view/devopscifo/labs/3-springb-books-s3<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab 2: Spring Boot Intro](/devops/devops-lab-springbooksintro.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 4: Spring Boot and Docker  {{< fa solid arrow-right >}}](/devops/devops-lab-springbooksdocker.qmd)
+<br>
+</div>
+<br>
+</div>

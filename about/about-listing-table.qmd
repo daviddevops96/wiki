@@ -1,0 +1,60 @@
+---
+title: "Articles Table-Listing"
+categories: [listing, table]
+listing:
+    id: articles-table-listing
+    contents:
+        - "../*.qmd"
+        - "../javase/*.qmd"
+        -  "../linux/*.qmd"
+        - "../markup/*.qmd"
+        - "../vocabulary/*.qmd"
+        - "../scrum/*.qmd"
+        - "../spring/*.qmd"
+        - "../springboot*.qmd"
+        - "../devops/*.qmd"
+        - "../reactjs/*.qmd"
+        - "../about/*.qmd"
+        - "../ifcd0210/*qmd"
+    sort:
+        - "file-modified desc"
+        - "categories"
+    type: table
+    image-align: left
+    image-placeholder: "/images/home/frontimagealbertprofeweb.png"
+    fields: [image, categories, title, reading-time, file-modified]
+    table-hover: true
+    date-format: full
+    categories: cloud
+    image-height: 30px   
+---
+
+You can look up the following table listing for additional information:
+
+::: {#articles-table-listing}
+:::
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About the Useful Questions](/about/about-learning-questions.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Articles Card-Listing  {{< fa solid arrow-right >}}](/about/about-listing-card.qmd)
+<br>
+</div>
+<br>
+</div>

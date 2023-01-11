@@ -1,5 +1,17 @@
 ---
 title: "Lab 1: chat App"
+subtitle: Lab
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Lab
+categories: [devops, lab]
+toc: true
+number-sections: true
+highlight-style: pygments
+format:
+  html
 ---
 
 About this site: to-do
@@ -12,4 +24,26 @@ https://sites.google.com/view/devopscifo/labs/1-chat-app/aws-chat-back/dynamodb
 
 https://sites.google.com/view/devopscifo/labs/1-chat-app/react-chat-front
 https://sites.google.com/view/devopscifo/labs/1-chat-app/react-chat-front/react-chat-heroku
-https://sites.google.com/view/devopscifo/labs/1-chat-app/react-chat-front/react-chat-amplify
+https://sites.google.com/view/devopscifo/labs/1-chat-app/react-chat-front/react-chat-amplify<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Howto install Maven](/devops/devops-tools-installmaven.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 2: Spring Boot Intro  {{< fa solid arrow-right >}}](/devops/devops-lab-springbooksintro.qmd)
+<br>
+</div>
+<br>
+</div>
