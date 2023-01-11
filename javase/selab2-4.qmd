@@ -1,5 +1,5 @@
 ---
-title: "Lab#SE02-4: Movie/Review, interactivity"
+title: "Lab#SE02-4: Movie/Review, interactivity and coupling"
 subtitle: Java SE Lab 02
 author: albertprofe
 date: "06/01/2021"
@@ -14,12 +14,34 @@ format:
 ---
 
 ::: {.labs}
-📘 **Linux Lab#LI02-4:**
+📘 **Linux Lab#LI02-4: interactivity and coupling**
 
+Create some **interactivity** with user **adding** these new features:
 
+1. Add class Scanner:  ``Scanner scanner = new Scanner(System.in);``
 
+2. A `` while (true) `` **loop** with the ``CRUD`` options.
+
+3. Work as simple as possible, just 3 classes:
+
+    - ``MovieManager``
+    - ``Movie`` and
+    - ``MovieController``
+
+4. Propose some improvements.
+
+5. What about coupling? Is tight or loose coupled, this code?
 
 :::
+
+## Birding
+
+Before coding, study this example:
+
+  - First Version: [Birding 1.0](https://github.com/AlbertProfe/cifojava2022-1/tree/branch2test/Birding){.external}
+  - Third Version: [Birding 3.0](https://github.com/AlbertProfe/JAVA_pqtm2019/tree/master/Birding/src){.external}
+  - Fith Version: [Birding 5.0](https://github.com/AlbertProfe/JAVA_2020/tree/main/BirdingCloud){.external}
+
 
 ## Core classes
 
@@ -82,7 +104,7 @@ public class MovieController {
 
               System.out.println("Enter the movie title:");
               String title = scanner.next();
-              
+
               Movie movie = MovieManager.getMovie(title);
 
               if (movie != null) {
@@ -105,6 +127,70 @@ public class MovieController {
 }
 ```
 
+In this diagram, the ``Movie`` class has the following properties: ``title``, ``director``, ``genre``, and ``size``, each with corresponding getters and setters. It also has a constructor that takes 4 parameters.
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+class Movie {
+  - title: String
+  - director: String
+  - genre: String
+  - size: double
+  + Movie(title: String, director: String, genre: String, size: double)
+  + getTitle(): String
+  + getDirector(): String
+  + getGenre(): String
+  + getSize(): double
+  + setDirector(director: String)
+  + setGenre(genre: String)
+  + setSize(size: double)
+}
+```
+</div>
+
+---
+
+The ``MovieManager`` class has a HashMap of movies that stores ``Movie`` objects, an int variable qty that holds the number of movies stored in the manager, a double variable size that holds the total size of all the movies, a variable lastModified of type Date that holds the last date when a movie is added or deleted, and has several ``static`` methods which are ``addMovie``, ``updateMovie``, ``deleteMovie``, ``getMovie``, ``saveToCSV``, ``deleteCSV`` which are CRUD operation over movies.
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+
+class MovieManager {
+  - movies: HashMap<String, Movie>
+  - qty: int
+  - size: double
+  - lastModified: Date
+  + addMovie(title: String, director: String, genre: String, size: double): void
+  + updateMovie(title: String, director: String, genre: String, size: double): void
+  + deleteMovie(title: String): void
+  + getMovie(title: String): Movie
+  + saveToCSV(): void
+  + deleteCSV(): void
+}
+```
+
+</div>
+
+---
+
+The ``MovieController`` class has a main method which contains a loop that interacts with the user to perform CRUD operations on the Movie class using the static methods in the MovieManager class.
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+
+class MovieController {
+  + main(args: String[]): void
+}
+```
+
+
+</div>
 
 
 
