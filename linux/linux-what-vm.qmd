@@ -18,7 +18,7 @@ format:
 ::: {.summary}
 A **virtual machine is a software program that emulates the functionality of a physical computer**.
 
-It allows a computer to run multiple operating systems and applications in **isolated environments**, providing a level of isolation and security between them.
+It allows a computer to run multiple operating systems and applications in **isolated environments*>>>>>>> master*, providing a level of isolation and security between them.
 
 This allows users to run **different operating systems and applications on the same physical computer**, providing a level of flexibility and convenience that is not possible with a physical computer.
 :::
@@ -68,6 +68,26 @@ Here are the steps to create a **Linux Mint virtual machine using VirtualBox** o
     13.1. [How to Install VirtualBox Guest Additions in Linux Mint 19.1](https://www.youtube.com/watch?v=hbG5mU1Hb9s) by [Linux Distro Installation Guide](https://www.youtube.com/playlist?list=PLc0sbYjRrifp-iOoQ1VhAbvQmFfrv1QLa)
 
     {{< video https://youtu.be/hbG5mU1Hb9s >}}
+
+14. Install **Extension Pack**:
+    from VirtualBox that allows the VM to see the USB 3.0 on our directory.
+
+    ::: {.callout-note appearance="simple"}
+
+    ## Descriprion
+
+    Allows to see on the VM the USB 3.0 provided from CIFO on our directory.
+
+    :::
+    14.1. [Download](https://download.virtualbox.org/virtualbox/7.0.4/Oracle_VM_VirtualBox_Extension_Pack-7.0.4.vbox-extpack) the VirtualBox 7.0.4 Oracle VM VirtualBox Extension Pack.
+    
+    14.2. **Verify** the VM remains closed before the installation of the Extension Pack.
+    
+    ![](/images/linux/VM-stoped.png)
+
+    14.3. Follow the instruction of this [**Link**](https://www.nakivo.com/blog/how-to-install-virtualbox-extension-pack/)
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>
@@ -91,3 +111,4 @@ Here are the steps to create a **Linux Mint virtual machine using VirtualBox** o
 </div>
 <br>
 </div>
+
