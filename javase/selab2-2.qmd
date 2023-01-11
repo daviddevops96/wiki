@@ -30,9 +30,11 @@ format:
 
 :::
 
+---
+
 You could then use these:
 
-``` {.java .code-overflow-wrap filename="movie.java"}
+```{.java .code-overflow-wrap filename="Movie.java"}
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -41,7 +43,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths; classes as follows:
 
-class Movie{
+public class Movie{
     private String title;
     private String director;
     private String genre;
@@ -56,7 +58,7 @@ class Movie{
 }
 ``` 
 
-``` {.java .code-overflow-wrap filename="moviemodel.java"}
+```{.java .code-overflow-wrap filename="MovieManager.java"}
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -103,14 +105,74 @@ public class MovieManager {
     }
 
     public Movie getMovie(String title) {
-        return this.movies.get(title);
+        return tYou could then use these:
+
+```{.java .code-overflow-wrap filename="Movie.java"}
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths; classes as follows:
+
+public class Movie{
+    private String title;
+    private String director;
+    private String genre;
+    private double size// movie size
+
+    //constructor , getters and setters
+    //lombok
+    @Override
+    public double getSize(){
+        return this.size;
+    }
+}
+``` 
+
+```{.java .code-overflow-wrap filename="MovieManager.java"}
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.HashMap;
+import java.util.Date;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class MovieManager {
+    private int qty;
+    private double size;
+    private HashMap<String, Movie> movies;
+    private Date lastModified;
+
+    public MovieManager() {
+        this.qty = 0;
+        this.size = 0;
+        this.movies = new HashMap<>();
+        this.lastModified = new Date();
+    }
+
+    public void addMovie(Movie movie) {
+        this.movies.put(movie.getTitle(), movie);
+        this.qty++;
+        this.size += movie.getSize();
+        this.lastModified = new Date();
+    }
+
+his.movies.get(title);
     }
 
     // this is a mere idea, just a proposal to understand
     // how it colud be done
     // iterate the hashMap movies to get each movies
     // to save file in Linxu
-    //  try (FileWriter writer = new FileWriter("/home/devops/MyProjects/JavaSEProjects/MovieManager/resources/movies.csv"))
+    //  try (FileWriter writer = 
+    // new FileWriter("/home/devops/MyProjects/JavaSEProjects/MovieManager/resources/movies.csv"))
     //
     public void saveToCSV() {
         try (FileWriter writer = new FileWriter("movies.csv")) {
@@ -127,9 +189,16 @@ public class MovieManager {
         }
     }
 
-    public void >>>>>>> master
-        System.out.println("Failed to delete the file");
+    public void deleteCSV() {
+    File file;
+    file = new File("/home/devops/MyProjects/JavaSEProjects/MovieManager/resources/movies.csv");
+      if(file.delete()){
+          System.out.println("File deleted successfully");
+      }else{
+          System.out.println("Failed to delete the file");
+      }
     }
+}
 ```
 
 ## Solving discussion
@@ -162,6 +231,7 @@ class Movie{
 MovieManager --> Movie
 ```
 </div> 
+
 
 This diagram shows that the `MovieManager` class uses the `Movie` class, and the arrow points **from MovieManager to Movie**.
 

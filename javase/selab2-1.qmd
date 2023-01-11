@@ -56,6 +56,8 @@ Java SE Classes:
 
 ---
 
+## Classes and dependencies
+
 You could then use these classes as follows:
 
 ``` {.java .code-overflow-wrap filename="moviemodel.java"}
@@ -105,6 +107,7 @@ class Review {
 }
 
 ```
+### Dependency: Lombok
 
 Use ``Lombok``, [link](https://projectlombok.org/){.external}:
 
@@ -114,7 +117,9 @@ Use ``Lombok``, [link](https://projectlombok.org/){.external}:
 
 - The **@NoArgsConstructor** annotation is a ``Lombok`` annotation that generates a no-argument constructor for a class.
 
-Adding lombok to your pom file: to include lombok as a provided dependency, add it to your <dependencies> block like so:
+[**@Data**](https://projectlombok.org/features/Data){.external} All together now: A shortcut for **@ToString**, **@EqualsAndHashCode**, **@Getter** on all fields, **@Setter** on all non-final fields, and **@RequiredArgsConstructor**.
+
+Adding lombok to your pom file: to include lombok as a provided dependency, add it to your <dependencies>In your Java code: block like so:
 
 ``` {.java .code-overflow-wrap filename="pom.xml"}
 <dependencies>
@@ -126,6 +131,7 @@ Adding lombok to your pom file: to include lombok as a provided dependency, add 
 	</dependency>
 </dependencies>
 ```
+### Dependency: Java Faker
 
 Use [Java Faker](https://github.com/DiUS/java-faker){.external}:
 
@@ -140,20 +146,6 @@ In `pom.xml`, add the following xml **dependency** between <dependencies> ... </
   </dependency>
 </dependencies>
 ```
-
-To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the[ JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
-
-```{.java .code-overflow-wrap filename="pom.xml"}
-<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.9.1</version>
-      <scope>test</scope>
-    </dependency>
-```
-
-
 In your Java code:
 
 ``` {.java .code-overflow-wrap filename="testfaker.java"}
@@ -169,7 +161,22 @@ String lastName = faker.name().lastName(); // Barton
 String streetAddress = faker.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
 ```
 
----
+### Dependency: JUnit 5
+
+To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the[ JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
+
+more on [Java SE TDD](/javase/se-concepts-tdd.qmd)
+
+```{.java .code-overflow-wrap filename="pom.xml"}
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.9.1</version>
+      <scope>test</scope>
+    </dependency>
+```
+
 
 ## Solving discussion
 
@@ -239,7 +246,7 @@ classDiagram
 
 ### Basic tests
 
-```{.java .code-overflow-wrap filename="generaltest.java"}
+```{.java .code-overflow-wrap filename="Generaltest.java"}
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
