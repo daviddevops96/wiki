@@ -30,21 +30,22 @@ format:
 
 :::
 
-You could then use theseimport java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths; classes as follows:
+You could then use these:
 
 ``` {.java .code-overflow-wrap filename="movie.java"}
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths; classes as follows:
+
 class Movie{
     private String title;
     private String director;
-    private String genre;import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;// movie size
+    private String genre;
+    private double size// movie size
 
     //constructor , getters and setters
     //lombok
@@ -126,19 +127,45 @@ public class MovieManager {
         }
     }
 
-    public void deleteCSV() {
-    File file = new File("/home/devops/MyProjects/JavaSEProjects/MovieManager/resources/movies.csv");
-
-    if(file.delete()){
-        System.out.println("File deleted successfully");
-    }else{
+    public void >>>>>>> master
         System.out.println("Failed to delete the file");
     }
-}
-}
 ```
 
+## Solving discussion
 
+### MovieManager uses Movie
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+class MovieManager {
+  -int qty
+  -double size
+  -HashMap<String, Movie> movies
+  -Date lastModified
+  +addMovie(Movie movie)
+  +updateMovie(String title, Movie movie)
+  +deleteMovie(String title)
+  +getMovie(String title)
+  +saveToCSV()
+}
+class Movie{
+  +String title
+  +String director
+  +String genre
+  +double size
+  +getSize()
+}
+
+MovieManager --> Movie
+```
+</div> 
+
+This diagram shows that the `MovieManager` class uses the `Movie` class, and the arrow points **from MovieManager to Movie**.
+
+This indicates that **MovieManager class is dependent on Movie class** and it uses it as a **data structure.**
 
 
 <!--- navLinks -->
