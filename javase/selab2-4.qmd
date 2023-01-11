@@ -21,6 +21,93 @@ format:
 
 :::
 
+## Core classes
+
+You could then use these:
+
+```{.java .code-overflow-wrap filename="Movie.java"}
+import java.util.Scanner;
+
+public class MovieController {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("Please select an option:");
+            System.out.println("1. Add a movie");
+            System.out.println("2. Update a movie");
+            System.out.println("3. Delete a movie");
+            System.out.println("4. Get a movie by title");
+            System.out.println("5. Exit");
+            int option = scanner.nextInt();
+
+            if (option == 1) {
+
+              System.out.println("Enter the movie title:");
+              String title = scanner.next();
+              System.out.println("Enter the movie director:");
+              String director = scanner.next();
+              System.out.println("Enter the movie genre:");
+              String genre = scanner.next();
+              System.out.println("Enter the movie size:");
+              double size = scanner.nextDouble();
+
+              MovieManager.addMovie(title, director, genre, size);
+              System.out.println("Movie added successfully!");
+
+            } else if (option == 2) {
+
+              System.out.println("Enter the movie title:");
+              String title = scanner.next();
+              System.out.println("Enter the new movie director:");
+              String director = scanner.next();
+              System.out.println("Enter the new movie genre:");
+              String genre = scanner.next();
+              System.out.println("Enter the new movie size:");
+              double size = scanner.nextDouble();
+
+              MovieManager.updateMovie(title, director, genre,size);
+              System.out.println("Movie updated successfully!");
+
+            } else if (option == 3) {
+
+              System.out.println("Enter the movie title:");
+              String title = scanner.next();
+
+              MovieManager.deleteMovie(title);
+              System.out.println("Movie deleted successfully!");
+
+            } else if (option == 4) {
+
+              System.out.println("Enter the movie title:");
+              String title = scanner.next();
+              
+              Movie movie = MovieManager.getMovie(title);
+
+              if (movie != null) {
+                  
+                System.out.println("Title: " + movie.getTitle());
+                System.out.println("Director: " + movie.getDirector());
+                System.out.println("Genre: " + movie.getGenre());
+                System.out.println("Size: " + movie.getSize());
+              
+              } else { System.out.println("Movie not found!");}
+
+            } else if (option == 5) {
+                break;
+            } else {
+                System.out.println("Invalid option!");
+            }
+        }
+    scanner.close();
+    }
+}
+```
+
+
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

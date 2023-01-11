@@ -28,7 +28,6 @@ A **factory pattern** is a design pattern that provides an `interface` for creat
 
 ## Singleton
 
-
 You could then use these:
 
 ```{.java .code-overflow-wrap filename="MovieManager.java"}
@@ -108,7 +107,8 @@ public class MovieManager {
         }
         return instance;
     }
-    public void addMovie(String title, String director, String genre, double size) {
+    public void addMovie(String title,
+                         String director, String genre, double size) {
         Movie movie = movieFactory.createMovie(title, director, genre, size);
         this.movies.put(title, movie);
         this.qty++;
@@ -117,27 +117,42 @@ public class MovieManager {
     }
     // other class methods
 }
-
-interface MovieFactory {
-    Movie createMovie(String title, String director, String genre, double size);
-}
-
-class DefaultMovieFactory implements MovieFactory {
-    @Override
-    public Movie createMovie(String title, String director, String genre, double size) {
-        return new Movie(title
-
 ```
 
-In this version of the MovieManager class, a movieFactory field is added to the class, it is an instance of the MovieFactory interface. The MovieManager class has a new addMovie(String title, String director, String genre, double size) method that takes 4 parameters and it uses the movieFactory object to create a new Movie object with the provided parameters.
+```{.java .code-overflow-wrap filename="MovieFactory.java"}
+interface MovieFactory {
+    Movie createMovie(String title,
+                      String director, String genre, double size);
+}
+```
 
-The MovieFactory interface defines a single method createMovie(String title, String director, String genre, double size) that creates a Movie object. The DefaultMovieFactory class is an implementation of this interface that creates the Movie objects by calling its constructor.
+```{.java .code-overflow-wrap filename="DefaultMovieFactory.java"}
+class DefaultMovieFactory implements MovieFactory {
 
-The MovieManager uses the factory method createMovie() to create the movie objects rather than calling the constructor directly. This way, if the implementation of how Movie objects are created needs to change in the future, only the DefaultMovieFactory class needs to be modified. The rest of the MovieManager class remains unchanged, so it provides flexibility to change the implementation in future.
+    @Override
+    public Movie createMovie(String title,
+                             String director, String genre, double size) {
+        return new Movie(title, director, genre, size);
+                             }
+}
+```
 
+In this version of the ``MovieManager`` class, a movieFactory field is added to the class, **it is an instance of the MovieFactory interface**. The ``MovieManager`` class has a new ``addMovie(String title, String director, String genre, double size)`` method that takes 4 parameters and it uses the ``movieFactory`` object to create a new ``Movie`` object with the provided parameters.
+
+The ``MovieFactory`` ``interface`` defines a single method ``createMovie(String title, String director, String genre, double size)`` that creates a ``Movie`` object. The ``DefaultMovieFactory`` class **is an implementation of this ``interface``** that creates the ``Movie`` objects by calling its constructor.
+
+::: {.callout-important}
+The ``MovieManager`` uses the factory method ``createMovie()`` to create the movie objects rather than calling the constructor directly. 
+:::
+
+This way, if the implementation of how Movie objects are created needs to change in the future, only the DefaultMovieFactory class needs to be modified. The rest of the MovieManager class remains unchanged, so it provides flexibility to change the implementation in future.
+
+::: {.callout-tip}
 You can also have other implementation of MovieFactory, say like a SecureMovieFactory to create secure movies or any other such implementation. This way you can change the way movie object is created in future without modifying the code of MovieManager
 
 It is worth noting that this is a simple example of the factory pattern and it can be applied in many ways based on the requirements and use cases.
+:::
+
 
 <!--- navLinks -->
 <br><br>

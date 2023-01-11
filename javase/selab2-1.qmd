@@ -56,7 +56,7 @@ Java SE Classes:
 
 ---
 
-## Classes and dependencies
+## Core classes and dependencies
 
 You could then use these classes as follows:
 
