@@ -1,11 +1,11 @@
 ---
-title: "Lab#SE02-1: Movie/Review, operations"
+title: "Lab#SE02-2: Movie/Review, CRUD Operations"
 subtitle: Java SE Lab
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description:  Java SE Lab 02, part 2
+description:  Java SE Lab 02, part 2, CRUD Operations
 categories: [javase, lab]
 toc: true
 number-sections: true
@@ -15,12 +15,130 @@ format:
 
 
 ::: {.labs}
-📘 **Linux Lab#LI02-2:**
+📘 **Linux Lab#LI02-2: Opearations**
 
+1. Create `Java Class MovieManager` to manage all movie objects created.
 
+2. `Java Class MovieManager` could work like this:
 
+    - Every time a movie object is created, it could be saved within a data structure:
+      - ArrayList or List
+      - Set or similar
+      - HashMap or Map
+    - The `Java Class MovieManager` could perfom all CRUD operations.
+    - Besides, it colud save data as String to JSON or CSV as local.
 
 :::
+
+You could then use theseimport java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths; classes as follows:
+
+``` {.java .code-overflow-wrap filename="movie.java"}
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+class Movie{
+    private String title;
+    private String director;
+    private String genre;import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;// movie size
+
+    //constructor , getters and setters
+    //lombok
+    @Override
+    public double getSize(){
+        return this.size;
+    }
+}
+``` 
+
+``` {.java .code-overflow-wrap filename="moviemodel.java"}
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.HashMap;
+import java.util.Date;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class MovieManager {
+    private int qty;
+    private double size;
+    private HashMap<String, Movie> movies;
+    private Date lastModified;
+
+    public MovieManager() {
+        this.qty = 0;
+        this.size = 0;
+        this.movies = new HashMap<>();
+        this.lastModified = new Date();
+    }
+
+    public void addMovie(Movie movie) {
+        this.movies.put(movie.getTitle(), movie);
+        this.qty++;
+        this.size += movie.getSize();
+        this.lastModified = new Date();
+    }
+
+    public void updateMovie(String title, Movie movie) {
+        this.movies.replace(title, movie);
+        this.lastModified = new Date();
+    }
+
+    public void deleteMovie(String title) {
+        Movie movie = this.movies.get(title);
+        this.movies.remove(title);
+        this.qty--;
+        this.size -= movie.getSize();
+        this.lastModified = new Date();
+    }
+
+    public Movie getMovie(String title) {
+        return this.movies.get(title);
+    }
+
+    // this is a mere idea, just a proposal to understand
+    // how it colud be done
+    // iterate the hashMap movies to get each movies
+    // to save file in Linxu
+    //  try (FileWriter writer = new FileWriter("/home/devops/MyProjects/JavaSEProjects/MovieManager/resources/movies.csv"))
+    //
+    public void saveToCSV() {
+        try (FileWriter writer = new FileWriter("movies.csv")) {
+            for (Movie movie : this.movies.values()) {
+                writer.append(movie.getTitle());
+                writer.append(",");
+                writer.append(movie.getDirector());
+                writer.append(",");
+                writer.append(movie.getGenre());
+                writer.append("\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void deleteCSV() {
+    File file = new File("/home/devops/MyProjects/JavaSEProjects/MovieManager/resources/movies.csv");
+
+    if(file.delete()){
+        System.out.println("File deleted successfully");
+    }else{
+        System.out.println("Failed to delete the file");
+    }
+}
+}
+```
+
+
 
 
 <!--- navLinks -->

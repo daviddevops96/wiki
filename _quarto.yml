@@ -230,6 +230,7 @@ website:
             - javase/selab2-1.qmd
             - javase/selab2-2.qmd
             - javase/selab2-3.qmd
+            - javase/selab2-4.qmd
         - text: "---" 
         - section: "Java SE readings"
           contents: 
