@@ -522,11 +522,11 @@ public class AccountManagerTest {
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Builder](/javase/se-pattern-builder.qmd)
+[{{< fa solid arrow-left >}} Lab#SE00-1: Maven Clinic](/javase/selab0-2.qmd)
 <br>
 </div>
 <br>
-<div class='column center'>java
+<div class='column center'>
 <br>
 [{{< fa solid arrow-up >}} top](#top)
 <br>

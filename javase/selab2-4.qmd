@@ -274,7 +274,7 @@ public class MovieController {
   - **Third** Sprint/Version:
     - Some improvements in organize clases, ``Menu``, ``MenuOptions``, ``Utils``: [Birding v3.0](https://github.com/AlbertProfe/JAVA_pqtm2019/tree/master/Birding/src){.external}
   - **Fourth** Sprint/Version:
-    - Start wiht MVC pattern: problems with ``coupling``
+    - Start with MVC pattern: problems with ``coupling``
   - **Fifth** Sprint/Version:
     - MVC implemented: [Birding v5.0](https://github.com/AlbertProfe/JAVA_2020/tree/main/BirdingCloud){.external}
   - **Sixth** Sprint/Version:

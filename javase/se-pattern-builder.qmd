@@ -33,7 +33,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE01-1: Maven/Gradle Person and Account  {{< fa solid arrow-right >}}](/javase/selab1-1.qmd)
+[Lab#SE00-1: Maven Person {{< fa solid arrow-right >}}](/javase/selab0-1.qmd)
 <br>
 </div>
 <br>

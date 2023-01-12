@@ -227,9 +227,13 @@ website:
             - javase/se-pattern-builder.qmd
         - text: "---"  
         - section: "Java SE Laboratories"
-          contents: 
+          contents:
+            - javase/selab0-1.qmd
+            - javase/selab0-2.qmd
+            - text: "---"
             - javase/selab1-1.qmd
             - javase/selab1-2.qmd
+            - text: "---"
             - javase/selab2-1.qmd
             - javase/selab2-2.qmd
             - javase/selab2-3.qmd
@@ -398,7 +402,7 @@ website:
             - about/about-listing-card.qmd
 
   page-footer: 
-    background: dark
+    background: secondary 
     left: "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)" 
     center: "if you want to go far, walk slow" 
     right: 
