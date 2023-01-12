@@ -194,12 +194,15 @@ website:
             - javase/se-what-principles.qmd
             - javase/se-what-moochelsinki.qmd
         - text: "---"
-        - section: "Java Concepts"
+        - section: "Java Create Project"
           contents:
             - javase/se-concepts-maven.qmd
             - javase/se-concepts-createproject.qmd
             - javase/se-concepts-projectgit.qmd
             - javase/se-concepts-tdd.qmd
+        - text: "---"
+        - section: "Java Concepts"
+          contents:
             - javase/se-concepts-objects.qmd
             - javase/se-concepts-scope.qmd
             - javase/se-concepts-static.qmd

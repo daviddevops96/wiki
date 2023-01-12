@@ -22,7 +22,7 @@ format:
 
 - **Encapsulation**: [Encapsulation](/javase/se-principles-encapsulation.qmd) refers to the idea of combining data and the code that manipulates that data into a single unit, or object. This allows for better organization and modularity of code, and helps to hide the internal details of an object from other parts of the program.
 
-- **Abstraction**: [Abstraction](/javase/se-principles-abstraction.qmd9) is the process of representing essential features without including the details. In OOP, abstraction is often achieved through the use of interfaces or abstract classes, which define a set of common methods that can be implemented by different classes in different ways. This allows for greater flexibility and reusability of code.
+- **Abstraction**: [Abstraction](/javase/se-principles-abstraction.qmd) is the process of representing essential features without including the details. In OOP, abstraction is often achieved through the use of interfaces or abstract classes, which define a set of common methods that can be implemented by different classes in different ways. This allows for greater flexibility and reusability of code.
 
 - **Inheritance**: [Inheritance](/javase/se-principles-inheritance.qmd) is the ability of a class to inherit the attributes and behaviors of another class. In OOP, a class can inherit from a parent class, also known as a superclass, and can override or extend the methods of the parent class to add new functionality. This allows for code reuse and makes it easier to create hierarchies of classes.
 
