@@ -253,33 +253,40 @@ public class MovieController {
 
 ## Grow your code
 
-  - **Zero** Spriint/Version:
-    - Meeting rules, roles, mockup, os, git, documentation
+  - **Zero** Sprint/Version:
+    - Meeting rules
+    - Roles: ScrumMaster, Product Owner, Specialist, Team
+    - Tech fundamentals: os, git
+    - Mockup: figma
+    - Documentation: obsidian, quarto
+    - Digital tools: github, gitlab, openProject, nextCloud
     - UML: use-case, clas diagram, sequencial
     - Core Project classes
     - Product draft definition
+    - User stories, epics, tasks
+    - Product Backlog, Sprint 1 Backlog
     - Sprint/Versions calendar
     - [Never, never, ever use Sprint Zero notation: it is a sin](https://mdalmijn.com/p/why-using-sprint-0-is-a-cardinal-sin-for-all-scrum-masters){.external}
-  - **First** Spriint/Version:
+  - **First** Sprint/Version:
     - Just basic **Core** classes, Model: [Birding v1.0](https://github.com/AlbertProfe/cifojava2022-1/tree/branch2test/Birding){.external}
-  - **Second** Spriint/Version:
+  - **Second** Sprint/Version:
     - Starting to work in ``main`` and thinking (that is, create some new classes) in **Domains**
-  - **Third** Spriint/Version:
+  - **Third** Sprint/Version:
     - Some improvements in organize clases, ``Menu``, ``MenuOptions``, ``Utils``: [Birding v3.0](https://github.com/AlbertProfe/JAVA_pqtm2019/tree/master/Birding/src){.external}
-  - **Fourth** Spriint/Version:
+  - **Fourth** Sprint/Version:
     - Start wiht MVC pattern: problems with ``coupling``
-  - **Fifth** Spriint/Version:
+  - **Fifth** Sprint/Version:
     - MVC implemented: [Birding v5.0](https://github.com/AlbertProfe/JAVA_2020/tree/main/BirdingCloud){.external}
-  - **Sixth** Spriint/Version:
+  - **Sixth** Sprint/Version:
     - Add singleton and factory pattern
-  - **Seventh** Spriint/Version:
+  - **Seventh** Sprint/Version:
     - Check security in/within code
-  - **Eight** Spriint/Version:
+  - **Eight** Sprint/Version:
     - Implement CRUD operation in local JSON or create mySQL DB o similar 
-  - **Nineth** Spriint/Version:
+  - **Nineth** Sprint/Version:
     - Go to **web** (`Spring Boot` & `React`)
     - Go to **desktop** [Java FX](https://openjfx.io/){.external}
-  - **Tenth** Spriint/Version:
+  - **Tenth** Sprint/Version:
     - Create extensions and [publish](/linux/lilab04-3.qmd)
 
 
