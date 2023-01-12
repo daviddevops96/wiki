@@ -1,12 +1,12 @@
 ---
-title: "Java SE: Coupling/Cohesion"
-subtitle: Coupling in modern java and microservices
+title: "Java SE: Coupling and DDD"
+subtitle: Coupling/cohesion in modern java and microservices and DDD
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: How important coupling is in modern java and microservices
-categories: [javase, microservices, coupling]
+description: How important coupling is in modern java and microservices and DDD
+categories: [javase, microservices, coupling, DDD]
 toc: true
 number-sections: true
 format:
@@ -39,6 +39,19 @@ The **importance of decoupling** in Java lies in its ability to improve the modu
 ![Coupling and cohesion by Евгений Мирошниченко, CC0, via Wikimedia Common](/images/javase/coupling.png){width=50%}
 
 Additionally, decoupling can help to improve the reusability of classes or modules. When classes or modules are <mark>highly coupled, it can be difficult to reuse them in other contexts or situations</mark>. By **decoupling** classes or modules, you can make them more self-contained and independent, which can make them more easily reusable in other contexts.
+
+## What is the Domain? DDD?
+
+To define [domain-driven design](https://martinfowler.com/bliki/DomainDrivenDesign.html){.external}, we should first establish what we mean by **domain** in this context (and in development in general).
+
+The standard dictionary definition of domain is: "**A sphere of knowledge or activity.**" Drilling down a bit from that, the domain in software engineering commonly refers to the subject area on which the application is intended to apply. 
+
+In other words, during application development, the domain is the **sphere of knowledge and activity around which the application logic revolves**.
+
+::: {.callout-tip}
+## Domain-Driven Design: worth reading!
+Coupling degree in a project is highly related to the project desing stage. Using a [Domain-Driven Design](https://blog.airbrake.io/blog/software-design/domain-driven-design) strategy can reduce the coupling between the different entities, value objects, domain events, etc...
+:::
 
 ## Example: ``CarFactory``
 
@@ -74,7 +87,11 @@ Additionally, by decoupling the `CarFactory` class from the code that uses the c
 
 ## Conclusion
 
-Overall, decoupling is an important concept in Java programming, and can help to improve the modularity, flexibility, and maintainability of a system. By reducing the dependencies between classes or modules, you can make the system more modular and easier to modify and maintain, and you can improve the reusability of individual classes or modules.
+Overall, decoupling is an important concept in Java programming, and can help to improve the modularity, flexibility, and maintainability of a system.
+
+::: {.callout-tip}
+**By reducing the dependencies between classes or modules**, you can make the system more **modular** and easier to **modify** and **maintain**, and you can improve the **reusability** of individual classes or modules.
+:::
 
 <!--- navLinks -->
 <br><br>

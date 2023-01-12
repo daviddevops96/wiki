@@ -86,7 +86,7 @@ Overall, packages are an important concept in Java, and can help to improve the 
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java SE: Coupling/Cohesion](/javase/se-concepts-coupling.qmd)
+[{{< fa solid arrow-left >}} Java SE: Coupling and DDD](/javase/se-concepts-coupling.qmd)
 <br>
 </div>
 <br>
