@@ -1,6 +1,6 @@
 ---
 title: "Lab#SE02-4: Movie/Review, interactivity and coupling"
-subtitle: Java SE Lab 02
+subtitle: Java SE Lab 04
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
@@ -45,7 +45,7 @@ Before coding, study this very basic example and [check how it could grow](/java
 
 You could then use these:
 
-```{.java .code-overflow-wrap filename="Movie.java"}
+``` {.java .code-overflow-wrap filename="MovieController.java"}
 import java.util.Scanner;
 
 public class MovieController {
@@ -190,6 +190,67 @@ class MovieController {
 
 </div>
 
+## Create `static` methods
+
+```{.java .code-overflow-wrap filename="MovieController.java"}
+
+import java.util.Scanner;
+
+public class MovieController {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        MovieManager movieManager = new MovieManager();
+
+        while (true) {
+            String command = ask(scanner, "Option?");
+            if (command.equals("Quit")) {
+                break;
+            } else if (command.equals("Add")) {
+                add(scanner,movieManager);
+            } else if (command.equals("Delete")) {
+                delete(scanner,movieManager);
+            } else if (command.equals("Get")) {
+                get(scanner,movieManager);
+            } else if (command.equals("Update")) {
+                update(scanner,movieManager);
+            } else if (command.equals("Showall")) {
+                showall(scanner,movieManager);
+            } else {
+                System.out.println("Unknown command!");
+            }
+        }
+    }
+
+    public static String ask(Scanner input, String option) {
+        return null;
+    }
+
+    public static void add(Scanner input, MovieManager movieManager) {
+
+    }
+
+    public static void delete(Scanner input, MovieManager movieManager) {
+
+    }
+
+    public static void get(Scanner input, MovieManager movieManager) {
+
+    }
+
+    public static void update(Scanner input, MovieManager movieManager) {
+
+
+
+    public static void showall(Scanner input, MovieManager movieManager) {
+
+    }
+
+  }
+}
+```
+
 ## Grow your code
 
   - **First** Version:
@@ -209,9 +270,10 @@ class MovieController {
   - **Eight** version:
     - Implement CRUD operation in local JSON or create mySQL DB o similar 
   - **Nineth** version:
-    - Go to web/desktop
+    - Go to **web** (`Spring Boot` & `React`)
+    - Go to **desktop** [Java FX](https://openjfx.io/){.external}
   - **Tenth** version:
-    - Create extensions
+    - Create extensions and [publish](/linux/lilab04-3.qmd)
 
 
 <!--- navLinks -->

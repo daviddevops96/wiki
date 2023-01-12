@@ -57,7 +57,7 @@ by **Victor C.**
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE02-3: Movie/Review, factory](/javase/selab3-1.qmd)
+[{{< fa solid arrow-left >}} Lab#SE02-4: Movie/Review, interactivity and coupling](/javase/selab2-4.qmd)
 <br>
 </div>
 <br>
