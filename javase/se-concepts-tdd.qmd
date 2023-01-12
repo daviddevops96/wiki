@@ -148,6 +148,55 @@ Finally, we would run the test again to ensure that it passes. If the test passe
 
 This is just one example of how TDD can be applied in a Java project using JUnit. There are many other ways to approach TDD, and the specific steps and details will vary depending on the project and the requirements.
 
+
+## Most popular ``asserts``
+
+``Assertions`` is a **collection** of utility methods that support asserting conditions in tests.
+
+::: {.column-margin}
+Unless otherwise noted, a failed assertion will throw an AssertionFailedError or a subclass thereof.
+:::
+
+``` {.java .code-overflow-wrap filename="MyFirstJUnitJupiterTests.java"}
+@API(status=STABLE, since="5.0")
+public final class Assertions
+extends Object
+```
+
+[Assertions 5.8.2](https://junit.org/junit5/docs/5.8.2/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html){.external}
+
+| Number | Assert | Description |
+| --- | --- | --- |
+| 1 | `assertEquals(expected, actual)` | Tests that two values are equal. |
+| 2 | `assertTrue(condition)` | Tests that a condition is true. |
+| 3 | `assertFalse(condition)` | Tests that a condition is false. |
+| 4 | `assertNotNull(object)` | Tests that an object is not null. |
+| 5 | `assertNull(object)` | Tests that an object is null. |
+| 6 | `assertArrayEquals(expected, actual)` | Tests that two arrays are equal. |
+| 7 | `assertSame(expected, actual)` | Tests that two references refer to the same object. |
+| 8 | `assertNotSame(expected, actual)` | Tests that two references don’t refer to the same object. |
+| 9 | `assertAll(executables)` | Allows to group several assertions and execute them all. |
+| 10 | `assertThrows(exceptionType, executable)` | Tests that a specific exception is thrown. |
+: Most Pouplar Asserts: description {tbl-colwidths="[5,40,55]"}
+
+::: {.column-body-outset-right}
+| Number | Example Code |
+| --- | --- |
+| 1 | `assertEquals(5, add(2,3));` |
+| 2 | `assertTrue(checkRole("admin"));` |
+| 3 | `assertFalse(checkRole("user"));` |
+| 4 | `assertNotNull(new Object());` |
+| 5 | `assertNull(null);` |
+| 6 | `assertArrayEquals(new int[]{1,2,3}, new int[]{1,2,3});` |
+| 7 | `Object obj = new Object(); assertSame(obj, obj);` |
+| 8 | `Object obj1 = new Object(); Object obj2 = new Object(); assertNotSame(obj1, obj2);` |
+| 9 | `assertAll("Person properties", () -> assertEquals("John", person.getFirstName()), () -> assertEquals("Doe", person.getLastName()));` |
+| 10 | `assertThrows(IllegalArgumentException.class, () -> { Integer.parseInt("Not a number"); });` |
+: Most Pouplar Asserts: code {tbl-colwidths="[5,95]"}
+:::
+
+
+
 ## Naming the test class
 We use common conventions in naming the test class. Let’s start with the name of the class which is being tested and assume the name of that class is `Student`. In that case, the name of the test class should be `StudentTest`. We have to append `Test` to it. The same naming convention is used in the case of methods. If there is a method `DisplayStudentAddress()`, then the name of the method in testing should be `testDisplayStudentAddress()`.
 

@@ -36,12 +36,10 @@ Create some **interactivity** with user **adding** these new features:
 
 ## Birding
 
-Before coding, study this example:
+Before coding, study this very basic example and [check how it could grow](/javase/selab2-4.qmd#grow-your-code):
 
   - First Version: [Birding 1.0](https://github.com/AlbertProfe/cifojava2022-1/tree/branch2test/Birding){.external}
-  - Third Version: [Birding 3.0](https://github.com/AlbertProfe/JAVA_pqtm2019/tree/master/Birding/src){.external}
-  - Fith Version: [Birding 5.0](https://github.com/AlbertProfe/JAVA_2020/tree/main/BirdingCloud){.external}
-
+ 
 
 ## Core classes
 
@@ -192,6 +190,28 @@ class MovieController {
 
 </div>
 
+## Grow your code
+
+  - **First** Version:
+    - Just basic **Core** classes, Model: [Birding v1.0](https://github.com/AlbertProfe/cifojava2022-1/tree/branch2test/Birding){.external}
+  - **Second** Version:
+    - Starting to work in ``main`` and thinking (that is, create some new classes) in **Domains**
+  - **Third** Version:
+    - Some improvements in organize clases, ``Menu``, ``MenuOptions``, ``Utils``: [Birding v3.0](https://github.com/AlbertProfe/JAVA_pqtm2019/tree/master/Birding/src){.external}
+  - **Fourth** Version:
+    - Start wiht MVC pattern: problems with ``coupling``
+  - **Fifth** Version:
+    - MVC implemented: [Birding v5.0](https://github.com/AlbertProfe/JAVA_2020/tree/main/BirdingCloud){.external}
+  - **Sixth** version:
+    - Add singleton and factory pattern
+  - **Seventh** version:
+    - Check security in/within code
+  - **Eight** version:
+    - Implement CRUD operation in local JSON or create mySQL DB o similar 
+  - **Nineth** version:
+    - Go to web/desktop
+  - **Tenth** version:
+    - Create extensions
 
 
 <!--- navLinks -->
