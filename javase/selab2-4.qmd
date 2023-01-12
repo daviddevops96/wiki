@@ -253,26 +253,33 @@ public class MovieController {
 
 ## Grow your code
 
-  - **First** Version:
+  - **Zero** Spriint/Version:
+    - Meeting rules, roles, mockup, os, git, documentation
+    - UML: use-case, clas diagram, sequencial
+    - Core Project classes
+    - Product draft definition
+    - Sprint/Versions calendar
+    - [Never, never, ever use Sprint Zero notation: it is a sin](https://mdalmijn.com/p/why-using-sprint-0-is-a-cardinal-sin-for-all-scrum-masters){.external}
+  - **First** Spriint/Version:
     - Just basic **Core** classes, Model: [Birding v1.0](https://github.com/AlbertProfe/cifojava2022-1/tree/branch2test/Birding){.external}
-  - **Second** Version:
+  - **Second** Spriint/Version:
     - Starting to work in ``main`` and thinking (that is, create some new classes) in **Domains**
-  - **Third** Version:
+  - **Third** Spriint/Version:
     - Some improvements in organize clases, ``Menu``, ``MenuOptions``, ``Utils``: [Birding v3.0](https://github.com/AlbertProfe/JAVA_pqtm2019/tree/master/Birding/src){.external}
-  - **Fourth** Version:
+  - **Fourth** Spriint/Version:
     - Start wiht MVC pattern: problems with ``coupling``
-  - **Fifth** Version:
+  - **Fifth** Spriint/Version:
     - MVC implemented: [Birding v5.0](https://github.com/AlbertProfe/JAVA_2020/tree/main/BirdingCloud){.external}
-  - **Sixth** version:
+  - **Sixth** Spriint/Version:
     - Add singleton and factory pattern
-  - **Seventh** version:
+  - **Seventh** Spriint/Version:
     - Check security in/within code
-  - **Eight** version:
+  - **Eight** Spriint/Version:
     - Implement CRUD operation in local JSON or create mySQL DB o similar 
-  - **Nineth** version:
+  - **Nineth** Spriint/Version:
     - Go to **web** (`Spring Boot` & `React`)
     - Go to **desktop** [Java FX](https://openjfx.io/){.external}
-  - **Tenth** version:
+  - **Tenth** Spriint/Version:
     - Create extensions and [publish](/linux/lilab04-3.qmd)
 
 
