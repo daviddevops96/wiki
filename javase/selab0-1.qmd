@@ -42,6 +42,71 @@ format:
 
 ## UML
 
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+class Person {
+  -firstname: String
+  -lastname: String
+  -age: int
+}
+
+class Student {
+  -university: String
+}
+
+class Author {
+  -genre: String
+}
+
+
+Person --|> Student: Inheritance
+Person --|> Author: Inheritance
+```
+
+</div>
+
+---
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+
+class Student {
+  -university: String
+  -car: Car
+  -books: ArrayList~Book~
+}
+
+class Author {
+  -genre: String
+  -book: Book
+}
+
+class Book {
+  -title: String
+  -ISBN: String
+  -pages: int
+  -author: Author
+}
+
+class Car {
+	 -places: int
+	 -color: String
+}
+
+Student *-- Book: Composition
+Book *-- Author: Composition
+Student *-- Car: Composition
+Author *-- Book: Composition
+```
+
+</div>
+
+---
+
 
 <div class="mermaidContent">
 
@@ -53,14 +118,15 @@ class Person {
   -age: int
 }
 
-class Author {
-  -genre: String
-}
-
 class Student {
   -university: String
   -car: Car
+  -books: ArrayList~Book~
+}
 
+class Author {
+  -genre: String
+  -book: Book
 }
 
 class Book {
@@ -77,8 +143,10 @@ class Car {
 
 Person --|> Student: Inheritance
 Person --|> Author: Inheritance
-Student *-- Car: Composition
+
 Student *-- Book: Composition
+Book *-- Author: Composition
+Student *-- Car: Composition
 Author *-- Book: Composition
 ```
 
@@ -244,25 +312,21 @@ import java.util.ArrayList;
 
 public class Student extends Person {
 
-	public String name;
-	public int age;
+	public String university;
 	public Car car;
 	public ArrayList<Book> books;
 	//1
 	//public ArrayList<Book> books = new ArrayList<Book>();
-	
+	public Student(String firstName, String lastName, int age, String university) {
+		super(firstName, lastName, age);
+		this.books = new ArrayList<Book>();
+	}
+
 	public void addBook (Book booktoaddtoarray) {
 		this.books.add(booktoaddtoarray);		
 	}
 
-	public Student(String name, int age) {
-		super(name, name);
-		this.name = name;
-		this.age = age;
-		//2
-		this.books = new ArrayList<Book>();
-	}
-	
+
 	public ArrayList<Book> getBooks() {
 		return books;
 	}
@@ -271,14 +335,6 @@ public class Student extends Person {
 		this.books = books;
 	}
 	
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public int getAge() {
 		return age;
 	}
@@ -287,21 +343,7 @@ public class Student extends Person {
 		this.age = age;
 	}
 
-	@Override
-	public String toString() {
-		return "Student [name=" + name + ", age=" + age + "]";
-	}
-
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + age;
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		return result;
-	}
-
-	@Override
+	@Override@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
@@ -319,6 +361,10 @@ public class Student extends Person {
 			return false;
 		return true;
 	}
+		result = prime * result + age;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
 
 }
 
@@ -334,7 +380,8 @@ Here, the `Car` class represents a **car** with a doors, places and others.
 <summary>Code Car</summary>
 
 ``` {.java .code-overflow-wrap filename="Car.java"}
-
+public Author(String firstName, String lastName, int age, String genre) {
+		super(firstName, lastName, age);
   package exemple1;
 
 public class Car {
@@ -370,18 +417,21 @@ Here, the `Author` class represents an **author** with a ... and others.
 
 package exemple1;
 
-public class Author {
-	
-	public int ;
-	public int ;
-	public String ;
-		
-	
+public class Author extends Person {
+
+	public Author(String firstName, String lastName, int age, String genre) {
+		super(firstName, lastName, age);
+		public String genre;
+		// TODO Auto-generated constructor stub
+	}
+
 }
 
 ```
 
 </details></div>
+
+## Eclipse IDE UML
 
 ![UML Person - Student - Author and Car](/images/javase/person.jpg){width="80%"}
 

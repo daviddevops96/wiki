@@ -34,9 +34,12 @@ Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides](https://www.academia.e
 
 ## Web
 
-- Java Programming Tutorial Object-oriented Programming (OOP) Basics: [www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html)
-- Java Oracle Official Documentation [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/java/index.html)
-- StackOverFlow [Is Java "pass-by-reference" or "pass-by-value"?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value){#IsJavaReference}
+- Java Programming Tutorial Object-oriented Programming (OOP) Basics: [www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html){.external}
+- Java Oracle Official Documentation [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/java/index.html){.external}
+- StackOverFlow [Is Java "pass-by-reference" or "pass-by-value"?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value){#IsJavaReference .external}
+- JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures: [JHipster](https://www.jhipster.tech/){.external}
+- Mermaid [The class diagram is the main building block of object-oriented modeling.](https://mermaid.js.org/syntax/classDiagram.html){.external}
+
 
 ## Notes
 
