@@ -25,10 +25,10 @@ UML is used by software **developers, business analysts, and systems engineers**
 
 **UML is a powerful tool** that can help teams design and develop software and other systems more efficiently and effectively.
 
-## UML: class diagram and relationships
+## Class diagram and relationships
 
 
-![Example of UML class-diagram](/images/javase/uml_example.png){.preview-image #uml-example width=80%}
+![Example of UML class-diagram](/images/javase/uml_example.png){width=80%}
 
 In UML, there are several types of **relationships** that can be used to model the relationships between elements in a system. Here is a brief overview of some of the most common types of relationships:
 
@@ -41,7 +41,166 @@ In UML, there are several types of **relationships** that can be used to model t
 
 ## Example: class and object diagram
 
-![Example of UML class and object](/images/javase/UML_ClassInstance.png){.preview-image #class-object width=80%}<!--- navLinks -->
+![Example of UML class and object](/images/javase/UML_ClassInstance.png){width=80%}`
+
+
+## Entity relationship types: multiplicity
+
+### One-to-One (1:1)
+
+A ``one-to-one`` relationship is a relationship between two entities where one entity is related to exactly one instance of the other entity.
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+direction LR
+class Person {
+    -name: String
+}
+
+class Passport {
+    -passportNumber: String
+}
+
+Person  "1" *-- "1"  Passport: Owns
+```
+</div>
+
+::: {.column-margin}
+For example, **a person can have only one passport, and a passport can belong to only one person**. In this case, the person entity and the passport entity have a one-to-one relationship.
+:::
+
+### One-to-Many (1:n)
+
+A ``one-to-many`` relationship is a relationship between two entities where one entity is related to many instances of the other entity.
+
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+direction LR
+class Author {
+    -name: String
+}
+
+class Book {
+    -title: String
+}
+
+Author  "1" *-- "*"  Book: Writes
+```
+</div>
+
+
+::: {.column-margin}
+For example, **one author can write many books, and a book can have only one author**. In this case, the author entity and the book entity have a one-to-many relationship.
+:::
+
+### Many-to-Many (n:m)
+
+A ``many-to-many`` relationship is a relationship between two entities where many instances of one entity are related to many instances of the other entity.
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+direction LR
+class Student {
+    -name: String
+}
+
+class Course {
+    -title: String
+}
+
+Student  "*" *--* "*"  Course: Enrolls
+```
+</div>
+
+::: {.column-margin}
+For example, **many students can be enrolled in many courses**, and many courses can have many students. In this case, the student entity and the course entity have a many-to-many relationship.
+:::
+
+## Example: Customer-Product
+
+### Customer-Product relationship
+
+The model of the relationships between ``Customer``, ``Order`` and ``Product`` **is not enough**.
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+direction LR
+class Customer {
+    -name: String
+}
+
+class Order {
+    -idOrder: String
+}
+
+class Product {
+    -productName: String
+}
+
+
+Customer "1" *-- "*" Order: Places
+Order "*" *--* "*" Product: Contains
+```
+</div>
+
+
+### Defining the Customer-Product relationship
+
+The model of the relationships between ``Customer``, ``Order`` and ``OrderDetail`` and ``Product``.
+
+There is a ``one-to-many`` association between **Customer** and **Order**, but how should we represent **Order** / **OrderDetail** / **Product**? We have chosen to map **OrderDetail** as an association class representing the **many-to-many** association between **Order** and **Product**.
+
+
+::: {.column-body-outset-right}
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+class Customer {
+    -name: String
+}
+
+class Order {
+    -idOrd: String
+}
+
+class OrderDetail {
+    -idOrdD: String
+}
+
+class Product {
+    -idPro: String
+}
+
+
+Customer "1" *-- "*" Order: Places
+Order "1" *-- "*" OrderDetail: Contains
+OrderDetail "*" --* "1" Product: Contains
+```
+
+</div>
+
+:::
+
+### Reference
+
+[Class diagrams Mermaid](https://mermaid.js.org/syntax/classDiagram.html){.external}
+
+![[Design pattern: many-to-many (order entry)](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=manymany.php){.external}](/images/javase/manymany-sales.gif){width="60%"}
+
+
+
+<!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
