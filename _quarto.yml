@@ -250,12 +250,23 @@ website:
         - text: "---"  
         - section: "Spring Legacy"
           contents: 
-            - spring/spring.qmd
-            - spring/springmvc.qmd
+            - spring/spring-basics.qmd
+            - spring/spring-mvc.qmd
         - text: "---"  
-        - section: "Spring Boot"
+        - section: "Spring Boot Basics"
           contents: 
-            - springboot/springboot.qmd
+            - springboot/boot-what-basics.qmd
+            - springboot/boot-what-create.qmd
+        - text: "---"  
+        - section: "Spring Boot Concepts"
+          contents:
+            - springboot/boot-concepts-annotations.qmd
+            - springboot/boot-concepts-controller.qmd
+            - springboot/boot-concepts-view.qmd
+            - springboot/boot-concepts-model.qmd
+            - springboot/boot-concepts-jpa.qmd
+            - springboot/boot-concepts-injection.qmd
+            - springboot/boot-concepts-rest.qmd
         - text: "---"  
         - section: "Spring Boot Laboratories"
           contents: 
