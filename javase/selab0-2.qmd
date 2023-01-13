@@ -1,12 +1,12 @@
 ---
 title: "Lab#SE00-2: Maven Clinic"
-subtitle: Java SE Lab
+subtitle: Java SE Lab 00, part
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description:  Java SE Lab 00
-categories: [javase, lab , class, object, composition]
+description:  Java SE Lab 00, part 2
+categories: [javase, lab, model, composition, inherence]
 toc: true
 number-sections: true
 format:
