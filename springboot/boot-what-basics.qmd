@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot Fundamentals"
+title: "Spring Boot: Fundamentals"
 subtitle: Spring Boot
 author: albertprofe
 date: "06/01/2021"

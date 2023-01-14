@@ -1,5 +1,16 @@
 ---
 title: "Spring MVC"
+subtitle: Spring MVC
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Spring MVC
+categories: [spring, MVC]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Overview

@@ -1,0 +1,54 @@
+---
+title: "Spring Boot: Controller"
+subtitle: Spring Boot
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot Controller
+categories: [Spring-Boot, controller]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+In Spring Boot, the Model-View-Controller (MVC) pattern is used to separate the application logic into three components: Model - View -Controller
+
+::: {.summary}
+
+📘 **Controller**
+
+The controller is responsible for handling incoming requests and mapping them to the appropriate logic in the model and view. In Spring Boot, controllers are implemented as classes with methods that handle specific request paths. The @RestController and @Controller annotations are used to define a class as a controller, and the @RequestMapping annotation is used to map request paths to specific methods.
+
+:::
+
+---
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

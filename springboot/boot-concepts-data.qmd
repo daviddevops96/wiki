@@ -1,0 +1,55 @@
+---
+title: "Spring Boot: Data"
+subtitle: Spring Boot Data
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot Data
+categories: [Spring-Boot, data]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+::: {.summary}
+
+📘 **Data**
+
+Spring Data’s mission is to provide a familiar and consistent, Spring-based programming model for data access while still retaining the special traits of the underlying data store.
+
+It makes it easy to use data access technologies, relational and non-relational databases, map-reduce frameworks, and cloud-based data services. This is an umbrella project which contains many subprojects that are specific to a given database. The projects are developed by working together with many of the companies and developers that are behind these exciting technologies.
+
+:::
+
+---
+
+
+[Spring Boot Data](https://spring.io/projects/spring-data#overview){.exteranl}
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

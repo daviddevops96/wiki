@@ -4,6 +4,8 @@ categories: [ifcd0210, training]
 ---
 
 
+![Backlog course](/images/home/deliveries.jpg){width="30%"}
+
 Always in **Quarto-Markdown format** and code in GitHub repositories or Organitzations.
 
 Deliveries **via github:**

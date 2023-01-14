@@ -1,0 +1,54 @@
+---
+title: "Spring Boot: View"
+subtitle: Spring Boot View
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot View
+categories: [Spring-Boot, View]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+In Spring Boot, the Model-View-Controller (MVC) pattern is used to separate the application logic into three components: Model - View -Controller
+
+::: {.summary}
+
+📘 **View**
+
+The view is responsible for presenting the data to the user. In Spring Boot, views are typically implemented using template engines such as Thymeleaf or FreeMarker. The view can access the model and use it to generate the HTML, JSON or XML that is sent to the user's browser.
+
+:::
+
+---
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

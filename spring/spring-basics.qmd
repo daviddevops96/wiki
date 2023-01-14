@@ -1,11 +1,23 @@
 ---
 title: "Spring Framework"
+subtitle: Spring Framework
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Spring Framework
+categories: [spring, framework]
+toc: true
+number-sections: true
+format:
+  html
 ---
+
 
 ## Overview
 
 ::: {.summary}
-📘 **What is Spring Framework”?**
+📘 **What is Spring Framework?**
 
 **Spring Framework is a powerful lightweight application development framework** used for Enterprise Java (JEE).
 

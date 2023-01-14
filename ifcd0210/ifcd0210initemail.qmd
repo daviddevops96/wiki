@@ -3,6 +3,8 @@ title: "IFCD0210 Init Mail"
 categories: [ifcd0210, training]
 ---
 
+![Initial email](/images/home/gmail.png)
+
 ## Content
 
 1. No és un curs llarg, ni de broma, des del primer dia, a treballar.

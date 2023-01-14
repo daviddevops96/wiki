@@ -1,0 +1,63 @@
+---
+title: "Spring Boot: Rest"
+subtitle: Spring Boot Rest
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot Rest
+categories: [Spring-Boot, rest]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+::: {.summary}
+
+📘 **Rest**
+
+REST stands for Representational State Transfer. It is an architectural style for building web services that are designed to be lightweight, stateless, and easy to scale.
+
+:::
+
+---
+
+In Spring Boot, the Spring MVC framework is used to build RESTful web services. The @RestController annotation is used to define a class as a RESTful web service controller. This annotation is a combination of the @Controller and @ResponseBody annotations, which means that the class is a controller and the methods return the data directly rather than returning the name of a view.
+
+The @RequestMapping annotation is used to map HTTP requests to specific methods in a controller class. This annotation can be used at the class level or the method level to define the path that the method should handle.
+
+In addition to these annotations, Spring Boot also provides a number of other features that make it easy to build RESTful web services, such as support for JSON and XML serialization and deserialization, automatic content negotiation, and built-in exception handling.
+
+In summary, REST stands for Representational State Transfer. In Spring Boot, the Spring MVC framework is used to build RESTful web services, the @RestController and @RequestMapping annotations are used to define a class as a RESTful web service controller and map HTTP requests to specific methods, respectively. Spring Boot provides many features to make building RESTful web services easy, such as support for JSON and XML serialization and deserialization, automatic content negotiation, and built-in exception handling.
+
+
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

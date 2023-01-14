@@ -1,0 +1,67 @@
+---
+title: "Spring Boot: Dependency Injection"
+subtitle: Spring Boot Dependency Injection
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot Dependency Injection
+categories: [Spring-Boot, dependency-injection]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+::: {.summary}
+
+📘 **Dependency Injection**
+
+Dependency injection (DI) is a design pattern that allows objects to receive their dependencies from external sources rather than creating them internally. In other words, it is a way to manage the dependencies between objects in a software application.
+
+:::
+
+---
+
+Dependency injection (DI) is a design pattern that allows objects to receive their dependencies from external sources rather than creating them internally. In other words, it is a way to manage the dependencies between objects in a software application.
+
+In Spring Boot, the dependency injection is provided by the Spring Framework. The Spring container is responsible for creating and managing the objects in the application, and it uses dependency injection to provide the objects with their dependencies.
+
+There are two types of dependency injection: Constructor injection and setter injection.
+
+- Constructor injection: The dependencies are provided to the class through its constructor.
+- Setter injection: The dependencies are provided to the class through setter methods.
+
+With dependency injection, objects are no longer responsible for creating or managing their dependencies, which makes the code more maintainable and easier to test.
+
+The @Autowired annotation is used in Spring Boot to automatically wire a bean from the Spring application context into a class field or method. This allows you to use dependency injection to provide objects with their dependencies without having to manually create or manage them.
+
+In summary, Dependency Injection (DI) is a design pattern that allows objects to receive their dependencies from external sources rather than creating them internally. Spring Boot uses DI to manage the dependencies between objects and provide them with their dependencies using Constructor injection and setter injection, the @Autowired annotation is used to wire the bean from the Spring application context.
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

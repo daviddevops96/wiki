@@ -1,0 +1,57 @@
+---
+title: "Spring Boot: JPA"
+subtitle: Spring Boot JPA
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot JPA
+categories: [Spring-Boot, JPA]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+::: {.summary}
+
+📘 **JPA**
+
+JPA stands for Java Persistence API. It is a Java specification for managing, persisting, and accessing relational data in Java applications. JPA is a standard API for ORM (Object-Relational Mapping) and provides a way to map Java objects to relational databases.
+
+:::
+
+---
+
+In Spring Boot, JPA is used to interact with databases. It provides a convenient and powerful way to perform CRUD operations on database tables and provides a lot of useful features such as caching, lazy loading, and automatic management of transaction.
+
+Spring Boot provides a number of auto-configuration options for JPA, so you don't have to set up everything from scratch. The spring-boot-starter-data-jpa is a starter for using Spring Data JPA with Hibernate. It provides a convenient way to create JPA repositories, which can be used to perform CRUD operations on the database.
+
+When using JPA in Spring Boot, you can use the @Entity annotation to define a class as a JPA entity, and the @Repository annotation to define a class as a JPA repository. This allows you to use the JPA repository to perform CRUD operations on the corresponding database table.
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>

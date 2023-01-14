@@ -1,0 +1,62 @@
+---
+title: "Spring Boot: Annotations"
+subtitle: Spring Boot
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Spring Boot
+categories: [Spring-Boot, annotations]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+::: {.summary}
+
+📘 **Annotations**
+
+In Spring Boot, annotations are used to configure and enable various features and functionality. They are used to provide metadata about a class, method, or field, and are used by the Spring framework to determine how to handle that class, method, or field.
+
+:::
+
+---
+
+
+Here are some examples of common annotations used in Spring Boot:
+
+- ``@SpringBootApplication``: This annotation is used to enable the default configuration of a Spring Boot application.
+- ``@RestController``: This annotation is used to define a class as a RESTful web service controller.
+- ``@RequestMapping``: This annotation is used to map HTTP requests to specific methods in a controller class.
+- ``@Autowired``: This annotation is used to automatically wire a bean from the Spring application context into a class field or method.
+- ``@Entity``: This annotation is used to define a class as a JPA entity, which can be used to interact with a database.
+- ``@Repository`` : This annotation is used to define a class as a JPA repository, which can be used to perform CRUD operations on a database.
+- ``@Component`` : This annotation is used to define a class as a Spring Bean which can be used throughout the application.
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+<br>
+</div>
+<br>
+</div>
