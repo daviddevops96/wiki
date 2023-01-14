@@ -29,9 +29,9 @@ format:
 	4. In the ``Magazine`` class, define fields such as category and methods such as getCategory() and also inherit fields and methods from the Periodical class.
 	5. In the ``Edition`` class, define fields such as issueNumber, volume and methods such as getIssueNumber(), getVolume()
 
-3. **Define the relationships between the classes**, such as ``inheritance``, ``composition``, and ``use``. The Newspaper, Newsletter, and Magazine classes inherit fields and methods from the Periodical class. The Periodical class uses the Edition class.
-
-
+3. **Define the relationships between the classes**, such as ``inheritance``, ``composition``, and ``use``.
+	
+	1. The ``Newspaper``, ``Newsletter``, and ``Magazine`` classes **inherit** fields and methods from the ``Periodical`` class. The ``Periodical`` class `**uses**` the ``Edition`` class.
 
 :::
 
@@ -43,13 +43,11 @@ This **Mermaid class diagram** describes the classes and their relationships in 
 
 It shows the classes involved in the process of a **library member checking out a book and a librarian helping him.**
 
-1. The Member class has a method checkOutPublication() which represents the action of a library member checking out a book. The Borrow class is associated with the Member class, it has fields such as fromDate, toDate and borrowStatus which describes the borrowing time and the borrow status.
+1. The ``Member`` class has a method checkOutPublication() which represents the action of a library member checking out a book.
+	- The ``Borrow`` class is associated with the Member class, it has fields such as fromDate, toDate and borrowStatus which describes the borrowing time and the borrow status.
 
-2. The Librarian class has a method addPublication(), removePublication(), holdPublication() which represents the action of a librarian adding, removing and holding a publication. The Issue class is associated with the Librarian class, it has fields such as publishDate, unpublishDate and manageDate and issueStatus which describes the publishing and unpublishing of the publication.
-
-::: {.column-margin}
-The Publication class is the superclass for all types of publications, it has fields such as title, year, author, statusPublication which represents the properties of the book.
-:::
+2. The ``Librarian`` class has a method addPublication(), removePublication(), holdPublication() which represents the action of a librarian adding, removing and holding a publication. 
+	- The ``Issue`` class is associated with the Librarian class, it has fields such as publishDate, unpublishDate and manageDate and issueStatus which describes the publishing and unpublishing of the publication.
 
 
 <div class="mermaidContent">
@@ -110,7 +108,9 @@ Issue --> Publication
 
 </div>
 
-
+::: {.column-margin}
+The Publication class is the superclass for all types of publications, it has fields such as title, year, author, statusPublication which represents the properties of the book.
+:::
 
 In summary in this class diagram:
 

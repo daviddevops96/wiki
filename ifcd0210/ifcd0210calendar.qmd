@@ -3,9 +3,6 @@ title: "IFCD0210 Calendar"
 categories: [ifcd0210, training]
 ---
 
-## Calendar
-![Calendar 2023](/images/ifcd0210/calendar_2023.png){width="80%"}
-
 ## Time Management
 
 | Teacher | Student | Team | Tag | Description |
@@ -15,7 +12,7 @@ categories: [ifcd0210, training]
 | 20% | 60% | 20% | Project | SCRUM, Lifecycle code from plan to devOps |
 | 20% | 60% | 20% | Itinerary | Three kinds: MOOC, model, devOps |
 | - | 100% | - | Personal | Take notes, time management, peer-to-peer evaluation, vocabulary, code, your own quarto web |
-: Time Management {tbl-colwidths="[10,10,10,10,60]"}
+: Time Management, categories and time distribution {tbl-colwidths="[10,10,10,10,60]"}
 
 ## Timetable
 
@@ -24,6 +21,10 @@ categories: [ifcd0210, training]
 ## Forecast semester
 
 [IFCD0210 Cifo Web 2022-2023](https://docs.google.com/spreadsheets/d/e/2PACX-1vSLNGWBsUyn-IldZ3NV9KbNVfKO45nKV3wIbQk_46V1XZWjJ898RbiSU77kXjSUYbUmEl3glIw19GO6/pubhtml)
+
+
+## Calendar
+![Calendar 2023](/images/ifcd0210/calendar_2023.png){width="80%"}
 
 <!--- navLinks -->
 <br><br>

@@ -272,9 +272,13 @@ website:
         - section: "Spring Boot Laboratories"
           contents: 
             - springboot/sblab1.qmd
+            - text: "---"
             - springboot/sblab2.qmd
+            - text: "---"
             - springboot/sblab3.qmd
+            - text: "---"
             - springboot/sblab4.qmd
+            - text: "---"
             - springboot/sblab5.qmd
         - text: "---" 
         - section: "Spring Boot readings"
@@ -374,19 +378,19 @@ website:
             - vocabulary/vocab-java-se.qmd
             - vocabulary/vocab-spring-boot.qmd
             - vocabulary/vocab-data-base.qmd
-        - text: "---"  
+        - text: "---" 
         - section: "Front-end Vocabulary"
-          contents: 
+          contents:
             - vocabulary/vocab-reactjs.qmd
             - vocabulary/vocab-web.qmd
             
     - id: "ifcd"
       title: "IFCD0210"
-      contents: 
+      contents:
         - text: "IFCD0210"
-        - text: "---"  
+        - text: "---"
         - section: "Web App IFCD0210"
-          contents: 
+          contents:
             - ifcd0210/ifcd0210.qmd
             - ifcd0210/ifcd0210calendar.qmd
             - ifcd0210/ifcd0210backlog.qmd
