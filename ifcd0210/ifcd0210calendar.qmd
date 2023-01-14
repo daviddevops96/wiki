@@ -6,6 +6,17 @@ categories: [ifcd0210, training]
 ## Calendar
 ![Calendar 2023](/images/ifcd0210/calendar_2023.png){width="80%"}
 
+## Time Management
+
+| Teacher | Student | Team | Tag | Description |
+| -- | -- | -- | -- | -- |
+| 50% | 50% | - | Class | debate, concepts, code-screen, vocabulary |
+| - | 100% | -  | Lab | Labs, MOOC, Java, Spring, React etc |
+| 20% | 60% | 20% | Project | SCRUM, Lifecycle code from plan to devOps |
+| 20% | 60% | 20% | Itinerary | Three kinds: MOOC, model, devOps |
+| - | 100% | - | Personal | Take notes, time management, peer-to-peer evaluation, vocabulary, code, your own quarto web |
+: Time Management {tbl-colwidths="[10,10,10,10,60]"}
+
 ## Timetable
 
 ![Timetable class](/images/ifcd0210/ifcd_0210_timetable.png){width="60%"}

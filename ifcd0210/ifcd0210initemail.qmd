@@ -1,5 +1,5 @@
 ---
-title: "IFCD Init Mail"
+title: "IFCD0210 Init Mail"
 categories: [ifcd0210, training]
 ---
 

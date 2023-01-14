@@ -13,7 +13,17 @@ format:
   html
 ---
 
-## Maven Project push to GitHub: CLI gh
+::: {.summary}
+4 ways to sync local project on local repo to remote repo on GitHub:
+
+1. [Maven Project push to GitHub: **CLI gh & clone**](/javase/se-concepts-projectgit.qmd#maven-project-push-to-github-cli-gh)
+2. [Maven Project push to GitHub: from **IntelliJ IDEA VCS**](/javase/se-concepts-projectgit.qmd#maven-project-push-to-github-from-intellij-idea-vcs)
+3. [Maven Project shortest way: from **IntelliJ IDEA git init**](/javase/se-concepts-projectgit.qmd#maven-project-shortest-way-from-intellij-idea-git-init)
+4. [Maven Project push to GitHub: **CLI git**](/javase/se-concepts-projectgit.qmd#maven-project-push-to-github-cli-git)
+:::
+
+
+## Maven Project push to GitHub: **CLI gh & clone**
 
 To connect a local project on **IntelliJ IDEA** to GitHub.com, you will need to create a repository on GitHub and then push your local project to the repository. Here's a step-by-step guide:
 
@@ -65,7 +75,11 @@ First, install ``git`` and ``CLI gh`` and create a GitHub.con account.
 
 ![Check GitHub.com repo has got the project pushed](/images/javase/se-projectgit/push8.png)
 
-## Maven Project push to GitHub: from **IntelliJ IDEA**
+## Maven Project push to GitHub: from **IntelliJ IDEA VCS**
+
+![IntellJIdea Main Menu](/images/javase/se-projectgit2/maventogit2-1.png)
+
+![IntellJIdea Main Menu](/images/javase/se-projectgit3/mavenToGit3.png)
 
 1. Open your **IntelliJ IDEA** project.
 2. In the ``VCS`` menu, select the option to **enable** version control integration.
@@ -78,6 +92,42 @@ First, install ``git`` and ``CLI gh`` and create a GitHub.con account.
 9. Enter your ``GitHub login credentials`` and click the ``Push`` button.
 
 Now your local project is connected to the repository on GitHub and any changes you make locally will be reflected in the repository on GitHub.
+
+## Maven Project shortest way: from **IntelliJ IDEA git init**
+
+1. Version Control > Create Git Repository
+
+![Version Control > Create Git Repository](/images/javase/se-projectgit3/mavenToGit1.png)
+
+![Select local directory to git init](/images/javase/se-projectgit3/mavenToGit2.png)
+
+![Local Directory Maven Project](/images/javase/se-projectgit3/mavenToGit5.png)
+
+2. Create Remote Repo on [GitHub.com](https://github.com/AlbertProfe){.external} and **copy HHTPS direction**
+
+![IntellJIdea Main Menu](/images/javase/se-projectgit3/mavenToGit4.png)
+
+![copy HHTPS direction 1/2](/images/javase/se-projectgit3/mavenToGit6.png)
+
+![copy HHTPS direction 2/2](/images/javase/se-projectgit3/mavenToGit7.png)
+
+3. **Commit and Push** and when IntellJIdea ask for **Remote Repo Direcion** paste it
+
+![Select all files: git add. and Commit and push 1/2](/images/javase/se-projectgit3/mavenToGit8.png)
+
+![Commit and push 2/2](/images/javase/se-projectgit3/mavenToGit9.png)
+
+![Push Command to MovieManager: master > define remote](/images/javase/se-projectgit3/mavenToGit10.png)
+
+![paste URL 1/2](/images/javase/se-projectgit3/mavenToGit11.png)
+
+![paste URL 2/2](/images/javase/se-projectgit3/mavenToGit12.png)
+
+## Maven Project push to GitHub: **CLI git**
+
+to-do
+
+
 
 
 <!--- navLinks -->

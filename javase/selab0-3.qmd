@@ -16,23 +16,22 @@ format:
 ::: {.labs}
 📘 **Linux Lab#SE00-3: Library Model**
 
-1. Create a **new feature for a library management system,** which is to track the library's inventory of periodicals such as newspapers, newsletters, and magazines.
+1. Create **two new feature for a library management system**:
 
-2. Create **five new classes:** Periodical, Newspaper, Newsletter, Magazine, and Edition.
+	1. to track the library's inventory of periodicals such as newspapers, newsletters, and magazines.
+	2. that allows the librarian to add, remove, and update the periodicals in the inventory, and also show all the periodicals in the inventory.
 
-3. In the Periodical class, define fields such as title, publisher, publicationDate and methods such as getTitle(), getPublisher(), getPublicationDate()
+2. Create **five new classes:** ``Periodical``, ``Newspaper``, ``Newsletter``, ``Magazine``, and ``Edition``.
 
-4. In the Newspaper class, define fields such as edition, section and methods such as getEdition(), getSection() and also inherit fields and methods from the Periodical class.
+	1. In the ``Periodical`` class, define fields such as title, publisher, publicationDate and methods such as getTitle(), getPublisher(), getPublicationDate()
+	2. In the ``Newspaper`` class, define fields such as edition, section and methods such as getEdition(), getSection() and also inherit fields and methods from the Periodical class.
+	3. In the ``Newsletter`` class, define fields such as frequency and methods such as getFrequency() and also inherit fields and methods from the Periodical class.
+	4. In the ``Magazine`` class, define fields such as category and methods such as getCategory() and also inherit fields and methods from the Periodical class.
+	5. In the ``Edition`` class, define fields such as issueNumber, volume and methods such as getIssueNumber(), getVolume()
 
-5. In the Newsletter class, define fields such as frequency and methods such as getFrequency() and also inherit fields and methods from the Periodical class.
+3. **Define the relationships between the classes**, such as ``inheritance``, ``composition``, and ``use``. The Newspaper, Newsletter, and Magazine classes inherit fields and methods from the Periodical class. The Periodical class uses the Edition class.
 
-6. In the Magazine class, define fields such as category and methods such as getCategory() and also inherit fields and methods from the Periodical class.
 
-7. In the Edition class, define fields such as issueNumber, volume and methods such as getIssueNumber(), getVolume()
-
-8. Define the relationships between the classes, such as inheritance, composition, and use. The Newspaper, Newsletter, and Magazine classes inherit fields and methods from the Periodical class. The Periodical class uses the Edition class.
-
-9. Add a new feature to the library management system, that allows the librarian to add, remove, and update the periodicals in the inventory, and also show all the periodicals in the inventory.
 
 :::
 

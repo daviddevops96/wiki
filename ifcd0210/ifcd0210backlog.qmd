@@ -1,0 +1,59 @@
+---
+title: "IFCD0210 Bakclog Course"
+categories: [ifcd0210, backlog]
+---
+
+
+::: {.column-page-right}
+
+| Week  | Day | Date | Topics |  Details Topics |
+| -- | -- | -- | -- | -- |
+| 1 | 1 | 12/12/2022 | Introduction to course IFCD0210 | - |
+|  | 2 | 13/12/2022 | Quarto create and Publish in GitHub  | - |
+|  | 3 | 14/12/2022 | Linux MV over Windows | - |
+|  | 4 | 15/12/2022 | Quarto create and Publish in GitHub with adavnced tools | - |
+|  | 5 | 16/12/2022 | Create Java Maven Project: JUnit | - |
+| 2 | 6 | 19/12/2022 | Create Java Maven Project: Git | - |
+|  | 7 | 20/12/2022 | Introduction to MVC Pattern | - |
+|  | 8 | 21/12/2022 | Create Java Maven Project: Classes | - |
+|  | 9 | 22/12/2022 | Introduction to React JS Framework | - |
+| 3 | 10 | 09/01/2023 | Differenct approaches to complex problems are crucial to solve it | Bash, Pipes, How to stay in class |
+|  | 11 | 10/01/2023 | How to create a Maven Java Project with TDD in Mind | TDD, JUnit, Maven Java|
+|  | 12 | 11/01/2023 | What is Model in Java | Java Classes and Objects |
+|  | 13 | 12/01/2023 | Coupling and DD defines even Deploy - Plan a Project | Coupling Lab#SE02-4 |
+|  | 14 | 13/01/2023 | Time Management Object Creation | Nested Objects in Java Lab#SE02-1 |
+| 4 | 15 | 16/01/2023 | - | - |
+|  | 16 | 17/01/2023 | - | - |
+|  | 17 | 18/01/2023 | - | - |
+|  | 18 | 19/01/2023 | - | - |
+|  | 19 | 20/01/2023 | - | - |
+: Backlog course table {tbl-colwidths="[4,4,10,45,27]"}
+
+
+:::
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} IFCD Init Mail](/ifcd0210/ifcd0210initemail.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About me {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
+<br>
+</div>
+<br>
+</div>

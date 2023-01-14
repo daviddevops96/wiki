@@ -389,6 +389,7 @@ website:
           contents: 
             - ifcd0210/ifcd0210.qmd
             - ifcd0210/ifcd0210calendar.qmd
+            - ifcd0210/ifcd0210backlog.qmd
             - ifcd0210/ifcd0210initemail.qmd
             - ifcd0210/ifcd0210deliveries.qmd
 
