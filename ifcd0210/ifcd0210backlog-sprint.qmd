@@ -1,0 +1,66 @@
+---
+title: "IFCD0210 Bakclog Sprint"
+categories: [ifcd0210, backlog]
+---
+
+<style>
+tr:nth-child(6) {
+  background-color: #b2b2b2!important;
+  color: #f4f4f4!important;
+}
+</style>
+
+
+![Backlog course](/images/home/backlog.jpg){width="30%"}
+
+## January 2023
+
+| #Week  | #Day | Date | Topics |  Details Topics |
+| -- | -- | -- | -- | -- |
+| 3 | 10 | 09/01 | - Differenct approaches to complex problems are crucial to solve it</br>- How to manage large volumes: quarto</br>- How to stay in class: ask, interrupt, explain new ideas, detect mistakes, connect | [Bash, Pipes](/linux/linux-what-bash.qmd)</br>[Learn](/about/about-learning-intro.qmd#put-your-soul-now) |
+|  | 11 | 10/01 | - How to create a Maven Java Project with TDD in Mind</br> - What could go wrong when create a Maven Project | [TDD, JUnit](/javase/se-concepts-tdd.qmd)</br> [Maven Java](/javase/se-concepts-createproject.qmd )</br>[Lab#SE01-1](/javase/selab2-1.qmd)|
+|  | 12 | 11/01 | - What is Model in Java</br> - Why model is so important</br> - All begins in Model</br> - How to create a model (1) Class Candidates (2) Validated Class (3) Relationships | [Java Classes and Objects](/javase/se-concepts-objects.qmd)</br>[Pattern UML](/javase/se-pattern-uml.qmd) |
+|  | 13 | 12/01 | - Coupling and DD defines from first line even to Deploy</br> - Plan a Project: sprint 0 and SCRUM</br> - Even name a variable is important | [Coupling](/javase/se-concepts-coupling.qmd)</br>[Lab#SE02-4](/javase/selab2-4.qmd) |
+|  | 14 | 13/01 | - Time Management</br> -  Object Creation: <b>new</b> and @Test</br> - Nested objects in Java are not easy</br> - Tags & Little-cube are our friends | [Lab#SE02-1](/javase/selab2-1.qmd)</br>[Time Managemnt](/ifcd0210/ifcd0210calendar.qmd#time-management)</br>[Maven Project to GitHub: git init](/javase/se-concepts-projectgit.qmd#maven-project-push-to-github-cli-git) |
+| 4 | 15 | 16/01 | - Object Creation: nested Objects in Java</br> - Movie-Reviews-Review-Critic</br>- @Test and deubbug</br>  - Java Principles | [Lab#SE02-1](/javase/selab2-1.qmd) |
+|  | 16 | 17/01 | - MovieManger static or non-static MovieManager</br> - How to send data within Java | [Lab#SE02-2](/javase/selab2-2.qmd) |
+|  | 17 | 18/01 | - Relationships: onetoone, onetomany, manytomany</br> - Model First: customer/product | [Lab#SE00-3](/javase/selab0-3.qmd)</br>[Multiplicity](/javase/se-pattern-uml.qmd#entity-relationship-types-multiplicity)</br>[Mermaid Class Diagram UML](https://mermaid.js.org/syntax/classDiagram.html){.external} |
+|  | 18 | 19/01 | - Library Model Basic: Mermaid</br> - Model first: memberLibrary/Book</br>- Library Model Large</br> | [Lab#SE00-3](/javase/selab0-3.qmd) |
+|  | 19 | 20/01 | SCRUM Projects: (1) Management (2) Meetings Rules (3) Mistakes (4) Roles</br> - Why (1) Desire (2) Need (3) Natural aspiration</br> - Model is the answer at Why</br> - After solving the Why apperars the How: we need Tools > Decision-making | - |
+| 5 | 20 | 23/01 | - | - |
+|  | 21 | 24/01 | - | - |
+|  | 22 | 25/01 | - | - |
+|  | 23 | 26/01 | - | - |
+|  | 24 | 27/01 | - | - |
+| 6 | 25 | 30/01 | - | - |
+|  | 26 | 31/01 | - | - |
+|  | 27 | 01/02 | - | - |
+|  | 28 | 02/02 | - | - |
+|  | 29 | 03/02 | - | - |
+: Backlog course January 2023 table {tbl-colwidths="[2,2,2,54,30]"}
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} IFCD Init Mail](/ifcd0210/ifcd0210initemail.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About me {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
+<br>
+</div>
+<br>
+</div>

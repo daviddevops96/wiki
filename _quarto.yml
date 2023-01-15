@@ -388,15 +388,19 @@ website:
     - id: "ifcd"
       title: "IFCD0210"
       contents:
-        - text: "IFCD0210"
+        - text: "WebApp IFCD0210"
         - text: "---"
-        - section: "Web App IFCD0210"
+        - section: "IFCD0210 Docs"
           contents:
             - ifcd0210/ifcd0210.qmd
-            - ifcd0210/ifcd0210calendar.qmd
-            - ifcd0210/ifcd0210backlog.qmd
             - ifcd0210/ifcd0210initemail.qmd
             - ifcd0210/ifcd0210deliveries.qmd
+        - text: "---"
+        - section: "IFCD0210 Backlog"
+          contents:
+            - ifcd0210/ifcd0210calendar.qmd
+            - ifcd0210/ifcd0210backlog-sprint.qmd
+            - ifcd0210/ifcd0210backlog-course.qmd
 
     - id: "about"
       title: "About"
