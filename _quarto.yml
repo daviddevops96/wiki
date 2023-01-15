@@ -400,7 +400,7 @@ website:
           contents:
             - ifcd0210/ifcd0210calendar.qmd
             - ifcd0210/ifcd0210backlog-sprint.qmd
-            - ifcd0210/ifcd0210backlog-course.qmd
+            - ifcd0210/ifcd0210backlog-product.qmd
 
     - id: "about"
       title: "About"
