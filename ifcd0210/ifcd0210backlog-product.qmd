@@ -20,20 +20,21 @@ categories: [ifcd0210, backlog]
 :::
 
 ::: {.column-page-right}
+
 ## December 2022
 
 
 | Sprint | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #1 | 1 | 12/12/2022 | Introduction to course IFCD0210 - Setting of all tools we are going to need | - |
-|  | 2 | 13/12/2022 | Quarto create and Publish in GitHub - Create VM and IDEs - Accounts - MOOC | - |
-|  | 3 | 14/12/2022 | Linux VM VirtualBox over Windows - What is a Dependency Management, Maven | - |
-|  | 4 | 15/12/2022 | Quarto create and Publish in GitHub with adavnced tools | - |
-|  | 5 | 16/12/2022 | Create Java Maven Project: JUnit - What is Java SE, EE and Spring MVC, Boot - Create classes| - |
+| #1 | 1 | 12/12/2022 | - Introduction to course IFCD0210</br> - Setting of all tools we are going to need | - |
+|  | 2 | 13/12/2022 | - Quarto create and Publish in GitHub</br> - Create VM and IDEs - Accounts - MOOC | - |
+|  | 3 | 14/12/2022 | - Linux VM VirtualBox over Windows</br> - What is a Dependency Management, Maven | - |
+|  | 4 | 15/12/2022 | - Quarto create and Publish in GitHub with adavnced tools | - |
+|  | 5 | 16/12/2022 | - Create Java Maven Project: JUnit</br> - What is Java SE, EE and Spring MVC, Boot</br> - Create classes| - |
 | #2 | 6 | 19/12/2022 | Create Java Maven Project: Git - Why scope is so important in Java | - |
-|  | 7 | 20/12/2022 | Introduction to MVC Pattern | - |
-|  | 8 | 21/12/2022 | Create Java Maven Project: Classes - Tag & Little-Cube are our dear friends | - |
-|  | 9 | 22/12/2022 | Introduction to React JS Framework | - |
+|  | 7 | 20/12/2022 | - Introduction to MVC Pattern | - |
+|  | 8 | 21/12/2022 | - Create Java Maven Project: Classes</br> - Tag & Little-Cube are our dear friends | - |
+|  | 9 | 22/12/2022 | - Introduction to React JS Framework | - |
 : Backlog course December 2022 table {tbl-colwidths="[2,2,2,64,30]"}
 
 ## January 2023

@@ -19,8 +19,8 @@ tr:nth-child(2) {
 ::: {.column-page-right}
 | Sprint  | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #4 | 15 | 16/01 | + Object Creation: nested Objects in Java</br> + Movie-Reviews-Review-Critic</br>+ @Test and deubug</br> - Java Principles <br> = In which <b>scope</b> (1) new operator, (2) operations and methods and (3) sending-parameters must be?| [Lab#SE02-1](/javase/selab2-1.qmd)</br>[static](/javase/se-concepts-static.qmd)</br>[Markdown in IntellJIdea Mermaid](https://www.jetbrains.com/help/idea/markdown.html#table){.exteranl}</br>[Principles](/javase/se-what-principles.qmd)</br>[Objects and class](/javase/se-concepts-objects.qmd)</br>  |
-|  | 16 | 17/01 | - MovieManger static or non-static MovieManager</br> - How to send data within Java </br> - .gitignore  | [Lab#SE02-2](/javase/selab2-2.qmd)</br>[.gitignore](https://git-scm.com/docs/gitignore){.external}</br> [.gitignore not working](https://stackoverflow.com/questions/25436312/gitignore-not-working){.external} |
+| #4 | 15 | 16/01 | + Object Creation: nested Objects in Java</br> + Movie-Reviews-Review-Critic</br>+ @Test and debug</br> - Java Principles <br> ++ Within which <b>scope</b> (1) creation object: new, (2) operations and methods and (3) sending-parameters by callings there must be?| [Lab#SE02-1](/javase/selab2-1.qmd)</br>[static](/javase/se-concepts-static.qmd)</br>[Markdown in IntellJIdea Mermaid](https://www.jetbrains.com/help/idea/markdown.html#table){.external}</br>[Principles](/javase/se-what-principles.qmd)</br>[Objects and class](/javase/se-concepts-objects.qmd)</br>[MovieManager Code](https://github.com/AlbertProfe/CifoJava2023/tree/master/MovieManger){.external} |
+|  | 16 | 17/01 | - MovieManager static or non-static</br> - How to send data within Java</br> - Movie-Reviews-Review-Critic</br> - Java Principles </br> - Project structure: .gitignore, readme.md, uml.md  | [Lab#SE02-2](/javase/selab2-2.qmd)</br>[.gitignore](https://git-scm.com/docs/gitignore){.external}</br> [.gitignore not working](https://stackoverflow.com/questions/25436312/gitignore-not-working){.external})</br>[Objects and class](/javase/se-concepts-objects.qmd)</br>[MovieManager Code](https://github.com/AlbertProfe/CifoJava2023/tree/master/MovieManger){.external} |
 |  | 17 | 18/01 | - Relationships: onetoone, onetomany, manytomany</br> - Model First: customer/product | [Lab#SE00-3](/javase/selab0-3.qmd)</br>[Multiplicity](/javase/se-pattern-uml.qmd#entity-relationship-types-multiplicity)</br>[Mermaid Class Diagram UML](https://mermaid.js.org/syntax/classDiagram.html){.external} |
 |  | 18 | 19/01 | - Library Model Basic: Mermaid</br> - Model first: memberLibrary/Book</br>- Library Model Large</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml)</br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) |
 |  | 19 | 20/01 | SCRUM Projects: (1) Management (2) Meetings Rules (3) Mistakes (4) Roles</br> - Why (1) Desire (2) Need (3) Natural aspiration</br> - Model is the answer at Why</br> - After solving the Why apperars the How: we need Tools > Decision-making | [SCRUM](/scrum/scrum-what-concepts.qmd) |
@@ -32,7 +32,7 @@ tr:nth-child(2) {
 
 - `-` topic planned or pending
 - `+` topic done in class
-- `=` new topic not planned
+- `++` new topic not planned
 
 :::
 <!--- navLinks -->
