@@ -1,10 +1,10 @@
 ---
-title: "IFCD0210 Bakclog Sprint#"
+title: "IFCD0210 Backlog Sprint#"
 categories: [ifcd0210, backlog]
 ---
 
 <style>
-tr:nth-child(1) {
+tr:nth-child(2) {
   background-color: #b2b2b2!important;
   color: #f4f4f4!important;
 }
@@ -15,10 +15,11 @@ tr:nth-child(1) {
 
 ## ``Sprint#4`` (January)
 
+
 ::: {.column-page-right}
 | Sprint  | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #4 | 15 | 16/01 | - Object Creation: nested Objects in Java</br> - Movie-Reviews-Review-Critic</br>- @Test and deubbug</br>  - Java Principles | [Lab#SE02-1](/javase/selab2-1.qmd) |
+| #4 | 15 | 16/01 | + Object Creation: nested Objects in Java</br> + Movie-Reviews-Review-Critic</br>+ @Test and deubug</br> - Java Principles <br> = In which <b>scope</b> (1) new operator, (2) operations and methods and (3) sending-parameters must be?| [Lab#SE02-1](/javase/selab2-1.qmd)</br>[static](/javase/se-concepts-static.qmd)</br>[Markdown in IntellJIdea Mermaid](https://www.jetbrains.com/help/idea/markdown.html#table){.exteranl}</br>[Principles](/javase/se-what-principles.qmd)</br>[Objects and class](/javase/se-concepts-objects.qmd)</br>  |
 |  | 16 | 17/01 | - MovieManger static or non-static MovieManager</br> - How to send data within Java | [Lab#SE02-2](/javase/selab2-2.qmd) |
 |  | 17 | 18/01 | - Relationships: onetoone, onetomany, manytomany</br> - Model First: customer/product | [Lab#SE00-3](/javase/selab0-3.qmd)</br>[Multiplicity](/javase/se-pattern-uml.qmd#entity-relationship-types-multiplicity)</br>[Mermaid Class Diagram UML](https://mermaid.js.org/syntax/classDiagram.html){.external} |
 |  | 18 | 19/01 | - Library Model Basic: Mermaid</br> - Model first: memberLibrary/Book</br>- Library Model Large</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml)</br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) |
@@ -27,6 +28,13 @@ tr:nth-child(1) {
 :::
 
 
+::: {.callout-note}
+
+- `-` topic planned or pending
+- `+` topic done in class
+- `=` new topic not planned
+
+:::
 <!--- navLinks -->
 <br><br>
 <div class=row>
