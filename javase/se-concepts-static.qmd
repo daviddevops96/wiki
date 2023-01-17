@@ -29,6 +29,21 @@ In other words, the `static` modifier indicates that the class or class member i
 
 The `static` modifier has several different uses in Java, depending on where it is applied. Here are some examples of how the `static` modifier can be used in Java.
 
+## ``static`` code block
+
+In Java, we have a special block known as a` Static Initialization Block`. A `Static Initialization Block` is **executed before the `main()` method**, it will execute once. This block will not return anything and we can not use the `this` keyword since it does **not have any instance**.
+
+For example:
+
+``` {.java .code-overflow-wrap filename="MovieManager.java"}
+static {            
+    int count = 0;
+    String name ="Alien";
+    double priceMovie = 45.50;
+};
+```
+
+
 ## ``static`` field
 
 **When applied to a field**, the `static` modifier indicates that the field belongs to the class itself, rather than to an instance of the class. This means that all instances of the class share the same value for the `static` field.
@@ -132,38 +147,39 @@ public class MovieManager {
 
     // Static method
     public static boolean createMovie(Movie movie) {
-        boolean result = false
+        boolean result = false;
         // to-do algorithmic to solve this method
         return result;
-    }getAllMovies
+    }
 
     // Static method
     public static boolean deleteMovie(String idMovie) {
-        boolean result = false
+        boolean result = false;
         // to-do algorithmic to solve this method
         return result;
     }
 
     // Static method
     public static boolean updateMovie(Movie movie) {
-        boolean result = false
+        boolean result = false;
         // to-do algorithmic to solve this method
         return result;
     }
 
     // Static method
     public static List<Movie> getAllMovies() {
-        
+        List<Movie> movies = new ArrayList<>();
         // to-do algorithmic to solve this method
-        return List<Movie>;
+        return movies;
     }
 
     // Static method
     public static List<Movie> findMovie(String title) {
-        
+        List<Movie> movies = new ArrayList<>();
         // to-do algorithmic to solve this method
-        return List<Movie>;
+        return movies;
     }
+    
 }
 ```
 <div class="mermaidContent">

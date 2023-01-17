@@ -1,0 +1,54 @@
+---
+title: "IFCD0210 Projects"
+categories: [ifcd0210, backlog]
+---
+
+![Backlog course](/images/home/backlog.jpg){width="30%"}
+
+## Projects
+
+| #Project | Author | Site |
+| -- | -- | -- |
+| #1 | Marc | [DevOps Training Projects](https://protossgp32.github.io/DevOps-training-projects/){.external} |
+| #2 | Rafa | [App with web tecnologies](https://rarmero.github.io/appwebcifolavioleta/){.external} |
+| #3 | Lin | [](){.external} |
+| #4 | Cruz | [](){.external} |
+| #5 | Aitor | [](){.external} |
+| #6 | Victor | [](){.external} |
+| #7 | Albertus | [](){.external} |
+| #8 | Ruben | [](){.external} |
+| #9 | Albert | [](){.external} |
+| #10 | Carla | [](){.external} |
+| #11 | Pomodoro | [](){.external} |
+| #12 | Alex | [](){.external} |
+| #13 | Sergi | [](){.external} |
+| #14 | Marc | [CIFO - Web Applications](https://protossgp32.github.io/CIFO-Web-Applications/){.external} 
+: Backlog Projects {tbl-colwidths="[3,17, 80]"}
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} IFCD0210 Calendar](/ifcd0210/ifcd0210calendar.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[IFCD0210 Product Backlog  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210backlog-product.qmd)
+<br>
+</div>
+<br>
+</div>
