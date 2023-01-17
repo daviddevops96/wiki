@@ -76,7 +76,7 @@ Whatever you do on CSS, you have to understand the roots and focus on the basic 
 <br>
 <div class='column right next'>
 <br>
-[SCRUM  {{< fa solid arrow-right >}}](/scrum/scrum-what-concepts.qmd)
+[Java Standard Edition: Basics  {{< fa solid arrow-right >}}](/javase/se-what-basics.qmd)
 <br>
 </div>
 <br>

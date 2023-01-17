@@ -154,7 +154,7 @@ Finally, your ``Button`` component accepts a prop called ``onClick``. It passes 
 <br>
 <div class='column right next'>
 <br>
-[React JS App: router {{< fa solid arrow-right >}}](/reactjs/reactjs-app-router.qmd)
+[React JS App: router  {{< fa solid arrow-right >}}](/reactjs/reactjs-app-router.qmd)
 <br>
 </div>
 <br>

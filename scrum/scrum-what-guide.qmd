@@ -146,7 +146,7 @@ also called Scrum poker, is a consensus-based, gamified technique for estimating
 <br>
 <div class='column right next'>
 <br>
-[Week1: Meetings and impediments {{< fa solid arrow-right >}}](/scrum/scrum-week1.qmd)
+[Week 1: Meetings and impediments  {{< fa solid arrow-right >}}](/scrum/scrum-week1.qmd)
 <br>
 </div>
 <br>

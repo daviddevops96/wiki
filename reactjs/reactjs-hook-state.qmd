@@ -173,7 +173,7 @@ During the next render, **React goes through the state queue**:
 <br>
 <div class='column right next'>
 <br>
-[React JS: useReducer {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
+[React JS: useReducer  {{< fa solid arrow-right >}}](/reactjs/reactjs-hook-reducer.qmd)
 <br>
 </div>
 <br>

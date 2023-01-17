@@ -340,7 +340,7 @@ public class Clinic {
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE01-1: Maven/Gradle Person and Account {{< fa solid arrow-right >}}](/javase/selab1-1.qmd)
+[Lab#SE00-3: Library Model  {{< fa solid arrow-right >}}](/javase/selab0-3.qmd)
 <br>
 </div>
 <br>

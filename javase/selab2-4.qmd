@@ -296,7 +296,7 @@ public class MovieController {
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE02-2: Movie/Review, CRUD operations](/javase/selab2-3.qmd)
+[{{< fa solid arrow-left >}} Lab#SE02-3: Movie/Review, factory ](/javase/selab2-3.qmd)
 <br>
 </div>
 <br>

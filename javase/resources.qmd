@@ -72,7 +72,7 @@ by **Victor C.**
 <br>
 <div class='column right next'>
 <br>
-[Spring  {{< fa solid arrow-right >}}](/spring/spring.qmd)
+[Spring Framework  {{< fa solid arrow-right >}}](/spring/spring-basics.qmd)
 <br>
 </div>
 <br>

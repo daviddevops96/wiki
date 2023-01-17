@@ -63,7 +63,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[SCRUM Guide {{< fa solid arrow-right >}}](/scrum/scrum-what-guide.qmd)
+[SCRUM Guide  {{< fa solid arrow-right >}}](/scrum/scrum-what-guide.qmd)
 <br>
 </div>
 <br>

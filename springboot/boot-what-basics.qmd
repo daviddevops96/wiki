@@ -93,7 +93,7 @@ It uses concepts such as beans, dependency injection, and OOP to make it easy to
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring MVC](/spring/spring-mvc.qmd)
 <br>
 </div>
 <br>
@@ -105,7 +105,7 @@ It uses concepts such as beans, dependency injection, and OOP to make it easy to
 <br>
 <div class='column right next'>
 <br>
-[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+[Spring Boot: create a Spring Boot Project  {{< fa solid arrow-right >}}](/springboot/boot-what-create.qmd)
 <br>
 </div>
 <br>

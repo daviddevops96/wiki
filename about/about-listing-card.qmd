@@ -48,10 +48,4 @@ You can look up the following card listing for additional information:
 <br>
 </div>
 <br>
-<div class='column right next'>
-<br>
-[Home  {{< fa solid arrow-right >}}](/index.qmd)
-<br>
-</div>
-<br>
 </div>

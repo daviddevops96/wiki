@@ -204,7 +204,7 @@ function Button({ children, onClick }) {
 <br>
 <div class='column right next'>
 <br>
-[React JS App: async {{< fa solid arrow-right >}}](/reactjs/reactjs-app-async.qmd)
+[React JS App: async  {{< fa solid arrow-right >}}](/reactjs/reactjs-app-async.qmd)
 <br>
 </div>
 <br>

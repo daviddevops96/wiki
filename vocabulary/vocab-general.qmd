@@ -52,7 +52,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[SCRUM Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-scrum.qmd)
+[SCRUM Vocabulary  {{< fa solid arrow-right >}}](/vocabulary/vocab-scrum.qmd)
 <br>
 </div>
 <br>

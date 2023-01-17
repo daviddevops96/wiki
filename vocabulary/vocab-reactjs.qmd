@@ -50,7 +50,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[Web Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-web.qmd)
+[Web Vocabulary  {{< fa solid arrow-right >}}](/vocabulary/vocab-web.qmd)
 <br>
 </div>
 <br>

@@ -237,7 +237,7 @@ Here is an example of how the ``static`` modifier can be used when applied to a 
 <br>
 <div class='column right next'>
 <br>
-[Java SE: Coupling and DDD {{< fa solid arrow-right >}}](/javase/se-concepts-coupling.qmd)
+[Java SE: Coupling and DDD  {{< fa solid arrow-right >}}](/javase/se-concepts-coupling.qmd)
 <br>
 </div>
 <br>

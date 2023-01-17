@@ -61,7 +61,7 @@ Base project:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring Boot](/springboot/springboot.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: Data](/springboot/boot-concepts-data.qmd)
 <br>
 </div>
 <br>

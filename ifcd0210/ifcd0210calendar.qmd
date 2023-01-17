@@ -32,7 +32,7 @@ categories: [ifcd0210, training]
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} IFCD0210 Official Docs](/ifcd0210/ifcd0210.qmd)
+[{{< fa solid arrow-left >}} IFCD0210 Deliveries](/ifcd0210/ifcd0210deliveries.qmd)
 <br>
 </div>
 <br>
@@ -44,7 +44,7 @@ categories: [ifcd0210, training]
 <br>
 <div class='column right next'>
 <br>
-[IFCD Init Mail  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210initemail.qmd)
+[IFCD0210 Backlog Sprint#  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210backlog-sprint.qmd)
 <br>
 </div>
 <br>

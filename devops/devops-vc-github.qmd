@@ -101,7 +101,7 @@ IntelliJ IDEA lets you manage [Git](https://www.jetbrains.com/help/idea/2022.3
 <br>
 <div class='column right next'>
 <br>
-[Visual Code  {{< fa solid arrow-right >}}](/devops/devops-ide-visualcode.qmd)
+[IDE: Visual Code  {{< fa solid arrow-right >}}](/devops/devops-ide-visualcode.qmd)
 <br>
 </div>
 <br>

@@ -35,7 +35,7 @@ The view is responsible for presenting the data to the user. In Spring Boot, vie
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: Controller](/springboot/boot-concepts-controller.qmd)
 <br>
 </div>
 <br>
@@ -47,7 +47,7 @@ The view is responsible for presenting the data to the user. In Spring Boot, vie
 <br>
 <div class='column right next'>
 <br>
-[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+[Spring Boot: Model  {{< fa solid arrow-right >}}](/springboot/boot-concepts-model.qmd)
 <br>
 </div>
 <br>

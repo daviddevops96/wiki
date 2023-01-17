@@ -43,7 +43,7 @@ Here are some examples of common annotations used in Spring Boot:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: create a Spring Boot Project](/springboot/boot-what-create.qmd)
 <br>
 </div>
 <br>
@@ -55,7 +55,7 @@ Here are some examples of common annotations used in Spring Boot:
 <br>
 <div class='column right next'>
 <br>
-[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+[Spring Boot: Controller  {{< fa solid arrow-right >}}](/springboot/boot-concepts-controller.qmd)
 <br>
 </div>
 <br>

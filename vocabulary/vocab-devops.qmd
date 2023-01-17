@@ -51,7 +51,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[Java SE Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-java-se.qmd)
+[Java SE Vocabulay  {{< fa solid arrow-right >}}](/vocabulary/vocab-java-se.qmd)
 <br>
 </div>
 <br>

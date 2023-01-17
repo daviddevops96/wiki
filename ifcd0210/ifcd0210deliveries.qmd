@@ -34,7 +34,7 @@ Deliveries **via github:**
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} IFCD Init Mail](/ifcd0210/ifcd0210initemail.qmd)
+[{{< fa solid arrow-left >}} IFCD0210 Init Mail](/ifcd0210/ifcd0210initemail.qmd)
 <br>
 </div>
 <br>
@@ -46,7 +46,7 @@ Deliveries **via github:**
 <br>
 <div class='column right next'>
 <br>
-[About me {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
+[IFCD0210 Calendar  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210calendar.qmd)
 <br>
 </div>
 <br>

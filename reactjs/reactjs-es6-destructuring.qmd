@@ -177,7 +177,7 @@ console.log(bar); // 2
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS ES6: data](/reactjs/reactjs-es6-data.qmd)
+[{{< fa solid arrow-left >}} React JS ES6: array, data and key](/reactjs/reactjs-es6-data.qmd)
 <br>
 </div>
 <br>

@@ -32,7 +32,7 @@ With the introduction of Spring 3.0, the @Controller mechanism also allows you t
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring](/spring/spring.qmd)
+[{{< fa solid arrow-left >}} Spring Framework](/spring/spring-basics.qmd)
 <br>
 </div>
 <br>
@@ -44,7 +44,7 @@ With the introduction of Spring 3.0, the @Controller mechanism also allows you t
 <br>
 <div class='column right next'>
 <br>
-[Spring Boot  {{< fa solid arrow-right >}}](/springboot/springboot.qmd)
+[Spring Boot: Fundamentals  {{< fa solid arrow-right >}}](/springboot/boot-what-basics.qmd)
 <br>
 </div>
 <br>

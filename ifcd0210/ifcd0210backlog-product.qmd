@@ -8,14 +8,14 @@ categories: [ifcd0210, backlog]
 
 ::: {.summary}
 
-- [December 2022](/ifcd0210/ifcd0210backlog.qmd#december-2022)
-- [January 2023](/ifcd0210/ifcd0210backlog.qmd#djanuary-2023)
-- [February 2023](/ifcd0210/ifcd0210backlog.qmd#february-2023)
-- [March 2023](/ifcd0210/ifcd0210backlog.qmd#marh-2023)
-- [April 2023](/ifcd0210/ifcd0210backlog.qmd#april-2023)
-- [May 2023](/ifcd0210/ifcd0210backlog.qmd#may-2023)
-- [June 2023](/ifcd0210/ifcd0210backlog.qmd#june-2023)
-- [July 2023](/ifcd0210/ifcd0210backlog.qmd#julu-2023)
+- [December 2022](/ifcd0210/ifcd0210backlog-product.qmd#december-2022)
+- [January 2023](/ifcd0210/ifcd0210backlog-product.qmd#djanuary-2023)
+- [February 2023](/ifcd0210/ifcd0210backlog-product.qmd#february-2023)
+- [March 2023](/ifcd0210/ifcd0210backlog-product.qmd#march-2023)
+- [April 2023](/ifcd0210/ifcd0210backlog-product.qmd#april-2023)
+- [May 2023](/ifcd0210/ifcd0210backlog-product.qmd#may-2023)
+- [June 2023](/ifcd0210/ifcd0210backlog-product.qmd#june-2023)
+- [July 2023](/ifcd0210/ifcd0210backlog-product.qmd#july-2023)
 
 :::
 
@@ -135,7 +135,7 @@ categories: [ifcd0210, backlog]
 |  | 81 | 20/04 | - | - |
 |  | 82 | 21/04 | - | - |
 | #18 | 83 | 24/04 | - | - |
-|  | 84 | 25/04 | - | - |
+|  | 84 | 25/04 | - | - |-product
 |  | 85 | 26/04 | - | - |
 |  | 86 | 27/04 | - | - |
 |  | 87 | 28/04 | - | - |
@@ -191,7 +191,7 @@ categories: [ifcd0210, backlog]
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} IFCD Init Mail](/ifcd0210/ifcd0210initemail.qmd)
+[{{< fa solid arrow-left >}} IFCD0210 Backlog Sprint#](/ifcd0210/ifcd0210backlog-sprint.qmd)
 <br>
 </div>
 <br>
@@ -203,7 +203,7 @@ categories: [ifcd0210, backlog]
 <br>
 <div class='column right next'>
 <br>
-[About me {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
+[About me  {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
 <br>
 </div>
 <br>

@@ -98,7 +98,7 @@ A must have plugin for working with Maven.
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Visual Code](/devops/devops-ide-visualcode.qmd)
+[{{< fa solid arrow-left >}} IDE: Visual Code](/devops/devops-ide-visualcode.qmd)
 <br>
 </div>
 <br>

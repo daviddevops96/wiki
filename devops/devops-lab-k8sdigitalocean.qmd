@@ -37,7 +37,7 @@ https://sites.google.com/view/devopscifo/labs/5-k8s-docean
 <br>
 <div class='column right next'>
 <br>
-[Resources  {{< fa solid arrow-right >}}](/devops/resources.qmd)
+[DevOps Resources  {{< fa solid arrow-right >}}](/devops/resources.qmd)
 <br>
 </div>
 <br>

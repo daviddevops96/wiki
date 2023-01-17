@@ -98,7 +98,7 @@ export default function App() {
 <br>
 <div class='column right next'>
 <br>
-[React JS ES6: destructuring  {{< fa solid arrow-right >}}](/reactjs/reactjs-es6-destructuring.qmd)
+[React JS ES6: array, data and key  {{< fa solid arrow-right >}}](/reactjs/reactjs-es6-data.qmd)
 <br>
 </div>
 <br>

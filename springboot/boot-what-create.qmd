@@ -36,7 +36,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: Fundamentals](/springboot/boot-what-basics.qmd)
 <br>
 </div>
 <br>
@@ -48,7 +48,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+[Spring Boot: Annotations  {{< fa solid arrow-right >}}](/springboot/boot-concepts-annotations.qmd)
 <br>
 </div>
 <br>

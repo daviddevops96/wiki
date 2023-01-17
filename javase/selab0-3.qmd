@@ -274,7 +274,7 @@ Issue --> Publication
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE00-1: Maven Person](/javase/selab0-1.qmd)
+[{{< fa solid arrow-left >}} Lab#SE00-2: Maven Clinic](/javase/selab0-2.qmd)
 <br>
 </div>
 <br>
@@ -286,7 +286,7 @@ Issue --> Publication
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE01-1: Maven/Gradle Person and Account {{< fa solid arrow-right >}}](/javase/selab1-1.qmd)
+[Lab#SE01-1: Maven/Gradle Person and Account  {{< fa solid arrow-right >}}](/javase/selab1-1.qmd)
 <br>
 </div>
 <br>

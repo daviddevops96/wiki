@@ -51,7 +51,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[DevOps Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-devops.qmd)
+[DevOps Vocabulary  {{< fa solid arrow-right >}}](/vocabulary/vocab-devops.qmd)
 <br>
 </div>
 <br>

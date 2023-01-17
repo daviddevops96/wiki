@@ -160,7 +160,7 @@ It is worth noting that this is a simple example of the factory pattern and it c
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE02-2: Movie/Review, CRUD operations](/javase/selab2-2.qmd)
+[{{< fa solid arrow-left >}} Lab#SE02-2: Movie/Review, CRUD Operations](/javase/selab2-2.qmd)
 <br>
 </div>
 <br>
@@ -172,7 +172,7 @@ It is worth noting that this is a simple example of the factory pattern and it c
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE02-4: Movie/Review, interactivity {{< fa solid arrow-right >}}](/javase/selab2-4.qmd)
+[Lab#SE02-4: Movie/Review, interactivity and coupling  {{< fa solid arrow-right >}}](/javase/selab2-4.qmd)
 <br>
 </div>
 <br>

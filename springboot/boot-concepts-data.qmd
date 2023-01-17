@@ -36,7 +36,7 @@ It makes it easy to use data access technologies, relational and non-relational 
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: Rest](/springboot/boot-concepts-rest.qmd)
 <br>
 </div>
 <br>

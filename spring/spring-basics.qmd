@@ -87,7 +87,7 @@ Overall, the Spring Framework is a powerful and popular toolkit for building ent
 <br>
 <div class='column right next'>
 <br>
-[Spring MVC  {{< fa solid arrow-right >}}](/spring/springmvc.qmd)
+[Spring MVC  {{< fa solid arrow-right >}}](/spring/spring-mvc.qmd)
 <br>
 </div>
 <br>

@@ -36,7 +36,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[SCRUM Resources {{< fa solid arrow-right >}}](/scrum/resources.qmd)
+[SCRUM Resources  {{< fa solid arrow-right >}}](/scrum/resources.qmd)
 <br>
 </div>
 <br>

@@ -44,7 +44,7 @@ In summary, REST stands for Representational State Transfer. In Spring Boot, the
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: Dependency Injection](/springboot/boot-concepts-injection.qmd)
 <br>
 </div>
 <br>
@@ -56,7 +56,7 @@ In summary, REST stands for Representational State Transfer. In Spring Boot, the
 <br>
 <div class='column right next'>
 <br>
-[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+[Spring Boot: Data  {{< fa solid arrow-right >}}](/springboot/boot-concepts-data.qmd)
 <br>
 </div>
 <br>

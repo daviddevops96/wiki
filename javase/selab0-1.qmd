@@ -453,7 +453,7 @@ public class Author extends Person {
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE00-2: Maven Clinic {{< fa solid arrow-right >}}](/javase/selab0-2.qmd)
+[Lab#SE00-2: Maven Clinic  {{< fa solid arrow-right >}}](/javase/selab0-2.qmd)
 <br>
 </div>
 <br>

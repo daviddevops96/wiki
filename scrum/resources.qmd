@@ -25,7 +25,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Week 5: Mindset, the key to everythng](/scrum/scrum-week5.qmd)
+[{{< fa solid arrow-left >}} Week 8: Beyond SCRUM](/scrum/scrum-week8.qmd)
 <br>
 </div>
 <br>
@@ -37,7 +37,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[General Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-general.qmd)
+[General Vocabulary  {{< fa solid arrow-right >}}](/vocabulary/vocab-general.qmd)
 <br>
 </div>
 <br>

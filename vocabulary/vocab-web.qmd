@@ -50,7 +50,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[IFCD0210 Official Docs{{< fa solid arrow-right >}}](/ifcd0210/ifcd0210.qmd)
+[IFCD0210 Official Docs  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210.qmd)
 <br>
 </div>
 <br>

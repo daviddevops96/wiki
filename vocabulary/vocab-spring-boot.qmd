@@ -41,7 +41,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java SE Vocabulary](/vocabulary/vocab-java-se.qmd)
+[{{< fa solid arrow-left >}} Java SE Vocabulay](/vocabulary/vocab-java-se.qmd)
 <br>
 </div>
 <br>
@@ -53,7 +53,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[DataBase Vocabulary {{< fa solid arrow-right >}}](/vocabulary/vocab-data-base.qmd)
+[DataBase Vocabulary  {{< fa solid arrow-right >}}](/vocabulary/vocab-data-base.qmd)
 <br>
 </div>
 <br>

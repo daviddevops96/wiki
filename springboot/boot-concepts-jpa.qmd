@@ -38,7 +38,7 @@ When using JPA in Spring Boot, you can use the @Entity annotation to define a cl
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Spring MVC](/spring/springmvc.qmd)
+[{{< fa solid arrow-left >}} Spring Boot: Model](/springboot/boot-concepts-model.qmd)
 <br>
 </div>
 <br>
@@ -50,7 +50,7 @@ When using JPA in Spring Boot, you can use the @Entity annotation to define a cl
 <br>
 <div class='column right next'>
 <br>
-[Lab 1: Spring Boot Projects  {{< fa solid arrow-right >}}](/springboot/sblab1.qmd)
+[Spring Boot: Dependency Injection  {{< fa solid arrow-right >}}](/springboot/boot-concepts-injection.qmd)
 <br>
 </div>
 <br>

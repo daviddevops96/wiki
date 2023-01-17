@@ -125,7 +125,7 @@ Perhaps, it’s not a classical ``Scrum`` approach like software companies use, 
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} React JS Resources](/reactjs/resources.qmd)
+[{{< fa solid arrow-left >}} ReactJS Resources](/reactjs/resources.qmd)
 <br>
 </div>
 <br>
@@ -137,7 +137,7 @@ Perhaps, it’s not a classical ``Scrum`` approach like software companies use, 
 <br>
 <div class='column right next'>
 <br>
-[Agile Manifesto {{< fa solid arrow-right >}}](/scrum/scrum-what-agile-manifesto.qmd)
+[Agile Manifesto  {{< fa solid arrow-right >}}](/scrum/scrum-what-agile-manifesto.qmd)
 <br>
 </div>
 <br>

@@ -515,3 +515,25 @@ Here is a list of bash commands and operations mentioned in this chat:
 </div>
 <br>
 </div>
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Linux Lab#LI03-4: Manage hardware](/linux/lilab03-4.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](/linux/lilab04-2.qmd)
+<br>
+</div>
+<br>
+</div>
