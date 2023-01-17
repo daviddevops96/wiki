@@ -125,6 +125,94 @@ public class MathUtils {
 In this example, the `squareRoot()` method is marked as `static`, which means that it can be called on the `MathUtils` class itself, rather than on an instance of the `MathUtils` class. This allows the `squareRoot()` method to be called without creating an instance of the `MathUtils` class, which can be useful in some situations.
 :::
 
+For example:
+
+``` {.java .code-overflow-wrap filename="MovieManager.java"}
+public class MovieManager {
+
+    // Static method
+    public static boolean createMovie(Movie movie) {
+        boolean result = false
+        // to-do algorithmic to solve this method
+        return result;
+    }getAllMovies
+
+    // Static method
+    public static boolean deleteMovie(String idMovie) {
+        boolean result = false
+        // to-do algorithmic to solve this method
+        return result;
+    }
+
+    // Static method
+    public static boolean updateMovie(Movie movie) {
+        boolean result = false
+        // to-do algorithmic to solve this method
+        return result;
+    }
+
+    // Static method
+    public static List<Movie> getAllMovies() {
+        
+        // to-do algorithmic to solve this method
+        return List<Movie>;
+    }
+
+    // Static method
+    public static List<Movie> findMovie(String title) {
+        
+        // to-do algorithmic to solve this method
+        return List<Movie>;
+    }
+}
+```
+<div class="mermaidContent">
+
+``` {mermaid}
+classDiagram
+  class Movie {
+    -title: String
+    -reviews: List<Review>
+    -director: Director
+  }
+  
+  class Critic {
+    -publications: int
+  }
+  
+  class Director {
+    -oscars: int
+  }
+  class Review {
+    -rating: int
+    -comment: String
+    -critic: Critic
+  }
+  class Person {
+    -name: String
+  }
+  
+  class MovieManager {
+    -static boolean deleteMovie(id)$
+    -static boolean createMovie(id)$
+    -static boolean updateMovie(id)$
+    -getAllMovies()$ List~Movie~
+    -findMovie(id)$ List~Movie
+  }
+
+  MovieManager -- Movie
+  Movie *-- Review
+  Movie *-- Director
+  Review o-- Critic
+  Person <-- Director
+  Person <-- Critic
+
+```
+</div>
+
+
+
+
 ## ``static`` class
 
 
