@@ -5,17 +5,19 @@ categories: [ifcd0210, backlog]
 
 ![Backlog course](/images/home/backlog.jpg){width="30%"}
 
-## Projects
+## Projects 
+
+Work-in-progress
 
 | #Project | Author | Site |
 | -- | -- | -- |
 | #1 | Marc | [DevOps Training Projects](https://protossgp32.github.io/DevOps-training-projects/){.external} |
 | #2 | Rafa | [App with web tecnologies](https://rarmero.github.io/appwebcifolavioleta/){.external} |
 | #3 | Lin | [](){.external} |
-| #4 | Cruz | [](){.external} |
+| #4 | Cruz | [Blog Fabrizio](https://leonpurple.github.io/blog/){.external} |
 | #5 | Aitor | [](){.external} |
 | #6 | Victor | [](){.external} |
-| #7 | Albertus | [](){.external} |
+| #7 | Albertus | [Curso Cifo DAW](https://vallvicity.github.io/CursoDAW/){.external} |
 | #8 | Ruben | [](){.external} |
 | #9 | Albert | [](){.external} |
 | #10 | Carla | [](){.external} |

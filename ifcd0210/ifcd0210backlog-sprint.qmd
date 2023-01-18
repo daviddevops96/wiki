@@ -4,7 +4,7 @@ categories: [ifcd0210, backlog]
 ---
 
 <style>
-tr:nth-child(3) {
+tr:nth-child(4) {
   background-color: #b2b2b2!important;
   color: #f4f4f4!important;
 }
@@ -21,7 +21,7 @@ tr:nth-child(3) {
 | -- | -- | -- | -- | -- |
 | #4 | 15 | 16/01 | + Object Creation: nested Objects in Java</br> + Movie-Reviews-Review-Critic</br>+ @Test and debug</br> - <s>Java Principles</s><br> ++ Within which <b>scope</b> (1) creation object: new, (2) operations and methods and (3) sending-parameters by callings there must be?| [Lab#SE02-1](/javase/selab2-1.qmd)</br>[Markdown in IntellJIdea Mermaid](https://www.jetbrains.com/help/idea/markdown.html#table){.external} & [Mermaid](https://mermaid.js.org/syntax/classDiagram.html){.external} </br>[Principles](/javase/se-what-principles.qmd) / [Objects and class](/javase/se-concepts-objects.qmd)</br>[MovieManager Code](https://github.com/AlbertProfe/CifoJava2023/tree/master/MovieManger){.external} |
 |  | 16 | 17/01 | + MovieManager static or non-static</br> - <s>How to send data within Java</s></br> + Movie-Reviews-Review-Critic</br> + Java Principles </br> - <s>Project structure: .gitignore, readme.md, uml.md</s></br> ++ Decision making at Model: (1) Composition? (2) Inherence? (3) Use? (4) Is Class? sure? (5) static/non-static? (6) Domains? (7) Coupling? (8) Interface/Abstract (9) Multiplicity (10) Packages</br> ++ How to write a comment: What? For what? How?| [Lab#SE02-2](/javase/selab2-2.qmd)</br>[.gitignore](https://git-scm.com/docs/gitignore){.external} / [.gitignore not working](https://stackoverflow.com/questions/25436312/gitignore-not-working){.external}</br>[Objects and class](/javase/se-concepts-objects.qmd) / [static](/javase/se-concepts-static.qmd)</br>[MovieManager Code](https://github.com/AlbertProfe/CifoJava2023/tree/master/MovieManger){.external} |
-|  | 17 | 18/01 | - Relationships: onetoone, onetomany, manytomany</br> - Model First: customer/product</br> - Project structure: .gitignore, readme.md, uml.md</br> | [Lab#SE00-3](/javase/selab0-3.qmd)</br>[Multiplicity](/javase/se-pattern-uml.qmd#entity-relationship-types-multiplicity)</br>[Mermaid Class Diagram UML](https://mermaid.js.org/syntax/classDiagram.html){.external} |
+|  | 17 | 18/01 | - Relationships and Multiplicity: onetoone, onetomany, manytomany</br> - <s>Model First: customer/product</s></br> - Project structure: .gitignore, readme.md, uml.md </br> ++ Why Multiplicity? (1) People at same page (2) Identify killing problems: pavoland (3) avoid future problems and correct them before code (4) Huge improvement on understanding THE problem (5) documentation</br>| [Lab#SE00-3](/javase/selab0-3.qmd)</br> [Multiplicity](/javase/se-pattern-uml.qmd#entity-relationship-types-multiplicity)</br>[Mermaid Class Diagram UML](https://mermaid.js.org/syntax/classDiagram.html){.external}</br> [Customer/Product example](https://albertprofe.github.io/wiki/javase/se-pattern-uml.html#example-customer-product){.external} |
 |  | 18 | 19/01 | - Library Model Basic: Mermaid</br> - Model first: memberLibrary/Book</br>- Library Model Large</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml)</br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) |
 |  | 19 | 20/01 | SCRUM Projects: (1) Management (2) Meetings Rules (3) Mistakes (4) Roles</br> - Why (1) Desire (2) Need (3) Natural aspiration</br> - Model is the answer at Why</br> - After solving the Why apperars the How: we need Tools > Decision-making & Albertus' experience | [SCRUM](/scrum/scrum-what-concepts.qmd) |
 : Backlog Sprint#4 January 2023 {tbl-colwidths="[2,2,2,64,30]"}
