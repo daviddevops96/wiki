@@ -25,10 +25,10 @@ This wiki is focused in Web App development and the skills set needed. Nowadays 
 - **Algorithmic**, (let's say micro-development vs. architecture and macro-development skills). That is, for example the current most used and modern paradigms:
   - Scripting: BASH
   - Structured and Procedural: C
-  - POO: [Java SE](https://java-programming.mooc.fi/)
-  - POC: [React JS](https://reactjs.org/) and [React TS](https://www.typescriptlang.org/docs/handbook/react.html)
+  - OOP (Object-Oriented Programming): [Java SE](https://java-programming.mooc.fi/)
+  - COP (Components-Oriented Programming): [React JS](https://reactjs.org/) and [React TS](https://www.typescriptlang.org/docs/handbook/react.html)
 - **Architecture in mind**: that it, System Design and Design-Patterns
-  - DDD: [design a DDD-oriented microservice](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf) (Domain-driven design)
+  - DDD: Domain-driven design and [microservices](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf)
   - [Spring Boot](https://spring.io/)
   - Cloud: [AWS](https://aws.amazon.com/)
 - Project Management and Team Work:
@@ -45,14 +45,18 @@ This wiki is focused in Web App development and the skills set needed. Nowadays 
 
 ## What is a programmer (2022 OpenAI)
 
+<div class="mermaidContent">
+<iframe frameborder="0" style="width:80%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&nav=1&title=LifeCycleSoftwareProject#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10HyckoCdwJTJ-PNSEZZKogrvhmSIg3Aw%26export%3Ddownload"></iframe>
+</div>
+</br>
 A programmer, also known as a software developer, needs a wide range of skills in order to be successful in their role. Some of the most important skills for a programmer include:
 
-- **Strong problem-solving skills**: A programmer needs to be able to analyze complex problems and develop effective solutions using code.
+- **Strong problem-solving skills**: A programmer needs to be able to ``analyze complex problems and develop`` effective solutions using code.
 Logical thinking: Programming involves creating logical structures and processes that a computer can follow, so a programmer needs to have strong logical and analytical skills.
 - **Knowledge of programming languages and technologies**: A programmer needs to have a deep understanding of the programming languages and technologies that they use, as well as the ability to learn new languages and technologies as needed.
-- **Attention to detail**: Programming involves working with complex systems and large amounts of data, so a programmer needs to have a keen eye for detail and the ability to spot errors and inconsistencies.
-- Communication skills: A programmer often works as part of a team, so they need to be able to communicate effectively with other developers and stakeholders.
-- **Time management and organizational skills**: A programmer typically has multiple tasks and deadlines to manage, so they need to be able to prioritize their work and stay organized.
+- **Attention to detail**: Programming involves ``working with complex systems and large amounts of data``, so a programmer needs to have a keen eye for detail and the ability to spot errors and inconsistencies.
+- **Communication skills**: A programmer ``often works as part of a team``, so they need to be able to communicate effectively with other developers and stakeholders.
+- **Time management and organizational skills**: A programmer typically has ``multiple tasks and deadlines to manage``, so they need to be able to prioritize their work and stay organized.
 
 In addition to these core skills, a programmer may also benefit from having knowledge of software development methodologies, such as Agile or Waterfall, as well as experience with version control systems and other tools commonly used in software development.
 
