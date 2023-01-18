@@ -11,7 +11,7 @@ Work-in-progress
 
 | #Project | Author | Site |
 | -- | -- | -- |
-| #1 | Marc | [DevOps Training Projects](https://protossgp32.github.io/DevOps-training-projects/){.external} |
+| #1 | Marc | [CIFO - Web Applications](https://protossgp32.github.io/CIFO-Web-Applications/){.external}, [DevOps Training Projects](https://protossgp32.github.io/DevOps-training-projects/){.external} |
 | #2 | Rafa | [App with web tecnologies](https://rarmero.github.io/appwebcifolavioleta/){.external} |
 | #3 | Lin | [](){.external} |
 | #4 | Cruz | [Blog Fabrizio](https://leonpurple.github.io/blog/){.external} |
@@ -25,7 +25,6 @@ Work-in-progress
 | #12 | David | [Documentacion](https://daviddevops96.github.io/Documentation/){.external} |
 | #13 | Alex | [](){.external} |
 | #14 | Sergi | [](){.external} |
-| #15 | Marc | [CIFO - Web Applications](https://protossgp32.github.io/CIFO-Web-Applications/){.external} 
 : Backlog Projects {tbl-colwidths="[3,17, 80]"}
 
 
