@@ -41,7 +41,7 @@ categories: [ifcd0210, backlog]
 
 | Sprint | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #3 | 10 | 09/01 | - Differenct approaches to complex problems are crucial to solve it</br>- How to manage large volumes: quarto</br>- How to stay in class: ask, interrupt, explain new ideas, detect mistakes, connect | [Bash, Pipes](/linux/linux-what-bash.qmd)</br>[Learn](/about/about-learning-intro.qmd#put-your-soul-now) |
+| #3 | 10 | 09/01 | - Different approaches to complex problems are crucial to solve it</br>- How to manage large volumes: quarto</br>- How to stay in class: ask, interrupt, explain new ideas, detect mistakes, connect | [Bash, Pipes](/linux/linux-what-bash.qmd)</br>[Learn](/about/about-learning-intro.qmd#put-your-soul-now) |
 |  | 11 | 10/01 | - How to create a Maven Java Project with TDD in Mind</br> - What could go wrong when create a Maven Project | [TDD, JUnit](/javase/se-concepts-tdd.qmd)</br> [Maven Java](/javase/se-concepts-createproject.qmd )</br>[Lab#SE01-1](/javase/selab2-1.qmd)|
 |  | 12 | 11/01 | - What is Model in Java</br> - Why model is so important</br> - All begins in Model</br> - How to create a model (1) Class Candidates (2) Validated Class (3) Relationships | [Java Classes and Objects](/javase/se-concepts-objects.qmd)</br>[Pattern UML](/javase/se-pattern-uml.qmd) |
 |  | 13 | 12/01 | - Coupling and DD defines from first line even to Deploy</br> - Plan a Project: sprint 0 and SCRUM</br> - Even name a variable is important | [Coupling](/javase/se-concepts-coupling.qmd)</br>[Lab#SE02-4](/javase/selab2-4.qmd) |

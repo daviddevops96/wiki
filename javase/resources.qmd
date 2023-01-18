@@ -39,14 +39,14 @@ Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides](https://www.academia.e
 - StackOverFlow [Is Java "pass-by-reference" or "pass-by-value"?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value){#IsJavaReference .external}
 - JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures: [JHipster](https://www.jhipster.tech/){.external}
 - Mermaid [The class diagram is the main building block of object-oriented modeling.](https://mermaid.js.org/syntax/classDiagram.html){.external}
+- Java Persistence, a book relating to the Java programming language. [Java Persistence](https://en.wikibooks.org/wiki/Java_Persistence){.external}
+
+## Presentations
+
+- [Java SE Presentations](https://drive.google.com/drive/folders/1SNCf3_bFRDsVC929j8-xSfbKkHn1OOMo?usp=share_link)
 
 
-## Notes
-
-- [Java SE notes](https://drive.google.com/drive/folders/1SNCf3_bFRDsVC929j8-xSfbKkHn1OOMo?usp=share_link)
-
-
-### Students recommmendations
+### Student recommmendations
 
 by **Victor C.**
 

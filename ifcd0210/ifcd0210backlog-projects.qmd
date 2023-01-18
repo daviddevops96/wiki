@@ -16,7 +16,7 @@ Work-in-progress
 | #3 | Lis | [](){.external} |
 | #4 | Cruz | [Blog Fabrizio](https://leonpurple.github.io/blog/){.external} |
 | #5 | Aitor | [](){.external} |
-| #6 | Victor | [](){.external} |
+| #6 | Victor | [mywebsite](https://vcalvache.github.io/mywebsite/){.external} |
 | #7 | Albertus | [Curso Cifo DAW](https://vallvicity.github.io/CursoDAW/){.external} |
 | #8 | Ruben | [](){.external} |
 | #9 | Albert | [](){.external} |
