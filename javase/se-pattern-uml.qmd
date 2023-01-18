@@ -196,6 +196,7 @@ OrderDetail "*" --* "1" Product: Contains
 
 - [Class diagrams Mermaid](https://mermaid.js.org/syntax/classDiagram.html){.external}
 - [Java Persistence](https://en.wikibooks.org/wiki/Java_Persistence){.external}
+- [MultiplicityNotCardinality](https://martinfowler.com/bliki/MultiplicityNotCardinality.html){.external}
 
 ![[Design pattern: many-to-many (order entry)](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=manymany.php){.external}](/images/javase/manymany-sales.gif){width="60%"}
 
