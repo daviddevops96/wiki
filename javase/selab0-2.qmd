@@ -6,7 +6,7 @@ date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description:  Java SE Lab 00, part 2
-categories: [javase, lab, model, composition, inherence]
+categories: [javase, lab, model, composition]
 toc: true
 number-sections: true
 format:
