@@ -1,0 +1,43 @@
+---
+title: "About Writing"
+subtitle: About how to write properly
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: About how to write properly
+categories: [about, writing]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+<br>
+</div>
+<br>
+</div>

@@ -74,7 +74,10 @@ format:
 
 > We’ll also cover illusions of learning, memory techniques, dealing with procrastination, and best practices shown by research to be most effective in helping you master tough subjects.  
 
-- **Learning How to Learn**: Powerful mental tools to help you master tough subjects: [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) 
+- **Learning How to Learn**: Powerful mental tools to help you master tough subjects: [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
+
+
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

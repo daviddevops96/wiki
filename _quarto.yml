@@ -417,6 +417,8 @@ website:
         - section: "Learning"
           contents: 
             - about/about-learning-intro.qmd
+            - about/about-learning-books.qmd
+            - about/about-learning-writing.qmd
             - about/about-learning-questions.qmd
         - text: "---"
         - section: "Listings"
