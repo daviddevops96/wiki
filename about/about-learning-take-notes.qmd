@@ -1,0 +1,43 @@
+---
+title: "About Taking Notes"
+subtitle: About how to take notes properly
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: About how to take notes properly
+categories: [about, writing]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+- [Cornell way](https://medium.goodnotes.com/study-with-ease-the-best-way-to-take-notes-2749a3e8297b){.external}
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+<br>
+</div>
+<br>
+</div>
