@@ -76,7 +76,9 @@ Steps for the same are given below:
 1. Firstly, add a test.
 2. Run all the tests and see if any new test fails.
 3. Update the code to make it pass the new tests.
-4. Rerun the test and if they fail, then re##  `static` vs. `non-static`
+4. Rerun the test and if they fail, then debug the code again and fix any related error. Rinse and repeat.
+
+##  `static` vs. `non-static`
 
 ### Pros & cons usage `static` methods
 
