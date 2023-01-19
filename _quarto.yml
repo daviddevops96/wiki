@@ -1,8 +1,5 @@
 project:
   type: website
-
-editor:
-  render-on-save: true
   
 format:
   html:
