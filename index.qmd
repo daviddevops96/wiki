@@ -43,7 +43,7 @@ This wiki is focused in Web App development and the skills set needed. Nowadays 
   - Deploy on Heroku, Netlify, AWS Amplify
   - [Jenkins](https://www.jenkins.io/), [Docker](https://www.docker.com/) and [k8s](https://kubernetes.io/)
 
-## Lifecylce software (2022)
+## Lifecycle software (2022)
 
 And a developer needs such a set skill due to the wide and integral software lifecycle that allows to build apps.
 
