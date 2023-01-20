@@ -27,7 +27,11 @@ There are *three main types of scope* in Java:
 
 ## Global scope in Java?
 
-In Java, **there is no concept of global scope in the traditional sense**. In other programming languages, global variables are variables that are declared outside of any function or class, and are accessible and usable by any part of the program. In Java, however, there is no way to declare a variable outside of a class or method, **so there are no global variables in the strict sense of the term**.
+In Java, **there is no concept of global variable, and the idea of global scope differs   from the traditional sense**.
+
+In other programming languages, global variables are variables that are declared outside of any function or class, and are accessible and usable by any part of the program.
+
+In Java, however, there is no way to declare a variable outside of a class or method, **so there are no global variables in the strict sense of the term**.
 
 Here is an example of class scope in Java:
 

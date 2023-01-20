@@ -151,7 +151,7 @@ Each of these statements has three parts (discussed in detail below):
 - **Instantiation**: The new keyword is a Java operator that creates the object.
 - **Initialization**: The new operator is followed by a call to a constructor, which initializes the new object.
 
-## Declaring a Variable to Refer to an Object
+### Declaring a Variable to Refer to an Object
 
 Previously, you learned that to declare a variable, you write:
 
@@ -215,7 +215,7 @@ int height = new Rectangle().height;
 
 This statement will be discussed in the next section or you can go [here](/javase/resources.qmd#IsJavaReference).
 
-## Initializing an Object
+### Initializing an Object
 
 Here's the code for the Point class:
 
@@ -239,7 +239,7 @@ Linux Lab#LI01-1: Export env user with grep and pipe
 Point originOne = new Point(23, 94);
 ```
 
-## Example UML: class and object
+### Example UML: class and object
 
 ![The class body may contain member variables, constructors, public methods, private helper methods and others.](/images/javase/UML_ClassInstance.png)
 
@@ -248,7 +248,7 @@ Point originOne = new Point(23, 94);
 
 There are several ways to **create** objects in Java:
 
-1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by the class name and constructor arguments. For example:
+1. Using the `new` operator: this is the most common way to create an object in Java. It involves using the new operator followed by the class name and constructor arguments. For example:Implicit casting
 
 ```java
 Person carla = new Person("Carla", 30, "123 Main St.");
@@ -271,6 +271,57 @@ You can use reflection to create objects by invoking the `newInstance()` method 
 
 ::: {.callout-note collapse="true"}
 To do this, you'll need to implement the `Serializable interface` in your class and use the `ObjectInputStream` and `ObjectOutputStream` classes to serialize and deserialize the object.
+:::
+
+## Casting
+
+`Casting` **is the process of converting one type of data to another type**. There are two types of casting: **explicit** and **implicit**.
+
+### Explicit casting
+
+**Explicit casting** is when you specify the type you want the data to be converted to. An example of explicit casting is:
+
+```java
+int x = (int) 3.14;
+```
+
+In this case, the double value of `3.14` is being explicitly cast to an int.
+
+### Implicit casting
+
+**Implicit casting**, also known as **widening**, is when the conversion happens automatically without the need for a specific type to be specified. An example of implicit casting is:
+
+```java
+double x = 3;
+```
+::: {.column-margin}
+It's important to note that casting can cause data loss if the type being converted to cannot hold the value of the original type. For example, casting a large double value to an int would result in the decimal places being truncated and lost.
+:::
+
+In this case, the int value of `3` is being implicitly cast to a double.
+
+### Casting in compilation/execution time
+
+::: {.callout-note}
+It is important t**o consider the class of the object and the type of its reference variable when casting**, as it can affect both the **compilation time** and **execution time** of a program.
+:::
+
+> **During compilation**, the compiler checks the source code for any type errors and other issues related to casting, such as trying to cast an object to a class that it is not compatible with. If any errors are found, the compiler will display them and the program will not be able to run until they are fixed. This means that understanding the class of an object and the type of its reference variable is crucial for avoiding casting errors during compilation.
+
+::: {.column-margin}
+Compilation time refers to **the period of time during which the source code of a program is translated into machine code by a compiler**. This is the initial phase of program execution.
+:::
+
+> **At execution time**, casting can also have an impact on the performance and behavior of a program. For example, if a program tries to cast an object to a type that is not compatible with its class, a runtime exception will be thrown, causing the program to crash.
+
+::: {.column-margin}
+Execution time refers to t**he period of time during which the compiled program runs and performs its intended operations**. This is the phase of the program when it's executed by the `CPU` and its instructions are executed.
+:::
+
+On the other hand, if the casting is done properly and the object is compatible with the target type, it can improve the performance and efficiency of the program.
+
+::: {.callout-important}
+Knowing the class of an object and the type of its reference variable is also important for making sure the program is using the right methods and properties of the object, and for avoiding unexpected behavior.
 :::
 
 <!--- navLinks -->
