@@ -393,7 +393,7 @@ website:
       contents:
         - text: "WebApp IFCD0210"
         - text: "---"
-        - secti>on: "IFCD0210 Docs"
+        - section: "IFCD0210 Docs"
           contents:
             - ifcd0210/ifcd0210.qmd
             - ifcd0210/ifcd0210initemail.qmd
