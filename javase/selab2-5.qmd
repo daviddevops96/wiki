@@ -31,7 +31,7 @@ And then, test it with JUnit @Test:
 
 ## Overview
 
-![Stream I/O in Standard I/O (java.io Package)](/images/javase/IO_StreamVsCharacter.png)
+![Stream I/O in Standard I/O (java.io Package)](/images/javase/IO_StreamVsCharacter.png){width="80%"}
 
 Programming simple I/O operations is easy, which involves only a few classes and methods. You could do it by looking at a few samples.
 

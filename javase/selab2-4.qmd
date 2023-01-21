@@ -253,6 +253,10 @@ public class MovieController {
 
 ## Grow your code
 
+![Hope is not a strategy](/images/javase/hopeIsNotAStrategy.png){width="80%"}
+
+> [Hope is not a strategy](https://sre.google/sre-book/introduction/){.external}
+
   - **Zero** Sprint/Version:
     - Meeting rules
     - Roles: ScrumMaster, Product Owner, Specialist, Team
