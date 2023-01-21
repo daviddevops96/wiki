@@ -6,7 +6,7 @@ date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: What is a Class and a Object in Java
-categories: [javase, class, objects, concepts, oop, paradigm]
+categories: [javase, class, objects, concepts, oop, paradigm, casting]
 toc: true
 number-sections: true
 format:
@@ -35,6 +35,15 @@ When you create an object, you are creating an **instance of a class**, which is
 :::
 ---
 
+## Class
+
+Let’s create a ``class`` called ``Person``. 
+
+What would we want to know about a person? What we want to know depends on what problem we are trying to solve. In one situation, perhaps when creating an address book, we might want to know the person’s name and phone number and email.
+
+Here’s a possible ``Person`` class with `**instance variables, constructor, and methods.**`
+
+![](/images/javase/personClassDefn.png)
 
 ::: {.callout-note collapse="true"}
 ## Person class
@@ -45,6 +54,8 @@ public class Person {
   private String name;
   private String address;
   private double salary;
+  private String phoneNumber;
+  private String email; 
   
   //constructor
   public Person(int age, String name, String address, double salary) {
@@ -52,6 +63,18 @@ public class Person {
     this.name = name;
     this.address = address;
     this.salary = salary;
+    this.email = email;
+    this.phoneNumber = phoneNumber;
+  }
+
+    //constructor
+  public Person(int age, String name, String email, String phoneNumber) {
+    this.age = age;
+    this.name = name;
+    this.address = address;
+    this.salary = salary;
+    this.email = email;
+    this.phoneNumber = phoneNumber;
   }
   
   //methods
@@ -103,7 +126,7 @@ public class Person {
 ```
 :::
 
-## Introduction
+## Objects
 
 <mark>Each object has its own unique identity, and it maintains its own state by storing the values of its attributes. The object's behavior is defined by the methods that operate on its attributes, and these methods can be invoked by other code to ask the object to perform a specific action<mark>.
 
@@ -273,7 +296,7 @@ You can use reflection to create objects by invoking the `newInstance()` method 
 To do this, you'll need to implement the `Serializable interface` in your class and use the `ObjectInputStream` and `ObjectOutputStream` classes to serialize and deserialize the object.
 :::
 
-## Casting
+## Casting (typecasting)
 
 `Casting` **is the process of converting one type of data to another type**. There are two types of casting: **explicit** and **implicit**.
 
@@ -323,6 +346,74 @@ On the other hand, if the casting is done properly and the object is compatible 
 ::: {.callout-important}
 Knowing the class of an object and the type of its reference variable is also important for making sure the program is using the right methods and properties of the object, and for avoiding unexpected behavior.
 :::
+
+### Upcasting and downcasting
+
+Before reading this section you **must** read and **understand** [how does inherence work](/javase/se-principles-inheritance.qmd)
+
+![A process of converting one data type to another is known as Casting (typecasting) and Upcasting and Downcasting defines weather it is up or down in a inherence relationship](/images/javase/UpcastingVsDowncasting.jpg)
+
+### Upcasting
+
+``Upcasting`` is casting a subtype to a ``supertype``, upward to the ``inheritance`` tree. ``Upcasting`` happens **automatically and we don’t have to explicitly do anything.**
+
+``` {.java .code-overflow-wrap filename="TypeCasrting.java"}
+// Base Class
+public class Animal
+{
+    public void talk() { System.out.println("I am talking"); }
+}
+// Inherited class
+class Cat extends Animal
+{
+    // This method overrides show() of Parent
+    @Override
+    public void talk() { System.out.println("Miauuu, miauuuu, miauuu!!!"); }
+}
+ 
+public class Test
+{
+    public void testUpCasting(){
+    
+        Animal cat = new Cat();
+        cat.talk();
+        // output: Miauuu, miauuuu, miauuu!!!)
+    }
+}
+```
+### Downcasting
+
+When Subclass type refers to the object of Parent class, it is known as downcasting. If we perform it directly, compiler gives Compilation error. If you perform it by typecasting, ``ClassCastException`` is thrown at ``runtime`` (sometimes we may use ``instanceof`` operator, then downcasting is possible)
+
+``` {.java .code-overflow-wrap filename="TypeCasrting.java"}
+// Base Class
+public class Animal
+{
+    public void talk() { System.out.println("I am talking"); }
+}
+// Inherited class
+class Cat extends Animal
+{
+    // This method overrides show() of Parent
+    @Override
+    public void talk() { System.out.println("Miauuu, miauuuu, miauuu!!!"); }
+}
+ 
+public class Test
+{
+    public void testDownCasting(){
+
+        Cat cat = new Animal();
+        // compiling time error, try to cast but it can not
+        Animal animal = new Animal();
+        // creatng an object of the superclass is ok
+        Cat cat = (Cat) animal;
+        // downcasting
+        cat.talk();
+        // output: Miauuu, miauuuu, miauuu!!!)
+    }
+}
+``` 
 
 <!--- navLinks -->
 <br><br>

@@ -27,6 +27,10 @@ In other words, the `static` modifier indicates that the class or class member i
 
 ---
 
+Classical use and basic exmaple of ``static method``, we **call within the ``class`` our ``static`` ``method``** just using the name of the method ``printArea()``: 
+
+![Two static methods with parameters. Parameters are the variables we use in the method definition whereas arguments are the values we pass in the method call. These two terms are often used interchangeably](/images/javase/staticMethod.png)
+
 The `static` modifier has several different uses in Java, depending on where it is applied. Here are some examples of how the `static` modifier can be used in Java.
 
 ## ``static`` code block
