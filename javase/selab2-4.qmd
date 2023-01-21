@@ -1,6 +1,6 @@
 ---
 title: "Lab#SE02-4: Movie/Review, interactivity and coupling"
-subtitle: Java SE Lab 04
+subtitle: Java SE Lab 02
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
@@ -308,7 +308,7 @@ public class MovieController {
 <br>
 <div class='column right next'>
 <br>
-[Java SE Resources  {{< fa solid arrow-right >}}](/javase/resources.qmd)
+[Lab#SE02-5: Movie/Review, interactivity and console {{< fa solid arrow-right >}}](/javase/selab2-4.qmd)
 <br>
 </div>
 <br>

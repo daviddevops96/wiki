@@ -1,0 +1,145 @@
+---
+title: "Lab#SE02-5: Movie/Review, interactivity and console"
+subtitle: Java SE Lab 02
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description:  Java SE Lab 02 part 5
+categories: [javase, lab, interativity, console, controller, testing]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+::: {.labs}
+📘 **Linux Lab#LI02-5: interactivity and console*
+
+We are going to create the ``createFromConsole()`` method,  a method that:
+
+- **prompts** the user for input in the console
+- **creates** a Movie object based on that input
+- **uses** the Scanner class to read the input from the console
+- **sets** the fields of the Movie object with the input data.
+
+And then, test it with JUnit @Test:
+
+- a test that simulates a user input by setting the input stream to a string containing the input data, and then creating a Movie object and calling the createFromConsole() method. 
+
+:::
+
+## Overview
+
+![Stream I/O in Standard I/O (java.io Package)](/images/javase/IO_StreamVsCharacter.png)
+
+Programming simple I/O operations is easy, which involves only a few classes and methods. You could do it by looking at a few samples.
+
+Programming efficient, portable I/O **is extremely difficult**, [especially if you have to deal with different character sets.](https://www3.ntu.edu.sg/home/ehchua/programming/java/j5b_io.html){.external}
+
+## Core classes
+
+The method ``createFromConsole()`` is used to prompt t**he user for input in the console and create a movie object based on that input.** 
+
+It uses the ``Scanner`` class to read the input from the console and sets the fie``lds of the ``Movie`` object with the input ``data``.
+
+You could then use these:
+
+``` {.java .code-overflow-wrap filename="Movie.java"}
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Movie {
+    private String title;
+    private int year;
+    private String director;
+    private String actors;
+
+    public void createFromConsole() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the title of the movie: ");
+        title = scanner.nextLine();
+        System.out.print("Enter the year the movie was released: ");
+        year = scanner.nextInt();
+        scanner.nextLine(); // consume the newline character
+        System.out.print("Enter the name of the director: ");
+        director = scanner.nextLine();
+        System.out.print("Enter the names of the actors (separated by commas): ");
+        actors = scanner.nextLine();
+    }
+
+    // getters adn setters by lombok
+}
+
+```
+
+The method ``testCreateMovieFromConsoleInput()`` is a ``JUnit`` test that is used to test the ``createFromConsole()`` method. 
+
+This test simulates user ``input`` by setting the input stream to a string containing the input data, and then creating a ``Movie`` object and calling the ``createFromConsole()`` method.
+
+Then it uses the ``assertEquals`` method to check that the fields of the movie object are set to the correct values, based on the input provided.
+
+``` {.java .code-overflow-wrap filename="MovieTest.java"}
+import org.junit.jupiter.api.Test;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+
+public class MovieTest {
+
+    @Test
+    public void testCreateMovieFromConsoleInput() {
+        // Set up input for the console
+        String input = "The Shawshank Redemption\n1994\nFrank Darabont\nTim Robbins, Morgan Freeman\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+
+        // Create the movie object
+        Movie movie = new Movie();
+        movie.createFromConsole();
+
+        // Assert that the movie object was created with the correct data
+        assertEquals("The Shawshank Redemption", movie.getTitle());
+        assertEquals(1994, movie.getYear());
+        assertEquals("Frank Darabont", movie.getDirector());
+        assertEquals("Tim Robbins, Morgan Freeman", movie.getActors());
+    }
+
+}
+```
+::: {.column-margin}
+It is important to test the ``createFromConsole()`` method because **it is a core functionality of the ``Movie`` class**, and it is essential to ensure that *it is working properly*. 
+:::
+::: {.column-margin}
+If this method is not working as expected, **it will not only affect the user experience but also could cause the application to fail.**
+:::
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab#SE02-4: Movie/Review, interactivity and coupling ](/javase/selab2-4.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE Resources  {{< fa solid arrow-right >}}](/javase/resources.qmd)
+<br>
+</div>
+<br>
+</div>
