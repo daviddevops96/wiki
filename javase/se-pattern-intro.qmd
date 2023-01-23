@@ -26,6 +26,8 @@ A design pattern is <mark>not a finished design</mark> that can be transformed d
 
 ---
 
+## Design Patterns 
+
 There are many different design patterns that have been identified and documented, and each pattern provides a different solution to a specific problem.
 
 Some of the most important design patterns in Java include:
@@ -37,6 +39,32 @@ Some of the most important design patterns in Java include:
 - and the builder.
 
 These patterns are commonly used in Java because they provide solutions to common problems that are encountered in software development, and they can help to make your code more efficient, reusable, and maintainable.
+
+
+## Design Pattern Classification
+
+We have 3 main types of Design Patterns:
+
+- Creational: deal with the creation of objects and classes. They provide a way to create objects while hiding the complexity of the actual creation process. Some creational design patterns are:
+
+  - Singleton
+  - Fatcory
+  - Abstract Factory
+
+
+- Structural: which deal with object composition. They provide a way to compose objects and classes in a way that is flexible and efficient. Some structural design patterns are:
+
+  - Facade
+  - Bridge
+  - Decorator
+
+
+- Behavioral: which deal with communication between objects and classes. They provide a way to define the communication between objects in a way that is decoupled from the actual objects that are communicating. Some examples of behavioural patterns are:
+
+  - Observer
+  - Strategy
+  - State
+
 
 ## Design Patterns Cheat-sheet
 
