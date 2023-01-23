@@ -19,7 +19,7 @@ tr:nth-child(2) {
 ::: {.column-page-right}
 | Sprint  | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #5 | 20 | 23/01 | + Top/Down or Down/Top</br> + Project/Domain-DDD/UML/microProgramming</br> + MovieManager Domains & Packages: connecting classes (1/3)</br> - <s>Test interactivity</s></br>  | [Packages](/javase/se-concepts-package.qmd)</br> [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/6e54545494594c6ff36fe063afc02a98b34d68d0){.external}</br>  |
+| #5 | 20 | 23/01 | + Top/Down or Down/Top project approacha and build-up</br> + Project/Domain-DDD/UML/microProgramming</br> + MovieManager Domains & Packages: connecting classes (1/3)</br> - <s>Test interactivity</s></br>  | [Packages](/javase/se-concepts-package.qmd)</br> [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/6e54545494594c6ff36fe063afc02a98b34d68d0){.external}</br>  |
 |  | 21 | 24/01 | - Library Model Basic/Large</br> - Try and Catch</br>  - MovieManager Domains & Packages: connecting classes (2/3)</br> - Test interactivity</br>  | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml)</br> |
 |  | 22 | 25/01 | - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - Quarto</br>  - MovieManager Domains & Packages: connecting classes (3/3)</br>  | - |
 |  | 23 | 26/01 | - Inherence / Interface / Abstract Class</br> - git</br>| - |

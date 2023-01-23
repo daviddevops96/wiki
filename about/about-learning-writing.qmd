@@ -30,6 +30,30 @@ This requires not that the writer make all his sentences short, or that he avoid
 ![Making writing more varied](/images/about/Gary-Provost-Sentence-Strcture.png)
 
 - [Making writing more varied](https://pwdpr.com/making-writing-more-varied){.external}
+- [The Elements of Style](https://www.crockford.com/style.html){.external}
+
+### Composition
+
+> **Design** - choose a structure in advance, when planning what to write, and hold onto it.
+
+> **Paragraphs** - the primary compositional unit of writing. Each paragraph should be about an individual topic or speech. Begin paragraphs with a sentence that gives the topic or helps with the transition. Break paragraphs apart if it helps the reader, not just for the hell of it.
+
+'After the paragraph has been written, examine it to see whether division will improve it.' (Page 32)
+
+> **Active voice** - it's much better to use the active voice in most cases. E.g.:
+
+- 'A report was prepared,' is not as good as;
+- 'He prepared a report.'
+
+> **Not** - say what things are. Don't waste your time saying what they are not.
+
+> **Be definit**e - do not dance around the truth express it in concrete terms.
+
+> **Omit needless words** - 'this is a subject that' can better be written as 'this subject'.
+
+> **Summaries and Tenses** - in a summary, or anywhere really, pick a tense and stick to it, otherwise you'll confuse the reader.
+
+> **Emphasis** - put the word or words you want to emphasise at the end of a sentence
 
 <!--- navLinks -->
 <br><br>
