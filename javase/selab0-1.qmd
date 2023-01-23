@@ -380,25 +380,24 @@ Here, the `Car` class represents a **car** with a doors, places and others.
 <summary>Code Car</summary>
 
 ``` {.java .code-overflow-wrap filename="Car.java"}
-public Author(String firstName, String lastName, int age, String genre) {
-		super(firstName, lastName, age);
-  package exemple1;
+package exemple1;
 
 public class Car {
 	
 	public int doors;
-	public int places;
+	public int seats;
 	public String color;
 		
 	public Car(int doors, int places, String color) {
 		this.doors = doors;
-		this.places = places;
+		this.seats = seats;
 		this.color = color;
 	}
 
 	@Override
 	public String toString() {
-		return "Car [toString()=" + super.toString() + "]";
+		//return "Car [toString()=" + super.toString() + "]";
+		return "Car [doors=" + this.doors + ", seats=" + this.seats + ", color=" + this.color + "]"
 	}
 }
 
