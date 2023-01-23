@@ -19,11 +19,11 @@ tr:nth-child(1) {
 ::: {.column-page-right}
 | Sprint  | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #5 | 20 | 23/01 | - Top/Down or Down/Top</br> - Project/Domain-DDD/UML/microProgramming</br> - MovieManger Domains & Packages | [Packages](/javase/se-concepts-package.qmd) |
-|  | 21 | 24/01 | - Library Model Basic/Large</br> | - |
-|  | 22 | 25/01 | - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - Quarto</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml)</br> |
+| #5 | 20 | 23/01 | + Top/Down or Down/Top</br> + Project/Domain-DDD/UML/microProgramming</br> + MovieManAger Domains & Packages</br> - <s>Test interactivity</s>  | [Packages](/javase/se-concepts-package.qmd)</br> [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/6e54545494594c6ff36fe063afc02a98b34d68d0){.external}</br>  |
+|  | 21 | 24/01 | - Library Model Basic/Large</br> - Try and Catch</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml)</br> |
+|  | 22 | 25/01 | - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - Quarto</br> | - |
 |  | 23 | 26/01 | - Inherence / Interface / Abstract Class</br> - git</br>| - |
-|  | 24 | 27/01 | - SCRUM - Vocabulary (writting)</br>| - |
+|  | 24 | 27/01 | - SCRUM - Vocabulary (writting)</br> - Book: SRE| [SRE](/books/sre.qmd) |
 : Backlog Sprint#5 January 2023 {tbl-colwidths="[2,2,2,64,30]"}
 :::
 
