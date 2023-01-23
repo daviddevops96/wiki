@@ -160,7 +160,7 @@ public class Person {
 	}
 	
 	public boolean olderThan(Person compared) {
-		if (this.age > compared.age) {
+		if (this.age > compared.getAge()) {
 			return true;
 		}
 
@@ -191,6 +191,10 @@ public class Person {
 
 	public String getName() {
 		return this.name;
+	}
+	
+	public int getAge() {
+		return this.age;
 	}
 }
 ```
