@@ -24,16 +24,16 @@ format:
 
 4. Create ``Junit`` tests to test objects. Use ``Faker`` to create objects:
 
-    1. Test ``createPerson``: check weather the object ``Person`` creation works properly. 
-    2. Test ``createCar``: check weather the object ``Car`` creation works properly.
-    3. Test ``createBook``: check weather the object ``Book`` creation works properly.
-    4. Test ``createStudent``: check weather the object ``Student`` creation works properly
+    1. Test ``createPerson``: check whether the object ``Person`` creation works properly. 
+    2. Test ``createCar``: check whether the object ``Car`` creation works properly.
+    3. Test ``createBook``: check whether the object ``Book`` creation works properly.
+    4. Test ``createStudent``: check whether the object ``Student`` creation works properly
       1. Without **composition**: a ``Student`` object without car and books.
       1. With **composition**: a ``Student`` object with ``Car`` object and ``Book`` **List** objects
 
 5. Create ``Junit`` tests to test operations:
 
-    1. Test ``methodsPerson``: check weathe methods ``Person`` works properly: ``becomeOlder()``, ``killVampire()``, ``withFirstName()``
+    1. Test ``methodsPerson``: check that ``Person`` methods work properly: ``becomeOlder()``, ``killVampire()``, ``withFirstName()``
 
 6. Improve ``Car``, ``Book`` and ``Author`` classes with two methods each.
 :::
@@ -264,7 +264,7 @@ public class Book {
 	private Author author;
 
 	public Book(String title, int pages, String iSBN, Author author) {
-		super();
+		// super();
 		this.title = title;
 		this.pages = pages;
 		ISBN = iSBN;
@@ -374,31 +374,30 @@ public class Student extends Person {
 
 ### Car Class
 
-Here, the `Car` class represents a **car** with a doors, places and others. 
+Here, the `Car` class represents a **car** with doors, places and other attributes. 
 
 <div class='indent'><details>
 <summary>Code Car</summary>
 
 ``` {.java .code-overflow-wrap filename="Car.java"}
-public Author(String firstName, String lastName, int age, String genre) {
-		super(firstName, lastName, age);
-  package exemple1;
+package exemple1;
 
 public class Car {
 	
 	public int doors;
-	public int places;
+	public int seats;
 	public String color;
 		
 	public Car(int doors, int places, String color) {
 		this.doors = doors;
-		this.places = places;
+		this.seats = seats;
 		this.color = color;
 	}
 
 	@Override
 	public String toString() {
-		return "Car [toString()=" + super.toString() + "]";
+		//return "Car [toString()=" + super.toString() + "]";
+		return "Car [doors=" + this.doors + ", seats=" + this.seats + ", color=" + this.color + "]"
 	}
 }
 
