@@ -4,7 +4,7 @@ categories: [ifcd0210, backlog]
 ---
 
 <style>
-tr:nth-child(2) {
+tr:nth-child(3) {
   background-color: #b2b2b2!important;
   color: #f4f4f4!important;
 }
@@ -19,9 +19,9 @@ tr:nth-child(2) {
 | Sprint  | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
 | #5 | 20 | 23/01 | + Top/Down or Down/Top project approach and build-up</br> + Project/Domain-DDD/UML/microProgramming</br> + MovieManager Domains & Packages, connecting classes: general plan  (1/3)</br> - <s>Test interactivity</s></br>  | [Packages](/javase/se-concepts-package.qmd)</br> [Movie Manager (with errors: very unusual and not clean)](https://github.com/AlbertProfe/CifoJava2023/tree/6e54545494594c6ff36fe063afc02a98b34d68d0){.external}</br> [Top-down and bottom-up design](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design){.external}</br>  |
-|  | 21 | 24/01 | - MovieManager Domains & Packages, connecting classes: static/non-static and reusable method/class (2/3)</br> - Hashmap</br> - Try and Catch</br>- Test interactivity</br> | [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/075af8cb656849e32f202d929db86ee86024cc67){.external}</br>  [HashMap w3school](https://www.w3schools.com/java/java_hashmap.asp){.external}</br> |
-|  | 22 | 25/01 | - Library Model Basic/Large</br> - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - Quarto</br>  - MovieManager Domains & Packages: connecting classes (3/3)</br>  | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml)</br> |
-|  | 23 | 26/01 | - Inherence / Interface / Abstract Class</br> - git</br>| - |
+|  | 21 | 24/01 | - MovieManager Domains & Packages, connecting classes: static/non-static and reusable method/class (2/3)</br> - Hashmap</br> - Try and Catch</br>- Test interactivity</br> | [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/075af8cb656849e32f202d929db86ee86024cc67){.external}</br>  [HashMap w3school](https://www.w3schools.com/java/java_hashmap.asp){.external}</br> [Lab#SE02-5 Test Input Console](/javase/selab2-5.qmd#core-classes)</br> [Lab#SE02-4 Try and Catch](/javase/selab2-4.qmd#trycatch-for-wrong-inputs)</br> |
+|  | 22 | 25/01 |  - MovieManager Domains & Packages, connecting classes: HashMap movies and CRUD operations, createAndAddMovieToStore, HashMap testMovies (3/3)</br> | [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/){.external}</br>  |
+|  | 23 | 26/01 |  - Library Model Basic/Large</br> - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - Quarto</br> - Inherence / Interface / Abstract Class</br> - git</br>| [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml)</br> |
 |  | 24 | 27/01 | - SCRUM - Vocabulary (writting)</br> - Book: SRE| [SRE](/books/sre.qmd) |
 : Backlog Sprint#5 January 2023 {tbl-colwidths="[2,2,2,64,30]"}
 :::
