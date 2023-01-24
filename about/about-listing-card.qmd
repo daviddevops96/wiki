@@ -20,6 +20,8 @@ listing:
         - "file-modified desc"
         - "categories"
     type: default
+    sort-ui: [title, categories]
+    filter-ui: [title]
     image-align: left
     image-placeholder: "/images/home/frontimagealbertprofeweb.png"
     fields: [image, categories, title, description, reading-time, date, author, file-modified]

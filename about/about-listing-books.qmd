@@ -1,0 +1,58 @@
+---
+title: "Books Card-Listing"
+subtitle: Recommended book list
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: About books
+categories: [listing, books, reading]
+format:
+  html
+listing:
+    id: books
+    contents:
+        - "../books/*.qmd"
+    sort-ui: [title, genre]
+    filter-ui: [title, genre]
+    type: default
+    image-align: left
+    image-placeholder: "/images/home/frontimagealbertprofeweb.png"
+    fields: [image, categories, title, description, reading-time, date, author, file-modified]
+    date-format: full
+    categories: true  
+---
+
+![Reading is essential for those who seek to rise above the ordinary. - Jim Rohn](/images/about/books.jpg){width="35%"}
+
+
+[Why should I read books?](/index.qmd#and-reading-books)
+---
+
+</br>
+
+::: {#books}
+:::
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+<br>
+</div>
+<br>
+</div>

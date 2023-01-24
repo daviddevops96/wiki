@@ -61,6 +61,10 @@ This will use **version 3.6.3 of Maven** for the project.
 
 [Slider-presentation Create project Java SE Maven](/images/javase/se-createproject/se-presentation-createproject.qmd)
 
+## What did we create?
+
+
+![Anatomy of our first Class](/images/javase/classMain.png)
 
 <!--- navLinks -->
 <br><br>

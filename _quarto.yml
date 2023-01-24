@@ -1,9 +1,6 @@
 project:
   type: website
 
-editor:
-  render-on-save: true
-  
 format:
   html:
     fontsize:  "1.0em"
@@ -242,6 +239,7 @@ website:
             - javase/selab2-2.qmd
             - javase/selab2-3.qmd
             - javase/selab2-4.qmd
+            - javase/selab2-5.qmd
         - text: "---" 
         - section: "Java SE readings"
           contents: 
@@ -393,7 +391,7 @@ website:
       contents:
         - text: "WebApp IFCD0210"
         - text: "---"
-        - secti>on: "IFCD0210 Docs"
+        - section: "IFCD0210 Docs"
           contents:
             - ifcd0210/ifcd0210.qmd
             - ifcd0210/ifcd0210initemail.qmd
@@ -420,14 +418,14 @@ website:
         - section: "Learning"
           contents: 
             - about/about-learning-intro.qmd
-            - about/about-learning-books.qmd
             - about/about-learning-writing.qmd
             - about/about-learning-take-notes.qmd
             - about/about-learning-write-comments.qmd
             - about/about-learning-questions.qmd
         - text: "---"
         - section: "Listings"
-          contents: 
+          contents:
+            - about/about-listing-books.qmd
             - about/about-listing-table.qmd
             - about/about-listing-card.qmd
 

@@ -1,6 +1,6 @@
 ---
 title: "Lab#SE02-4: Movie/Review, interactivity and coupling"
-subtitle: Java SE Lab 04
+subtitle: Java SE Lab 02
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
@@ -16,13 +16,15 @@ format:
 ::: {.labs}
 📘 **Linux Lab#LI02-4: interactivity and coupling**
 
-Create some **interactivity** with user **adding** these new features:
+After having a good approach with the labs done previously and from that point, having in mind the ``core-entity model`` and some`` management/controller``, let's step up.
 
-1. Add class Scanner: ``Scanner scanner = new Scanner(System.in);``
+Add some **interactivity** through console with the user **building on** these new features and classes:
 
-2. A `` while (true) `` **loop** with the ``CRUD`` options.
+1. Import class Scanner: ``Scanner scanner = new Scanner(System.in);``
 
-3. Work as simple as possible, just 3 classes:
+2. A `` while (true) `` **loop** with the ``CRUD`` options would be a nice idea.
+
+3. Work as simple as possible, just 3 classes, let s try to understand the problem:
 
     - ``MovieManager``
     - ``Movie`` and
@@ -33,6 +35,22 @@ Create some **interactivity** with user **adding** these new features:
 5. What about coupling? Is tight or loose coupled, this code?
 
 :::
+
+## Java User Input (Scanner)
+
+The ``Scanner`` class is used to get user input, and it is found in the ``java.util package.``
+
+To use the ``Scanner`` class, create an object of the class and use any of the available methods found in the ``Scanner`` class documentation.
+
+```java
+Scanner readerObject = new Scanner(System.in);  // Create a Scanner object
+String userName = readerObject.nextLine();  // Read user input
+```
+
+In the example above, we used the ``nextLine()`` method, which is used to read ``Strings``. To read other types, look at the table below:
+
+
+![[Input Types](https://www.w3schools.com/java/java_user_input.asp){.external}](/images/javase/inputTypes.png){width="80%"}
 
 ## Birding
 
@@ -253,6 +271,10 @@ public class MovieController {
 
 ## Grow your code
 
+![Hope is not a strategy](/images/javase/hopeIsNotAStrategy.png){width="80%"}
+
+> [Hope is not a strategy](https://sre.google/sre-book/introduction/){.external}
+
   - **Zero** Sprint/Version:
     - Meeting rules
     - Roles: ScrumMaster, Product Owner, Specialist, Team
@@ -289,6 +311,58 @@ public class MovieController {
   - **Tenth** Sprint/Version:
     - Create extensions and [publish](/linux/lilab04-3.qmd)
 
+## Try/Catch for wrong inputs
+
+[When executing Java code](https://www.w3schools.com/java/java_try_catch.asp){.external}, **different errors may occur**: coding errors made by the programmer, **errors due to wrong input**, or other unforeseeable things.
+
+::: {.callout-note}
+## Definition Exception
+When an error occurs, Java will normally **stop** and **generate an error message**. The technical term for this is: Java will throw an exception (throw an error).
+:::
+
+The ``try`` and ``catch`` keywords come in pairs:
+
+- The ``try`` statement a**llows you to define a block of code to be tested for errors while it is being executed.**
+- The ``catch`` statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+```java
+try {
+  //  Block of code to try
+}
+catch(Exception e) {
+  //  Block of code to handle errors
+}
+```
+### Example
+
+The ``finally`` statement lets you execute code, after`` try...catch``, regardless of the result 
+
+```java
+public class Main {
+  public static void main(String[] args) {
+   System.out.println("Hi");
+    try {
+      int[] myNumbers = {1, 2, 3};
+      // this code will crash: there is NO positin 10 in this array myNumbers
+      System.out.println(myNumbers[10]);
+    } catch (Exception e) {
+      System.out.println("Something went wrong.");
+    } finally {
+      System.out.println("The 'try catch' is finished.");
+    }
+     System.out.println("Bye");
+  }
+}
+
+// Output:
+// Hi
+// Something went wrong.
+// The 'try catch' is finished.
+// Bye
+```
+[Execute this code on w3schools](https://www.w3schools.com/java/tryjava.asp?filename=demo_try_catch_finally){.external}
+
+
 
 <!--- navLinks -->
 <br><br>
@@ -308,7 +382,7 @@ public class MovieController {
 <br>
 <div class='column right next'>
 <br>
-[Java SE Resources  {{< fa solid arrow-right >}}](/javase/resources.qmd)
+[Lab#SE02-5: Movie/Review, interactivity and console {{< fa solid arrow-right >}}](/javase/selab2-5.qmd)
 <br>
 </div>
 <br>
