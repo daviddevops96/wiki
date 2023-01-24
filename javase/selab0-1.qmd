@@ -264,7 +264,7 @@ public class Book {
 	private Author author;
 
 	public Book(String title, int pages, String iSBN, Author author) {
-		super();
+		// super();
 		this.title = title;
 		this.pages = pages;
 		ISBN = iSBN;
