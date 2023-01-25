@@ -1,5 +1,5 @@
 ---
-title: "Lab#SE02-5: Movie/Review, interactivity and console"
+title: "Lab#SE02-5: Movie/Review, simulate interactivity by console"
 subtitle: Java SE Lab 02
 author: albertprofe
 date: "06/01/2021"
@@ -31,6 +31,11 @@ Once in previous [Lab#SE02-4,](/javase/selab2-4.qmd) the user enjoys some intera
     - and then creating a ``Movie`` object and calling the ``createFromConsole()`` method. 
 
 :::
+</br>
+
+> The lazy programmer will reuse whatever they can to get their work done. This virtue leads to code reuse by encouraging code to be written only once - Larry Wall, *The three virtues of a programmer*
+
+[Laziness, Impatience, Hubris](https://perl101.org/terms.html){.external}
 
 ## Overview
 

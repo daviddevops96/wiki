@@ -56,7 +56,7 @@ categories: [ifcd0210, backlog]
 |  | 22 | 25/01 | - Inherence / InteRface / Abstract Class</br> - Quarto</br> | - |
 |  | 23 | 26/01 | - Vocabulary</br> - git</br>| - |
 |  | 24 | 27/01 | - SCRUM | - |
-| #6 | 25 | 30/01 | - | - |
+| #6 | 25 | 30/01 | - Library Model Basic/Large</br> - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - Quarto</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) |
 |  | 26 | 31/01 | - | - |
 |  | 27 | 01/02 | - | - |
 |  | 28 | 02/02 | - | - |
