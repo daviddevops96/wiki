@@ -231,6 +231,7 @@ website:
             - javase/selab0-1.qmd
             - javase/selab0-2.qmd
             - javase/selab0-3.qmd
+            - javase/selab0-4.qmd
             - text: "---"
             - javase/selab1-1.qmd
             - javase/selab1-2.qmd

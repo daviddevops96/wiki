@@ -92,7 +92,9 @@ The byte array is created by calling the ``getBytes()`` method on the input stri
 
 ## Core classes
 
-The method ``createFromConsole()`` is used to prompt t**he user for input in the console and create a movie object based on that input.** 
+### ``createFromConsole()``
+
+The method ``createFromConsole()`` is used to **prompt the user for input in the console and create a movie object based on that input.** 
 
 It uses the ``Scanner`` class to read the input from the console and sets the fields of the ``Movie`` object with the input ``data``.
 
@@ -121,7 +123,8 @@ public class Movie {
         scanner.nextLine(); // consume the newline character
         System.out.print("Enter the name of the director: ");
         director = scanner.nextLine();
-        System.out.print("Enter the names of the actors (separated by commas): ");
+        System.out.print("Enter the names of the actors" +
+                            " (separated by commas): ");
         actors = scanner.nextLine();
     }
 
@@ -129,6 +132,7 @@ public class Movie {
 }
 
 ```
+### ``testCreateMovieFromConsoleInput()``
 
 The method ``testCreateMovieFromConsoleInput()`` is a ``JUnit`` test that is used to test the ``createFromConsole()`` method. 
 
@@ -146,7 +150,10 @@ public class MovieTest {
     @Test
     public void testCreateMovieFromConsoleInput() {
         // Set up input for the console
-        String input = "The Shawshank Redemption\n1994\nFrank Darabont\nTim Robbins, Morgan Freeman\n";
+        String input = "The Shawshank Redemption\n" +
+                        "1994\n" +
+                        "Frank Darabont\n" +
+                        "Tim Robbins, Morgan Freeman\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 
