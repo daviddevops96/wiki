@@ -1,19 +1,19 @@
 ---
-title: "Week 8: The specialist"
-subtitle: SCRUM Week 8
-author: albertprofe
+title: "Week 9: Albertus' Dylemma"
+subtitle: SCRUM Week 9
+author: Albert R.
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
 description: description
-categories: [scrum, scrum-week8, specialist]
+categories: [scrum, scrum-week9, albertusDylemma]
 toc: true
 number-sections: true
 format:
   html
 ---
 
-# Specialist
+# Albertus' Dylemma
 
 
 
