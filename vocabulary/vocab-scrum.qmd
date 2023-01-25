@@ -19,17 +19,17 @@ format:
 
 | Term | Definition |
 |:---|:---|
-| iterate | description |
-| sprint | description |
-| sprint goal | description |
-| backlog | description |
-| poker | description |
-| scrum master | description |
-| product owner | description |
-| principles | description |
-| beyond scrum | description |
-| agile | description |
-| user story | description |
+| iterate | Repeat a process with improvements and a certain time-box |
+| sprint | Short, time-boxed iterations in Scrum, usually 2-4 weeks |
+| sprint goal | A clear objective for the sprint to achieve |
+| sprint backlog | A prioritized list of items to be worked on during the sprint |
+| planning poker | A consensus-based estimation technique used in Scrum with this serie to weight tasks: 1, 2, 3, 5, 8, 13, 21 |
+| scrum master | A facilitator who ensures the team adheres to Scrum principles, link to company |
+| product owner | A person responsible for the product backlog and its priorities, link to client |
+| principles | Transparency, Inspection, Adaptation, and Delivery |
+| beyond scrum | Scaled Agile Framework (SAFe), LeSS, Nexus |
+| agile | A methodology for software development that values flexibility and collaboration |
+| user story | A description of a feature or requirement from the perspective of the end-user |
 
 : SCRUM vocabulary {tbl-colwidths="[20,80]"}
 
