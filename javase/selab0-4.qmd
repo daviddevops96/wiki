@@ -71,7 +71,7 @@ It also show the **Inheritance** relationship between classes and implementation
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE00-2: Maven Clinic](/javase/selab0-2.qmd)
+[{{< fa solid arrow-left >}} Lab#SE00-3: Library Model](/javase/selab0-3.qmd)
 <br>
 </div>
 <br>

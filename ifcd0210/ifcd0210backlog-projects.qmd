@@ -37,7 +37,7 @@ Work-in-progress
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} IFCD0210 Calendar](/ifcd0210/ifcd0210calendar.qmd)
+[{{< fa solid arrow-left >}} IFCD0210 Product Backlog](/ifcd0210/ifcd0210backlog-product.qmd)
 <br>
 </div>
 <br>
@@ -49,7 +49,7 @@ Work-in-progress
 <br>
 <div class='column right next'>
 <br>
-[IFCD0210 Product Backlog  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210backlog-product.qmd)
+[About me  {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
 <br>
 </div>
 <br>

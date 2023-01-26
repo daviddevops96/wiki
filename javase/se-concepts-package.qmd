@@ -98,7 +98,7 @@ Overall, packages are an important concept in Java, and can help to improve the 
 <br>
 <div class='column right next'>
 <br>
-[Java SE: Encapsulation  {{< fa solid arrow-right >}}](/javase/se-principles-encapsulation.qmd)
+[Java SE: Abstract/Interface  {{< fa solid arrow-right >}}](/javase/se-concepts-interface.qmd)
 <br>
 </div>
 <br>

@@ -186,7 +186,7 @@ If this method is not working as expected, **it will not only affect the user ex
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Lab#SE02-4: Movie/Review, interactivity and coupling ](/javase/selab2-4.qmd)
+[{{< fa solid arrow-left >}} Lab#SE02-4: Movie/Review, interactivity and coupling](/javase/selab2-4.qmd)
 <br>
 </div>
 <br>

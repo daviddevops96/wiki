@@ -39,7 +39,7 @@ listing:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+[{{< fa solid arrow-left >}} About the Useful Questions](/about/about-learning-questions.qmd)
 <br>
 </div>
 <br>
@@ -51,7 +51,7 @@ listing:
 <br>
 <div class='column right next'>
 <br>
-[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+[Articles Table-Listing  {{< fa solid arrow-right >}}](/about/about-listing-table.qmd)
 <br>
 </div>
 <br>

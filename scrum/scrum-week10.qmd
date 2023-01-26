@@ -24,7 +24,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Week 7: Managing time and mind](/scrum/scrum-week7.qmd)
+[{{< fa solid arrow-left >}} Week 9: Albertus' Dylemma](/scrum/scrum-week9.qmd)
 <br>
 </div>
 <br>

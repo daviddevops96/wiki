@@ -68,7 +68,7 @@ In this example, the `Account` class has private instance variables and public m
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java SE: Packages](/javase/se-concepts-package.qmd)
+[{{< fa solid arrow-left >}} Java SE: Abstract/Interface](/javase/se-concepts-interface.qmd)
 <br>
 </div>
 <br>

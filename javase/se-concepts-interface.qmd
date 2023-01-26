@@ -141,7 +141,7 @@ Java does not support "multiple inheritance" (a class can only inherit from one 
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java SE: Project push GitHub](/javase/se-concepts-projectgit.qmd)
+[{{< fa solid arrow-left >}} Java SE: Packages](/javase/se-concepts-package.qmd)
 <br>
 </div>
 <br>
@@ -153,7 +153,7 @@ Java does not support "multiple inheritance" (a class can only inherit from one 
 <br>
 <div class='column right next'>
 <br>
-[Java SE: Class and Objects  {{< fa solid arrow-right >}}](/javase/se-concepts-objects.qmd)
+[Java SE: Encapsulation  {{< fa solid arrow-right >}}](/javase/se-principles-encapsulation.qmd)
 <br>
 </div>
 <br>

@@ -191,7 +191,7 @@ categories: [ifcd0210, backlog]
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} IFCD0210 Backlog Sprint#](/ifcd0210/ifcd0210backlog-sprint.qmd)
+[{{< fa solid arrow-left >}} IFCD0210 Sprint Backlog](/ifcd0210/ifcd0210backlog-sprint.qmd)
 <br>
 </div>
 <br>
@@ -203,7 +203,7 @@ categories: [ifcd0210, backlog]
 <br>
 <div class='column right next'>
 <br>
-[About me  {{< fa solid arrow-right >}}](/about/about-this-me.qmd)
+[IFCD0210 Projects Backlog  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210backlog-projects.qmd)
 <br>
 </div>
 <br>

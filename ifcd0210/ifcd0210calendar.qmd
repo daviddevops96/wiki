@@ -59,7 +59,7 @@ categories: [ifcd0210, calendar,forecast, timetable]
 <br>
 <div class='column right next'>
 <br>
-[IFCD0210 Backlog Sprint#  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210backlog-sprint.qmd)
+[IFCD0210 Sprint Backlog  {{< fa solid arrow-right >}}](/ifcd0210/ifcd0210backlog-sprint.qmd)
 <br>
 </div>
 <br>

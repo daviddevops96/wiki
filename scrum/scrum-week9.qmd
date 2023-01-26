@@ -24,7 +24,7 @@ format:
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Week 7: Managing time and mind](/scrum/scrum-week7.qmd)
+[{{< fa solid arrow-left >}} Week 8: The specialist](/scrum/scrum-week8.qmd)
 <br>
 </div>
 <br>
@@ -36,7 +36,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[SCRUM Resources  {{< fa solid arrow-right >}}](/scrum/resources.qmd)
+[Week 10: Beyond SCRUM  {{< fa solid arrow-right >}}](/scrum/scrum-week10.qmd)
 <br>
 </div>
 <br>

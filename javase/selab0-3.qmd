@@ -286,7 +286,7 @@ Issue --> Publication
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE01-1: Maven/Gradle Person and Account  {{< fa solid arrow-right >}}](/javase/selab1-1.qmd)
+[Lab#SE00-4: Abstract/Interface Human  {{< fa solid arrow-right >}}](/javase/selab0-4.qmd)
 <br>
 </div>
 <br>

@@ -46,7 +46,7 @@ flowchart TD
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} About learning](/about/about-learning-intro.qmd)
+[{{< fa solid arrow-left >}} About Writing Comments](/about/about-learning-write-comments.qmd)
 <br>
 </div>
 <br>
@@ -58,7 +58,7 @@ flowchart TD
 <br>
 <div class='column right next'>
 <br>
-[Articles Table-Listing  {{< fa solid arrow-right >}}](/about/about-listing-table.qmd)
+[Books Card-Listing  {{< fa solid arrow-right >}}](/about/about-listing-books.qmd)
 <br>
 </div>
 <br>

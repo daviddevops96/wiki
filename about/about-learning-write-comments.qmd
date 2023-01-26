@@ -91,7 +91,7 @@ host: www.conventionalcommits.org
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+[{{< fa solid arrow-left >}} About Taking Notes](/about/about-learning-take-notes.qmd)
 <br>
 </div>
 <br>

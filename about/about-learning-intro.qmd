@@ -96,7 +96,7 @@ format:
 <br>
 <div class='column right next'>
 <br>
-[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+[About Writing  {{< fa solid arrow-right >}}](/about/about-learning-writing.qmd)
 <br>
 </div>
 <br>

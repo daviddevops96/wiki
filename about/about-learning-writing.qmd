@@ -61,7 +61,7 @@ This requires not that the writer make all his sentences short, or that he avoid
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} About images credit](/about/about-this-images-credit.qmd)
+[{{< fa solid arrow-left >}} About learning](/about/about-learning-intro.qmd)
 <br>
 </div>
 <br>
@@ -73,7 +73,7 @@ This requires not that the writer make all his sentences short, or that he avoid
 <br>
 <div class='column right next'>
 <br>
-[About the Useful Questions  {{< fa solid arrow-right >}}](/about/about-learning-questions.qmd)
+[About Taking Notes  {{< fa solid arrow-right >}}](/about/about-learning-take-notes.qmd)
 <br>
 </div>
 <br>
