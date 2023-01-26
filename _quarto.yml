@@ -208,6 +208,7 @@ website:
             - javase/se-concepts-static.qmd
             - javase/se-concepts-coupling.qmd
             - javase/se-concepts-package.qmd
+            - javase/se-concepts-interface.qmd
         - text: "---"
         - section: "Java Principles"
           contents:
