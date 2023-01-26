@@ -1,11 +1,11 @@
 ---
-title: "Java Patterns: Factory"
+title: "Creational: Factory"
 subtitle: Java Fundamentals and Patterns
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: What is the Abstract Facotory
+description: What is the Factory Creational Design-Pattern
 categories: [javase, factory , design-patterns, concepts]
 toc: true
 number-sections: true

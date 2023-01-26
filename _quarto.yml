@@ -218,14 +218,22 @@ website:
             - javase/se-principles-polymorphism.qmd
         - text: "---"  
         - section: "Java Design Patterns"
-          contents: 
-            - javase/se-pattern-intro.qmd
+          contents:
             - javase/se-pattern-uml.qmd
+            - javase/se-pattern-intro.qmd
+            - text: "- Creational"
             - javase/se-pattern-singleton.qmd
             - javase/se-pattern-factory.qmd
             - javase/se-pattern-abstractfactory.qmd
-            - javase/se-pattern-observer.qmd
             - javase/se-pattern-builder.qmd
+            - text: "- Structural"
+            - javase/se-pattern-facade.qmd
+            - javase/se-pattern-bridge.qmd
+            - javase/se-pattern-decorator.qmd
+            - text: "- Behavioral"
+            - javase/se-pattern-observer.qmd
+            - javase/se-pattern-strategy.qmd
+            - javase/se-pattern-state.qmd
         - text: "---"  
         - section: "Java SE Laboratories"
           contents:

@@ -1,12 +1,12 @@
 ---
-title: "Creational: Builder"
+title: "Behavioral: State"
 subtitle: Java Fundamentals and Patterns
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: What is the Builder Creational Design-Pattern
-categories: [javase, builder , design-patterns, concepts]
+description: What is the State Behavioral Design-Pattern
+categories: [javase,state, design-patterns, concepts]
 toc: true
 number-sections: true
 format:
@@ -15,13 +15,14 @@ format:
 
 About this site
 
+
 <!--- navLinks -->
 <br><br>
 <div class=row>
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Observer](/javase/se-pattern-observer.qmd)
+[{{< fa solid arrow-left >}} Java Patterns: Factory](/javase/se-pattern-factory.qmd)
 <br>
 </div>
 <br>
@@ -33,7 +34,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE00-1: Maven Person  {{< fa solid arrow-right >}}](/javase/selab0-1.qmd)
+[Java Patterns: Observer  {{< fa solid arrow-right >}}](/javase/se-pattern-observer.qmd)
 <br>
 </div>
 <br>

@@ -1,11 +1,11 @@
 ---
-title: "Java Patterns: Observer"
+title: "Behavioral: Observer"
 subtitle: Java Fundamentals and Patterns
 author: Carla Velasco
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: What is the Observer
+description: What is the Observer Behavioral Design-Pattern
 categories: [javase, observer , design-patterns, concepts]
 toc: true
 number-sections: true
