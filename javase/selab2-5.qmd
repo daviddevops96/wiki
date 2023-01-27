@@ -76,7 +76,11 @@ In order to read such data, we have a ``Java InputStream Class`` in the ``Java I
 
 ### Discuss solution
 
-This line of code is creating an ``InputStream`` that reads from a ``byte array`` **containing the bytes of the input string** using the platform's default charset, which allow to use this ``InputStream`` **as regular input stream.**
+This line of code is the **key-solution to use InputStream to simulate a input console**.
+
+It creates an ``InputStream`` ``in`` that reads from a ``byte array`` **containing the bytes of the input string** ``input.getBytes()`` (using the platform's default charset), which allow us to use this ``InputStream`` **as regular input stream.**
+
+![It extends the InputStream abstract class.](/images/javase/java-bytearrayonputstream.png){width="30%"}
 
 A new ``InputStream`` object is being created by wrapping a ``ByteArrayInputStream`` around a byte array.
 
@@ -87,8 +91,51 @@ InputStream in = new ByteArrayInputStream(input.getBytes());
 A ``ByteArrayInputStream`` is a subclass of ``InputStream`` that reads data from a ``byte array``.
 :::
 
-The byte array is created by calling the ``getBytes()`` method on the input string. ``getBytes()`` is a method of the ``String`` class that returns a byte array containing the characters of the string encoded using the platform's default charset.
+The byte array is created by calling the ``getBytes()`` method on the input string. ``getBytes()`` is a method of the ``String`` class that returns a ``byte array`` *containing the characters of the string encoded using the platform's default charset.*
 
+### ``getBytes()``
+
+```java
+    String myString = "I love Java";
+    byte[] byteArray;
+
+    // convert the string to a byte array
+    // using platform's default charset
+    byteArray = myString.getBytes();
+    System.out.println(Arrays.toString(byteArray));
+
+    // Output
+    // [73, 32, 108, 111, 118, 101, 32, 74, 97, 118, 97]
+```
+::: {.column-margin}
+We have used the ``Arrays`` class in the above example **to print the byte array in a readable form.** It has nothing to do with ``getBytes()``.
+:::
+
+[HTML Encoding Character Set](https://www.w3schools.com/html/html_charset.asp){.external}  
+[more examples](https://www.programiz.com/java-programming/library/string/getbytes){.external}
+
+There are many other standard **charset** like:
+
+- ``US-ASCII``: Seven-bit ASCII, a.k.a. ISO646-US, a.k.a. the Basic Latin block of the Unicode character set
+- ``ISO-8859-1``: ISO Latin Alphabet No. 1, a.k.a. ISO-LATIN-1
+- ``UTF-8``: Eight-bit UCS Transformation Format
+- ``UTF-16BE``: Sixteen-bit UCS Transformation Format, big-endian byte order
+- ``UTF-16LE``: Sixteen-bit UCS Transformation Format, little-endian byte order
+- ``UTF-16``: Sixteen-bit UCS Transformation Format, byte order identified by an optional byte-order mark.
+
+### ``ByteArrayInputStream``
+
+[Class ByteArrayInputStream](Class ByteArrayInputStream){.external}
+
+
+```java
+   // Creates a ByteArrayInputStream that reads entire array
+   ByteArrayInputStream input = new ByteArrayInputStream(byte[] arr);
+```
+
+The ``ByteArrayInputStream`` class of the ``java.io`` package **ìs used to read an array of input data (in bytes)**.
+
+[more on ``ByteArrayInputStream``](https://www.programiz.com/java-programming/bytearrayinputstream){.external}
 
 ## Core classes
 
@@ -177,7 +224,12 @@ It is important to test the ``createFromConsole()`` method because **it is a cor
 If this method is not working as expected, **it will not only affect the user experience but also could cause the application to fail.**
 :::
 
+This ``static`` method ``System.setIn()`` from the class ``java.lang.System`` is used to **reassign the standard ``input stream``.**
 
+Signature: 
+```java
+static void setIn(InputStream in)
+```
 
 
 <!--- navLinks -->
