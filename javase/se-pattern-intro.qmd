@@ -102,7 +102,7 @@ Design patterns ease the analysis and requirement phase of SDLC by providing inf
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java SE: Polymorphism](/javase/se-principles-polymorphism.qmd)
+[{{< fa solid arrow-left >}} Java Patterns: UML](/javase/se-pattern-uml.qmd)
 <br>
 </div>
 <br>
@@ -114,7 +114,7 @@ Design patterns ease the analysis and requirement phase of SDLC by providing inf
 <br>
 <div class='column right next'>
 <br>
-[Java Patterns: UML  {{< fa solid arrow-right >}}](/javase/se-pattern-uml.qmd)
+[Creational: Singleton  {{< fa solid arrow-right >}}](/javase/se-pattern-singleton.qmd)
 <br>
 </div>
 <br>

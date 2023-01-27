@@ -114,7 +114,7 @@ By decoupling the `CarFactory` class from the code that uses the cars, you can m
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Singleton](/javase/se-pattern-singleton.qmd)
+[{{< fa solid arrow-left >}} Creational: Singleton](/javase/se-pattern-singleton.qmd)
 <br>
 </div>
 <br>
@@ -126,7 +126,7 @@ By decoupling the `CarFactory` class from the code that uses the cars, you can m
 <br>
 <div class='column right next'>
 <br>
-[Java Patterns: Abstract Factory  {{< fa solid arrow-right >}}](/javase/se-pattern-abstractfactory.qmd)
+[Creational: Abstract Factory  {{< fa solid arrow-right >}}](/javase/se-pattern-abstractfactory.qmd)
 <br>
 </div>
 <br>

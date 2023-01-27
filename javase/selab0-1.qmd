@@ -440,7 +440,7 @@ public class Author extends Person {
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Builder](/javase/se-pattern-builder.qmd)
+[{{< fa solid arrow-left >}} Behavioral: State](/javase/se-pattern-state.qmd)
 <br>
 </div>
 <br>

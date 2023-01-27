@@ -22,7 +22,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Factory](/javase/se-pattern-factory.qmd)
+[{{< fa solid arrow-left >}} Behavioral: Strategy](/javase/se-pattern-strategy.qmd)
 <br>
 </div>
 <br>
@@ -34,7 +34,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[Java Patterns: Observer  {{< fa solid arrow-right >}}](/javase/se-pattern-observer.qmd)
+[Lab#SE00-1: Maven Person  {{< fa solid arrow-right >}}](/javase/selab0-1.qmd)
 <br>
 </div>
 <br>

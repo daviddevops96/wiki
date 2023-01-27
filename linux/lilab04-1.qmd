@@ -33,10 +33,10 @@ To create a terminal app using bash scripts, you will need to:
 
 1. Work on bash script:
 
-- First, create a function within your bash script called "template" that will handle the tasks for creating and using templates for .qmd files.
+- First, create a function within your bash script called "template" that will handle the tasks for creating and using templates for .`qmd` files.
 - Within the function, create a case statement that will allow the user to choose between creating a new template or using an existing one.
-- For the option to create a new template, prompt the user for input on the various elements they would like to include in the template (e.g. title, author, date, etc.) and use this input to create a new .qmd file with the desired template structure.
-- For the option to use an existing template, prompt the user for the path to the template file and use this to create a new .qmd file based on the structure of the existing template.
+- For the option to create a new template, prompt the user for input on the various elements they would like to include in the template (e.g. title, author, date, etc.) and use this input to create a new `.qmd` file with the desired template structure.
+- For the option to use an existing template, prompt the user for the path to the template file and use this to create a new `.qmd` file based on the structure of the existing template.
 
 2. Create local files:
 
@@ -48,10 +48,10 @@ To create a terminal app using bash scripts, you will need to:
 - Depending on the needs of the template function, it may be necessary to call to other scripts or utilities in order to complete certain tasks.
 - Use the source command to execute other bash scripts, and the appropriate command line utilities (e.g. sed, awk, etc.) to perform specific tasks.
 
-4. Write the .qmd files:
+4. Write the `.qmd` files:
 
-- Once the necessary information has been gathered and any necessary local files or utilities have been called, use the echo command to write the desired content to the .qmd file.
-- Use appropriate formatting and structure to ensure that the .qmd file is properly formatted and easy to read.
+- Once the necessary information has been gathered and any necessary local files or utilities have been called, use the echo command to write the desired content to the `.qmd` file.
+- Use appropriate formatting and structure to ensure that the `.qmd` file is properly formatted and easy to read.
   
 :::
 
@@ -479,8 +479,7 @@ Here is a list of bash commands and operations mentioned in this chat:
 - `exec 3>`: create and open a file descriptor
 - `awk -F`: specify a field separator
 - `sed 's/pattern/replacement/g'`: search and replace a pattern in a file
-- `grep -n`: print the line number of the matching lines
-- `sed -n '${lineNumber_navLinks},$p'`: print a range of lines in a file
+- `grep -n`: print the line number of the matching lindeletednge of lines in a file
 - `sed -i '${lineNumber_navLinks},$d'`: delete a range of lines in a file
 - `awk '{print $1}'`: print the first field of a line
 - `awk -F':' '{print $2}'`: print the second field of a line
@@ -511,51 +510,5 @@ Here is a list of bash commands and operations mentioned in this chat:
 <div class='column right next'>
 <br>
 [Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](/linux/lilab04-2.qmd)
-<br>
-</div>
-<br>
-</div>
-<br><br>
-<div class=row>
-<br>
-<div class='column left previous'>
-<br>
-[{{< fa solid arrow-left >}} Linux Lab#LI03-4: Manage hardware](/linux/lilab03-4.qmd)
-<br>
-</div>
-<br>
-<div class='column center'>
-<br>
-[{{< fa solid arrow-up >}} top](#top)
-<br>
-</div>
-<br>
-<div class='column right next'>
-<br>
-[Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](/linux/lilab04-2.qmd)
-<br>
-</div>
-<br>
-</div>
-<br><br>
-<div class=row>
-<br>
-<div class='column left previous'>
-<br>
-[{{< fa solid arrow-left >}} Linux Lab#LI03-4: Manage hardware](/linux/lilab03-4.qmd)
-<br>
-</div>
-<br>
-<div class='column center'>
-<br>
-[{{< fa solid arrow-up >}} top](#top)
-<br>
-</div>
-<br>
-<div class='column right next'>
-<br>
-[Linux Lab#LI04-2: Bash scripts as terminal tool  {{< fa solid arrow-right >}}](/linux/lilab04-2.qmd)
-<br>
-</div>
 <br>
 </div>

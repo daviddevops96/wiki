@@ -109,9 +109,9 @@ class Pig implements Animal {
 :::
 
 
-## Pros & cons of using interfaces
+## Pros & cons of interfaces
 
-### Pros of using interfaces in Java:
+### Pros of using interfaces:
 
 - Interfaces provide a way to define a contract that classes must implement, ensuring that certain methods or properties are present.
 Interfaces allow for multiple inheritance, allowing a class to implement multiple interfaces.
@@ -120,7 +120,7 @@ Interfaces allow for multiple inheritance, allowing a class to implement multipl
 - Interfaces can be used to define a common API for different implementations of a specific functionality.
 
 
-### Cons of using interfaces in Java:
+### Cons of using interfaces:
 
 - An interface does not provide any implementation for its methods or properties, so classes that implement an interface must provide their own implementation.
 - Interfaces can lead to more complex code, as it may require more effort to understand how the different classes and interfaces relate to each other.

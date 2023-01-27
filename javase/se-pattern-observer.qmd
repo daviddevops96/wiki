@@ -128,7 +128,7 @@ About this site<!--- navLinks -->
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Abstract Factory](/javase/se-pattern-abstractfactory.qmd)
+[{{< fa solid arrow-left >}} Structural: Decorator](/javase/se-pattern-decorator.qmd)
 <br>
 </div>
 <br>
@@ -140,7 +140,7 @@ About this site<!--- navLinks -->
 <br>
 <div class='column right next'>
 <br>
-[Java Patterns: Builder  {{< fa solid arrow-right >}}](/javase/se-pattern-builder.qmd)
+[Behavioral: Strategy  {{< fa solid arrow-right >}}](/javase/se-pattern-strategy.qmd)
 <br>
 </div>
 <br>

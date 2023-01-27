@@ -76,15 +76,22 @@ In order to read such data, we have a ``Java InputStream Class`` in the ``Java I
 
 ### Discuss solution
 
-This line of code is the **key-solution to use InputStream to simulate a input console**.
+These lines of `pseudo-code`, particulary the (2) line, are the **key-solution to use InputStream to simulate a input console**.
 
-It creates an ``InputStream`` ``in`` that reads from a ``byte array`` **containing the bytes of the input string** ``input.getBytes()`` (using the platform's default charset), which allow us to use this ``InputStream`` **as regular input stream.**
+```java
+(1) String simulateInputByConsole = "Here\ngoes\nhe\nsimulate\nimput";
+(2) InputStream in <<<<< simulateInputByConsole.getBytes();
+(3) System.setIn(in);
+```
+
+It creates an ``InputStream`` ``in`` that reads from a ``byte array`` **containing the bytes of the input string** ``input.getBytes()`` (using the platform's default charset), which allow us to use this ``InputStream`` **as regular input stream** into `System.in.`
 
 ![It extends the InputStream abstract class.](/images/javase/java-bytearrayonputstream.png){width="30%"}
 
 A new ``InputStream`` object is being created by wrapping a ``ByteArrayInputStream`` around a byte array.
 
 ```java
+String input = "The Shawshank Redemption\n" +
 InputStream in = new ByteArrayInputStream(input.getBytes());
 ```
 ::: {.column-margin}

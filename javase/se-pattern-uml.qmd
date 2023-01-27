@@ -208,7 +208,7 @@ OrderDetail "*" --* "1" Product: Contains
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java SE Design-Patterns](/javase/se-pattern-intro.qmd)
+[{{< fa solid arrow-left >}} Java SE: Polymorphism](/javase/se-principles-polymorphism.qmd)
 <br>
 </div>
 <br>
@@ -220,7 +220,7 @@ OrderDetail "*" --* "1" Product: Contains
 <br>
 <div class='column right next'>
 <br>
-[Java Patterns: Singleton  {{< fa solid arrow-right >}}](/javase/se-pattern-singleton.qmd)
+[Java Patterns: Types  {{< fa solid arrow-right >}}](/javase/se-pattern-intro.qmd)
 <br>
 </div>
 <br>

@@ -21,7 +21,7 @@ About this site
 <br>
 <div class='column left previous'>
 <br>
-[{{< fa solid arrow-left >}} Java Patterns: Observer](/javase/se-pattern-observer.qmd)
+[{{< fa solid arrow-left >}} Creational: Abstract Factory](/javase/se-pattern-abstractfactory.qmd)
 <br>
 </div>
 <br>
@@ -33,7 +33,7 @@ About this site
 <br>
 <div class='column right next'>
 <br>
-[Lab#SE00-1: Maven Person  {{< fa solid arrow-right >}}](/javase/selab0-1.qmd)
+[Structural: Facade  {{< fa solid arrow-right >}}](/javase/se-pattern-facade.qmd)
 <br>
 </div>
 <br>

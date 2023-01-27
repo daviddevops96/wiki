@@ -78,7 +78,7 @@ Overall, this example shows how polymorphism allows objects of different types t
 <br>
 <div class='column right next'>
 <br>
-[Java SE Design-Patterns  {{< fa solid arrow-right >}}](/javase/se-pattern-intro.qmd)
+[Java Patterns: UML  {{< fa solid arrow-right >}}](/javase/se-pattern-uml.qmd)
 <br>
 </div>
 <br>
