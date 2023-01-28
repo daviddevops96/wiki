@@ -250,6 +250,8 @@ website:
             - javase/selab2-3.qmd
             - javase/selab2-4.qmd
             - javase/selab2-5.qmd
+            - text: "---"
+            - javase/selab3-1.qmd
         - text: "---" 
         - section: "Java SE readings"
           contents: 
@@ -433,6 +435,7 @@ website:
             - about/about-learning-writing.qmd
             - about/about-learning-take-notes.qmd
             - about/about-learning-write-comments.qmd
+            - about/about-learning-auto-evaluate.qmd
             - about/about-learning-questions.qmd
         - text: "---"
         - section: "Listings"
