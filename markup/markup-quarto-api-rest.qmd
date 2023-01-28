@@ -19,7 +19,9 @@ format:
 
 ``Rest`` is an architectural style for building web services.
 
-It is based on a client-server model, where a client sends a request to a server and the server sends a response. RESTful APIs use HTTP requests to POST (create), PUT (update), GET (read), and DELETE (delete) data.
+It is based on a **client-server** model, where a client sends a ``request`` to a server and the server sends a ``response``.
+
+RESTful APIs use HTTP requests to POST (create), PUT (update), GET (read), and DELETE (delete) data.
 
 A RESTful API is a simple, consistent, and easy-to-use way for applications to communicate with each other over the internet.
 
@@ -39,7 +41,11 @@ Image from: [Why is RESTful API so popular?](https://blog.bytebytego.com/p/why-i
 :::
 
 
-[An API is a set of definitions and protocols](https://www.redhat.com/en/topics/api/what-is-a-rest-api){.external} for building and integrating application software. It’s sometimes referred to as a contract between an information provider and an information user—establishing the content required from the consumer (the call) and the content required by the producer (the response).
+[An API is a set of definitions and protocols](https://www.redhat.com/en/topics/api/what-is-a-rest-api){.external} for building and integrating application software.
+
+It’s sometimes referred to as a **contract** between an **information provider** and an **information user**.
+
+This contract (API Rest *style*) establishing the content required from the consumer (the call) and the content required by the producer (the response).
 
 ::: {.callout-note}
 For example, the API design for a weather service could specify that the user supply a zip code and that the producer reply with a 2-part answer, the first being the high temperature, and the second being the low.  
@@ -116,14 +122,27 @@ This will return a ``JSON`` object with a list of assets, including links to the
 
 ### Free Open APIs
 
-
 - [Big List of Free Open APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/){.external}
+- To create integrations, retrieve data, and automate your workflows, build with the GitHub REST API: [REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28){.external}
+- [GitHub api albertprofe wiki contributors](https://api.github.com/repos/albertprofe/wiki/stats/contributors){.external}
+- If you're new to RapidAPI, this collection is a great place to start exploring APIs that are free to test, specifically updated for 2021: [Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis){.external}
+- This is a collection of different REST APIs that are completley public and do not require any authentication, making it easier for consumers to play with and understand what APIs are all about by seeing the many different ways in which APIs can be used: [Public REST APIs](https://documenter.getpostman.com/view/8854915/Szf7znEe){.external}
+- Get a list of universities in a specified country: [Universities List](http://universities.hipolabs.com/search?country=United+States){.external}
+- Free API – Huge List of Public APIs For Testing [No Key]: [Free APIs You Can Use for Testing](https://apipheny.io/free-api/){.external}
+
 
 ## Quarto web API
 
-[Web APIs Quarto with d3.json](https://quarto.org/docs/interactive/ojs/data-sources.html#web-apis){.external}
+[Web APIs Quarto with d3.json and Observable JavaScript](https://quarto.org/docs/interactive/ojs/data-sources.html#web-apis){.external}
 
-You can use the [d3.json()](https://github.com/d3/d3-fetch/blob/v3.0.1/README.md#json){.external} function to read JSON data from web services and data sources. Here we query the GitHub API for data on contributions to the Python pandas package:
+- You can use the [d3.json](https://github.com/d3/d3-fetch/blob/v3.0.1/README.md#json){.external} function to read JSON data from web services and data sources. 
+- We are using the [Observable JavaScript](https://observablehq.com/@observablehq/observable-javascript){.external} / [Explore, analyze, and explain data. As a team](https://observablehq.com/){.external} to run script cells 
+
+::: {.column-margin}
+[Quarto: Observable JS](https://quarto.org/docs/interactive/ojs/){.external}
+:::
+
+Here we **query** the **GitHub API** for data on contributions to the albertprofe wiki:
 
 ```{ojs}
 d3 = require('d3')
@@ -146,6 +165,10 @@ commits = contributors.map(contributor => {
 Inputs.table(commits, { sort: "value", reverse: true })
 
 ```
+
+::: {.column-margin}
+JavaScript on Observable is almost — but not entirely — vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow.
+:::
 
 See the [GitHub API](https://quarto.org/docs/interactive/ojs/examples/github.html){.externaL} example for the full source code.
 
