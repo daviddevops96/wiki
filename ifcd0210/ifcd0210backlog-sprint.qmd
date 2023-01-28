@@ -13,7 +13,7 @@ tr:nth-child(1) {
 
 ![Backlog course](/images/home/backlog.jpg){width="30%"}
 
-## ``Sprint#5`` (January)
+## ``Sprint#6`` (January)
 
 ::: {.column-page-right}
 | Sprint | Day | Date | Topics |  Details Topics |

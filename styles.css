@@ -115,3 +115,20 @@ img {
 }
 
 
+.labs a:link {
+  background-color: cyan;
+}
+
+.labs  a:visited {
+  background-color: burlywood;
+}
+
+.labs  a:hover {
+  background-color: lightgreen;
+}
+
+.labs  a:active {
+  background-color: gray;
+} 
+
+

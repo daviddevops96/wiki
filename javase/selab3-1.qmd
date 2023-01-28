@@ -167,7 +167,7 @@ String streetAddress = faker.address().streetAddress(); // 60018 Sawayn Brooks S
 
 ### Dependency: JUnit 5
 
-To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the[ JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
+To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the [JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
 
 more on [Java SE TDD](/javase/se-concepts-tdd.qmd)
 
@@ -182,9 +182,190 @@ more on [Java SE TDD](/javase/se-concepts-tdd.qmd)
 ```
 
 
-## Solving discussion
+## Solving discussion: UMLs
 
-### UMLs
+### Core features: borrow and issue
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+
+class Publication {
+  -title: String
+  -year: int
+  -author: String
+  -statusPublication: enum
+}
+
+class Borrow {
+    +fromDate
+    +toDate
+    +borrowStatus
+}
+
+class Issue {
+    +publishDate
+    +unpublishDate
+    +manageDate
+    -issueStatus
+}
+
+class Member {
+    -idMember: String
+    +checkOutPublication()
+    +returnPublication()
+    +holdOnPublication()
+}
+
+class Librarian {
+    -idLibrarian
+    +addPublication()
+    +removePublication()
+    +holdPublication()
+  
+}
+
+class Person {
+    -name: String
+    -surname: String
+    -address: String
+    -age:int
+    +getPublications()
+}
+
+Person --> Member
+Person --> Librarian
+Member --> Borrow
+Borrow --> Publication
+Librarian --> Issue
+Issue --> Publication
+```
+
+</div>
+
+
+::: {.callout-note}
+:::
+
+### Core features: publications and books
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+
+class Person {
+    -name: String
+    -dob: date
+    -id: String
+}
+class Author {
+    -authorName: String
+}
+
+
+class Publication {
+    <<interface>>
+    +publish()
+}
+
+
+class Book {
+    -title: String
+    -pages: int
+    -author: Author
+}
+
+class BookItem {
+    -ISBN: int
+}
+
+class Multimedia {
+    -title: String
+    -format: String
+}
+
+class MultimediaItem {
+    -itemId: int
+}
+
+
+Person --> Author
+Book *-- Author
+Multimedia *-- Author
+Publication --> Book
+Publication --> Multimedia
+Book --> BookItem
+Multimedia --> MultimediaItem
+
+```
+
+</div>
+
+
+::: {.callout-note}
+:::
+
+
+### Core features: user and librarian (staf)
+
+<div class="mermaidContent">
+
+```{mermaid}
+classDiagram
+class Person {
+    -name: String
+    -dob: date
+    -id: String
+}
+
+class User {
+    -username: String
+    -password: String
+}
+
+class Worker {
+    -basePayment: double
+}
+
+class Staff {
+    -department: String
+    -category: String
+    -salary: double
+}
+
+class Librarian {
+    -idLibrarian
+    +addPublication()
+    +removePublication()
+    +holdPublication()
+  
+}
+
+class Freelancer {
+    -skills: String
+    -variablePayment: double
+}
+
+class Author {
+    -authorName: String
+}
+
+
+Person --> User
+Person --> Worker
+Worker --> Staff
+Staff --> Librarian
+Worker --> Freelancer
+Person --> Author
+Book *-- Author
+Multimedia *-- Author
+```
+
+</div>
+
+### Core features
 
 ::: {.column-page-right}
 <div class="mermaidContent">
@@ -221,6 +402,13 @@ class Author {
     -authorName: String
 }
 
+class Librarian {
+    -idLibrarian
+    +addPublication()
+    +removePublication()
+    +holdPublication()
+  
+}
 
 class Publication {
     <<interface>>
@@ -247,11 +435,31 @@ class MultimediaItem {
     -itemId: int
 }
 
+class Borrow {
+    +fromDate
+    +toDate
+    +borrowStatus
+}
+
+class Issue {
+    +publishDate
+    +unpublishDate
+    +manageDate
+    -issueStatus
+}
+
+User --> Borrow
+Borrow --> Publication
+Librarian --> Issue
+Issue --> Publication
+
 Person --> User
 Person --> Worker
 Worker --> Staff
+Staff --> Librarian
 Worker --> Freelancer
 Person --> Author
+
 Book *-- Author
 Multimedia *-- Author
 Publication --> Book
@@ -259,120 +467,13 @@ Publication --> Multimedia
 Book --> BookItem
 Multimedia --> MultimediaItem
 
+
+
 ```
 
 </div>
 
 :::
-::: {.callout-note}
-:::
-
-<div class="mermaidContent">
-
-```{mermaid}
-classDiagram
-
-class Person {
-    -name: String
-    -dob: date
-    -id: String
-}
-class Author {
-    -authorName: String
-}
-
-
-class Publication {
-    <<interface>>
-    +publish()
-}
-
-
-class Book {
-    -title: String
-    -pages: int
-    -author: Author
-}
-
-class BookItem {
-    -ISBN: int
-}
-
-class Multimedia {
-    -title: String
-    -format: String
-}
-
-class MultimediaItem {
-    -itemId: int
-}
-
-
-Person --> Author
-Book *-- Author
-Multimedia *-- Author
-Publication --> Book
-Publication --> Multimedia
-Book --> BookItem
-Multimedia --> MultimediaItem
-
-```
-
-</div>
-
-
-::: {.callout-note}
-:::
-
-
-
-
-<div class="mermaidContent">
-
-```{mermaid}
-classDiagram
-class Person {
-    -name: String
-    -dob: date
-    -id: String
-}
-
-class User {
-    -username: String
-    -password: String
-}
-
-class Worker {
-    -basePayment: double
-}
-
-class Staff {
-    -department: String
-    -category: String
-    -salary: double
-}
-
-class Freelancer {
-    -skills: String
-    -variablePayment: double
-}
-
-class Author {
-    -authorName: String
-}
-
-
-
-Person --> User
-Person --> Worker
-Worker --> Staff
-Worker --> Freelancer
-Person --> Author
-Book *-- Author
-Multimedia *-- Author
-```
-
-</div>
 
 <!--- navLinks -->
 <br><br>
