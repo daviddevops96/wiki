@@ -13,7 +13,7 @@ tr:nth-child(1) {
 
 ![Backlog course](/images/home/backlog.jpg){width="30%"}
 
-## ``Sprint#6`` (January)
+## ``Sprint#6`` (January-February)
 
 ::: {.column-page-right}
 | Sprint | Day | Date | Topics |  Details Topics |
@@ -23,14 +23,11 @@ tr:nth-child(1) {
 |  | 27 | 01/02 | - Inherence / Interface / Abstract Class</br> |  [Lab#SE00-4](/javase/selab0-4.qmd) </br> [Inherence](/javase/se-principles-inheritance.qmd)</br> |
 |  | 28 | 02/02 | - MVC: Api Rest</br> - Quarto: using API Rest with D3.js</br>  - git</br> | [Quarto API REST](/markup/markup-quarto-api-rest.qmd)</br> [D3.js](https://d3js.org/){.external} </br>  [Observable JavaScript](https://observablehq.com/@observablehq/observable-javascript){.external} |
 |  | 29 | 03/02 | - SCRUM - Vocabulary</br> | - |
-: Backlog Sprint#5 January 2023 {tbl-colwidths="[2,2,2,60,34]"}
+: Backlog Sprint#6 January-February 2023 {tbl-colwidths="[2,2,2,60,34]"}
 :::
 
 ::: {.callout-note}
-
-- `-` topic planned or pending
-- `+` topic done in class
-- `++` new topic not planned
+https://github.com/AlbertProfe/CifoJava2023/tree/96bf8a96998809a8f5ee1acea7fc9f42139a120clanned
 
 :::
 

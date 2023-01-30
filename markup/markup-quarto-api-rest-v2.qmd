@@ -1,0 +1,84 @@
+---
+title: "Quarto Markdown: api rest call OJS"
+subtitle: Code (6/7)
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Code on your Quarto web
+categories: [markup, qmd, quarto, ojs]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+::: {.summary}
+Observable **helps you use data to think.**
+
+
+:::
+
+## Observable JS
+
+https://observablehq.com/@observablehq/input-button
+
+
+```{ojs}
+
+d3 = require('d3')
+
+viewof fetchButton = Inputs.button("Fetch Data");
+viewof loadingMessage = Inputs.button("if you press button the call to api rest will be triggered ...");
+```
+
+```{ojs}
+fetchButton.view.subscribe(async () => {
+loadingMessage.value = "Loading...";
+viewof contributors = {}
+contributors = await d3.json("https://api.github.com/repos/albertprofe/wiki/stats/contributors");
+loadingMessage.value = "";
+updateTable(contributors);api rest call
+});
+```
+
+```{ojs}
+
+function updateTable(contributors) {
+  let commits = contributors.value.map(contributor => {
+    let author = contributor.author;
+    return {
+      name: author.login,
+      title: author.login,
+      group: author.type,
+      value: contributor.total
+    }
+  });
+  Inputs.table(commits, { sort: "value", reverse: true });
+}
+```
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Quarto Markdown: publishing](/markup/markup-quarto-publish.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Quarto Markdown: cheat-sheet  {{< fa solid arrow-right >}}](/markup/markup-quarto-cheatsheet.qmd)
+<br>
+</div>
+<br>
+</div>

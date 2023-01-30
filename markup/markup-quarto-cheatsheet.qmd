@@ -1,6 +1,6 @@
 ---
 title: "Quarto Markdown: cheat-sheet"
-subtitle: Code CheatSheet
+subtitle: Code CheatSheet (7/7)
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
