@@ -21,42 +21,39 @@ Observable **helps you use data to think.**
 
 ## Observable JS
 
-https://observablehq.com/@observablehq/input-button
+- [Observable JS](https://observablehq.com/@observablehq/input-button){.external}
 
 
 ```{ojs}
 
 d3 = require('d3')
 
-viewof fetchButton = Inputs.button("Fetch Data");
-viewof loadingMessage = Inputs.button("if you press button the call to api rest will be triggered ...");
+viewof fetchButton = Inputs.button("fetch", {value: null,async function() {
+
+    loadingMessage.value = "Loading...";
+    let contributors = {};
+    contributors.value = await d3.json("https://api.github.com/repos/albertprofe/wiki/stats/contributors");
+    
+
+    let commits = contributors.value.map(contributor => {
+      loadingMessage.value = "done";
+      let author = contributor.author;
+      return {
+        name: author.login,
+        title: author.login,
+        group: author.type,
+        value: contributor.total
+      }
+    });
+
+    Inputs.table(commits, { sort: "value", reverse: true })
+}});
+
+viewof loadingMessage = Inputs.button("...");
 ```
 
-```{ojs}
-fetchButton.view.subscribe(async () => {
-loadingMessage.value = "Loading...";
-viewof contributors = {}
-contributors = await d3.json("https://api.github.com/repos/albertprofe/wiki/stats/contributors");
-loadingMessage.value = "";
-updateTable(contributors);api rest call
-});
-```
 
-```{ojs}
 
-function updateTable(contributors) {
-  let commits = contributors.value.map(contributor => {
-    let author = contributor.author;
-    return {
-      name: author.login,
-      title: author.login,
-      group: author.type,
-      value: contributor.total
-    }
-  });
-  Inputs.table(commits, { sort: "value", reverse: true });
-}
-```
 
 
 <!--- navLinks -->

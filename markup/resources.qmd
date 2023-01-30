@@ -67,7 +67,7 @@ Whatever you do on CSS, you have to understand the roots and focus on the basic 
 - [Highcharts](https://www.highcharts.com/){.external}
 - [D3.JS GALLERY](https://observablehq.com/@d3/gallery){.external}
 - [Thymeleaf](https://www.thymeleaf.org/){.external}
-- [](){.external}
+- [Observable](https://observablehq.com/@observablehq){.external}
 
 
 
