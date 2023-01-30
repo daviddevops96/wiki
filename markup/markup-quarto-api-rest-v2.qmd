@@ -77,31 +77,37 @@ viewof cars
 
 
 ```{ojs}
+d3 = require("d3");
 
-d3 = require('d3')
+viewof loadingMessage = {};
+viewof contributors = {};
+viewof commits = {};
+viewof author = {};
+viewof contributor = {};
 
-viewof fetchButton = Inputs.button("fetch", {value: null,async function() {
+viewof fetchButton = Inputs.button("fetch", {
+async function() {
+loadingMessage.value = "Loading...";
+contributors.value = await d3.json("https://api.github.com/repos/albertprofe/wiki/stats/contributors");
 
-    loadingMessage.value = "Loading...";
-    let contributors = {};
-    contributors.value = await d3.json("https://api.github.com/repos/albertprofe/wiki/stats/contributors");
-    
 
-    let commits = contributors.value.map(contributor => {
-      loadingMessage.value = "done";
-      let author = contributor.author;
-      return {
-        name: author.login,
-        title: author.login,
-        group: author.type,
-        value: contributor.total
-      }
-    });
+commits.value = contributors.value.map(contributor.value => {
+  
+  author.value = contributor.value.author;
+  return {
+    name: author.login,
+    title: author.login,
+    group: author.type,
+    value: contributor.total
+  };
+});
 
-    Inputs.table(commits, { sort: "value", reverse: true })
-}});
+Inputs.table(commits, { sort: "value", reverse: true });
 
-viewof loadingMessage = Inputs.button("...");
+}
+});
+
+
 ```
 
 
