@@ -1,5 +1,5 @@
 ---
-title: "Quarto Markdown: api rest call OJS"
+title: "Quarto Markdown: OJS Cells"
 subtitle: Code (6/7)
 author: albertprofe
 date: "06/01/2021"
@@ -14,12 +14,64 @@ format:
 ---
 
 ::: {.summary}
-Observable **helps you use data to think.**
 
+OJS code cells {ojs} behave a bit differently than cells in traditional notebooks, and have many options available to control their display and layout.
 
 :::
 
-## Observable JS
+---
+
+
+- [OJS Cells Quarto](https://quarto.org/docs/interactive/ojs/ojs-cells.html){.external}
+- [Introduction to Views](https://observablehq.com/@observablehq/views){.external}
+- [Five-Minute Introduction](https://observablehq.com/@observablehq/five-minute-introduction){.external}
+- [A Taste of Observable](https://observablehq.com/@observablehq/a-taste-of-observable?collection=@observablehq/overview){.external}
+
+## Observable JS Cells
+
+Cell Execution
+A critical difference between OJS cell execution and traditional notebooks is that in OJS cells do not need to be defined in any particular order.
+
+Because execution is fully reactive, the runtime will automatically execute cells in the correct order based on how they reference each other. This is more akin to a spreadsheet than a traditional notebook with linear cell execution.
+
+
+## Example 0: viewof
+
+- [link](https://observablehq.com/@observablehq/views)
+
+```{ojs}
+"choose one color"
+
+viewof color = Inputs.select(["red", "orange", "yellow", "green", "blue", "violet"], {value: "green"})
+
+color
+```
+
+
+## Example 1: Histiogram
+
+- [link](https://observablehq.com/@observablehq/observable-javascript)
+
+```{ojs}
+height = 250
+numbers = Float64Array.from({length: 1000}, d3.randomNormal())
+import {chart as histogram} with {numbers as data, height} from "@d3/histogram@261"
+
+histogram
+```
+
+## Example 2: Cars data
+
+- [link](https://observablehq.com/@observablehq/five-minute-introduction)
+
+```{ojs}
+import {viewof selection as cars} from "@d3/brushable-scatterplot"
+viewof cars
+
+```
+
+
+## Example 4: Fetch with loading...
 
 - [Observable JS](https://observablehq.com/@observablehq/input-button){.external}
 
@@ -51,9 +103,6 @@ viewof fetchButton = Inputs.button("fetch", {value: null,async function() {
 
 viewof loadingMessage = Inputs.button("...");
 ```
-
-
-
 
 
 <!--- navLinks -->

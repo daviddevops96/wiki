@@ -47,27 +47,7 @@ i = {
 
 ```
 
-```{ojs}
-d3 = require('d3')
 
-contributors = await d3.json(
-  "https://api.github.com/repos/albertprofe/wiki/stats/contributors"
-)
-
-commits = contributors.map(contributor => {
-  const author = contributor.author;
-  return {
-    name: author.login,
-    title: author.login,
-    group: author.type,
-    value: contributor.total
-  }
-})
-
-
-Inputs.table(commits, { sort: "value", reverse: true })
-
-```
 This is an exemple of running a ``script cell`` in Observable JS:
 
 ```{ojs}
@@ -89,27 +69,9 @@ execute:
 
 ## Data-source
 
-```{ojs}
-d3 = require('d3')
+There are a wide variety of way to make data available to OJS:
 
-contributors = await d3.json(
-  "https://api.github.com/repos/albertprofe/wiki/stats/contributors"
-)
-
-commits = contributors.map(contributor => {
-  const author = contributor.author;
-  return {
-    name: author.login,
-    title: author.login,
-    group: author.type,
-    value: contributor.total
-  }
-})
-
-
-Inputs.table(commits, { sort: "value", reverse: true })
-
-```using the FileAttachments API.
+- **Read CSV, JSON, SQLite**, and more using the **FileAttachments** API.
 - Use the **ojs_define()** function to make data processed in Python or R available to {ojs} cells.
 - **Make calls to Web APIs** for online services and data stores.
 

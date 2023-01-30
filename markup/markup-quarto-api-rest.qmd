@@ -144,7 +144,7 @@ Here we **query** the **GitHub API** for data on contributions to the albertprof
 
 ```{ojs}
 d3 = require('d3')
-python
+
 contributors = await d3.json(
   "https://api.github.com/repos/albertprofe/wiki/stats/contributors"
 )
@@ -168,11 +168,19 @@ Inputs.table(commits, { sort: "value", reverse: true })
 JavaScript on Observable is almost — but not entirely — vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow.
 :::
 
-See the [GitHub API](https://quarto.org/docs/interactive/ojs/examples/github.html){.externaL} example for the full source code.
+</br>
 
-### Screenshoot
+> See the [GitHub API](https://quarto.org/docs/interactive/ojs/examples/github.html){.externaL} example for the full source code.
 
+### Screenshoots
+
+
+#### Success
 ![Quarto Api Rest call to github Rest API](/images/javase/quarto_api_rest_github.png)
+
+#### Error
+
+![Quarto Api Rest call to github Rest API ERROR](/images/javase/quarto_api_rest_github_error.png)
 
 <!--- navLinks -->
 <br><br>
