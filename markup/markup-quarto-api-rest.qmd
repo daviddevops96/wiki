@@ -1,6 +1,6 @@
 ---
 title: "Quarto Markdown: api rest call"
-subtitle: Code (5/5)
+subtitle: Code (5/7)
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
@@ -123,9 +123,7 @@ This will return a ``JSON`` object with a list of assets, including links to the
 ### Free Open APIs
 
 - [Big List of Free Open APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/){.external}
-- To create integrations, retrieve data, and automate your workflows, build with the GitHub REST API: [REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28){.external}
-- [GitHub api albertprofe wiki contributors](https://api.github.com/repos/albertprofe/wiki/stats/contributors){.external}
-- If you're new to RapidAPI, this collection is a great place to start exploring APIs that are free to test, specifically updated for 2021: [Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis){.external}
+- To create integrations, retpythoncom/collection/list-of-free-apis){.external}
 - This is a collection of different REST APIs that are completley public and do not require any authentication, making it easier for consumers to play with and understand what APIs are all about by seeing the many different ways in which APIs can be used: [Public REST APIs](https://documenter.getpostman.com/view/8854915/Szf7znEe){.external}
 - Get a list of universities in a specified country: [Universities List](http://universities.hipolabs.com/search?country=United+States){.external}
 - Free API – Huge List of Public APIs For Testing [No Key]: [Free APIs You Can Use for Testing](https://apipheny.io/free-api/){.external}
@@ -170,11 +168,19 @@ Inputs.table(commits, { sort: "value", reverse: true })
 JavaScript on Observable is almost — but not entirely — vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow.
 :::
 
-See the [GitHub API](https://quarto.org/docs/interactive/ojs/examples/github.html){.externaL} example for the full source code.
+</br>
 
-### Screenshoot
+> See the [GitHub API](https://quarto.org/docs/interactive/ojs/examples/github.html){.externaL} example for the full source code.
 
+### Screenshoots
+
+
+#### Success
 ![Quarto Api Rest call to github Rest API](/images/javase/quarto_api_rest_github.png)
+
+#### Error
+
+![Quarto Api Rest call to github Rest API ERROR](/images/javase/quarto_api_rest_github_error.png)
 
 <!--- navLinks -->
 <br><br>
