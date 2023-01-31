@@ -4,7 +4,7 @@ categories: [ifcd0210, backlog]
 ---
 
 <style>
-tr:nth-child(2) {
+tr:nth-child(3) {
   background-color: #b2b2b2!important;
   color: #f4f4f4!important;
 }
@@ -18,17 +18,18 @@ tr:nth-child(2) {
 ::: {.column-page-right}
 | Sprint | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #6 | 25 | 30/01 | - Intro to CSS, OJS, Engines and tools</br> - Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> | [manytomany](/javase/se-pattern-uml.qmd#many-to-many-(nm))</br> [CSS and Engines Resources](/markup/resources.qmd#css)  |
-|  | 26 | 31/01 | - Library Model Basic/Large</br> - Reuse Movie/Rewiew as a Template </br> - Start with LibraryProject </br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) </br> [LibraryProject](){.external}  </br> |
-|  | 27 | 01/02 | - Inherence / Interface / Abstract Class</br> |  [Lab#SE00-4](/javase/selab0-4.qmd) </br> [Inherence](/javase/se-principles-inheritance.qmd)</br> |
+| #6 | 25 | 30/01 | + Intro to CSS, OJS, Engines and tools</br> + Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> | [manytomany](/javase/se-pattern-uml.qmd#many-to-many-(nm))</br> [CSS and Engines Resources](/markup/resources.qmd#css)  |
+|  | 26 | 31/01 | + Library Model Basic/Large</br> + Reuse Movie/Review as a Template </br> + Start with LibraryProject: lombok (create 100 users/books), use-case, refactor, maven, dependencies, DDD, UML and core classes, borrow core-operation, managers, test, mockup, git, common lenguage </br>  | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) </br> [LibraryProject](https://github.com/AlbertProfe/CifoJava2023/tree/master/LibraryProject){.external}  </br> |
+|  | 27 | 01/02 | - LibraryProject: define priorities and code test</br> | - |
 |  | 28 | 02/02 | - MVC: Api Rest</br> - Quarto: using API Rest with D3.js</br>  - git</br> | [Quarto API REST](/markup/markup-quarto-api-rest.qmd)</br> [D3.js](https://d3js.org/){.external} </br>  [Observable JavaScript](https://observablehq.com/@observablehq/observable-javascript){.external} |
 |  | 29 | 03/02 | - SCRUM - Vocabulary</br> | - |
 : Backlog Sprint#6 January-February 2023 {tbl-colwidths="[2,2,2,60,34]"}
 :::
 
 ::: {.callout-note}
-https://github.com/AlbertProfe/CifoJava2023/tree/96bf8a96998809a8f5ee1acea7fc9f42139a120clanned
-
+- `-` topic planned or pending
+- `+` topic done in class
+- `++` new topic not planned
 :::
 
 
