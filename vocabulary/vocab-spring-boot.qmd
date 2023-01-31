@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot Vocabulay"
+title: "Spring Boot Vocabulary"
 subtitle: Technical terms and definitions
 author: albertprofe
 date: "06/01/2021"
@@ -21,7 +21,7 @@ format:
 |:---|:---|
 | mvc | description |
 | view | description |
-| model | description |
+| model | It represents graphically an abstraction of the same reality or of a service. It solves problems or needs through a set of black boxes (DDD) that depend only on its previous state and its runtime input. Its conception and implementation is translated into the creation of classes and the relationships between them by means of the UML. The UML will be based on previously defined architectures adapted to the needs of the project. |
 | controller | description |
 | annotations | description |
 | dependency injection  | description |
