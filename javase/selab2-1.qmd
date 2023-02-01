@@ -163,7 +163,7 @@ String streetAddress = faker.address().streetAddress(); // 60018 Sawayn Brooks S
 
 ### Dependency: JUnit 5
 
-To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the[ JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
+To configure support for **JUnit Jupiter based tests**, configure test scoped dependencies on the [JUnit Jupiter API and the JUnit Jupiter TestEngine](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven-engines-configure){.external} implementation similar to the following.
 
 more on [Java SE TDD](/javase/se-concepts-tdd.qmd)
 

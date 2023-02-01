@@ -104,7 +104,7 @@ img {
     color: #117441;
     border-radius: 10px 10px 10px 10px;
 }
-
+/* https://www.w3schools.com/css/css_link.asp*/
 /* labs card*/
 .labs {
     padding: 16px 16px 16px 16px;
@@ -113,5 +113,22 @@ img {
     color: #ebedf1;
     border-radius: 10px 10px 10px 10px;
 }
+
+
+.labs a:link {
+  background-color: cyan;
+}
+
+.labs  a:visited {
+  background-color: burlywood;
+}
+
+.labs  a:hover {
+  background-color: lightgreen;
+}
+
+.labs  a:active {
+  background-color: gray;
+} 
 
 

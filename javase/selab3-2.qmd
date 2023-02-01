@@ -1,0 +1,158 @@
+---
+title: "Lab#SE03-2: Library/Book, Sprint Zero"
+subtitle: "Java SE Lab 03 part 2"
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: "Java SE Lab 03, part 2 Sprint Zero, plan"
+categories: [javase, lab, composition, plan]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+
+
+::: {.labs}
+📘 **Linux Lab#SE03-2: Library/Book Sprint Zero**
+
+Before define what a [Sprint Zero really is](https://www.bmc.com/blogs/sprint-zero/){.external}, let’s see what it isn’t.
+
+- A Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.
+- A Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.
+- A Sprint Zero should not involve adding products to a backlog or Consider Planning as classical project with Gantt Diagrams plannings.
+
+The main goal of a Sprint Zero is **to deliver some usable value that can be built upon by the next team**. Sprint Zeros are required to:
+
+- Create the project’s `skeleton`, including research spikes.
+- `Keep design minimal`.
+- Develop a small number of `stories` to completion.
+- Be low velocity and lightweight.
+
+More specifically, the deliverables of a Sprint Zero should be as follows:
+
+- A `usable` piece of code, however small.
+- A `minimal` environment for writing code.
+- A `prioritization` of features or a list of stories.
+- A `release plan` assigning each story to a Sprint.
+- A plan for the most likely implementation of `features`.
+
+:::
+
+---
+
+# Sprint Zero jobs
+
+## Onion Architecture
+
+![Onion Architecture](/images/javase/onion_architecture.jpg){width="40%"}
+
+
+The layers are of [Onion Architecture](){.external} and sublayers are:
+
+- `Infrastructure`, where our database, file system, or any external web service we depend on live.
+- `Tests`: unit, integration, end-to-end. How we validate our business cases. 
+- `User Interface`, how our users interact with the code we have built. - Application Services layer (sometimes known as the Transport/Access Layer). 
+- `Domain Services` layer. In this layer is where the majority of our business logic lives, it carries out the operations to turn A into B, input into output, egg into chicken. 
+- The core layer, the `Domain Model` layer which is the representation of the high level data objects we use.
+
+## Core use-case: ``user`` borrows a ``book``
+
+### Use-Story
+
+- [User story template and examples](https://www.atlassian.com/agile/project-management/user-stories){.external}
+
+> As a **user**, I want to **borrow** a **book** with my ``documentId``, so that I may read and return it at due date that the system says. 
+
+### Mock-up
+
+```js
+Options:
+1- Make a Borrow
+2- User Management
+3- Book Management
+4- Quit
+Option?
+'Borrow'
+User?
+'159742OPI'
+Book?
+'Anna Karenina'
+Proceed, are your sure?
+'Yes'
+Borrow made, borrowId: RER7567, dueDate: 15/02/2023 
+Options:
+1- Make a Borrow
+2- User Management
+3- Book Management
+4- Quit
+Option?
+'Quit'
+```
+
+## UUID
+
+The full form of ``UUID`` is ``Universally Unique Identifier``. A UUID represents a **128-bit value that is unique**. The standard representation of UUID uses hex digits.
+
+For example:
+
+```
+3c0969ac-c6e3-40f2-9fc8-2a59b8987918
+cb7125cc-d78a-4442-b21b-96ce9227ef51
+```
+- [Class UUID](https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html){.external}
+
+``` java
+import java.util.UUID;
+
+    public static String createId() {
+
+        UUID uuid = UUID.randomUUID();
+        System.out.println("UUID generated - " + uuid);
+        System.out.println("UUID Version - " + uuid.version());
+        String id = uuid.toString();
+
+        return id;
+
+    }
+```
+
+## Menus
+
+
+
+## Test borrow
+
+
+## ``BorrowManager`` class
+
+
+## faker ``Users`` and ``Books``
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab#SE02-4: Movie/Review, interactivity and coupling](/javase/selab2-4.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE Resources  {{< fa solid arrow-right >}}](/javase/resources.qmd)
+<br>
+</div>
+<br>
+</div>

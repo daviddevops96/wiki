@@ -1,6 +1,6 @@
 ---
-title: "Quarto Markdown: data sources"
-subtitle: Code (4/5)
+title: "Quarto Markdown: code & data"
+subtitle: Code (4/7)
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
@@ -13,17 +13,73 @@ format:
   html
 ---
 
-## Overview
+::: {.summary}
+Observable **helps you use data to think.**
+
+Observable helps you explore and visualize data. It’s a platform to discover, to be inspired, and to accelerate your learning. 
+
+You can share your insights with the world. Above all, it’s a community of people helping each other learn and create together.
+:::
+
+## Observable JS
+
+Link: [A Taste of Observable](https://observablehq.com/@observablehq/a-taste-of-observable?collection=@observablehq/overview){.external}
+
+Quarto includes native support for [Observable JS](https://quarto.org/docs/interactive/ojs/#overview){.external}, a set of enhancements to vanilla JavaScript created by **Mike Bostock** (also the author of ``D3``).
+
+``Observable JS`` is distinguished by its reactive runtime, which is especially well suited for **interactive data exploration and analysis**.
+
+::: {.column-margin}
+OJS code [cells](https://quarto.org/docs/interactive/ojs/ojs-cells.html){.external} {ojs} behave a bit differently than cells in traditional notebooks, and have many options available to control their display and layout.
+:::
+
+**OJS code cells** are``Code blocks`` that use braces around the language name **(e.g. ```{ojs})** are executable, and will be run by Quarto during render.
+
+
+```{ojs}
+
+i = {
+  let i = 0;
+  while (true) {
+    yield ++i;
+  }
+}
+
+```
+
+
+This is an exemple of running a ``script cell`` in Observable JS:
+
+```{ojs}
+i 
+```
+
+
+::: {.callout-tip}
+Add to this to the ``.qmd`` document **to hide the code!**
+
+```
+execute:
+  echo: false
+```
+
+:::
+
+
+
+## Data-source
 
 There are a wide variety of way to make data available to OJS:
 
-- **Read CSV, JSON, SQLite**, and more using the FileAttachments API.
+- **Read CSV, JSON, SQLite**, and more using the **FileAttachments** API.
 - Use the **ojs_define()** function to make data processed in Python or R available to {ojs} cells.
 - **Make calls to Web APIs** for online services and data stores.
 
-## Example
+## Examples: files, python and Rest
 
-``Code blocks`` that use braces around the language name **(e.g. ```{python})** are executable, and [will be run by Quarto during render](https://quarto.org/docs/computations/python.html). Here is a simple example:
+``Code blocks`` that use braces around the language name **(e.g. ```{python})** are executable, and [will be run by Quarto during render](https://quarto.org/docs/computations/python.html). 
+
+Here is a simple example:
 
 ``` {.python filename="example-python-code"}
 ---
@@ -66,7 +122,7 @@ This document would result in the following rendered output:
 
 We’ll explore all of these *techniques* below.
 
-::: {.callout-tip collapse="false" layout-ncol=2 icon=false}
+::: {.callout-tip collapse="true" layout-ncol=2 icon=false}
 
 ## File Attachments
 
@@ -95,7 +151,7 @@ Plot.plot({
 
 :::
 
-::: {.callout-tip collapse="false" layout-ncol=2 icon=false}
+::: {.callout-tip collapse="true" layout-ncol=2 icon=false}
 
 ## Python and R
 
@@ -117,7 +173,7 @@ ojs_define(co2data = co2)
 ```
 :::
 
-::: {.callout-tip collapse="false" layout-ncol=2 icon=false}
+::: {.callout-tip collapse="true" layout-ncol=2 icon=false}
 
 ## Web APIs
 
@@ -143,6 +199,7 @@ commits = contributors.map(contributor => {
 ```
 
 :::
+
 <!--- navLinks -->
 <br><br>
 <div class=row>

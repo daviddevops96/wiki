@@ -1,0 +1,43 @@
+---
+title: "About Auto-Evaluate"
+subtitle: About how to auto-evaluate
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: About how to auto-evaluate
+categories: [about, writing]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+
+
+
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} About Writing](/about/about-learning-writing.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[About Writing Comments  {{< fa solid arrow-right >}}](/about/about-learning-write-comments.qmd)
+<br>
+</div>
+<br>
+</div>

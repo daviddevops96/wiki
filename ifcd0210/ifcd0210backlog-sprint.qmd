@@ -4,7 +4,7 @@ categories: [ifcd0210, backlog]
 ---
 
 <style>
-tr:nth-child(5) {
+tr:nth-child(4) {
   background-color: #b2b2b2!important;
   color: #f4f4f4!important;
 }
@@ -13,26 +13,23 @@ tr:nth-child(5) {
 
 ![Backlog course](/images/home/backlog.jpg){width="30%"}
 
-## ``Sprint#5`` (January)
+## ``Sprint#6`` (January-February)
 
 ::: {.column-page-right}
 | Sprint | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #5 | 20 | 23/01 | + Top/Down or Down/Top project approach and build-up</br> + Project/Domain-DDD/UML/microProgramming</br> + MovieManager Domains & Packages, connecting classes: general plan  (1/3)</br> - <s>Test interactivity</s></br>  | [Packages](/javase/se-concepts-package.qmd)</br> [Movie Manager (with errors: very unusual and not clean)](https://github.com/AlbertProfe/CifoJava2023/tree/6e54545494594c6ff36fe063afc02a98b34d68d0){.external}</br> [Top-down and bottom-up design](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design){.external}</br>  |
-|  | 21 | 24/01 | + MovieManager Domains & Packages, connecting classes: static/non-static and reusable method/class (2/3)</br> + Hashmap</br> + Try and Catch</br> + Test interactivity</br> | [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/075af8cb656849e32f202d929db86ee86024cc67){.external}</br>  [HashMap w3school](https://www.w3schools.com/java/java_hashmap.asp){.external}</br> [Lab#SE02-5 Test Input Console](/javase/selab2-5.qmd#core-classes)</br> [Lab#SE02-4 Try and Catch](/javase/selab2-4.qmd#trycatch-for-wrong-inputs)</br> |
-|  | 22 | 25/01 |  ++ How to code: (1) User-story (2) New Feature (How it fits with existing UML) (3) pseudo-code (4) code acutal typing</br> + MovieManager Domains & Packages, connecting classes (3/3):</br> (1) HashMap movies and CRUD operations,</br> (2) createAndAddMovieToStore,</br> <s>(3) HashMap testMovies</s> </br> (4) testCreateAndAddMovieToStoreInputConsole</br> | [Movie Manager](https://github.com/AlbertProfe/CifoJava2023/tree/5fe2990429323fd800fd614a778c17961240a360){.external}</br> [Simulate Input by console](/javase/selab2-5.qmd#core-classes) |
-|  | 23 | 26/01 |  - MovieManager, Test and CRUD (1/2)</br> (1) HashMap Movies CRUD (2) implement test by a simulated console: createMovie and deleteMovie tests (3) document test with html (4) manager CRUD implement<br>  - <s>Inherence / Interface / Abstract Class</s></br> - <s>git</s></br> |  [Movie Manager Simulate input (1/2)](https://github.com/AlbertProfe/CifoJava2023/tree/f4dcc5e1718fb4b014b2fac21f481f624c4ed666){.external}</br>  [Class Test <b>Create</b> Movie](https://github.com/AlbertProfe/CifoJava2023/blob/f4dcc5e1718fb4b014b2fac21f481f624c4ed666/MovieManger/src/test/java/org/example/crudMovieByConsoleTest.java#L16){.external}</br>  [Movie Manager Simulate input (2/2)](https://github.com/AlbertProfe/CifoJava2023/tree/6c42c29085db0bef19a8ee780343c2198b1113c3){.external}</br> [Class Test <b>Delete</b> Movie](https://github.com/AlbertProfe/CifoJava2023/blob/6c42c29085db0bef19a8ee780343c2198b1113c3/MovieManger/src/test/java/org/example/crudMovieByConsoleTest.java#L39){.external}|
-|  | 24 | 27/01 | - MovieManager, CRUD & update (2/2)</br> - SCRUM - Vocabulary (writting)</br> - Book: SRE | [Movie Manager Update CRUD](https://github.com/AlbertProfe/CifoJava2023/tree/96bf8a96998809a8f5ee1acea7fc9f42139a120c){.external}</br> [Class MovieManager <b>Update</b> Movie](https://github.com/AlbertProfe/CifoJava2023/blob/96bf8a96998809a8f5ee1acea7fc9f42139a120c/MovieManger/src/main/java/org/example/manager/MovieManager.java#L37){.external}</br> [SRE](/books/sre.qmd) </br> |
-: Backlog Sprint#5 January 2023 {tbl-colwidths="[2,2,2,60,34]"}
+| #6 | 25 | 30/01 | + Intro to CSS, OJS, Engines and tools</br> + Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> | [manytomany](/javase/se-pattern-uml.qmd#many-to-many-(nm))</br> [CSS and Engines Resources](/markup/resources.qmd#css)  |
+|  | 26 | 31/01 | + Library Model Basic/Large</br> + Reuse Movie/Review as a Template </br> + Start with LibraryProject: lombok (create 100 users/books), use-case, refactor, maven, dependencies, DDD, UML and core classes, borrow core-operation, managers, test, mockup, git, common lenguage </br>  | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) </br> [LibraryProject](https://github.com/AlbertProfe/CifoJava2023/tree/master/LibraryProject){.external}  </br> |
+|  | 27 | 01/02 | + LibraryProject:</br> (1) define priorities: tasks and kanban</br> (2) code Faker create Users </br> <s>(3) code test Borrow a book from console</s> </br> (4) UUID method </br> | [LibraryProject](https://github.com/AlbertProfe/CifoJava2023/tree/6527f471c8cef1606e20d80cb4ca9fb9f9445f48/LibraryProject){.external} <br> ![Library Project key-words sprint zero](/images/javase/libraryproject_board.jpg){width="40%"} |
+|  | 28 | 02/02 | - MVC: Api Rest</br> - Quarto: using API Rest with D3.js</br>  - git</br> | [Quarto API REST](/markup/markup-quarto-api-rest.qmd)</br> [D3.js](https://d3js.org/){.external} </br>  [Observable JavaScript](https://observablehq.com/@observablehq/observable-javascript){.external} |
+|  | 29 | 03/02 | - SCRUM</br> - Vocabulary</br> - Cifo Java AppWeb Service Infrastructure: servers, services, network, URL | [Cifo JAVA AppWeb Infrastructure](https://cifoweb.dev){.external} |
+: Backlog Sprint#6 January-February 2023 {tbl-colwidths="[2,2,2,60,34]"}
 :::
 
-
 ::: {.callout-note}
-
 - `-` topic planned or pending
 - `+` topic done in class
 - `++` new topic not planned
-
 :::
 
 

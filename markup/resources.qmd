@@ -57,6 +57,21 @@ format:
 
 Whatever you do on CSS, you have to understand the roots and focus on the basic knowledge: [CSS Deep](https://dev.to/fullstackhacker/css-deep-428c)
 
+- [Semantic UI](https://semantic-ui.com/){.external}
+- [Material UI](https://mui.com/){.external}
+- [W3 schools CSS](https://www.w3schools.com/w3css/default.asp){.external}
+- [Tailwind CSS](https://tailwindcss.com/){.external}
+
+## Engines and visualizing
+
+- [Highcharts](https://www.highcharts.com/){.external}
+- [D3.JS GALLERY](https://observablehq.com/@d3/gallery){.external}
+- [Thymeleaf](https://www.thymeleaf.org/){.external}
+- [Observable](https://observablehq.com/@observablehq){.external}
+
+
+
+
 
 <!--- navLinks -->
 <br><br>

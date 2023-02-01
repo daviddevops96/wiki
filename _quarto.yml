@@ -168,6 +168,8 @@ website:
             - markup/markup-quarto-create.qmd
             - markup/markup-quarto-publish.qmd
             - markup/markup-quarto-code.qmd
+            - markup/markup-quarto-api-rest.qmd
+            - markup/markup-quarto-api-rest-v2.qmd
             - markup/markup-quarto-cheatsheet.qmd
         - text: "---"
         - section: "Styling: CSS"
@@ -250,6 +252,9 @@ website:
             - javase/selab2-3.qmd
             - javase/selab2-4.qmd
             - javase/selab2-5.qmd
+            - text: "---"
+            - javase/selab3-1.qmd
+            - javase/selab3-2.qmd
         - text: "---" 
         - section: "Java SE readings"
           contents: 
@@ -433,6 +438,7 @@ website:
             - about/about-learning-writing.qmd
             - about/about-learning-take-notes.qmd
             - about/about-learning-write-comments.qmd
+            - about/about-learning-auto-evaluate.qmd
             - about/about-learning-questions.qmd
         - text: "---"
         - section: "Listings"
