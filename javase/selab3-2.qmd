@@ -59,6 +59,8 @@ The layers are of [Onion Architecture](){.external} and sublayers are:
 - `Domain Services` layer. In this layer is where the majority of our business logic lives, it carries out the operations to turn A into B, input into output, egg into chicken. 
 - The core layer, the `Domain Model` layer which is the representation of the high level data objects we use.
 
+[Sprint#6, dia 01/02 image Library Project](/ifcd0210/ifcd0210backlog-sprint.qmd)
+
 ## Core use-case: ``user`` borrows a ``book``
 
 ### Use-Story
