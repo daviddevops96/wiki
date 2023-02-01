@@ -1,0 +1,97 @@
+---
+title: "Lab#SE03-2: Library/Book, Sprint Zero"
+subtitle: "Java SE Lab 03 part 2"
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: "Java SE Lab 03, part 2 Sprint Zero, plan"
+categories: [javase, lab, composition, plan]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+
+
+::: {.labs}
+📘 **Linux Lab#SE03-2: Library/Book Sprint Zero**
+
+Before define what a [Sprint Zero really is](https://www.bmc.com/blogs/sprint-zero/){.external}, let’s see what it isn’t.
+
+- A Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.
+- A Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.
+- A Sprint Zero should not involve adding products to a backlog or Consider Planning.
+
+The main goal of a Sprint Zero is **to deliver some usable value that can be built upon by the next team**. Sprint Zeros are required to:
+
+- Create the project’s `skeleton`, including research spikes.
+- Ke**ep design minimal**.ep design minimal
+- Develop a small number of `stories` to completion.
+- Be low velocity and lightweight.
+
+More specifically, the deliverables of a Sprint Zero should be as follows:
+
+- A `usable` piece of code, however small.
+- A `minimal` environment for writing code.
+- A `prioritization` of features or a list of stories.
+- A `release plan` assigning each story to a Sprint.
+- A plan for the most likely implementation of `features`.
+
+:::
+
+---
+
+## Sprint Zero: mock-up
+
+
+```js
+Options:
+1- Make a Borrow
+2- User Management
+3- Book Management
+4- Quit
+Option?
+'Borrow'
+User?
+'159742OPI'
+Book?
+'Anna Karenina'
+Proceed, are your sure?
+'Yes'
+Borrow made, borrowId: RER7567, dueDate: 15/02/2023 
+Options:
+1- Make a Borrow
+2- User Management
+3- Book Management
+4- Quit
+Option?
+'Quit'
+```
+
+
+<!--- navLinks -->
+<br><br>
+<div class=row>
+<br>
+<div class='column left previous'>
+<br>
+[{{< fa solid arrow-left >}} Lab#SE02-4: Movie/Review, interactivity and coupling](/javase/selab2-4.qmd)
+<br>
+</div>
+<br>
+<div class='column center'>
+<br>
+[{{< fa solid arrow-up >}} top](#top)
+<br>
+</div>
+<br>
+<div class='column right next'>
+<br>
+[Java SE Resources  {{< fa solid arrow-right >}}](/javase/resources.qmd)
+<br>
+</div>
+<br>
+</div>

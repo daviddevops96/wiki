@@ -1,11 +1,11 @@
 ---
-title: "Lab#SE03-1: Library/Book, Model"
+title: "Lab#SE03-1: Library/Book, Core-Model"
 subtitle: "Java SE Lab 03 part 1"
 author: albertprofe
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
-description: "Java SE Lab 03, part 1 work on the Model"
+description: "Java SE Lab 03, part 1 work on the Core-Model"
 categories: [javase, lab, composition, model]
 toc: true
 number-sections: true
