@@ -23,12 +23,12 @@ Before define what a [Sprint Zero really is](https://www.bmc.com/blogs/sprint-ze
 
 - A Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.
 - A Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.
-- A Sprint Zero should not involve adding products to a backlog or Consider Planning.
+- A Sprint Zero should not involve adding products to a backlog or Consider Planning as classical project with Gantt Diagrams plannings.
 
 The main goal of a Sprint Zero is **to deliver some usable value that can be built upon by the next team**. Sprint Zeros are required to:
 
 - Create the project’s `skeleton`, including research spikes.
-- Ke**ep design minimal**.ep design minimal
+- `Keep design minimal`.
 - Develop a small number of `stories` to completion.
 - Be low velocity and lightweight.
 
@@ -44,7 +44,22 @@ More specifically, the deliverables of a Sprint Zero should be as follows:
 
 ---
 
-## Sprint Zero: mock-up
+# Sprint Zero jobs
+
+## Onion Architecture
+
+![Onion Architecture](/images/javase/onion_architecture.jpg){width="40%"}
+
+
+The layers are of [Onion Architecture](){.external} and sublayers are:
+
+- `Infrastructure`, where our database, file system, or any external web service we depend on live.
+- `Tests`: unit, integration, end-to-end. How we validate our business cases. 
+- `User Interface`, how our users interact with the code we have built. - Application Services layer (sometimes known as the Transport/Access Layer). 
+- `Domain Services` layer. In this layer is where the majority of our business logic lives, it carries out the operations to turn A into B, input into output, egg into chicken. 
+- The core layer, the `Domain Model` layer which is the representation of the high level data objects we use.
+
+## Mock-up
 
 
 ```js
@@ -70,6 +85,10 @@ Options:
 Option?
 'Quit'
 ```
+
+## UUID
+
+- [Class UUID](https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html){.external}
 
 
 <!--- navLinks -->
