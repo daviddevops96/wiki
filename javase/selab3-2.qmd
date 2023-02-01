@@ -59,8 +59,15 @@ The layers are of [Onion Architecture](){.external} and sublayers are:
 - `Domain Services` layer. In this layer is where the majority of our business logic lives, it carries out the operations to turn A into B, input into output, egg into chicken. 
 - The core layer, the `Domain Model` layer which is the representation of the high level data objects we use.
 
-## Mock-up
+## Core use-case: ``user`` borrows a ``book``
 
+### Use-Story
+
+- [User story template and examples](https://www.atlassian.com/agile/project-management/user-stories){.external}
+
+> As a **user**, I want to **borrow** a **book** with my ``documentId``, so that I may read and return it at due date that the system says. 
+
+### Mock-up
 
 ```js
 Options:
@@ -88,7 +95,42 @@ Option?
 
 ## UUID
 
+The full form of ``UUID`` is ``Universally Unique Identifier``. A UUID represents a **128-bit value that is unique**. The standard representation of UUID uses hex digits.
+
+For example:
+
+```
+3c0969ac-c6e3-40f2-9fc8-2a59b8987918
+cb7125cc-d78a-4442-b21b-96ce9227ef51
+```
 - [Class UUID](https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html){.external}
+
+``` java
+import java.util.UUID;
+
+    public static String createId() {
+
+        UUID uuid = UUID.randomUUID();
+        System.out.println("UUID generated - " + uuid);
+        System.out.println("UUID Version - " + uuid.version());
+        String id = uuid.toString();
+
+        return id;
+
+    }
+```
+
+## Menus
+
+
+
+## Test borrow
+
+
+## ``BorrowManager`` class
+
+
+## faker ``Users`` and ``Books``
 
 
 <!--- navLinks -->
