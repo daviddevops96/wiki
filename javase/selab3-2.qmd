@@ -21,9 +21,11 @@ format:
 
 Before define what a [Sprint Zero really is](https://www.bmc.com/blogs/sprint-zero/){.external}, let’s see what it isn’t.
 
-- A Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.
-- A Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.
-- A Sprint Zero should not involve adding products to a backlog or Consider Planning as classical project with Gantt Diagrams plannings.
+- A **Sprint Zero is not** the phase in which:
+
+    - the team is put together: a team must already be in place.
+    - for setting up infrastructure which should already be implemented or easily implemented on demand.
+    - should not involve adding products to a backlog or consider planning as classical project management.
 
 The main goal of a Sprint Zero is **to deliver some usable value that can be built upon by the next team**. Sprint Zeros are required to:
 
