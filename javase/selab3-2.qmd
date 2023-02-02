@@ -40,6 +40,148 @@ More specifically, the deliverables of a Sprint Zero should be as follows:
 - A `release plan` assigning each story to a Sprint.
 - A plan for the most likely implementation of `features`.
 
+Let's take the example of the Library Lab (SE03) to define a graph with the requirements for the Sprint Zero deriverables:
+```{dot}
+graph sprintZero {
+    graph [
+        layout = twopi
+        #layout = neato
+        ranksep = 2.7
+        label = "Sprint Zero"
+        labelloc = b
+        fontname = "Helvetica,Arial,sans-serif"
+        start = regular
+        normalize = false
+        overlap="compress"
+    ]
+
+    node [
+        shape = circle
+        style = filled
+        color = "#00000088"
+        width = 1.2
+        fontname = "Helvetica,Arial,sans-serif"
+    ]
+
+    edge [
+        len = 2
+		color = "#00000088"
+		fontname = "Helvetica,Arial,sans-serif"
+    ]
+    
+    subgraph Stages {
+        node [fontcolor = white width = 1.4]
+        "Sprint Zero" [fillcolor = olive]
+        "Sprint Zero" -- {
+            "1 - Project" [fillcolor = orange fontcolor = black]
+            "2 - DDD" [fillcolor = black]
+            "3 - UML" [fillcolor = green]
+            "4 - Code" [fillcolor = blue]
+        }
+    }
+
+    subgraph Project {
+        node [fillcolor = gold fontcolor = black]
+        "1 - Project" -- {
+            "Use Case"
+            "Documentation"
+            "Mock-up"
+            "Open\nProject?"
+        }
+    }
+
+    subgraph ProjectSubItems {
+        node [fillcolor = peachpuff]
+        "Use Case" -- "User Stories"
+        "Documentation" -- "Quarto"
+        "Documentation" -- "Obsidian"
+        "Mock-up" -- "New Feature"
+    }
+    
+    subgraph DDD {
+        node [fontcolor = white]
+        "2 - DDD" -- {
+            "Vocabulary"
+            "Packages"
+            "Model"
+            "Controller"
+            "Refactor\nDomain"
+        }
+        "Vocabulary" -- "Common\nLanguage"
+        "Refactor\nDomain" -- "If there is\nLegacy Code"
+    }
+
+    subgraph UML {
+        node [fillcolor = yellowgreen fontcolor = black]
+        "3 - UML" -- {
+            "Relationships"
+        }
+
+
+    }
+
+    subgraph UMLActions {
+        node [fillcolor = "0.250 .2 1"]
+        "Relationships" -- {
+            "Composition"
+            "Inheritance"
+            "Multiplicity"
+        }
+
+        
+    }
+    
+    subgraph Code {
+        node [fillcolor = deepskyblue fontcolor = white]
+        "4 - Code" -- {
+            "Utilities"
+            "Core model"
+            "Managers"
+            "Dependencies"
+            "Maven"
+            "Refactor\nCode"
+            "Test"
+            "Git"
+        }
+    }
+
+    subgraph CodeActions {
+        node [fillcolor = cornflowerblue fontcolor = white]
+        "Core model" -- {
+            "Book"
+            "Borrow"
+            "User"
+        }
+        "Test" -- "Make Borrow"
+        "Git" -- "GitHub"
+    }
+
+    subgraph Dependencies {
+        node [fillcolor = cornflowerblue fontcolor = white]
+        "Dependencies" -- {
+            "lombok"
+            "JUnit"
+            "Jupiter"
+            "faker"
+        }
+    }
+    subgraph FakerActions {
+        node [fillcolor = lightskyblue]
+        "faker" -- "Create"
+        "Create" -- {
+            "100 books"
+            "100 users"
+        }
+    }
+
+    subgraph Interdependencies {
+        edge [style=dotted]
+        "Controller" -- "Managers"
+        "Refactor\nDomain" -- "Refactor\nCode"
+    }
+}
+```
+
 :::
 
 ---
