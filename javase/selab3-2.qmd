@@ -58,7 +58,7 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
 <div class="mermaidContent">
 
     ```{dot}
-    graph sprintZero {
+        graph sprintZero {
         graph [
             layout = twopi
             #layout = neato
@@ -70,7 +70,6 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
             normalize = false
             overlap="compress"
         ]
-
         node [
             shape = circle
             style = filled
@@ -78,13 +77,12 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
             width = 1.2
             fontname = "Helvetica,Arial,sans-serif"
         ]
-
         edge [
             len = 2
             color = "#00000088"
             fontname = "Helvetica,Arial,sans-serif"
         ]
-        
+
         subgraph Stages {
             node [fontcolor = white width = 1.4]
             "Sprint Zero" [fillcolor = olive]
@@ -93,16 +91,17 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
                 "2 - DDD" [fillcolor = black]
                 "3 - UML" [fillcolor = green]
                 "4 - Code" [fillcolor = blue]
-            }Tasks/Requirements
+            }
         }
-
         subgraph Project {
             node [fillcolor = gold fontcolor = black]
             "1 - Project" -- {
                 "Use Case"
                 "Documentation"
-                "Mock-up"Tasks/Requirements
-
+                "Mock-up"
+                "Open\nProject?"
+            }
+        }
         subgraph ProjectSubItems {
             node [fillcolor = peachpuff]
             "Use Case" -- "User Stories"
@@ -110,7 +109,7 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
             "Documentation" -- "Obsidian"
             "Mock-up" -- "New Feature"
         }
-        
+
         subgraph DDD {
             node [fontcolor = white]
             "2 - DDD" -- {
@@ -123,16 +122,12 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
             "Vocabulary" -- "Common\nLanguage"
             "Refactor\nDomain" -- "If there is\nLegacy Code"
         }
-
         subgraph UML {
             node [fillcolor = yellowgreen fontcolor = black]
             "3 - UML" -- {
                 "Relationships"
             }
-
-
         }
-
         subgraph UMLActions {
             node [fillcolor = "0.250 .2 1"]
             "Relationships" -- {
@@ -140,10 +135,9 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
                 "Inheritance"
                 "Multiplicity"
             }
-
             
         }
-        
+
         subgraph Code {
             node [fillcolor = deepskyblue fontcolor = white]
             "4 - Code" -- {
@@ -157,7 +151,6 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
                 "Git"
             }
         }
-
         subgraph CodeActions {
             node [fillcolor = cornflowerblue fontcolor = white]
             "Core model" -- {
@@ -168,7 +161,6 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
             "Test" -- "Make Borrow"
             "Git" -- "GitHub"
         }
-
         subgraph Dependencies {
             node [fillcolor = cornflowerblue fontcolor = white]
             "Dependencies" -- {
@@ -186,14 +178,14 @@ Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to 
                 "100 users"
             }
         }
-
         subgraph Interdependencies {
             edge [style=dotted]
             "Controller" -- "Managers"
             "Refactor\nDomain" -- "Refactor\nCode"
         }
-    }
+        }
     ```
+
 </div>
 
 :::
