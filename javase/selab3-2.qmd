@@ -1,7 +1,7 @@
 ---
 title: "Lab#SE03-2: Library/Book, Sprint Zero"
 subtitle: "Java SE Lab 03 part 2"
-author: albertprofe
+author: [albertprofe, Marc P.]
 date: "06/01/2021"
 date-modified: last-modified
 date-format: full
@@ -12,9 +12,6 @@ number-sections: true
 format:
   html
 ---
-
-
-
 
 ::: {.labs}
 📘 **Linux Lab#SE03-2: Library/Book Sprint Zero**
@@ -40,157 +37,169 @@ More specifically, the deliverables of a Sprint Zero should be as follows:
 - A `minimal` environment for writing code.
 - A `prioritization` of features or a list of stories.
 - A `release plan` assigning each story to a Sprint.
-- A plan for the most likely implementation of `features`.
-
-Let's take the example of the Library Lab (SE03) to define a graph with the requirements for the Sprint Zero deriverables:
-```{dot}
-graph sprintZero {
-    graph [
-        layout = twopi
-        #layout = neato
-        ranksep = 2.7
-        label = "Sprint Zero"
-        labelloc = b
-        fontname = "Helvetica,Arial,sans-serif"
-        start = regular
-        normalize = false
-        overlap="compress"
-    ]
-
-    node [
-        shape = circle
-        style = filled
-        color = "#00000088"
-        width = 1.2
-        fontname = "Helvetica,Arial,sans-serif"
-    ]
-
-    edge [
-        len = 2
-		color = "#00000088"
-		fontname = "Helvetica,Arial,sans-serif"
-    ]
-    
-    subgraph Stages {
-        node [fontcolor = white width = 1.4]
-        "Sprint Zero" [fillcolor = olive]
-        "Sprint Zero" -- {
-            "1 - Project" [fillcolor = orange fontcolor = black]
-            "2 - DDD" [fillcolor = black]
-            "3 - UML" [fillcolor = green]
-            "4 - Code" [fillcolor = blue]
-        }
-    }
-
-    subgraph Project {
-        node [fillcolor = gold fontcolor = black]
-        "1 - Project" -- {
-            "Use Case"
-            "Documentation"
-            "Mock-up"
-            "Open\nProject?"
-        }
-    }
-
-    subgraph ProjectSubItems {
-        node [fillcolor = peachpuff]
-        "Use Case" -- "User Stories"
-        "Documentation" -- "Quarto"
-        "Documentation" -- "Obsidian"
-        "Mock-up" -- "New Feature"
-    }
-    
-    subgraph DDD {
-        node [fontcolor = white]
-        "2 - DDD" -- {
-            "Vocabulary"
-            "Packages"
-            "Model"
-            "Controller"
-            "Refactor\nDomain"
-        }
-        "Vocabulary" -- "Common\nLanguage"
-        "Refactor\nDomain" -- "If there is\nLegacy Code"
-    }
-
-    subgraph UML {
-        node [fillcolor = yellowgreen fontcolor = black]
-        "3 - UML" -- {
-            "Relationships"
-        }
-
-
-    }
-
-    subgraph UMLActions {
-        node [fillcolor = "0.250 .2 1"]
-        "Relationships" -- {
-            "Composition"
-            "Inheritance"
-            "Multiplicity"
-        }
-
-        
-    }
-    
-    subgraph Code {
-        node [fillcolor = deepskyblue fontcolor = white]
-        "4 - Code" -- {
-            "Utilities"
-            "Core model"
-            "Managers"
-            "Dependencies"
-            "Maven"
-            "Refactor\nCode"
-            "Test"
-            "Git"
-        }
-    }
-
-    subgraph CodeActions {
-        node [fillcolor = cornflowerblue fontcolor = white]
-        "Core model" -- {
-            "Book"
-            "Borrow"
-            "User"
-        }
-        "Test" -- "Make Borrow"
-        "Git" -- "GitHub"
-    }
-
-    subgraph Dependencies {
-        node [fillcolor = cornflowerblue fontcolor = white]
-        "Dependencies" -- {
-            "lombok"
-            "JUnit"
-            "Jupiter"
-            "faker"
-        }
-    }
-    subgraph FakerActions {
-        node [fillcolor = lightskyblue]
-        "faker" -- "Create"
-        "Create" -- {
-            "100 books"
-            "100 users"
-        }
-    }
-
-    subgraph Interdependencies {
-        edge [style=dotted]
-        "Controller" -- "Managers"
-        "Refactor\nDomain" -- "Refactor\nCode"
-    }
-}
-```
+- A plan for the most **likely** implementation of `features`.
 
 :::
 
 ---
 
-# Sprint Zero jobs
+# Sprint Zero hats&jobs
 
-## Onion Architecture
+## Architecture and first draft
+
+### Tasks/Requirements list
+
+Let's take the example of the **Library** [Lab#SE03-1](/javase/selab3-1.qmd) to define a `graph` with the requirements/tasks for the Sprint Zero deriverables:
+
+
+::: {.column-page-right}
+
+
+<div class="mermaidContent">
+
+    ```{dot}
+    graph sprintZero {
+        graph [
+            layout = twopi
+            #layout = neato
+            ranksep = 2.7
+            label = "Sprint Zero"
+            labelloc = b
+            fontname = "Helvetica,Arial,sans-serif"
+            start = regular
+            normalize = false
+            overlap="compress"
+        ]
+
+        node [
+            shape = circle
+            style = filled
+            color = "#00000088"
+            width = 1.2
+            fontname = "Helvetica,Arial,sans-serif"
+        ]
+
+        edge [
+            len = 2
+            color = "#00000088"
+            fontname = "Helvetica,Arial,sans-serif"
+        ]
+        
+        subgraph Stages {
+            node [fontcolor = white width = 1.4]
+            "Sprint Zero" [fillcolor = olive]
+            "Sprint Zero" -- {
+                "1 - Project" [fillcolor = orange fontcolor = black]
+                "2 - DDD" [fillcolor = black]
+                "3 - UML" [fillcolor = green]
+                "4 - Code" [fillcolor = blue]
+            }Tasks/Requirements
+        }
+
+        subgraph Project {
+            node [fillcolor = gold fontcolor = black]
+            "1 - Project" -- {
+                "Use Case"
+                "Documentation"
+                "Mock-up"Tasks/Requirements
+
+        subgraph ProjectSubItems {
+            node [fillcolor = peachpuff]
+            "Use Case" -- "User Stories"
+            "Documentation" -- "Quarto"
+            "Documentation" -- "Obsidian"
+            "Mock-up" -- "New Feature"
+        }
+        
+        subgraph DDD {
+            node [fontcolor = white]
+            "2 - DDD" -- {
+                "Vocabulary"
+                "Packages"
+                "Model"
+                "Controller"
+                "Refactor\nDomain"
+            }
+            "Vocabulary" -- "Common\nLanguage"
+            "Refactor\nDomain" -- "If there is\nLegacy Code"
+        }
+
+        subgraph UML {
+            node [fillcolor = yellowgreen fontcolor = black]
+            "3 - UML" -- {
+                "Relationships"
+            }
+
+
+        }
+
+        subgraph UMLActions {
+            node [fillcolor = "0.250 .2 1"]
+            "Relationships" -- {
+                "Composition"
+                "Inheritance"
+                "Multiplicity"
+            }
+
+            
+        }
+        
+        subgraph Code {
+            node [fillcolor = deepskyblue fontcolor = white]
+            "4 - Code" -- {
+                "Utilities"
+                "Core model"
+                "Managers"
+                "Dependencies"
+                "Maven"
+                "Refactor\nCode"
+                "Test"
+                "Git"
+            }
+        }
+
+        subgraph CodeActions {
+            node [fillcolor = cornflowerblue fontcolor = white]
+            "Core model" -- {
+                "Book"
+                "Borrow"
+                "User"
+            }
+            "Test" -- "Make Borrow"
+            "Git" -- "GitHub"
+        }
+
+        subgraph Dependencies {
+            node [fillcolor = cornflowerblue fontcolor = white]
+            "Dependencies" -- {
+                "lombok"
+                "JUnit"
+                "Jupiter"
+                "faker"
+            }
+        }
+        subgraph FakerActions {
+            node [fillcolor = lightskyblue]
+            "faker" -- "Create"
+            "Create" -- {
+                "100 books"
+                "100 users"
+            }
+        }
+
+        subgraph Interdependencies {
+            edge [style=dotted]
+            "Controller" -- "Managers"
+            "Refactor\nDomain" -- "Refactor\nCode"
+        }
+    }
+    ```
+</div>
+
+:::
+
+
+### Onion Architecture
 
 ![Onion Architecture](/images/javase/onion_architecture.jpg){width="40%"}
 
@@ -203,13 +212,18 @@ The layers are of [Onion Architecture](){.external} and sublayers are:
 - `Domain Services` layer. In this layer is where the majority of our business logic lives, it carries out the operations to turn A into B, input into output, egg into chicken. 
 - The core layer, the `Domain Model` layer which is the representation of the high level data objects we use.
 
-[Sprint#6, dia 01/02 image Library Project](/ifcd0210/ifcd0210backlog-sprint.qmd)
+---
 
-## Core use-case: ``user`` borrows a ``book``
+![Library Project key-words sprint zero](/images/javase/libraryproject_board.jpg){ width="70%"}
+
+[Sprint#6, dia 01/02 image Library Project](/ifcd0210/ifcd0210backlog-sprint.qmd#)
+
+## Features: core use-case: ``user`` borrows a ``book``
 
 ### Use-Story
 
 - [User story template and examples](https://www.atlassian.com/agile/project-management/user-stories){.external}
+
 
 > As a **user**, I want to **borrow** a **book** with my ``documentId``, so that I may read and return it at due date that the system says. 
 
@@ -238,8 +252,11 @@ Options:
 Option?
 'Quit'
 ```
+### Menus
 
-## UUID
+## Pieces of code
+
+### UUID
 
 The full form of ``UUID`` is ``Universally Unique Identifier``. A UUID represents a **128-bit value that is unique**. The standard representation of UUID uses hex digits.
 
@@ -254,7 +271,7 @@ cb7125cc-d78a-4442-b21b-96ce9227ef51
 ``` java
 import java.util.UUID;
 
-    public static String createId() {
+    public static String createId() {Limit Your Availability
 
         UUID uuid = UUID.randomUUID();
         System.out.println("UUID generated - " + uuid);
@@ -265,18 +282,23 @@ import java.util.UUID;
 
     }
 ```
-
-## Menus
-
+### ``BorrowManager`` class
 
 
-## Test borrow
+### faker ``Users`` and ``Books``
 
 
-## ``BorrowManager`` class
+## Tests
 
+### `borrow` object test
 
-## faker ``Users`` and ``Books``
+### make a borrow test
+
+## UML
+
+## Domains & Tree
+
+![Folder tree LibraryProject](/images/javase/libraryProjectTree.png){width="40%"}
 
 
 <!--- navLinks -->
