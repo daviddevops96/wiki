@@ -210,7 +210,7 @@ The layers are of [Onion Architecture](){.external} and sublayers are:
 
 [Sprint#6, dia 01/02 image Library Project](/ifcd0210/ifcd0210backlog-sprint.qmd#)
 
-## Features: core use-case: ``user`` borrows a ``book``
+## Features: core use-case: ``user``-borrows-a-``book``
 
 ### Use-Story
 
@@ -246,6 +246,44 @@ Option?
 ```
 ### Menus
 
+
+
+```js
+
+Main Menu
+1- Make a Borrow
+2- User Management
+3- Book Management
+4- Borrow Management
+4- Quit
+
+User Menu
+1- Create
+2- Update
+3- Delete
+4- List
+5- Get one
+6- Quit
+
+Book Menu
+1- Create
+2- Update
+3- Delete
+4- List
+5- Get one
+6- Quit
+
+Borrow Menu
+1- Create (make a borrow)
+2- Update
+3- Delete
+4- List
+5- List Active Borrows 
+6- Get one
+7- Quit
+
+```
+
 ## Pieces of code
 
 ### UUID
@@ -276,17 +314,70 @@ import java.util.UUID;
 ```
 ### ``BorrowManager`` class
 
+```java
+public class BorrowManager {
+
+   public static HashMap< String , Borrow> borrows = new HashMap<>();
+}
+
+```
 
 ### faker ``Users`` and ``Books``
+
+```java
+public static void createBooks(int number) {
+// create faker object to use as
+// builder for book
+Faker faker = new Faker();
+Book newbook;
+
+for (int i = 0; i < number; i++) {
+    // create newbook without args
+    newbook = new Book();
+    // some people get nervous with this
+    // be careful ...
+    String bookId = InterfaceUtils.createUUID();
+    newbook.setISBN(bookId);
+    // title's book
+    String bookTitle = faker.book().title();
+    newbook.setTitle(bookTitle);
+    // year's book
+    int bookYear = faker.number().numberBetween(1000, 2023);
+    newbook.setYear(bookYear);
+    // borrows' book
+    List<Borrow> borrows = new ArrayList();
+    newbook.setBorrows(borrows);
+    // author's book
+    Author newauthor = new Author();
+    newbook.setAuthor(newauthor);
+    // add to hashmap
+    books.put( bookId, newbook);
+    // kill object
+    newbook = null;
+    }
+}
+```
 
 
 ## Tests
 
 ### `borrow` object test
 
-### make a borrow test
+[Test to create `Borrow` object](https://github.com/AlbertProfe/CifoJava2023/blob/12a97938cc4a0718ae66f08075a402af13354dce/LibraryProject/src/test/java/org/example/createObjectsTest.java#L73){.external}
+
+### make-a-borrow test
+
+[Test to make-a-borrow operation by simulate-console](https://github.com/AlbertProfe/CifoJava2023/blob/12a97938cc4a0718ae66f08075a402af13354dce/LibraryProject/src/test/java/org/example/makeBorrowByConsoleTest.java#L20){.external}
+
+
+::: {.callout-important}
+We decide to discuss this test in the near future, not now. It is more diffucult and **complex** than we thought.
+:::
+
 
 ## UML
+
+[LAB#03-1 UML](/javase/selab3-1.qmd)
 
 ## Domains & Tree
 
