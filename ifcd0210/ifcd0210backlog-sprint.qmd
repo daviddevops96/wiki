@@ -4,7 +4,7 @@ categories: [ifcd0210, backlog]
 ---
 
 <style>
-tr:nth-child(5) {
+tr:nth-child(1) {
   background-color: #b2b2b2!important;
   color: #f4f4f4!important;
 }
@@ -13,17 +13,17 @@ tr:nth-child(5) {
 
 ![Backlog course](/images/home/backlog.jpg){width="30%"}
 
-## ``Sprint#6`` (January-February)
+## ``Sprint#7`` (February)
 
 ::: {.column-page-right}
 | Sprint | Day | Date | Topics |  Details Topics |
 | -- | -- | -- | -- | -- |
-| #6 | 25 | 30/01 | + Intro to CSS, OJS, Engines and tools</br> + Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> | [manytomany](/javase/se-pattern-uml.qmd#many-to-many-(nm))</br> [CSS and Engines Resources](/markup/resources.qmd#css)  |
-|  | 26 | 31/01 | + Library Model Basic/Large</br> + Reuse Movie/Review as a Template </br> + Start with LibraryProject: lombok (create 100 users/books), use-case, refactor, maven, dependencies, DDD, UML and core classes, borrow core-operation, managers, test, mockup, git, common lenguage </br>  | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) </br> [LibraryProject](https://github.com/AlbertProfe/CifoJava2023/tree/master/LibraryProject){.external}  </br> |
-|  | 27 | 01/02 | + LibraryProject:</br> (1) define priorities: tasks and kanban</br> (2) code Faker create Users </br> <s>(3) code test Borrow a book from console</s> </br> (4) UUID method </br> |  [Lab#SE03-1 UML](/javase/selab3-1.qmd) </br> [Lab#SE03-2 Sprint Zero](/javase/selab3-2.qmd) </br>  ![Library Project key-words sprint zero](/images/javase/libraryproject_board.jpg){#library-board width="40%"} </br> [LibraryProject](https://github.com/AlbertProfe/CifoJava2023/tree/6527f471c8cef1606e20d80cb4ca9fb9f9445f48/LibraryProject){.external} <br> |
-|  | 28 | 02/02 | + MVC: Api Rest</br> - Quarto: using API Rest with D3.js</br>  + git</br> | [Quarto API REST](/markup/markup-quarto-api-rest.qmd)</br> [D3.js](https://d3js.org/){.external} </br>  [Observable JavaScript](https://observablehq.com/@observablehq/observable-javascript){.external} |
-|  | 29 | 03/02 | - SCRUM: delete (step 2 spaceX)</br> - Vocabulary</br> - <b>Four-Hats</b>: Project/DDD/UML/code</br>- Cifo Java AppWeb Service Infrastructure: servers, services, network, URL | [Cifo JAVA AppWeb Infrastructure](https://cifoweb.dev){.external}</br> [Prioritize When You Wear Multiple Hats](https://www.liquidplanner.com/blog/ask-a-pm-how-to-prioritize-when-you-wear-multiple-hats/){.external} |
-: Backlog Sprint#6 January-February 2023 {tbl-colwidths="[2,2,2,60,34]"}
+| #7 | 30 | 06/02 | - LibraryProject:</br> (1) create GitHub Projects and Kanban</br> (2) Create tasks Sprint 1 </br>  | [LibraryProject](){.external} |
+|  | 31 | 07/02 | - Library Model Basic/Large</br> + Example (3) manyToMany: memberLibrary/Book, Customer/Product, Director/Movie</br> - LibraryProject</br> | [Lab#SE00-3 Basic](/javase/selab0-3.qmd#basic-uml) </br>[Lab#SE00-3 Large](/javase/selab0-3.qmd#large-uml) |
+|  | 32 | 08/02 | Inherence / Interface / Abstract Class | [Lab#SE00-4](/javase/selab0-4.qmd) </br> [Inherence](/javase/se-principles-inheritance.qmd)</br> |
+|  | 33 | 09/02 | - Spring Boot Intro</br>  - Spring Rest and Web</br> - Thymeleaf| - |
+|  | 34 | 10/02 | - Scrum | - |
+: Backlog Sprint#7 February 2023 {tbl-colwidths="[2,2,2,60,34]"}
 :::
 
 ::: {.callout-note}
